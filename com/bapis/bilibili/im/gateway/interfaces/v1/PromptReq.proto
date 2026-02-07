@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message PromptReq {
+  int64 key = 2;
+  int64 talkerAi = 1;
+}

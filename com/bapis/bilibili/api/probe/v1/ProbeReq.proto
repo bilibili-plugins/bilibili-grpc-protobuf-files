@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message ProbeReq {
+  string buvid = 2;
+  int64 mid = 1;
+}

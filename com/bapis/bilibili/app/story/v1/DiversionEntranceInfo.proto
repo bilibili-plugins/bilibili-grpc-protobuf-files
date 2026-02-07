@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message DiversionEntranceInfo {
+  StoryCardInfo cardInfo = 1;
+  DiversionEntrance diversionEntrance = 2;
+}

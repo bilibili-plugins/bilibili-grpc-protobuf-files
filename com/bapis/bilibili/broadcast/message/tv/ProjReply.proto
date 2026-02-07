@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message ProjReply {
+  int64 aid = 3;
+  int64 cid = 4;
+  int64 cmdType = 1;
+  string deviceInfo = 11;
+  int64 epId = 6;
+  string extra = 9;
+  int64 mid = 2;
+  int64 roomId = 10;
+  int64 seasonId = 7;
+  int64 seekTs = 8;
+  int64 videoType = 5;
+}

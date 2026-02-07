@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message PictureListResp {
+  string contextFeature = 5;
+  string paginationEndText = 6;
+  FeedPaginationReply paginationReply = 2;
+  repeated Data replies = 1;
+  string reportParams = 4;
+  string sessionId = 3;
+}

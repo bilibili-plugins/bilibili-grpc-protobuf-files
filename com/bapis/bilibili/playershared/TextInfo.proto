@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message TextInfo {
+  int32 fontSize = 4;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

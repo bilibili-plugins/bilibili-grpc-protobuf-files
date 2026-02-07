@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KMangaLikePageDirection$PAGE_DIRECTION_RIGHT_TO_LEFT {
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message UserAchievement {
+  int32 achieved = 2;
+  string achievementId = 1;
+  int64 unlockTime = 3;
+}

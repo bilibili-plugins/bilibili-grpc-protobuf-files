@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message MsgSpLitAnsCustomer {
+  int64 customerId = 1;
+  string customerName = 2;
+}

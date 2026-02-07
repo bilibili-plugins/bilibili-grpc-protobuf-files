@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message FormatDescription {
+  string description = 3;
+  string displayDesc = 5;
+  string format = 2;
+  string newDescription = 4;
+  int32 quality = 1;
+  string superscript = 6;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message ReserveRecommend {
+  MapFieldLite report = 7;
+  int64 reserveId = 5;
+  int64 reserveState = 3;
+  int64 reserveTotal = 2;
+  int64 reserveType = 6;
+  int64 reservedTs = 4;
+  string title = 1;
+}

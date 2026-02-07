@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message FacialRecognitionVerifyReq {
+  string deviceToken = 2;
+  int32 from = 1;
+}

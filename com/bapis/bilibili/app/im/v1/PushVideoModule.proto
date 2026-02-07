@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PushVideoModule {
+  string badge = 5;
+  string coverImg = 2;
+  string duration = 4;
+  string title = 3;
+  VideoId videoId = 1;
+}

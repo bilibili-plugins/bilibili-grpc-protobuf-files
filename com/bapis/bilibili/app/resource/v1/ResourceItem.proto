@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message ResourceItem {
+  int64 effectTime = 8;
+  int32 expectDw = 7;
+  int64 expireTime = 9;
+  string extra = 11;
+  string fileName = 2;
+  string hash = 5;
+  int32 priority = 10;
+  int32 size = 6;
+  string taskId = 1;
+  string type = 3;
+  string url = 4;
+}

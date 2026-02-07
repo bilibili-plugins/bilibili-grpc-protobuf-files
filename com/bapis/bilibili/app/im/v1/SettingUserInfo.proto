@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SettingUserInfo {
+  AvatarItem avatar = 1;
+  string firstText = 7;
+  string gender = 5;
+  int32 level = 6;
+  NameRender nameRender = 4;
+  string name = 2;
+  string secondText = 8;
+  string url = 9;
+  string vipInfo = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Space {
+  int32 show = 1;
+  string spaceUrl = 5;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 4;
+}

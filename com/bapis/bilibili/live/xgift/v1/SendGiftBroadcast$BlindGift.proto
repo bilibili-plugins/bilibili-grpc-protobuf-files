@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast$BlindGift {
+  int64 blindGiftConfigId = 1;
+  int64 from = 4;
+  string giftAction = 5;
+  int64 giftTipPrice = 7;
+  int64 originalGiftId = 2;
+  string originalGiftName = 3;
+  int64 originalGiftPrice = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message ClientStatsResp {
+  int32 reportInterval = 1;
+  ClientStatsResp$Score score = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicSet {
+  string desc = 4;
+  string jumpUrl = 3;
+  int64 setId = 1;
+  string setName = 2;
+  string setTypeColor = 6;
+  string setTypeText = 5;
+  int32 setType = 7;
+}

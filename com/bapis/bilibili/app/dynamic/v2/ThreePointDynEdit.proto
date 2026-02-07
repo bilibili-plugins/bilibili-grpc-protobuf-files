@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointDynEdit {
+  int64 dynId = 1;
+  string guideToast = 5;
+  bool isOriginDeleted = 3;
+  int64 originId = 2;
+  string url = 4;
+}

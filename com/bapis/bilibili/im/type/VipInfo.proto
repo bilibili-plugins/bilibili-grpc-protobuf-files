@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message VipInfo {
+  string avatarSubscriptUrl = 10;
+  int32 avatarSubscript = 7;
+  int64 dueDate = 3;
+  VipLabel label = 6;
+  string nicknameColor = 8;
+  int64 role = 9;
+  int32 status = 2;
+  int32 themeType = 5;
+  int64 tvDueDate = 13;
+  int32 tvVipPayType = 12;
+  int32 tvVipStatus = 11;
+  int32 type = 1;
+  int32 vipPayType = 4;
+}

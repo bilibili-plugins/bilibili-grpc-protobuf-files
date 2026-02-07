@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message TribeePublishText$TopTips {
+  string icon = 3;
+  TribeePublishText$TopTips$Layer layer = 4;
+  string text = 2;
+}

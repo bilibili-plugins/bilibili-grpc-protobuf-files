@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message EpisodeInfo {
+  int64 aid = 3;
+  int64 cid = 2;
+  string cover = 6;
+  int32 epId = 1;
+  int32 epStatus = 4;
+  Interaction interaction = 8;
+  string longTitle = 9;
+  SeasonInfo seasonInfo = 5;
+  string title = 7;
+}

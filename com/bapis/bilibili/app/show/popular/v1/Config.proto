@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.popular.v1;
+
+message Config {
+  string bottomTextCover = 3;
+  string bottomTextUrl = 4;
+  string bottomText = 2;
+  string headImage = 6;
+  int64 hit = 8;
+  string itemTitle = 1;
+  repeated Data pageItems = 7;
+  string toast = 9;
+  repeated Data topItems = 5;
+}

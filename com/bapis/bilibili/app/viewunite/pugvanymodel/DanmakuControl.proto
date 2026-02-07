@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message DanmakuControl {
+  bool disabled = 1;
+  ExtraContent extraContent = 2;
+}

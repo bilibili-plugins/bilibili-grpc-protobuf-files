@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspSpecificSingleUnread {
+  int64 allUnreadCnt = 2;
+  MapFieldLite talkerUnreadCnt = 1;
+}

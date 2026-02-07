@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message SendMsgExt {
+  string clientToken = 5;
+  string cmFromTrackId = 3;
+  string fromSpmid = 4;
+  string sourceBvid = 2;
+  int64 sourceUp = 1;
+}

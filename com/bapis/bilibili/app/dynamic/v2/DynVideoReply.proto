@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynVideoReply {
+  repeated Data dynamicList = 1;
+  FeedSortConfig sortConfig = 4;
+  repeated Data videoFollowList = 3;
+  repeated Data videoUpList = 2;
+}

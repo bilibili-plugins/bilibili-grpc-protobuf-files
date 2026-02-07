@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message VideoSubtitle {
+  int32 fontSizeType = 5;
+  string lanDoc = 2;
+  string lan = 1;
+  SubtitlePosition subtitlePosition = 4;
+  repeated Data subtitles = 3;
+}

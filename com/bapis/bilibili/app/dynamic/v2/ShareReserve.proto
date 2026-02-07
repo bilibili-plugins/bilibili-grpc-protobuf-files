@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ShareReserve {
+  string desc = 2;
+  string qrCodeIcon = 3;
+  string qrCodeText = 4;
+  string qrCodeUrl = 5;
+  string title = 1;
+  AdditionUserInfo userInfo = 6;
+}

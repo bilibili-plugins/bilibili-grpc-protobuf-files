@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message UserInfo {
+  Base base = 2;
+  GuardLeader guardLeader = 8;
+  Guard guard = 6;
+  Medal medal = 3;
+  Title title = 5;
+  UserHeadFrame uheadFrame = 7;
+  int64 uid = 1;
+  Wealth wealth = 4;
+}

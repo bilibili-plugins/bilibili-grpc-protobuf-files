@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message StatInfo {
+  int32 icon = 1;
+  string pureText = 3;
+  string text = 2;
+}

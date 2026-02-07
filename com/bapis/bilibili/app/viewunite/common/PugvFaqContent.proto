@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvFaqContent {
+  string answer = 2;
+  string link = 3;
+  string question = 1;
+}

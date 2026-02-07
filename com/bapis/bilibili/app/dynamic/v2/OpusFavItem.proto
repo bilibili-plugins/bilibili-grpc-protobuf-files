@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusFavItem {
+  CoverIconWithText bottomText = 5;
+  string cardUri = 2;
+  string clickToast = 6;
+  MdlDynDrawItem coverPic = 3;
+  int64 opusId = 1;
+  Paragraph textParagraph = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.fawkes;
+
+message FawkesReq {
+  string appkey = 1;
+  string env = 2;
+  string sessionId = 3;
+}

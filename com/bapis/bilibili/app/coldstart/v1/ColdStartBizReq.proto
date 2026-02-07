@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.coldstart.v1;
+
+message ColdStartBizReq {
+  string bizKey = 1;
+  Any bizParam = 2;
+}

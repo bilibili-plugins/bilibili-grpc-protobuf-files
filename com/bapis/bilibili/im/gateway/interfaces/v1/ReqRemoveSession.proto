@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ReqRemoveSession {
+  int32 sessionType = 2;
+  int64 shopFatherId = 4;
+  int64 shopId = 3;
+  int32 systemMsgType = 5;
+  int64 talkerId = 1;
+}

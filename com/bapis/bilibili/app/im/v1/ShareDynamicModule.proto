@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareDynamicModule {
+  ShareDynamicAttachModule attach = 6;
+  int64 id = 5;
+  string image = 2;
+  bool isForward = 3;
+  Paragraph paragraph = 1;
+  string url = 4;
+}

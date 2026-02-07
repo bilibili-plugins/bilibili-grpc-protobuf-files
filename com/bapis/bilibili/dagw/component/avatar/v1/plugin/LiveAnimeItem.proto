@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message LiveAnimeItem {
+  ColorConfig color = 1;
+  double endRatio = 3;
+  int64 phase = 6;
+  double startOpacity = 5;
+  double startRatio = 2;
+  double startStroke = 4;
+}

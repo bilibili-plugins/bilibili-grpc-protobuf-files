@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message OgvCardUI {
+  string backgroundImage = 1;
+  string gaussianBlurValue = 2;
+  string maskOpacity = 4;
+  string moduleColor = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message EmoteNode {
+  BgStyle bgStyle = 2;
+  string rawText = 1;
+}

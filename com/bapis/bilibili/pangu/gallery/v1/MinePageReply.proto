@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message MinePageReply {
+  string aboutUsJump = 6;
+  string address = 3;
+  string avatarUrl = 4;
+  string name = 2;
+  string questionJump = 5;
+  int64 uid = 1;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message Order {
+  string contractAddress = 9;
+  string contractJump = 11;
+  bool disableBrowserJump = 12;
+  Display display = 8;
+  string hashJump = 10;
+  string issueTime = 6;
+  string issuer = 5;
+  string itemName = 1;
+  string serialNumber = 2;
+  string tokenId = 7;
+  string txHash = 3;
+  string txTime = 4;
+}

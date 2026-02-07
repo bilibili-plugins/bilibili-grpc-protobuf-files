@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleDynUpList {
+  repeated Data list = 3;
+  string moduleTitle = 1;
+  string showAll = 2;
+}

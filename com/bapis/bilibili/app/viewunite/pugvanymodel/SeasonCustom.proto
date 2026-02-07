@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonCustom {
+  DanmakuControl danmakuControl = 2;
+  WaterMark waterMark = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.v1;
+
+message PlayHalfChannelsReply {
+  repeated Data groups = 1;
+}

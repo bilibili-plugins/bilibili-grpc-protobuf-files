@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaRelationReq {
+  int64 bizId = 1;
+  int64 bizType = 2;
+  int64 feedId = 3;
+  string offset = 5;
+  int32 ps = 6;
+}

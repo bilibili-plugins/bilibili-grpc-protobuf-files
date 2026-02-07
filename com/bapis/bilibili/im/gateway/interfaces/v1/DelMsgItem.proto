@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message DelMsgItem {
+  int64 msgKey = 2;
+  int64 seqNo = 3;
+  int64 talkerUid = 1;
+}

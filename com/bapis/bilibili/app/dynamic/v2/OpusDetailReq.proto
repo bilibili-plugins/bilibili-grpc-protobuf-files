@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusDetailReq {
+  AdParam adParam = 13;
+  Config config = 12;
+  int64 dynType = 3;
+  string from = 14;
+  int32 localTime = 10;
+  int64 oid = 2;
+  int32 opusType = 1;
+  string pattern = 15;
+  PlayerArgs playerArgs = 11;
+  string shareId = 4;
+  int32 shareMode = 9;
+  int32 switch = 16;
+}

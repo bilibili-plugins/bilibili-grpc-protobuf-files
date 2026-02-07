@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message Session {
+  string chatUrl = 9;
+  SessionId id = 1;
+  bool isMuted = 8;
+  bool isPinned = 6;
+  MsgSummary msgSummary = 4;
+  SessionOperation operation = 10;
+  int64 sequenceNumber = 7;
+  SessionInfo sessionInfo = 2;
+  int64 timestamp = 5;
+  MapFieldLite traceParams = 11;
+  Unread unread = 3;
+}

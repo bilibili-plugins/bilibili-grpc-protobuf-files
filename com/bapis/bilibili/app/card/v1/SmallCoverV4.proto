@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SmallCoverV4 {
+  Base base = 1;
+  string coverBadge = 2;
+  string desc = 3;
+  int32 titleRightPic = 5;
+  string titleRightText = 4;
+}

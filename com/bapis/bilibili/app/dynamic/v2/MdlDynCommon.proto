@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynCommon {
+  repeated Data badge = 10;
+  int32 bizType = 7;
+  AdditionalButton button = 11;
+  string cover = 5;
+  string desc = 4;
+  string label = 6;
+  int64 oid = 1;
+  int64 sketchID = 8;
+  int32 style = 9;
+  string title = 3;
+  string uri = 2;
+}

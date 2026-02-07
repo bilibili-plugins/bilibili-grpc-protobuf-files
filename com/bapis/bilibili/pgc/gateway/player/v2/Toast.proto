@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message Toast {
+  ButtonInfo button = 2;
+  string icon = 4;
+  MapFieldLite orderReportParams = 7;
+  Report report = 6;
+  int32 showStyleType = 3;
+  string text = 1;
+  TextInfo toastText = 5;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message PictureListReq {
+  int64 afterRpid = 4;
+  string extra = 3;
+  string mainListSessionId = 8;
+  int32 mode = 5;
+  int64 oid = 1;
+  FeedPagination pagination = 6;
+  string sessionId = 7;
+  int64 type = 2;
+}

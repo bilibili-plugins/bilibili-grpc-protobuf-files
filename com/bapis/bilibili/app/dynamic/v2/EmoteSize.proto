@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message EmoteSize {
+  int32 emojiSize = 2;
+  double width = 1;
+}

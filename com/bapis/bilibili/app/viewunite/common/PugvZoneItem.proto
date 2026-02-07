@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvZoneItem {
+  string icon = 1;
+  string link = 2;
+  string subtitle = 4;
+  string title = 3;
+  int32 type = 5;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message TFToast {
+  string btnLink = 2;
+  string btnText = 1;
+  string description = 4;
+  string title = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message RichTextNote {
+  string clickUrl = 3;
+  repeated Data images = 2;
+  string lastMtimeText = 4;
+  string summary = 1;
+}

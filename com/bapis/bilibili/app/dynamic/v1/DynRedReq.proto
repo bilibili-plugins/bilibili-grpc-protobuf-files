@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynRedReq {
+  bool isCodeStart = 3;
+  bool isNewInstall = 2;
+  repeated Data newFollowUpMids = 4;
+  int32 reqScene = 5;
+  repeated Data tabOffset = 1;
+}

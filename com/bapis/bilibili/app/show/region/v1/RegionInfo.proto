@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.region.v1;
+
+message RegionInfo {
+  repeated Data children = 10;
+  repeated Data config = 11;
+  string goto = 5;
+  int32 isBangumi = 9;
+  string logo = 4;
+  string name = 3;
+  string param = 6;
+  int32 reid = 2;
+  int32 tid = 1;
+  int32 type = 8;
+  string uri = 7;
+}

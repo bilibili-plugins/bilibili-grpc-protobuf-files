@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message UgcSeasonStat {
+  int32 coin = 6;
+  int32 danmaku = 3;
+  int32 fav = 5;
+  int32 hisRank = 9;
+  int32 like = 10;
+  int32 nowRank = 8;
+  int32 reply = 4;
+  int64 seasonId = 1;
+  int32 share = 7;
+  int32 view = 2;
+}

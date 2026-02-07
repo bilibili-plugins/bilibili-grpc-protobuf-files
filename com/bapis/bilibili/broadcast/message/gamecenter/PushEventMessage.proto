@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.gamecenter;
+
+message PushEventMessage {
+  int32 eventType = 1;
+}

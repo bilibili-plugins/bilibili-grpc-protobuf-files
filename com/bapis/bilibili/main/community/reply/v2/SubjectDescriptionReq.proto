@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReq {
+  PlayerParams playerParams = 2;
+  SubjectID subjectId = 1;
+}

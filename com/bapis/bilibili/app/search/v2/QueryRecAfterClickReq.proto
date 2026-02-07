@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message QueryRecAfterClickReq {
+  string clickUrl = 6;
+  string fromSource = 7;
+  string keyword = 5;
+  string param = 1;
+  int32 pos = 2;
+  string qvId = 4;
+  string trackId = 3;
+  string userAct = 8;
+}

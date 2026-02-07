@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonPrimaryInfo {
+  PugvSeasonPrimaryBadge badge = 8;
+  repeated Data badges = 9;
+  PugvSeasonCombine combineSeason = 10;
+  PugvSeasonPrimaryCustomInfo customInfo = 6;
+  PugvSeasonPrimaryRankInfo rankInfo = 4;
+  PugvSeasonPrimarySellPointInfo sellPointInfo = 5;
+  bool showPayment = 7;
+  StatInfo statInfo = 3;
+  string subtitle = 2;
+  string title = 1;
+}

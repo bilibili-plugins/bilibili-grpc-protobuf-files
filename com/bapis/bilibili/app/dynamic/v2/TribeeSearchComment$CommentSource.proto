@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchComment$CommentSource {
+  string jumpUrl = 3;
+  int64 oid = 4;
+  string source = 1;
+  string title = 2;
+}

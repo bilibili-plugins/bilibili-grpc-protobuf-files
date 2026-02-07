@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message FunctionalCard {
+  repeated Data capsules = 1;
+  int64 endTime = 5;
+  GameCard gameCard = 3;
+  int64 startTime = 4;
+  TrafficCard trafficCard = 2;
+}

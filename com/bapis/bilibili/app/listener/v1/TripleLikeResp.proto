@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message TripleLikeResp {
+  bool coinOk = 3;
+  bool favOk = 4;
+  string message = 1;
+  bool thumbOk = 2;
+}

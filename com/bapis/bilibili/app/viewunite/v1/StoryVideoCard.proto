@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message StoryVideoCard {
+  string cover = 4;
+  string goto = 6;
+  PGCInfo pgcInfo = 7;
+  VideoPlayData playData = 1;
+  string recommendSessionId = 3;
+  string trackId = 5;
+  ViewReply viewContent = 2;
+}

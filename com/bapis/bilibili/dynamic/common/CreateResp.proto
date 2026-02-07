@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateResp {
+  int64 artEditorJumpFeed = 8;
+  string dynIdStr = 2;
+  int64 dynId = 1;
+  int64 dynRid = 4;
+  int64 dynType = 3;
+  DynamicItem fakeCard = 5;
+  ShareDynWindow shareWindow = 7;
+  int64 tribeeCategoryId = 10;
+  TribeeDyn tribeeFakeCard = 9;
+  string tribeeToast = 11;
+  CreateDynVideoResult videoResult = 6;
+}

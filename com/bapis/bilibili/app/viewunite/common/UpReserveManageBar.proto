@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UpReserveManageBar {
+  string actionIcon = 5;
+  string actionText = 3;
+  string actionUri = 4;
+  string icon = 1;
+  string text = 2;
+}

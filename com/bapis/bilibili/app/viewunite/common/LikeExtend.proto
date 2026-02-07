@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message LikeExtend {
+  string likeAnimation = 2;
+  PlayerAnimation playerAnimation = 3;
+  ActivityResource resource = 4;
+  UpLikeImg tripleLike = 1;
+}

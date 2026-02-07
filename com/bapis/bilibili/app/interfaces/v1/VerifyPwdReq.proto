@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message VerifyPwdReq {
+  bool closeDevice = 4;
+  string deviceToken = 5;
+  bool isDynamic = 3;
+  int32 pwdFrom = 2;
+  string pwd = 1;
+}

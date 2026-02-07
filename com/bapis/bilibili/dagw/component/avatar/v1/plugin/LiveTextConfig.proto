@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message LiveTextConfig {
+  ColorConfig background = 8;
+  ColorConfig borderColor = 7;
+  double borderWidth = 4;
+  double height = 2;
+  double offsetY = 3;
+  double textSize = 5;
+  double width = 1;
+}

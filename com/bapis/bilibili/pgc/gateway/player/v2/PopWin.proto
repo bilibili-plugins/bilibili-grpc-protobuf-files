@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PopWin {
+  ButtonInfo bottomDesc = 7;
+  string bottomText = 4;
+  repeated Data button = 3;
+  repeated Data coupon = 2;
+  string cover = 8;
+  TextInfo popTitle = 5;
+  string popType = 9;
+  TextInfo subtitle = 6;
+  string title = 1;
+}

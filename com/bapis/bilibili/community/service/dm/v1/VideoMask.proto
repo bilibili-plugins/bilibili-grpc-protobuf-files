@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message VideoMask {
+  int64 cid = 1;
+  int32 fps = 3;
+  string maskUrl = 5;
+  int32 plat = 2;
+  int64 time = 4;
+}

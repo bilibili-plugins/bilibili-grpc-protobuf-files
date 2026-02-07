@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message DanmakuElem {
+  string action = 9;
+  string animation = 14;
+  int32 attr = 13;
+  int32 color = 5;
+  string content = 7;
+  int64 ctime = 8;
+  int32 fontsize = 4;
+  string idStr = 11;
+  int64 id = 1;
+  string midHash = 6;
+  int32 mode = 3;
+  int32 pool = 10;
+  int32 progress = 2;
+  int32 weight = 12;
+}

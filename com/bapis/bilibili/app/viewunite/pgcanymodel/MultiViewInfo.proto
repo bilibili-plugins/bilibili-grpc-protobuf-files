@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message MultiViewInfo {
+  string changingDance = 2;
+  bool isMultiViewSeason = 1;
+}

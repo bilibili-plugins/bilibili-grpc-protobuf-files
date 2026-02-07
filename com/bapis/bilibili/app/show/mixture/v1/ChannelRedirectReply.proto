@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message ChannelRedirectReply {
+  int64 code = 1;
+  string url = 2;
+}

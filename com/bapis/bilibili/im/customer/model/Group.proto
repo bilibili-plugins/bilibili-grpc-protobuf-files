@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message Group {
+  int64 groupId = 1;
+  string groupName = 2;
+  int32 select = 3;
+}

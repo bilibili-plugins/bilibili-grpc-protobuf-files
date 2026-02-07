@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message TheatreHotTopic {
+  string backgroundImageUrl = 4;
+  int64 hotTopicId = 6;
+  int64 hotTopicSetId = 7;
+  string hotTopicTitle = 8;
+  string hotTopicUrl = 9;
+  int32 isSubscribe = 10;
+  MapFieldLite report = 11;
+  int64 theatreId = 1;
+  int64 theatreSetId = 2;
+  string theatreTitle = 3;
+  string theatreUrl = 5;
+}

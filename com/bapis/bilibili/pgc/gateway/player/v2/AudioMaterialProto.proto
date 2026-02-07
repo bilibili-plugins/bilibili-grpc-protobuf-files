@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message AudioMaterialProto {
+  string audioId = 1;
+  repeated Data audio = 7;
+  string edition = 3;
+  string personAvatar = 6;
+  int64 personId = 4;
+  string personName = 5;
+  string title = 2;
+}

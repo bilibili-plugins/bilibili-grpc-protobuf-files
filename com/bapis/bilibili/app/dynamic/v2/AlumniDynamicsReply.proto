@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AlumniDynamicsReply {
+  repeated Data list = 1;
+  string toast = 2;
+}

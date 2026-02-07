@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message PlayStrategy {
+  string autoPlayToast = 3;
+  int32 recommendShowStrategy = 2;
+  repeated Data strategies = 1;
+}

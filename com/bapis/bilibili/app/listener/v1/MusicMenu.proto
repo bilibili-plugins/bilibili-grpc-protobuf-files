@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MusicMenu {
+  int64 attr = 8;
+  string cover = 5;
+  int64 ctime = 11;
+  string desc = 4;
+  int64 id = 1;
+  int32 menuType = 2;
+  MusicMenuAuthor owner = 6;
+  MusicMenuStat stat = 9;
+  int32 state = 7;
+  string title = 3;
+  int64 total = 10;
+  string uri = 12;
+}

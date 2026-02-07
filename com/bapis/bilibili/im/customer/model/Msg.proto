@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message Msg {
+  repeated Data aiLinkMsg = 14;
+  BindNote bindNote = 12;
+  string content = 4;
+  string devId = 9;
+  bool isAi = 13;
+  int64 msgKey = 6;
+  int32 msgSource = 8;
+  int32 msgStatus = 7;
+  int32 msgType = 3;
+  TalkerInfo receiverInfo = 2;
+  TalkerInfo senderInfo = 1;
+  int64 seqNo = 10;
+  int32 situation = 11;
+  int64 timestamp = 5;
+}

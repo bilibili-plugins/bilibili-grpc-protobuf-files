@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message SubtitleItem {
+  int32 aiStatus = 10;
+  int32 aiType = 9;
+  UserInfo author = 6;
+  string idStr = 2;
+  int64 id = 1;
+  string lanDocBrief = 8;
+  string lanDoc = 4;
+  string lan = 3;
+  int32 role = 11;
+  SubtitleHeight subtitleHeight = 12;
+  string subtitleUrl = 5;
+  int32 type = 7;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message CancelChatTaskReply {
+  int32 code = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Item {
+  string goto = 3;
+  string linktype = 4;
+  string param = 2;
+  int32 position = 5;
+  int64 spreadId = 56;
+  string trackid = 6;
+  string uri = 1;
+  string userAct = 63;
+}

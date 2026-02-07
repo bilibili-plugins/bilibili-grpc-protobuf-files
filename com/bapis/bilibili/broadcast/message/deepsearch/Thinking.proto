@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message Thinking {
+  int32 status = 1;
+  string thinkingContent = 4;
+  string thinkingText = 2;
+  string windowText = 3;
+}

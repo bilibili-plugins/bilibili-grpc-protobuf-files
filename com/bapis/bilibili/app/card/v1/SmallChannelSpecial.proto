@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SmallChannelSpecial {
+  string badge = 5;
+  Base base = 1;
+  string bgCover = 2;
+}

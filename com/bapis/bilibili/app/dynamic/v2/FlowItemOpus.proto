@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message FlowItemOpus {
+  MdlDynDrawItem coverPic = 1;
+  ItemWHRatio coverWhRatio = 2;
+  MdlDynDrawItem darkCoverPic = 7;
+  Paragraph textParagraph = 5;
+  VideoBadge topRightBadge = 6;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message UserTalkerInfo {
+  string avatarUrl = 3;
+  AvatarItem avatar = 2;
+  string handle = 5;
+  int64 mid = 1;
+  string name = 4;
+}

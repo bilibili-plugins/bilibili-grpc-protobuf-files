@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message PlayArc {
+  int64 aid = 2;
+  int32 arcType = 5;
+  int64 cacheExpire = 12;
+  int64 cid = 3;
+  Dimension dimension = 7;
+  int32 drmTechType = 4;
+  int64 durationMs = 11;
+  int64 duration = 8;
+  Interaction interaction = 6;
+  bool isPreview = 9;
+  int32 videoType = 1;
+  int64 watchTimeLength = 10;
+}

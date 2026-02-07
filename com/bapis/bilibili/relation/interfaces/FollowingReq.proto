@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.relation.interfaces;
+
+message FollowingReq {
+  int32 act = 2;
+  string actionId = 8;
+  string extendContent = 5;
+  int64 fid = 1;
+  string fromScmid = 7;
+  string fromSpmid = 6;
+  int32 source = 3;
+  string spmid = 4;
+}

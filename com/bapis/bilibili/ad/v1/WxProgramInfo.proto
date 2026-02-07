@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message WxProgramInfo {
+  string name = 2;
+  string orgId = 1;
+  string path = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCTokenProto$TurnAddr {
+  repeated Data addr = 3;
+  string password = 2;
+  repeated Data protocol = 4;
+  bool turnOnly = 5;
+  string username = 1;
+}

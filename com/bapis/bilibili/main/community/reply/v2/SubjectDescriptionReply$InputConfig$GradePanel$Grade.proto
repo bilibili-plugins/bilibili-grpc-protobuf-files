@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$GradePanel$Grade {
+  Int32Value defaultScore = 4;
+  bool disableZero = 5;
+  string gradePrompt = 6;
+  int64 id = 1;
+  string image = 2;
+  repeated Data richSubtitle = 8;
+  repeated Data richTitle = 7;
+  string title = 3;
+}

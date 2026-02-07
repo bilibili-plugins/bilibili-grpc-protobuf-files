@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchUgcInlineCard {
+  string author = 3;
+  AvatarItem avatarInfo = 13;
+  CardLayout cardLayout = 12;
+  string cover = 2;
+  int32 danmaku = 4;
+  string desc = 5;
+  Feedback feedback = 11;
+  FullTextResult fullText = 10;
+  int32 inlineTitleStyle = 17;
+  string inlineType = 6;
+  int64 mid = 7;
+  int64 play = 8;
+  repeated Data threePoint = 14;
+  string title = 1;
+  string translatedTitle = 16;
+  int64 translationStatus = 15;
+  SearchInlineData ugcInline = 9;
+}

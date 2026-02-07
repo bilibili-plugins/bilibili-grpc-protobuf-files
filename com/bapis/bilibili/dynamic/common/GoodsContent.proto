@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message GoodsContent {
+  int64 actId = 4;
+  int64 actMid = 5;
+  string itemIdStr = 6;
+  int64 itemId = 2;
+  int64 shopId = 3;
+  int32 sourceType = 1;
+  int64 subType = 7;
+}

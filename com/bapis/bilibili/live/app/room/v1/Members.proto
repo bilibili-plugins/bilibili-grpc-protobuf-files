@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message Members {
+  string face = 3;
+  int32 gender = 8;
+  int64 joinTime = 6;
+  string linkId = 7;
+  int64 position = 4;
+  int64 roomId = 9;
+  UserStreamControl streamControl = 5;
+  int64 uid = 1;
+  string uname = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message RerankReply {
+  repeated Data card = 1;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Dialog {
+  BackgroundInfo backgroundInfo = 2;
+  ButtonInfo bottomDesc = 7;
+  repeated Data bottomDisplay = 11;
+  repeated Data button = 6;
+  MapFieldLite conditions = 17;
+  int32 countDownSec = 9;
+  string deliverWinId = 16;
+  ExtData extData = 12;
+  int32 hideButtonOnHalf = 15;
+  ImageInfo image = 5;
+  int32 isHideMoreBtn = 14;
+  int32 limitActionType = 13;
+  Report report = 8;
+  TextInfo rightBottomDesc = 10;
+  int32 styleType = 1;
+  TextInfo subtitle = 4;
+  TextInfo title = 3;
+}

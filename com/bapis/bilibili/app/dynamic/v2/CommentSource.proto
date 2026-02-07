@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CommentSource {
+  string cover = 8;
+  string desc = 3;
+  string jumpUrl = 4;
+  int64 oid = 5;
+  int64 replyBizType = 6;
+  int64 resourceId = 7;
+  int64 resourceType = 9;
+  string title = 2;
+  int32 type = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynAllReply {
+  Config config = 6;
+  repeated Data dynamicList = 1;
+  DynRegionRcmd regionRcmd = 5;
+  FeedSortConfig sortConfig = 7;
+  repeated Data topicList = 3;
+  Unfollow unfollow = 4;
+  repeated Data upList = 2;
+}

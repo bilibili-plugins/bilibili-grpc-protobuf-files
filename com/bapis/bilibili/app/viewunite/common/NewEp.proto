@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message NewEp {
+  string cover = 6;
+  string desc = 3;
+  int32 id = 1;
+  string indexShow = 7;
+  int32 isNew = 4;
+  string more = 5;
+  string title = 2;
+}

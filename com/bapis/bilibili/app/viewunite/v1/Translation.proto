@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Translation {
+  string arcLanguage = 3;
+  string curLanguage = 2;
+  int32 translationStatus = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message FoldListReq {
+  string extra = 3;
+  int64 oid = 1;
+  FeedPagination pagination = 4;
+  int64 type = 2;
+}

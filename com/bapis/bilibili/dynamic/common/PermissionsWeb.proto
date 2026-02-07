@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message PermissionsWeb {
+  PermissionWebItem aigc = 15;
+  PermissionWebItem archive = 2;
+  PermissionWebItem chooseComment = 4;
+  PermissionWebItem commercial = 10;
+  PermissionWebItem controlComment = 3;
+  PermissionWebItem goods = 12;
+  PermissionWebItem joinedTribee = 16;
+  PermissionWebItem link = 8;
+  PermissionWebItem liveReserve = 6;
+  PermissionWebItem lottery = 1;
+  OnlyFansPermission onlyFans = 9;
+  PermissionWebItem popularize = 7;
+  PermissionWebItem privatePub = 14;
+  PermissionWebItem publicPub = 13;
+  PermissionWebItem upower = 11;
+  PermissionWebItem videoReserve = 5;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PkPlay {
+  DmConf dmConf = 4;
+  EscapeInfo escape = 5;
+  FinalConf finalConf = 2;
+  PkCardPlay pkCardPlay = 6;
+  PkGiftEffect pkGiftEffect = 12;
+  string pkPlayText = 8;
+  string pkPunishText = 9;
+  PKScoreMultiplePlay pkScoreMultiplePlay = 1;
+  bool pkTextEnabled = 11;
+  int64 pkTextHash = 10;
+  int64 preDuration = 7;
+  bool showStreak = 3;
+}

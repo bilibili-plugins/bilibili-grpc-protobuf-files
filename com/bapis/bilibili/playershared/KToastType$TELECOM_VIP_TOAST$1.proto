@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KToastType$TELECOM_VIP_TOAST$1 {
+}

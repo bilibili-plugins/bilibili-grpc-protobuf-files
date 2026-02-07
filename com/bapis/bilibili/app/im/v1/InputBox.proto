@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message InputBox {
+  bool enablePic = 2;
+  bool enableSticker = 4;
+  bool enableVideo = 3;
+  string hint = 1;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.experimental;
+
+message TopLeft {
+  StringValue badge = 13;
+  Int64Value gotoV2 = 12;
+  StringValue goto = 10;
+  StringValue iosListenBackgroundImage = 9;
+  StringValue iosListenForegroundImage = 8;
+  StringValue iosStoryBackgroundImage = 7;
+  StringValue iosStoryForegroundImage = 6;
+  StringValue listenBackgroundImage = 5;
+  StringValue listenForegroundImage = 4;
+  StringValue storyBackgroundImage = 3;
+  StringValue storyForegroundImage = 2;
+  StringValue urlV2 = 11;
+  StringValue url = 1;
+}

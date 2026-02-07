@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MainListReq {
+  string adExtra = 5;
+  repeated Data clientRecallRpids = 11;
+  CursorReq cursor = 3;
+  string extra = 4;
+  string filterTagName = 8;
+  int32 mode = 9;
+  int64 oid = 1;
+  FeedPagination pagination = 10;
+  int64 rpid = 6;
+  int64 seekRpid = 7;
+  int64 type = 2;
+  WordSearchParam wordSearchParam = 12;
+}

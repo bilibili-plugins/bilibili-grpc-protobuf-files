@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message SubscribeCard {
+  Button button = 3;
+  IconRes iconRes = 2;
+  ShowText showText = 1;
+}

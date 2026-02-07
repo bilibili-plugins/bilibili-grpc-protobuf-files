@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointHide {
+  int64 blookFid = 4;
+  string blookType = 5;
+  string icon = 1;
+  ThreePointHideInteractive interactive = 3;
+  string title = 2;
+}

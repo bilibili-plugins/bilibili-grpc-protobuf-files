@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message SessionInfo {
+  AccountInfo accountInfo = 24;
+  int64 ackSeqno = 9;
+  int64 ackTs = 10;
+  AiInfo aiInfo = 31;
+  int64 atSeqno = 3;
+  int32 bizMsgUnreadCount = 26;
+  int32 canFold = 15;
+  SessionInfoExt ext = 33;
+  string groupCover = 6;
+  string groupName = 5;
+  int32 groupType = 14;
+  int32 isDnd = 8;
+  int32 isFollow = 7;
+  int32 isGuardian = 20;
+  bool isHideEdit = 32;
+  int32 isHuahuo = 28;
+  int32 isIntercept = 21;
+  int32 isTrust = 22;
+  Msg lastMsg = 13;
+  int32 liveStatus = 25;
+  int64 maxSeqno = 17;
+  int32 newPushMsg = 18;
+  int64 sessionTs = 11;
+  int32 sessionType = 2;
+  int32 setting = 19;
+  int32 status = 16;
+  int32 stranger = 30;
+  int32 systemMsgType = 23;
+  int64 talkerId = 1;
+  int64 topTs = 4;
+  UInfo uInfo = 29;
+  int32 unreadCount = 12;
+  UserLabel userLabel = 27;
+}

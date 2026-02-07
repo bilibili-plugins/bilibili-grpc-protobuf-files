@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchSportInlineCard {
+  string bgCover = 3;
+  CardLayout cardLayout = 11;
+  string cover = 2;
+  SearchInlineData esportsInline = 9;
+  repeated Data extraLink = 6;
+  int64 id = 8;
+  string inlineType = 10;
+  repeated Data items = 7;
+  MatchItem matchBottom = 5;
+  MatchItem matchTop = 4;
+  PlayerGrade playerGrade = 12;
+  string title = 1;
+}

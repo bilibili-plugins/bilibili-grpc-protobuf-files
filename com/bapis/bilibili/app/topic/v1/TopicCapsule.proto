@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicCapsule {
+  string iconUrl = 3;
+  string jumpUrl = 2;
+  string name = 1;
+}

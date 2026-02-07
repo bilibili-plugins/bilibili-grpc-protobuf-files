@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvStudyRecordDetailModel {
+  Date recordDate = 1;
+  int32 recordMinutes = 2;
+  int32 recordSeconds = 3;
+}

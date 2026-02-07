@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchCollectionCard {
+  string author = 3;
+  repeated Data avItems = 4;
+  BottomButton bottomButton = 5;
+  CardLayout cardLayout = 9;
+  string collectionIcon = 6;
+  string cover = 2;
+  Feedback feedback = 10;
+  SearchInlineData inlineData = 11;
+  int32 isHideTitle = 12;
+  string title = 1;
+}

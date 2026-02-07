@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UgcEpisode {
+  int64 aid = 2;
+  Author author = 14;
+  BadgeInfo badge = 10;
+  int32 bizType = 15;
+  int64 cid = 3;
+  string coverRightText = 6;
+  string cover = 5;
+  StatInfo danmaku = 9;
+  EpDownload download = 16;
+  int64 duration = 13;
+  int64 id = 1;
+  Page page = 7;
+  repeated Data pages = 11;
+  double progressPercent = 12;
+  string title = 4;
+  StatInfo vt = 8;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message EntitlementStatus {
+  int32 syncStatus = 1;
+  int64 syncTime = 2;
+}

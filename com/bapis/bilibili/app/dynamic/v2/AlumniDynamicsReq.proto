@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AlumniDynamicsReq {
+  int64 campusId = 1;
+  int32 firstTime = 2;
+  int32 fromType = 6;
+  int32 localTime = 4;
+  int32 page = 5;
+  PlayerArgs playerArgs = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message OgvClipInfo {
+  int64 playEndTime = 2;
+  int64 playStartTime = 1;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message RelateGameCard {
+  BadgeInfo badge = 12;
+  string gameRcmdReason = 10;
+  Button notice = 8;
+  Button packInfo = 7;
+  PowerIconStyle powerIconStyle = 9;
+  RankInfo rankInfo = 6;
+  float rating = 4;
+  string reserveStatusText = 2;
+  int64 reserveStatus = 1;
+  string reserve = 3;
+  string tagName = 5;
+  WikiInfo wikiInfo = 11;
+}

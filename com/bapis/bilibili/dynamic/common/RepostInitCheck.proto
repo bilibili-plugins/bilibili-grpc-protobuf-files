@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message RepostInitCheck {
+  DynIdentity repostSrc = 1;
+  string shareId = 2;
+  int32 shareMode = 3;
+}

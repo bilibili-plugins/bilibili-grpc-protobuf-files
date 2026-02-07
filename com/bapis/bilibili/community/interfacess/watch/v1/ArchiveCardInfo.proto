@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message ArchiveCardInfo {
+  string cover = 2;
+  string danmaku = 5;
+  string duration = 3;
+  bool isUnread = 6;
+  string jumpUrl = 7;
+  string title = 1;
+  string view = 4;
+}

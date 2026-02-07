@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MsgFeedActionReq {
+  int32 actionType = 2;
+  int32 filterType = 5;
+  bool isTopMsg = 6;
+  int64 msgId = 1;
+  int32 msgType = 4;
+  MsgFeedActionThankParams thankParams = 3;
+}

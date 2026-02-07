@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MainFavMusicSubTabListResp {
+  repeated Data defaultTabRes = 2;
+  MapFieldLite firstPageRes = 3;
+  repeated Data tabs = 1;
+}

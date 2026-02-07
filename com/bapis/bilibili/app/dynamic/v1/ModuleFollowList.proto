@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleFollowList {
+  repeated Data list = 2;
+  string viewAllLink = 1;
+}

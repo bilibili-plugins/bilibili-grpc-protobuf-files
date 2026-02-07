@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleState {
+  LikeInfo likeInfo = 4;
+  int32 like = 2;
+  bool noComment = 5;
+  bool noForward = 6;
+  int32 reply = 3;
+  int32 repost = 1;
+}

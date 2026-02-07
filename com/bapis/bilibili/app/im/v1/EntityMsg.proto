@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message EntityMsg {
+  bool isHidden = 5;
+  bool isRealtimeMsg = 8;
+  bool isTemporary = 9;
+  MsgFrame msgFrame = 3;
+  MsgId msgId = 1;
+  int32 msgType = 2;
+  string sendToken = 7;
+  int64 timestamp = 4;
+  MapFieldLite traceParams = 6;
+}

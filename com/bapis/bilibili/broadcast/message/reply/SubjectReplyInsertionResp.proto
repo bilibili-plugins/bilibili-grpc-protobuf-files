@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.reply;
+
+message SubjectReplyInsertionResp {
+  int64 oid = 1;
+  int64 rank = 6;
+  int64 rpid = 4;
+  int64 stepSize = 7;
+  repeated Data supportMode = 8;
+  repeated Data supportTagIds = 10;
+  repeated Data supportTag = 9;
+  int64 timestamp = 5;
+  string title = 3;
+  int64 type = 2;
+}

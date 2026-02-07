@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message NearbyPoiListItem {
+  NearbyPoiDetail poiInfo = 1;
+  int32 userCount = 2;
+}

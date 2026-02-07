@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message StreamInfo {
+  int64 attribute = 10;
+  Badge badge = 25;
+  int32 canWatchQnReason = 26;
+  string cutscene = 24;
+  string descriptionFoldImg = 21;
+  string descriptionImgSelected = 20;
+  string descriptionImg = 19;
+  string description = 3;
+  string displayDescImg = 18;
+  string displayDesc = 12;
+  int32 errCode = 4;
+  string format = 2;
+  bool intact = 8;
+  int32 limitWatchReason = 27;
+  StreamLimit limit = 5;
+  bool needLogin = 7;
+  bool needVip = 6;
+  string newDescription = 11;
+  bool noRexcode = 9;
+  int32 quality = 1;
+  MapFieldLite reportParams = 22;
+  Scheme scheme = 16;
+  string subtitle = 15;
+  string superscript = 13;
+  bool supportDrm = 17;
+  string switchToast = 23;
+  bool vipFree = 14;
+}

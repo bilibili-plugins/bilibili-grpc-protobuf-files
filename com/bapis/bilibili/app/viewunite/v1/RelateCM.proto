@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message RelateCM {
+  int64 aid = 1;
+  int64 duration = 3;
+  Owner owner = 5;
+  Any sourceContent = 2;
+  Stat stat = 4;
+}

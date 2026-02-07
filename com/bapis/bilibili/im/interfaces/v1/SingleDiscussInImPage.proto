@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message SingleDiscussInImPage {
+  int64 discussId = 1;
+  string face = 3;
+  int64 mid = 2;
+  string name = 4;
+  int32 type = 6;
+  int32 unreadCount = 5;
+}

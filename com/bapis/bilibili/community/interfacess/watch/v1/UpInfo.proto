@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message UpInfo {
+  AvatarItem avatar = 3;
+  string jumpUrl = 4;
+  string name = 2;
+  int64 upMid = 1;
+}

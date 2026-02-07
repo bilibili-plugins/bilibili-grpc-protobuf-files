@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message MessageAckReq {
+  int64 ackId = 1;
+  string ackOrigin = 2;
+  int64 msgType = 4;
+  string targetPath = 3;
+}

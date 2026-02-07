@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateTopic {
+  string fromSource = 3;
+  int64 fromTopicId = 4;
+  int64 id = 1;
+  string name = 2;
+  int64 superTopicId = 5;
+}

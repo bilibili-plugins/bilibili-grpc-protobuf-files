@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSendInviteCodeOptionsResp$NoticeCardPreview {
+  double height = 5;
+  string picUrl = 3;
+  string tips = 2;
+  string title = 1;
+  double width = 4;
+}

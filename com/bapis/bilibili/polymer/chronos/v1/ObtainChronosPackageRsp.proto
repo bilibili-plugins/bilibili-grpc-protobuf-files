@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.chronos.v1;
+
+message ObtainChronosPackageRsp {
+  string md5 = 1;
+  string sign = 3;
+  string url = 2;
+}

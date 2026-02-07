@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.click.v1;
+
+message HeartBeatReq {
+  AccountInfo accountInfo = 8;
+  AppInfo appInfo = 7;
+  int64 batchFrequency = 4;
+  Extra extra = 12;
+  float frequency = 5;
+  repeated Data playerStatus = 10;
+  PreProcessResult preProcessResult = 9;
+  string sessionV2 = 1;
+  int32 stage = 2;
+  int64 streamTimeout = 3;
+  VideoInfo videoInfo = 11;
+  VideoMeta videoMeta = 6;
+}

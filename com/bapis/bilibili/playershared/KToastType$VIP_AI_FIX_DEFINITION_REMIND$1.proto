@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KToastType$VIP_AI_FIX_DEFINITION_REMIND$1 {
+}

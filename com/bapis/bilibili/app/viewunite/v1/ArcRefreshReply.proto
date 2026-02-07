@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ArcRefreshReply {
+  SimpleArc arc = 3;
+  LikeConfig likeConfig = 5;
+  Online online = 4;
+  SimpleOwner owner = 6;
+  ReplyStyle replyStyle = 7;
+  SimpleReqUser reqUser = 2;
+  Stat stat = 1;
+}

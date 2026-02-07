@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message MentionCardReq {
+  string avFeature = 4;
+  string goto = 2;
+  int64 id = 1;
+  int32 isHide = 3;
+  repeated Data sources = 5;
+}

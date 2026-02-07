@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message PageControl {
+  Control materialShow = 2;
+  Control toastShow = 1;
+  Control upShow = 3;
+}

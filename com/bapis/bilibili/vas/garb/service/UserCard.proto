@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.service;
+
+message UserCard {
+  string bigCardUrl = 5;
+  string cardTypeName = 8;
+  int64 cardType = 6;
+  string cardUrl = 4;
+  int64 expireTime = 7;
+  UserFanShow fan = 10;
+  int64 id = 1;
+  string imageEnhance = 12;
+  ImageGroup imageGroup = 13;
+  int64 itemId = 2;
+  string jumpUrl = 9;
+  string name = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message GiftBenefits {
+  EasterEggBenefit easterEgg = 1;
+}

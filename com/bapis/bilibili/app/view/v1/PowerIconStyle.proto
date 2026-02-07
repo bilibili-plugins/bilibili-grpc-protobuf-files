@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PowerIconStyle {
+  int64 iconHeight = 4;
+  string iconNightUrl = 2;
+  string iconUrl = 1;
+  int64 iconWidth = 3;
+}

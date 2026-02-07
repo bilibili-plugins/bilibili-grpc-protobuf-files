@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message LikeStateReq {
+  int32 likeType = 1;
+  string queryId = 3;
+  string sessionId = 2;
+}

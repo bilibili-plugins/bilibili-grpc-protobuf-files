@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DecoCardFan {
+  DecoCardFanNumColorFormat colorFormat = 5;
+  string color = 4;
+  int32 isFan = 1;
+  string numPrefix = 6;
+  string numberStr = 3;
+  int32 number = 2;
+}

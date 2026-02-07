@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message SeasonActivityRecordReq {
+  string actionId = 9;
+  int32 action = 3;
+  int64 activityId = 2;
+  int64 aid = 4;
+  int64 cid = 5;
+  string fromSpmid = 8;
+  int64 scene = 6;
+  int64 seasonId = 1;
+  string spmid = 7;
+}

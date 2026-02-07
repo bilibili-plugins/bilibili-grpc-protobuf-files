@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message Recommend {
+  ReserveRecommend reserveRecommend = 2;
+  UpInfo upInfo = 1;
+}

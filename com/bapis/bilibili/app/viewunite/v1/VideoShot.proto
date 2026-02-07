@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message VideoShot {
+  repeated Data image = 6;
+  int32 imgXLen = 2;
+  int32 imgXSize = 4;
+  int32 imgYLen = 3;
+  int32 imgYSize = 5;
+  string pvData = 1;
+}

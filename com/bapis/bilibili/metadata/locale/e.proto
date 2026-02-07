@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.locale;
+
+message e {
+}

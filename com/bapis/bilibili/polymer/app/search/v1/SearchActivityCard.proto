@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchActivityCard {
+  ReasonStyle corner = 3;
+  string cover = 1;
+  string desc = 4;
+  string reason = 5;
+  string title = 2;
+}

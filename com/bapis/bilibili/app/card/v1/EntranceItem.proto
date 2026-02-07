@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message EntranceItem {
+  Bubble bubble = 7;
+  int64 entranceId = 6;
+  int32 entranceType = 8;
+  string goto = 1;
+  string icon = 2;
+  string moduleId = 4;
+  string title = 3;
+  string uri = 5;
+}

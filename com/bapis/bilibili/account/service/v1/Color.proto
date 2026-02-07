@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.service.v1;
+
+message Color {
+  string colorDay = 1;
+  string colorNight = 2;
+}

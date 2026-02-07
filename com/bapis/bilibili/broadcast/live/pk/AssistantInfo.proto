@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message AssistantInfo {
+  string awardContent = 5;
+  string face = 4;
+  bool isMystery = 6;
+  int64 rank = 1;
+  int64 uid = 2;
+  string uname = 3;
+}

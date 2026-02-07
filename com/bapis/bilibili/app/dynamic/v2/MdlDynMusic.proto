@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynMusic {
+  string cover = 5;
+  int64 id = 1;
+  string label1 = 6;
+  string title = 4;
+  int64 upId = 3;
+  string upper = 7;
+  string uri = 2;
+}

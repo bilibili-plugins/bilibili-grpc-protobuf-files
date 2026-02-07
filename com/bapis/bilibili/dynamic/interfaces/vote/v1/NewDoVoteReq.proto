@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.vote.v1;
+
+message NewDoVoteReq {
+  int64 dynamicId = 4;
+  int64 opBit = 5;
+  int32 status = 3;
+  int64 voteId = 1;
+  repeated Data votes = 2;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message BrandADAccount {
+  int32 faceNftNew = 14;
+  string face = 5;
+  string goto = 2;
+  string liveLink = 10;
+  int64 liveStatus = 9;
+  int64 mid = 3;
+  string name = 4;
+  OfficialVerify officialVerify = 11;
+  string param = 1;
+  Relation relation = 7;
+  int64 roomid = 8;
+  string sign = 6;
+  string uri = 13;
+  VipInfo vip = 12;
+}

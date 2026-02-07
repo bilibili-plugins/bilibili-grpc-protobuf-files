@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ArticleCollectionAddableRsp {
+  repeated Data articles = 1;
+}

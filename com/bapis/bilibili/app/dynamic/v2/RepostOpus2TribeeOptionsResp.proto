@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostOpus2TribeeOptionsResp {
+  string confirmText = 3;
+  string footTips = 4;
+  string headTips = 1;
+  repeated Data items = 2;
+  RepostOpus2TribeeOptionsResp$RenderParams params = 5;
+}

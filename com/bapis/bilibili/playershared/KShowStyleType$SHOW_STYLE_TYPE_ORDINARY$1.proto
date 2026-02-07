@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KShowStyleType$SHOW_STYLE_TYPE_ORDINARY$1 {
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.pgc.gateway.vega.v1;
+
+message HeartbeatResp$b {
+}

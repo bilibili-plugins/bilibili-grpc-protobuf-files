@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateLiveCard {
+  string areaName = 2;
+  int64 iconType = 1;
+  string liveNewStyle = 6;
+  int64 liveStatus = 4;
+  BadgeInfo rcmdReason = 5;
+  bool showRcmdStyle = 8;
+  StatInfo statInfo = 7;
+  int64 watchedShow = 3;
+}

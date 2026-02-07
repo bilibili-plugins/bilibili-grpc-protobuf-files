@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message LikeCard {
+  CommonMsgCard likeMsg = 1;
+  int32 noticeState = 2;
+  ThankButton thankButton = 3;
+}

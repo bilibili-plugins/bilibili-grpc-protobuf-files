@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message TwoItemV2 {
+  Base base = 1;
+  repeated Data items = 2;
+}

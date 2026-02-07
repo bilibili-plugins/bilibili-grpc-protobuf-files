@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message DelMsgReq {
+  repeated Data msgs = 1;
+}

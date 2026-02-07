@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message WidgetReq {
+  string fromSpmid = 1;
+  int32 pageNo = 2;
+}

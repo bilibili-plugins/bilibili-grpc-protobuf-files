@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.dialing;
+
+message TCPTask {
+  int64 intervalMS = 3;
+  TCPTaskPair pairs = 1;
+  int64 tCPPingCnt = 2;
+  int64 tTL = 4;
+}

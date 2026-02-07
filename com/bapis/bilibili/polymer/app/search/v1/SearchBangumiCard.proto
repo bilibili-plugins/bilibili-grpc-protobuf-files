@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchBangumiCard {
+  string area = 5;
+  repeated Data badgesV2 = 32;
+  repeated Data badges = 24;
+  CardLayout cardLayout = 34;
+  CheckMore checkMore = 29;
+  string cover = 2;
+  string cv = 8;
+  repeated Data episodesNew = 26;
+  repeated Data episodes = 16;
+  FollowButton followButton = 30;
+  int32 iconType = 37;
+  int32 isAtten = 18;
+  int32 isOut = 25;
+  int32 isSelection = 17;
+  string label = 19;
+  int32 mediaType = 3;
+  string outIcon = 22;
+  string outName = 21;
+  string outUrl = 23;
+  int32 playState = 4;
+  string prompt = 13;
+  int64 ptime = 14;
+  double rating = 9;
+  SaleInfo saleInfo = 35;
+  int64 seasonId = 20;
+  string seasonTypeName = 15;
+  string selectionStyle = 28;
+  Share share = 39;
+  string staff = 12;
+  ReasonStyle styleLabel = 31;
+  string style = 6;
+  string stylesV2 = 33;
+  string styles = 7;
+  string target = 11;
+  repeated Data threePoint = 38;
+  string title = 1;
+  string viewContent = 36;
+  int32 vote = 10;
+  WatchButton watchButton = 27;
+}

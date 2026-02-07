@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ViewInfo {
+  MapFieldLite dialogMap = 1;
+  PromptBar promptBar = 2;
+  repeated Data toasts = 3;
+}

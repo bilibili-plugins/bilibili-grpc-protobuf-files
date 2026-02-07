@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message ChronosParam {
+  string engineVersion = 1;
+  string messageProtocol = 2;
+  string serviceKey = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleRecommend {
+  repeated Data ad = 6;
+  string image = 2;
+  string jumpUrl = 5;
+  string moduleTitle = 1;
+  string tag = 3;
+  string title = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KExtInfoCommon$KExtTagStyle$EXT_TAG_STYLE_PURE_TEXT$1 {
+}

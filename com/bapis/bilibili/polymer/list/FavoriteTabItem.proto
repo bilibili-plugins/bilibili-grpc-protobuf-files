@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.list;
+
+message FavoriteTabItem {
+  string name = 1;
+  string type = 3;
+  string uri = 2;
+}

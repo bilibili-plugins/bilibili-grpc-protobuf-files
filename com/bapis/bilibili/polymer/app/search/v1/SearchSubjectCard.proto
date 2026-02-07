@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchSubjectCard {
+  repeated Data badges = 9;
+  WatchButton button = 13;
+  CardLayout cardLayout = 12;
+  string cover = 3;
+  string desc = 4;
+  Feedback feedback = 11;
+  string hotText = 5;
+  int64 id = 1;
+  repeated Data items = 10;
+  string moreText = 6;
+  string moreUrl = 7;
+  string title = 2;
+  string topicType = 8;
+}

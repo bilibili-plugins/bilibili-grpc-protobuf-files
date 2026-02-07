@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ProtectedStaticResource {
+  bool isAlreadySigned = 2;
+  string resUrl = 1;
+  string signParam = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message MainRedDotReply {
+  int64 mid = 1;
+  int64 reddot = 2;
+}

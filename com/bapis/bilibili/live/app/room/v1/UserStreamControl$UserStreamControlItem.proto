@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message UserStreamControl$UserStreamControlItem {
+  int32 muteLocalMode = 1;
+  repeated Data muteRemoteUids = 2;
+  repeated Data receiveUids = 3;
+  int64 version = 4;
+}

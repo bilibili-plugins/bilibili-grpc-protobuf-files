@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message PayWallOnshowAction {
+  int32 actionType = 3;
+  string link = 1;
+  MapFieldLite orderReportParams = 2;
+}

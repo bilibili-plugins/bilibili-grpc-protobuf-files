@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynArticle {
+  repeated Data covers = 5;
+  string desc = 4;
+  int64 id = 1;
+  string label = 6;
+  int32 templateID = 7;
+  string title = 3;
+  string uri = 2;
+}

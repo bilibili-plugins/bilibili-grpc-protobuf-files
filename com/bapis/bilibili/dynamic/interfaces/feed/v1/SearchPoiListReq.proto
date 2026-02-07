@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message SearchPoiListReq {
+  string keyword = 5;
+  double lat = 1;
+  double lng = 2;
+  int32 pageSize = 4;
+  int32 page = 3;
+}

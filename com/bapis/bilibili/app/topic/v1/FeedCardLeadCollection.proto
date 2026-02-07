@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message FeedCardLeadCollection {
+  string buttonText = 2;
+  string icon = 3;
+  string pressedButtonText = 4;
+  string title = 1;
+}

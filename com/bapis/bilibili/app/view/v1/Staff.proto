@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Staff {
+  int32 attention = 7;
+  string face = 3;
+  int32 labelStyle = 8;
+  int64 mid = 1;
+  NameRender nameRender = 9;
+  string name = 4;
+  OfficialVerify officialVerify = 5;
+  string title = 2;
+  Vip vip = 6;
+}

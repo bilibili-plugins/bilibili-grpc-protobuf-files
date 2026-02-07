@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message ChatHistoryItem {
+  DeepSearchResponse content = 2;
+  int32 likeType = 3;
+  string query = 1;
+}

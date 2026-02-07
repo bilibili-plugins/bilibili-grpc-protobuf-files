@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.creative_tool.editor.v2;
+
+message FeatureVtuberExt {
+  repeated Data action = 2;
+  repeated Data combine = 3;
+  repeated Data exp = 1;
+}

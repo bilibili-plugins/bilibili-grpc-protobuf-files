@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ShareConfig {
+  string subTitle = 2;
+  string targetUrl = 1;
+}

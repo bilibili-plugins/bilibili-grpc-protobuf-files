@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MedialistUpInfo {
+  string avatar = 2;
+  int64 fans = 3;
+  int64 mid = 1;
+  string name = 4;
+}

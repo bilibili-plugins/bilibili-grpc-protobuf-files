@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message PanelMeta {
+  repeated Data functionalButtons = 4;
+  int32 panelType = 1;
+  string shareId = 3;
+  string shareOrigin = 2;
+}

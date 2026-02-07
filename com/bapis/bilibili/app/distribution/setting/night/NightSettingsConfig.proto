@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.night;
+
+message NightSettingsConfig {
+  BoolValue isNightFollowSystem = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RcmdArchive {
+  int64 aid = 7;
+  IconBadge badge = 8;
+  string cover = 2;
+  string desc = 13;
+  bool isPgc = 6;
+  RcmdReason rcmdReason = 15;
+  string title = 1;
+  string trackId = 14;
+  string uri = 5;
+}

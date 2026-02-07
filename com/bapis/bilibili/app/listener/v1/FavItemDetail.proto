@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavItemDetail {
+  string cover = 4;
+  int64 duration = 6;
+  FavItem item = 1;
+  string message = 8;
+  string name = 5;
+  FavItemAuthor owner = 2;
+  int32 parts = 9;
+  FavItemStat stat = 3;
+  int32 state = 7;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message CosmoMeta {
+  int64 appId = 19;
+  string build = 2;
+  string buvid3 = 18;
+  string buvid = 4;
+  int32 coldStart = 16;
+  string device = 5;
+  string fromSpmid = 13;
+  string from = 17;
+  string ip = 8;
+  string mobiApp = 3;
+  int32 network = 7;
+  string platform = 1;
+  string port = 9;
+  string refer = 11;
+  string spmid = 12;
+  int32 teenagerMode = 15;
+  string traceId = 14;
+  string ua = 10;
+  string version = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message CourseCoach {
+  string detailUrl = 1;
+  string directoryUrl = 2;
+}

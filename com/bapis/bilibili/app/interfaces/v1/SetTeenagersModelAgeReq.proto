@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SetTeenagersModelAgeReq {
+  int32 age = 4;
+  string deviceToken = 3;
+  bool isDynamic = 5;
+  int32 pwdFrom = 2;
+  string pwd = 1;
+}

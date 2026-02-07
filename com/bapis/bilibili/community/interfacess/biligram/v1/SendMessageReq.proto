@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message SendMessageReq {
+  MapFieldLite atNameToMid = 3;
+  string message = 2;
+  repeated Data picture = 4;
+  int64 topicId = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message KCustomerInterfaceMoss$customerUpdateAck$$inlined$suspendCall$2 {
+}

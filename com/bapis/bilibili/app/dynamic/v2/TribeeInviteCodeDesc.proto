@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeInviteCodeDesc {
+  LightDarkIcon inviteCodeUsedIcon = 4;
+  string inviteCode = 1;
+  TribeeInviteCodeShareConfig shareConfig = 5;
+  string statText = 3;
+  int32 status = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast$WealthInfo {
+  int64 level = 1;
+}

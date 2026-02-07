@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message PlayerDanmakuDomainV2 {
+  int32 value = 1;
+}

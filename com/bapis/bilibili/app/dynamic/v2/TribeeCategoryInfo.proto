@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeCategoryInfo {
+  repeated Data categoryList = 1;
+  int64 currentCategoryId = 2;
+}

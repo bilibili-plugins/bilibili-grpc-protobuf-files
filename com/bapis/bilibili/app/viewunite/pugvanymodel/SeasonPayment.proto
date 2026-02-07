@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonPayment {
+  string discountPriceDesc = 3;
+  string discountPrice = 2;
+  string originalPriceDesc = 5;
+  string originalPrice = 4;
+  string priceUnit = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusInfo {
+  int64 campusId = 1;
+  string campusName = 2;
+  string desc = 3;
+  int64 online = 4;
+  string url = 5;
+}

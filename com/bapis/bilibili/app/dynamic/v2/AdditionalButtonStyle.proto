@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionalButtonStyle {
+  int32 bgStyle = 4;
+  int32 disable = 6;
+  string icon = 1;
+  AdditionalButtonInteractive interactive = 3;
+  AdditionalButtonShare share = 7;
+  string text = 2;
+  string toast = 5;
+}

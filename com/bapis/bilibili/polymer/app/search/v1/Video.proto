@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Video {
+  string bvid = 1;
+  int64 cid = 2;
+  bool isHotLabel = 4;
+  int32 pageCount = 6;
+  int32 page = 5;
+  string shareSubtitle = 3;
+  string shortLink = 7;
+}

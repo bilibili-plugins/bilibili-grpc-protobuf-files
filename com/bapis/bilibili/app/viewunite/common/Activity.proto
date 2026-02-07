@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Activity {
+  string ab = 6;
+  string cover = 4;
+  string h5Link = 10;
+  int32 id = 1;
+  repeated Data items = 12;
+  string jumpMode = 11;
+  string link = 3;
+  string picurlSelected = 9;
+  string picurl = 8;
+  string showName = 7;
+  string title = 2;
+  int32 type = 5;
+}

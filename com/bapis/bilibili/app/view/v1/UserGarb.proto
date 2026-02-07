@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message UserGarb {
+  string likeToast = 2;
+  string urlImageAniCut = 1;
+}

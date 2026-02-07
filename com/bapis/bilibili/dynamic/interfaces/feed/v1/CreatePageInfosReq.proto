@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreatePageInfosReq {
+  int64 commercialEntityId = 3;
+  int64 commercialEntityType = 2;
+  repeated Data goods = 5;
+  int32 scene = 4;
+  int64 topicId = 1;
+}

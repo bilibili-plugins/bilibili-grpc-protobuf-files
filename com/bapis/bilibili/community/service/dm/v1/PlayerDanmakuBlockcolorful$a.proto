@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message PlayerDanmakuBlockcolorful$a {
+}

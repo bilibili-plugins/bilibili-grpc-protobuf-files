@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOgvChannelCard {
+  string area = 5;
+  string badge = 7;
+  repeated Data badgesV2 = 11;
+  WatchButton bikanDegree = 18;
+  CardLayout cardLayout = 15;
+  string cover = 2;
+  string desc = 10;
+  int64 mediaId = 3;
+  PurchaseButton purchaseButton = 13;
+  double rating = 9;
+  Share share = 17;
+  string staff = 6;
+  ReasonStyle styleLabel = 14;
+  int32 style = 19;
+  string stylesV2 = 12;
+  string styles = 4;
+  repeated Data threePoint = 16;
+  string title = 1;
+  WatchButton watchButton = 8;
+}

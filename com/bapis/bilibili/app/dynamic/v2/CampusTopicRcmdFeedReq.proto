@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusTopicRcmdFeedReq {
+  int64 campusId = 1;
+  int32 fromType = 5;
+  int32 localTime = 4;
+  string offset = 2;
+  PlayerArgs playerArgs = 3;
+}

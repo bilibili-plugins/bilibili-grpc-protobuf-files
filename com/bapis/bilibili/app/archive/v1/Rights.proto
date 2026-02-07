@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.archive.v1;
+
+message Rights {
+  int32 arcPay = 13;
+  int32 autoplay = 8;
+  int32 bp = 1;
+  int32 download = 3;
+  int32 elec = 2;
+  int32 hd5 = 6;
+  int32 isCooperation = 10;
+  int32 movie = 4;
+  int32 noBackground = 12;
+  int32 noReprint = 7;
+  int32 payFreeWatch = 14;
+  int32 pay = 5;
+  int32 ugcPayPreview = 11;
+  int32 ugcPay = 9;
+}

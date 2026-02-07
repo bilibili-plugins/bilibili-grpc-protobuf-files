@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.effect;
+
+message FileConfItem {
+  int64 mp4Crc32 = 4;
+  int64 mp4FileSize = 5;
+  string mp4Json = 3;
+  string mp4Md5 = 2;
+  string mp4 = 1;
+}

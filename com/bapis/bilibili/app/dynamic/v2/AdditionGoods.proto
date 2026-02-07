@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionGoods {
+  string adMarkIcon = 9;
+  string appName = 8;
+  string cardType = 3;
+  repeated Data goodsItems = 2;
+  string icon = 4;
+  int32 jumpType = 7;
+  string rcmdDesc = 1;
+  int32 sourceType = 6;
+  string uri = 5;
+}

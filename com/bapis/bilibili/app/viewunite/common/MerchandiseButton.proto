@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message MerchandiseButton {
+  string butDayColor = 2;
+  string butNightColor = 3;
+  string butTitle = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KContentVideoCard$KStatInfoType$STAT_INFO_NONE {
+}

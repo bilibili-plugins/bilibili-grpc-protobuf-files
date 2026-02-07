@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShowMoreLaunchedActivity {
+  string buttonText = 1;
+  string jumpUrl = 2;
+}

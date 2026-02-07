@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Relate {
+  int64 aid = 1;
+  Author author = 4;
+  ReasonStyle badgeStyle = 38;
+  string badge = 16;
+  Button button = 23;
+  int64 cid = 17;
+  CM cm = 28;
+  string coverGif = 27;
+  string cover = 37;
+  string desc = 14;
+  Dimension dimension = 36;
+  string dislikeReportData = 41;
+  int64 duration = 6;
+  string firstFrame = 43;
+  string fromSourceId = 35;
+  int64 fromSourceType = 34;
+  string from = 13;
+  string gameRecommendReason = 44;
+  string goto = 7;
+  string jumpUrl = 10;
+  LiveInfo liveInfo = 46;
+  int64 materialId = 33;
+  int32 newCard = 25;
+  Notice notice = 22;
+  PackInfo packInfo = 21;
+  string param = 8;
+  string pic = 2;
+  PowerIconStyle powerIconStyle = 39;
+  RankInfo rankInfoGame = 42;
+  int32 ratingCount = 19;
+  double rating = 11;
+  string rcmdReasonExtra = 30;
+  ReasonStyle rcmdReasonStyle = 26;
+  string rcmdReason = 15;
+  RecThreePoint recThreePoint = 31;
+  string reportFlowData = 48;
+  string reserveStatusText = 40;
+  int64 reserveStatus = 29;
+  string reserve = 12;
+  int32 seasonType = 18;
+  ArchiveStat statV2 = 47;
+  Stat stat = 5;
+  string tagName = 20;
+  string title = 3;
+  string trackid = 24;
+  string uniqueId = 32;
+  string uri = 9;
+  WikiInfo wikiInfoGame = 45;
+}

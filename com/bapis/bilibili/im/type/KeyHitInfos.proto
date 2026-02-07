@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message KeyHitInfos {
+  repeated Data highText = 3;
+  int32 ruleId = 2;
+  string toast = 1;
+}

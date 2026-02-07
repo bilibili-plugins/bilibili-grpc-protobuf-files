@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message HomePopupReq {
+  bool coldStart = 1;
+  RatingGuidePopupParams rgpp = 3;
+  RemindUsePCClientPopupParams rupcp = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.campus.v1;
+
+message d$e {
+}

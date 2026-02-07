@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.privacy;
+
+message PrivacySettingsConfig {
+  BoolValue adRecommandStore = 1;
+  BoolValue sensorAccess = 2;
+}

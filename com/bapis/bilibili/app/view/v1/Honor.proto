@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Honor {
+  string bgColorNight = 8;
+  string bgColor = 7;
+  string category = 11;
+  string iconNight = 2;
+  string icon = 1;
+  string textColorNight = 6;
+  string textColor = 5;
+  string textExtra = 4;
+  string text = 3;
+  string urlText = 10;
+  string url = 9;
+}

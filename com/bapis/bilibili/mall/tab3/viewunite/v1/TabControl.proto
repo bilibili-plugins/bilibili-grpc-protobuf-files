@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message TabControl {
+  string disableClickTip = 3;
+  bool disable = 2;
+  bool limit = 1;
+}

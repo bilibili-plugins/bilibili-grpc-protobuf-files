@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavFolder {
+  int32 attr = 8;
+  int32 count = 7;
+  string cover = 5;
+  int64 ctime = 11;
+  string desc = 6;
+  int32 favState = 18;
+  int32 favored = 10;
+  int64 fid = 1;
+  int32 folderType = 2;
+  int64 mtime = 12;
+  string name = 4;
+  FavFolderAuthor owner = 3;
+  int32 statFavCnt = 13;
+  int32 statLikeCnt = 15;
+  int32 statPlayCnt = 16;
+  int32 statReplyCnt = 17;
+  int32 statShareCnt = 14;
+  int32 state = 9;
+  bool useViewVt = 19;
+  string viewVtText = 20;
+}

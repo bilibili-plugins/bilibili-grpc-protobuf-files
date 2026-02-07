@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspRelationSync {
+  repeated Data friendList = 3;
+  int32 full = 1;
+  repeated Data groupList = 5;
+  repeated Data relationLogs = 2;
+  int64 serverRelationOplogSeqno = 4;
+}

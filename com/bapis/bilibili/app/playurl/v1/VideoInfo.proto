@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message VideoInfo {
+  repeated Data dashAudio = 6;
+  DolbyItem dolby = 7;
+  string format = 2;
+  LossLessItem lossLessItem = 9;
+  int64 mainTimelength = 10;
+  int32 quality = 1;
+  repeated Data streamList = 5;
+  int64 timelength = 3;
+  int32 videoCodecid = 4;
+  VolumeInfo volume = 8;
+}

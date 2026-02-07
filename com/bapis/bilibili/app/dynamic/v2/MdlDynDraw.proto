@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynDraw {
+  int64 id = 3;
+  bool isArticleCover = 6;
+  bool isBigCover = 5;
+  bool isDrawFirst = 4;
+  repeated Data items = 1;
+  bool unfoldAll = 7;
+  string uri = 2;
+}

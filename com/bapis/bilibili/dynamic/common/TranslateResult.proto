@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message TranslateResult {
+  int32 langMatchResult = 2;
+  int32 state = 1;
+}

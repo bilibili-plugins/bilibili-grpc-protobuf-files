@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message PatchInfo {
+  string md5 = 1;
+  int64 size = 3;
+  int64 sourceVersion = 4;
+  string url = 2;
+}

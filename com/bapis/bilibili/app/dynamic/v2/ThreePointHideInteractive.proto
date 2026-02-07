@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointHideInteractive {
+  string cancel = 3;
+  string confirm = 2;
+  string title = 1;
+  string toast = 4;
+}

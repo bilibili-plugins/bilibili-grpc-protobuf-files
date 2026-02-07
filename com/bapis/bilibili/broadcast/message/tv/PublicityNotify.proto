@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message PublicityNotify {
+  int64 publicityId = 1;
+  int64 roomId = 2;
+  int64 status = 3;
+}

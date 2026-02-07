@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message DefaultWordsReply {
+  int64 animationTimeMilli = 13;
+  int64 enableAnimation = 12;
+  int64 enableRefresh = 10;
+  string expStr = 6;
+  string goto = 7;
+  string param = 2;
+  int64 refreshIntervalMilli = 11;
+  int64 showFront = 5;
+  string show = 3;
+  string trackid = 1;
+  string uri = 9;
+  string value = 8;
+  string word = 4;
+}

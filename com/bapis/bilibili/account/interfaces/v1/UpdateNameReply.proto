@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message UpdateNameReply {
+  int64 code = 1;
+  string msg = 2;
+  repeated Data nameList = 3;
+  string name = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message TextWidget {
+  string bgColor = 4;
+  string code = 1;
+  string textColor = 3;
+  string text = 2;
+}

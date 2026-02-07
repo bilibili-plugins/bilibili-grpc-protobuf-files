@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlaylistResp {
+  PlayItem lastPlay = 5;
+  int64 lastProgress = 6;
+  repeated Data list = 4;
+  PaginationReply paginationReply = 7;
+  bool reachEnd = 3;
+  bool reachStart = 2;
+  int32 total = 1;
+}

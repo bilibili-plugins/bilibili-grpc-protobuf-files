@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message OpusArticleDraftArg {
+  int64 articleId = 1;
+  string bannerUrl = 6;
+  int64 categoryId = 2;
+  string content = 4;
+  string coverBvid = 18;
+  string dynamicIntro = 11;
+  repeated Data imageUrls = 9;
+  int64 listId = 13;
+  int64 mediaId = 15;
+  Opus opus = 20;
+  repeated Data originImageUrls = 12;
+  int64 original = 17;
+  int64 privatePub = 19;
+  int64 reprint = 8;
+  int64 spoiler = 16;
+  string summary = 5;
+  repeated Data tags = 10;
+  int64 templateId = 7;
+  string title = 3;
+  int64 type = 14;
+}

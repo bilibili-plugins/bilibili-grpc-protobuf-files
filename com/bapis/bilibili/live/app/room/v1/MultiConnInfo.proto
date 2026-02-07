@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message MultiConnInfo {
+  int64 roomOwner = 2;
+  repeated Data scores = 1;
+  int64 showScore = 3;
+}

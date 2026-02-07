@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message Resource {
+  int32 bizKind = 1;
+  string url = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ExpConf {
+  int32 expEnable = 1;
+  repeated Data exps = 2;
+}

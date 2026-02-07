@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message RightTopLiveBadge {
+  LiveBadgeResource inLive = 2;
+  string liveStatsDesc = 3;
+  int32 liveStatus = 1;
+  bool showAnimation = 4;
+}

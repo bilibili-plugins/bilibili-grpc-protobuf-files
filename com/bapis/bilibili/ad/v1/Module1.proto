@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module1 {
+  string developerInputName = 3;
+  string gameIcon = 2;
+  string gameName = 1;
+  repeated Data tagList = 4;
+}

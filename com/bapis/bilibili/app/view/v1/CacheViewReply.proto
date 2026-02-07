@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message CacheViewReply {
+  Arc arc = 1;
+  string bvid = 10;
+  Dislike dislike = 8;
+  ElecRank elecRank = 6;
+  History history = 7;
+  Online online = 14;
+  OnwerExt ownerExt = 3;
+  repeated Data pages = 2;
+  PlayerIcon playerIcon = 9;
+  ReqUser reqUser = 4;
+  Season season = 5;
+  string shareSubtitle = 12;
+  string shortLink = 11;
+  TFPanelCustomized tfPanelCustomized = 13;
+}

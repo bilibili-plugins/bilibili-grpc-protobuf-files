@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message VideoGame {
+  string cardInfo = 6;
+  string cardLink = 4;
+  string cardTag = 5;
+  string desc = 3;
+  string image = 2;
+  string title = 1;
+}

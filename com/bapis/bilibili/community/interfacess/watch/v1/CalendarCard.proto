@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message CalendarCard {
+  int64 anchorTime = 3;
+  ArchiveCardInfo archiveCardInfo = 7;
+  string bizId = 2;
+  int32 bizType = 1;
+  int32 calendarCardType = 4;
+  LiveCardInfo liveCardInfo = 8;
+  OgvCardInfo ogvCardInfo = 10;
+  MapFieldLite report = 11;
+  ReserveCardInfo reserveCardInfo = 9;
+  ThreeMoreInfo threeMoreInfo = 6;
+  UpInfo upInfo = 5;
+}

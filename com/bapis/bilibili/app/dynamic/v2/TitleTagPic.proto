@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TitleTagPic {
+  string darkUrl = 3;
+  double height = 5;
+  string lightUrl = 2;
+  int32 type = 1;
+  double width = 4;
+}

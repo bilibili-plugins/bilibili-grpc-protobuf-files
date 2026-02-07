@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PickCardDetailResp {
+  int64 cardId = 1;
+  repeated Data modules = 3;
+  int64 pickId = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message Display {
+  string bgThemeLight = 1;
+  string bgThemeNight = 2;
+  string nftPoster = 3;
+  string nftRaw = 4;
+}

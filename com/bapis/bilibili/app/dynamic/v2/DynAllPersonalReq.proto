@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynAllPersonalReq {
+  AdParam adParam = 11;
+  string footprint = 7;
+  string from = 8;
+  int64 hostUid = 1;
+  int32 isPreload = 4;
+  int32 localTime = 6;
+  string offset = 2;
+  int32 page = 3;
+  string personalExtra = 10;
+  PlayerArgs playerArgs = 9;
+  PlayurlParam playurlParam = 5;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeData {
+  string bgColor = 8;
+  string bgImage = 6;
+  TribeeSteamHomeDataItem count = 5;
+  string syncTimeText = 7;
+  TribeeSteamHomeDataItem time = 4;
+  string titlePicUrl = 1;
+  string title = 2;
+  TribeeSteamHomeDataItem value = 3;
+}

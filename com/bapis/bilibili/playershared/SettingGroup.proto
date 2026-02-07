@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message SettingGroup {
+  int32 groupStyle = 3;
+  repeated Data items = 2;
+  string title = 1;
+}

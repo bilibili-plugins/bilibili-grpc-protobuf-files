@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1;
+
+message LayerGroup {
+  string groupId = 1;
+  MaskProperty groupMask = 3;
+  bool isCriticalGroup = 4;
+  repeated Data layers = 2;
+}

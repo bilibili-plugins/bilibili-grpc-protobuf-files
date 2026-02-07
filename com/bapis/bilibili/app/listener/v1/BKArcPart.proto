@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message BKArcPart {
+  int64 duration = 4;
+  int64 oid = 1;
+  int32 page = 5;
+  int64 subId = 2;
+  string title = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message SimpleActionReq {
+  int32 action = 2;
+  Entity entity = 1;
+  CosmoParaMeta meta = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CommentItem {
+  string actionType = 5;
+  string icon = 1;
+  string id = 6;
+  string title = 3;
+  int32 type = 4;
+  string url = 2;
+}

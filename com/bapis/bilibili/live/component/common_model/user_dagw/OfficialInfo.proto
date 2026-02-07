@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message OfficialInfo {
+  string desc = 3;
+  int64 role = 1;
+  string title = 2;
+  int64 type = 4;
+}

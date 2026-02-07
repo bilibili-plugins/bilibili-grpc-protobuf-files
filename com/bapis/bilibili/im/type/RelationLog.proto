@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message RelationLog {
+  FriendRelation friendRelation = 3;
+  GroupRelation groupRelation = 4;
+  int32 logType = 1;
+  int64 oplogSeqno = 2;
+}

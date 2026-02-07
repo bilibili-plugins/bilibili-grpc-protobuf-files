@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message LiveStatusNotify {
+  int64 cid = 3;
+  string msg = 2;
+  int64 status = 1;
+}

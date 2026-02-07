@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast$MedalInfo {
+  int64 anchorRoomid = 4;
+  string anchorUname = 3;
+  int64 guardLevel = 12;
+  int64 isLighted = 11;
+  int64 medalColorBorder = 10;
+  int64 medalColorEnd = 9;
+  int64 medalColorStart = 8;
+  int64 medalColor = 7;
+  int64 medalLevel = 5;
+  string medalName = 6;
+  string special = 2;
+  int64 targetId = 1;
+}

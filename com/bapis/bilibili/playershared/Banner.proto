@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Banner {
+  string halfImageLink = 3;
+  string imageLink = 2;
+  string jumpLink = 1;
+  Report report = 4;
+}

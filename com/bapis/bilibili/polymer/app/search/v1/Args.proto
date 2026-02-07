@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Args {
+  int64 aid = 9;
+  int32 online = 1;
+  int64 rid = 7;
+  string rname = 2;
+  int64 roomId = 3;
+  int64 tid = 8;
+  string tname = 4;
+  int64 upId = 5;
+  string upName = 6;
+}

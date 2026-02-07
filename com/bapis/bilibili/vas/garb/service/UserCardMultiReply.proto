@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.service;
+
+message UserCardMultiReply {
+  MapFieldLite cards = 1;
+}

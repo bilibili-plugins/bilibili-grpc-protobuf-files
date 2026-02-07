@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message PlayerGrade {
+  string avgGrade = 6;
+  string gradeUsersText = 5;
+  string hotRemark = 4;
+  string nickname = 1;
+  int64 playerId = 2;
+  string portrait = 3;
+  WatchButton watchButton = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message LeftCoverBadgeNewStyle {
+  int32 iconHeight = 4;
+  string iconNightUrl = 2;
+  string iconUrl = 1;
+  int32 iconWidth = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SunflowerParseReq {
+  bool onlyRgx = 2;
+  repeated Data rawTexts = 1;
+}

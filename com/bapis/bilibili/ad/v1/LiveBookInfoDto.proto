@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message LiveBookInfoDto {
+  AdCardCalenderInfo calenderInfo = 2;
+  int64 liveBookingId = 1;
+  int32 livePageType = 3;
+}

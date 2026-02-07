@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message ResultItem {
+  int32 archives = 16;
+  string area = 19;
+  repeated Data badges = 24;
+  double coverSize = 6;
+  string cover = 5;
+  int32 faceNftNew = 28;
+  int32 fans = 14;
+  string from = 1;
+  string goto = 9;
+  int32 isSeniorMember = 30;
+  int32 isSugStyleExp = 31;
+  string keyword = 3;
+  string label = 21;
+  int32 level = 15;
+  string liveLink = 27;
+  int64 mid = 13;
+  int64 moduleId = 26;
+  NftFaceIcon nftFaceIcon = 29;
+  OfficialVerify officialVerify = 11;
+  string param = 12;
+  int32 position = 4;
+  int32 postIcon = 38;
+  int32 preIcon = 37;
+  int64 ptime = 17;
+  double rating = 22;
+  string seasonTypeName = 18;
+  bool showLiveIcon = 32;
+  string style = 20;
+  string styles = 25;
+  string sugQueryTag = 36;
+  string sugRcmdReason = 39;
+  int64 sugRef1 = 34;
+  int64 sugRef = 33;
+  string sugSubType = 35;
+  string sugType = 7;
+  int32 termType = 8;
+  string title = 2;
+  string uri = 10;
+  int32 vote = 23;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MsgFeedFilter {
+  string name = 2;
+  int32 type = 1;
+}

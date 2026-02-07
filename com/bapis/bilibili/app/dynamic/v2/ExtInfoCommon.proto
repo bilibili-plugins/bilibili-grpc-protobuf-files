@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ExtInfoCommon {
+  string actionText = 7;
+  string actionUrl = 8;
+  string extendReportTag = 12;
+  string icon = 3;
+  bool isShowLight = 10;
+  int32 poiType = 4;
+  int64 rid = 9;
+  string subModule = 6;
+  int32 tagStyle = 11;
+  string title = 1;
+  TribeeExtInfo tribeeInfo = 13;
+  int32 type = 5;
+  string uri = 2;
+}

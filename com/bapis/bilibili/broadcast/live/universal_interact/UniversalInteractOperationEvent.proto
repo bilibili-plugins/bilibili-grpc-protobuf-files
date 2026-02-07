@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractOperationEvent {
+  int32 actionType = 9;
+  string bizLabel = 4;
+  string bizSessionId = 6;
+  int32 operationType = 7;
+  string operationUname = 10;
+  int64 operatorUid = 2;
+  bool ownSide = 16;
+  int64 peerUid = 11;
+  int64 rtcChannelId = 1;
+  int64 sourceUid = 13;
+  int64 source = 14;
+  int64 targetRoomId = 15;
+  int64 targetUid = 3;
+  string title = 8;
+  string traceId = 5;
+  int32 universalItemStatus = 12;
+}

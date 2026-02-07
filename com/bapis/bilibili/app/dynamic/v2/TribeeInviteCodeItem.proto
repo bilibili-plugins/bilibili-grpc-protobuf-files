@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeInviteCodeItem {
+  repeated Data inviteCodes = 4;
+  bool isFold = 6;
+  string jumpUrl = 7;
+  int64 showLength = 5;
+  string tribeeFaceUrl = 2;
+  int64 tribeeId = 1;
+  string tribeeTitle = 3;
+}

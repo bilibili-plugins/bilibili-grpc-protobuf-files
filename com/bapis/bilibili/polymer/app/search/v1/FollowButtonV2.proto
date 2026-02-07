@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message FollowButtonV2 {
+  string icon = 1;
+  string statusReport = 3;
+  MapFieldLite texts = 2;
+}

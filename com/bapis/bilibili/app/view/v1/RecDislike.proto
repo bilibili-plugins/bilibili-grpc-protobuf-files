@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RecDislike {
+  string closedPasteText = 5;
+  string closedSubTitle = 3;
+  string closedToast = 8;
+  repeated Data dislikeReason = 6;
+  string pasteText = 4;
+  string subTitle = 2;
+  string title = 1;
+  string toast = 7;
+}

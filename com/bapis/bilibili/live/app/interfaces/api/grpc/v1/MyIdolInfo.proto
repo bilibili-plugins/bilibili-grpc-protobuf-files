@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.interfaces.api.grpc.v1;
+
+message MyIdolInfo {
+  string face = 4;
+  string link = 6;
+  int64 roomId = 1;
+  string title = 5;
+  int64 uid = 2;
+  string uname = 3;
+}

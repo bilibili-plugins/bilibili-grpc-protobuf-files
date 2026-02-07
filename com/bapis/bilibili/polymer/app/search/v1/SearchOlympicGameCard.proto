@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOlympicGameCard {
+  string bgCover = 5;
+  CardLayout cardLayout = 11;
+  string cover = 2;
+  repeated Data extraLink = 6;
+  string inlineType = 7;
+  SearchInlineData liveRoomInline = 9;
+  MatchItem matchBottom = 10;
+  MatchItem matchTop = 4;
+  SportsMatchItem sportsMatchItem = 3;
+  string title = 1;
+  SearchInlineData ugcInline = 8;
+}

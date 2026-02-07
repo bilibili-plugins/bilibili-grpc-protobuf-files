@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KPromptBarStyle$PROMPT_BAR_STYLE_UNKNOWN$1 {
+}

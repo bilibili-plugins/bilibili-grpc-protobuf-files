@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Navigation {
+  NavigationButton button = 6;
+  repeated Data children = 2;
+  int64 id = 1;
+  repeated Data inlineChildren = 3;
+  string title = 4;
+  string uri = 5;
+}

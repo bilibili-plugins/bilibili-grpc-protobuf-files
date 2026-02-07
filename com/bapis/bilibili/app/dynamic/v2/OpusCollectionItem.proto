@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCollectionItem {
+  string collectionItemOid = 8;
+  string collectionItemType = 7;
+  bool isSelectedHighlight = 5;
+  int64 opusId = 1;
+  string prefixIcon = 6;
+  string pubTime = 3;
+  string title = 2;
+  string uri = 4;
+}

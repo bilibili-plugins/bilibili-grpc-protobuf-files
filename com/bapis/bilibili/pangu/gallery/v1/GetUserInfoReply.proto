@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message GetUserInfoReply {
+  string address = 3;
+  string avatarUrl = 4;
+  string helpUrl = 5;
+  int64 mid = 1;
+  string name = 2;
+}

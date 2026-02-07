@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Garb {
+  string cardFanColor = 6;
+  string cardImageWithFocus = 3;
+  string cardImage = 2;
+  bool cardIsFan = 7;
+  string cardJumpUrl = 4;
+  string cardNumber = 5;
+  MemberV2$Garb$FanNumColorFormat fanNumColorFormat = 9;
+  string fanNumPrefix = 8;
+  string pendantImage = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message PendantInfo {
+  int64 expire = 4;
+  string imageEnhanceFrame = 6;
+  string imageEnhance = 5;
+  string image = 3;
+  string name = 2;
+  int32 pid = 1;
+}

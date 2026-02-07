@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message RecentRes {
+  HalfWatchedVideo halfWatchedVideos = 3;
+  MineSelection mineSelection = 1;
+  RecentFav recentFav = 5;
+  RecentUsed recentUsed = 2;
+  ToView toView = 4;
+}

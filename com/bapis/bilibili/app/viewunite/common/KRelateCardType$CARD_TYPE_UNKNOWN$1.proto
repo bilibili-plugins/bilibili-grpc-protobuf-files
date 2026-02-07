@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message KRelateCardType$CARD_TYPE_UNKNOWN$1 {
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message LikeCustom {
+  int64 fullToHalfProgress = 2;
+  bool immediatelyUpgrade = 5;
+  LikeComment likeComment = 6;
+  bool likeSwitch = 1;
+  int64 nonFullProgress = 3;
+  int64 updateCount = 4;
+}

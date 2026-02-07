@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionUpdateReq {
+  int32 filterType = 3;
+  int32 pageType = 2;
+  SessionId sessionId = 1;
+}

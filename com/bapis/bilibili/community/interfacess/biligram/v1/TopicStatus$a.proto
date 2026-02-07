@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message TopicStatus$a {
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ActivityReserve {
+  ReserveButton button = 4;
+  StatInfo danmaku = 3;
+  string epCountDesc = 5;
+  string preTitle = 6;
+  string title = 1;
+  StatInfo vt = 2;
+}

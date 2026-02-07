@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ButtonMeta {
+  string buttonStatus = 3;
+  string icon = 1;
+  string text = 2;
+  string toast = 4;
+}

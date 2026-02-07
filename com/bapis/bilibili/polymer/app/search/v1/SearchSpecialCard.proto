@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchSpecialCard {
+  string badge = 5;
+  CardBusinessBadge cardBusinessBadge = 4;
+  CardLayout cardLayout = 10;
+  string cover = 2;
+  string desc = 6;
+  repeated Data newRecTagsV2 = 7;
+  repeated Data newRecTags = 3;
+  RcmdReason rcmdReason = 8;
+  ReserveInfo reserveInfo = 9;
+  string title = 1;
+}

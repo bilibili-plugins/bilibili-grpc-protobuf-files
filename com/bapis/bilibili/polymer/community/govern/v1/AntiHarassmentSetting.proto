@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.community.govern.v1;
+
+message AntiHarassmentSetting {
+  AntiHarassmentInfo atMe = 8;
+  int64 autoLimitExpireTime = 9;
+  bool autoLimit = 2;
+  AntiHarassmentInfo dm = 5;
+  AntiHarassmentInfo im = 3;
+  AntiHarassmentInfo likeMe = 7;
+  int64 mid = 1;
+  AntiHarassmentInfo replyMe = 6;
+  AntiHarassmentInfo reply = 4;
+}

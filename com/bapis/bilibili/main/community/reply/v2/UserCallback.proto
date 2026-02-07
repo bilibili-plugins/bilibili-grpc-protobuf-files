@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message UserCallback {
+  int32 action = 2;
+  int32 scene = 1;
+}

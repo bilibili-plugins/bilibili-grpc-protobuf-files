@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message FloorAdSearchReq {
+  string adExtra = 2;
+  int64 aid = 1;
+  string fromSpmid = 4;
+  string spmid = 3;
+}

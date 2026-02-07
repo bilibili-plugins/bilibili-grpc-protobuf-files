@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message ModifyPwdReq {
+  string deviceToken = 3;
+  string newPwd = 2;
+  string oldPwd = 1;
+}

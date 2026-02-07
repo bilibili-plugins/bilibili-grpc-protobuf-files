@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.vote.v1;
+
+message NewDoVoteRsp {
+  int32 type = 2;
+  int64 uid = 1;
+  VoteInfo voteInfo = 3;
+}

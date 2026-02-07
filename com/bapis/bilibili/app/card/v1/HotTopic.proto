@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message HotTopic {
+  Base base = 1;
+  string desc = 2;
+  repeated Data items = 3;
+}

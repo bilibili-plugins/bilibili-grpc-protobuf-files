@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Season {
+  string allowDownload = 1;
+  string cover = 5;
+  int32 isFinish = 6;
+  int32 isJump = 3;
+  int64 newestEpId = 7;
+  string newestEpIndex = 8;
+  string ogvPlayurl = 13;
+  SeasonPlayer player = 12;
+  int64 seasonId = 2;
+  string title = 4;
+  int64 totalCount = 9;
+  UserSeason userSeason = 11;
+  int32 weekday = 10;
+}

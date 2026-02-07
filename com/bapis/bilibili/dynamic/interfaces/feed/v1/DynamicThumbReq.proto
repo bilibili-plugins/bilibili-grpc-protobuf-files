@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message DynamicThumbReq {
+  string actionId = 11;
+  string dynIdStr = 8;
+  int64 dynId = 2;
+  string fromSpmid = 10;
+  string from = 7;
+  int64 rid = 4;
+  int64 specType = 5;
+  string spmid = 9;
+  int64 type = 3;
+  int64 uid = 1;
+  int64 up = 6;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngDetailReply {
+  string bottomSubmitHintMsg = 3;
+  int64 campusId = 4;
+  string campusName = 5;
+  repeated Data items = 1;
+  string topHintBarMsg = 2;
+}

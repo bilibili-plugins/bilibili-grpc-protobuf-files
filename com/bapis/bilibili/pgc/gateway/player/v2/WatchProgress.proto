@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message WatchProgress {
+  int32 lastEpId = 1;
+  string lastEpIndex = 2;
+  int64 lastPlayAid = 7;
+  int64 lastPlayCid = 4;
+  int64 progress = 3;
+  Toast toastWithoutTime = 6;
+  Toast toast = 5;
+}

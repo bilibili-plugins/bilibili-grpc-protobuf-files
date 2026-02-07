@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message OldFan {
+  int32 isFollowDisplay = 1;
+  string wingPic = 2;
+}

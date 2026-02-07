@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicRcmdCard {
+  CampusLabel button = 4;
+  int64 topicId = 1;
+  string topicName = 2;
+  string updateDesc = 7;
+  string url = 3;
+}

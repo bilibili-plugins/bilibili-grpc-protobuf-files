@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Event {
+  QnTip qnTip = 2;
+  Shake shake = 1;
+}

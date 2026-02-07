@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PromptBar {
+  GradientColor bgGradientColor = 5;
+  string bgImage = 4;
+  repeated Data button = 6;
+  repeated Data cardOpenGift = 13;
+  int64 configType = 11;
+  int64 endTime = 14;
+  repeated Data fixedBenefits = 12;
+  GradientColor fullScreenBgGradientColor = 9;
+  string fullScreenIpIcon = 8;
+  int32 promptBarType = 10;
+  Report report = 7;
+  int32 showOnPaywall = 15;
+  string subTitleIcon = 3;
+  TextInfo subTitle = 2;
+  TextInfo title = 1;
+}

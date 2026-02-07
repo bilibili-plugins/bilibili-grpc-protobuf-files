@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionIndexReply {
+  repeated Data banner = 1;
+  repeated Data cards = 3;
+  bool hasNext = 2;
+  string title = 4;
+}

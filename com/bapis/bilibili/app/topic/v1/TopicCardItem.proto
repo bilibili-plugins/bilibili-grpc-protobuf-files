@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicCardItem {
+  DynamicItem dynamicItem = 2;
+  FeedCard feedCard = 5;
+  FoldCardItem fordCardItem = 3;
+  int32 type = 1;
+  VideoSmallCardItem videoSmallCardItem = 4;
+}

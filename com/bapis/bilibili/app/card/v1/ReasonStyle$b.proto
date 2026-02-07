@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ReasonStyle$b {
+}

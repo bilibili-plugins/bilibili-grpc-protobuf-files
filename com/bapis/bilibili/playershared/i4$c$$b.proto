@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message i4$c$$b {
+}

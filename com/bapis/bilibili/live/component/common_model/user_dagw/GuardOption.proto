@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message GuardOption {
+  int64 ruid = 1;
+  bool strongDepend = 3;
+  bool useLocalCache = 2;
+}

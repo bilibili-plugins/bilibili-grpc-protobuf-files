@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Extend {
+  string businessId = 2;
+  string cardUrl = 15;
+  TextParagraph descTextOpus = 26;
+  repeated Data desc = 7;
+  int32 desiredVisibilityStatus = 32;
+  string dynIdStr = 1;
+  int64 dynType = 13;
+  DynFeatureGate featureGate = 22;
+  MapFieldLite historyReport = 24;
+  bool isFastShare = 11;
+  bool isInAudit = 23;
+  bool isPreviewOnly = 27;
+  MangaProperty mangaProperty = 29;
+  OnlyFansProperty onlyFansProperty = 21;
+  ModuleOpusSummary opusSummary = 20;
+  repeated Data origDesc = 6;
+  string origDynIdStr = 3;
+  int32 origDynType = 8;
+  string origFace = 17;
+  string origImgUrl = 5;
+  string origName = 4;
+  int32 rType = 12;
+  ExtendReply reply = 18;
+  string reportMetricData = 25;
+  MapFieldLite report = 33;
+  RepostExtraInfo repostExtraInfo = 28;
+  string shareScene = 10;
+  string shareType = 9;
+  Any sourceContent = 16;
+  string trackId = 19;
+  int64 tribeeId = 34;
+  int64 uid = 14;
+  string upFace = 31;
+  string upName = 30;
+}

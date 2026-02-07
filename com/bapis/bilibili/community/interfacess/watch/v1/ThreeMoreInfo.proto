@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message ThreeMoreInfo {
+  repeated Data items = 1;
+}

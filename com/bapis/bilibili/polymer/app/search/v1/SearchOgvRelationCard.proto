@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOgvRelationCard {
+  CardLayout cardLayout = 10;
+  string cover = 2;
+  int32 isNewStyle = 7;
+  repeated Data items = 6;
+  int32 moreSearchType = 9;
+  string moreText = 4;
+  string moreUrl = 5;
+  OgvCardUI ogvCardUi = 8;
+  SaleInfo saleInfo = 11;
+  string specialBgColor = 3;
+  string title = 1;
+}

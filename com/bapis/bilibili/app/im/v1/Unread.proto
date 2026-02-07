@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message Unread {
+  string numberShow = 3;
+  int64 number = 2;
+  int32 style = 1;
+}

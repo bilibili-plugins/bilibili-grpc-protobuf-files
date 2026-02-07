@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmSegOttReply {
+  repeated Data elems = 1;
+  int32 state = 2;
+}

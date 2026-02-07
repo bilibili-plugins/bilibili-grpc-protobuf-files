@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyControl$VoteOption {
+  string desc = 2;
+  int64 idx = 3;
+  int32 labelKind = 1;
+  int64 voteId = 4;
+}

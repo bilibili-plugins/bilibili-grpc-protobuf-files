@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message DirectRatingGuide {
+  PopupButton cancelButton = 4;
+  PopupButton feedbackButton = 3;
+  PopupButton gotoButton = 2;
+  string title = 1;
+}

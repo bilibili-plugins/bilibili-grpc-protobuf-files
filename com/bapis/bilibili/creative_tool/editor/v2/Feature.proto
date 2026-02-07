@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.creative_tool.editor.v2;
+
+message Feature {
+  string ext = 2;
+  int32 flag = 1;
+}

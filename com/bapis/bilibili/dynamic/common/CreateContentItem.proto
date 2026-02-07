@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateContentItem {
+  string bizId = 3;
+  GoodsContent goods = 4;
+  string rawText = 1;
+  int32 type = 2;
+}

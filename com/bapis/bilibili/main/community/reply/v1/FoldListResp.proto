@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message FoldListResp {
+  FeedPaginationReply paginationReply = 2;
+  repeated Data replies = 1;
+  SubjectControl subjectControl = 4;
+  string title = 3;
+}

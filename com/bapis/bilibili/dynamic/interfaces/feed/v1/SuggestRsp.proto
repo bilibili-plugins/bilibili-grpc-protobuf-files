@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message SuggestRsp {
+  repeated Data list = 1;
+  string trackId = 2;
+  string version = 3;
+}

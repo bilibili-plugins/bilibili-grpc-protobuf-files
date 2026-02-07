@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.internaldevice;
+
+message InternalDeviceConfig {
+  Int64Value fts = 1;
+}

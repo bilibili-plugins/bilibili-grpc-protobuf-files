@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message DescV2 {
+  int64 rid = 4;
+  string text = 1;
+  int32 type = 2;
+  string uri = 3;
+}

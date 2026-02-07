@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateCourseCard {
+  BadgeInfo badgeInfo = 4;
+  int64 duration = 1;
+  BadgeInfo rcmdReason = 3;
+  bool showRcmdStyle = 6;
+  Stat stat = 2;
+  int32 style = 5;
+}

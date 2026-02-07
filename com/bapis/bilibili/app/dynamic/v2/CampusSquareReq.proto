@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusSquareReq {
+  int64 campusId = 1;
+  double lat = 2;
+  double lng = 3;
+}

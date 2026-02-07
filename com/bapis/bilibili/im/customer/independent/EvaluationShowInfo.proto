@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.independent;
+
+message EvaluationShowInfo {
+  int64 customerSessId = 7;
+  bool done = 8;
+  string editorInput = 9;
+  string feedback = 6;
+  int64 msgKey = 4;
+  bool show = 1;
+  repeated Data stepSelect = 3;
+  int32 type = 2;
+  bool up = 5;
+}

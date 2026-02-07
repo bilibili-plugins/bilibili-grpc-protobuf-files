@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.voice_room;
+
+message LiveBaseOperateEvent {
+  BattleInfo battleInfo = 15;
+  LiveMultiChatHatLevel hat = 12;
+  bool isPeiPei = 16;
+  string pkGroupId = 9;
+  string pkGroupTotalPriceText = 11;
+  int64 pkGroupTotalPrice = 10;
+  string pkID = 14;
+  string pkTotalPriceText = 8;
+  int64 pkTotalPrice = 7;
+  int64 posRoomId = 17;
+  int64 position = 4;
+  int64 roomId = 13;
+  string totalPriceText = 6;
+  int64 totalPrice = 2;
+  int64 ts = 3;
+  int64 uid = 1;
+  int64 version = 5;
+}

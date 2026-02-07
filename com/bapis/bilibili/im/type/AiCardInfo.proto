@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message AiCardInfo {
+  AILogo aiLogo = 6;
+  int64 aiStatus = 2;
+  int64 aiUid = 1;
+  string subtitle = 5;
+  string title = 4;
+  UInfo uInfo = 3;
+  int64 uid = 7;
+}

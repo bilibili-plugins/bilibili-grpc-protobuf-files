@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareVideoModule {
+  string coverImg = 2;
+  string title = 3;
+  VideoId videoId = 1;
+}

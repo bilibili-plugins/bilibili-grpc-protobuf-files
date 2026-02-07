@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ChatBubbleFrame {
+  int32 bubbleStyle = 5;
+  bool isOwner = 2;
+  repeated Data menuItems = 3;
+  repeated Data msgModules = 4;
+  TalkerInfo senderInfo = 1;
+  string url = 7;
+  ChatBubbleWidget widget = 6;
+}

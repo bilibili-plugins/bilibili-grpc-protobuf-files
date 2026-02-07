@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MedialistResp {
+  bool hasMore = 2;
+  repeated Data items = 4;
+  string offset = 3;
+  int64 total = 1;
+  MedialistUpInfo upInfo = 5;
+}

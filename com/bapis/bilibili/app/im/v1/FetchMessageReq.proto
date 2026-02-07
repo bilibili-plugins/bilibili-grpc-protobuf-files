@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message FetchMessageReq {
+  int64 beginSequenceNumber = 2;
+  int32 direction = 3;
+  SessionId id = 1;
+}

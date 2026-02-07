@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KGuideStyle$MSG_ATTACH_QR_CODE$1 {
+}

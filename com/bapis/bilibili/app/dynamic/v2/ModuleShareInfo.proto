@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleShareInfo {
+  string oid = 4;
+  repeated Data shareChannels = 2;
+  string shareOrigin = 3;
+  string sid = 5;
+  string title = 1;
+}

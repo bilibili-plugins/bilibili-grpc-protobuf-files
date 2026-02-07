@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message UpdateHandleReq {
+  string handle = 1;
+}

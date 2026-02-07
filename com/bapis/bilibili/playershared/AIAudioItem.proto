@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message AIAudioItem {
+  repeated Data audioInfo = 1;
+  string buttonTitle = 3;
+  string subtitleLang = 4;
+  string title = 2;
+}

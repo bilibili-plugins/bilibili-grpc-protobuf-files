@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayConfState {
+  int32 confType = 1;
+  ConfValue confValue = 4;
+  FieldValue fieldValue = 3;
+  bool show = 2;
+}

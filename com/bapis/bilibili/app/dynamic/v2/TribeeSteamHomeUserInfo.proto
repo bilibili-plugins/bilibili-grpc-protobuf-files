@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeUserInfo {
+  AvatarItem avatar = 1;
+  string faceUrl = 2;
+  bool isVip = 5;
+  string jumpUrl = 4;
+  string name = 3;
+}

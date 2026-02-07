@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message Color {
+  string darkColor = 2;
+  string lightColor = 1;
+}

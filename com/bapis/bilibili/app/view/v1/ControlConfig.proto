@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ControlConfig {
+  Control coinShow = 3;
+  Control danmuShow = 8;
+  Control dislikeShow = 2;
+  Control favShow = 4;
+  Control halfDanmuSend = 10;
+  Control likeShow = 1;
+  Control materialShow = 7;
+  Control remarkShow = 9;
+  Control shareShow = 5;
+  Control toastShow = 6;
+  Control upShow = 11;
+}

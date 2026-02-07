@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message InlineThreePointPanel {
+  repeated Data functionalButtons = 4;
+  int32 panelType = 1;
+  string shareId = 2;
+  string shareOrigin = 3;
+}

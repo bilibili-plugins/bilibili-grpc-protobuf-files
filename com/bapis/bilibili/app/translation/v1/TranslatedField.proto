@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.translation.v1;
+
+message TranslatedField {
+  string field = 1;
+  bool isTranslated = 4;
+  string originalText = 2;
+  string translatedLang = 5;
+  string translatedRegion = 6;
+  string translatedScript = 7;
+  string translatedText = 3;
+}

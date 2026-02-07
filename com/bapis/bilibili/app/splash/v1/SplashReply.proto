@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.splash.v1;
+
+message SplashReply {
+  repeated Data list = 4;
+  int32 maxTime = 1;
+  int32 minInterval = 2;
+  int32 pullInterval = 3;
+  repeated Data show = 5;
+}

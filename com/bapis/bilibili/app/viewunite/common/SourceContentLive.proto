@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message SourceContentLive {
+  int64 liveStatus = 2;
+  int64 roomId = 1;
+  StatInfo statInfo = 3;
+  string upName = 4;
+}

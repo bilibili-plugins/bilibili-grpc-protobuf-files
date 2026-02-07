@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message OperationCard {
+  string buttonText = 5;
+  string content = 7;
+  int32 endTime = 2;
+  string icon = 3;
+  int32 startTime = 1;
+  string title = 4;
+  string url = 6;
+}

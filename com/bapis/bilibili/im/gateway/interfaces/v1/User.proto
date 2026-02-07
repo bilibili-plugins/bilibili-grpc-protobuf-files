@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message User {
+  string avatar = 3;
+  bool guest = 5;
+  string link = 4;
+  int64 mid = 1;
+  string nickname = 2;
+}

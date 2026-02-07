@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message StoryEntrance {
+  bool arcLandscapeStory = 3;
+  bool arcPlayStory = 1;
+  string landscapeIcon = 4;
+  bool playStory = 5;
+  string storyIcon = 2;
+}

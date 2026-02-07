@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message PediaCover {
+  int32 coverHeight = 5;
+  string coverNightUrl = 3;
+  string coverSunUrl = 2;
+  int64 coverType = 1;
+  int32 coverWidth = 4;
+}

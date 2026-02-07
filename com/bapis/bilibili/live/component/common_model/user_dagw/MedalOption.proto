@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message MedalOption {
+  bool needGroup = 5;
+  bool needGuard = 3;
+  int64 ruid = 2;
+  bool strongDepend = 4;
+  int32 typ = 1;
+}

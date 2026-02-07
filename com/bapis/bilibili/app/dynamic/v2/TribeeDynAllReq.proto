@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeDynAllReq {
+  int64 categoryId = 4;
+  Pagination page = 3;
+  int32 refreshType = 2;
+  int32 sortType = 5;
+  int64 tribeeId = 1;
+}

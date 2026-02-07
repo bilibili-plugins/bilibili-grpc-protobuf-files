@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.cheese.gateway.player.v1;
+
+message PlayViewReply {
+  PlayViewBusinessInfo business = 3;
+  PlayAbilityConf playConf = 2;
+  RiskControl riskControl = 4;
+  VideoInfo videoInfo = 1;
+}

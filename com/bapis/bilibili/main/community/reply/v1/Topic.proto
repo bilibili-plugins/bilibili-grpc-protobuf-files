@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Topic {
+  int64 id = 2;
+  string link = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message KingPos {
+  string checkedToast = 5;
+  string disableToast = 4;
+  bool disable = 1;
+  string icon = 2;
+  int32 type = 3;
+}

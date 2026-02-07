@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ClickBubble {
+  string bizId = 6;
+  int32 bubbleType = 5;
+  string button = 2;
+  string icon = 3;
+  string text = 1;
+  string url = 4;
+}

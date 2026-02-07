@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionVote2 {
+  int32 additionVoteType = 1;
+  string badge = 23;
+  int32 bizType = 13;
+  string cardType = 15;
+  int32 choiceCnt = 19;
+  string closeText = 7;
+  int64 deadline = 5;
+  bool defauleSelectShare = 20;
+  bool isVoted = 18;
+  string label = 4;
+  OnlyFansVoteProperty onlyFansVote = 21;
+  string openText = 6;
+  int32 state = 9;
+  string tips = 16;
+  string title = 3;
+  int64 total = 14;
+  string uri = 17;
+  int64 voteId = 2;
+  int64 voteOwnerMid = 22;
+  string votedText = 8;
+}

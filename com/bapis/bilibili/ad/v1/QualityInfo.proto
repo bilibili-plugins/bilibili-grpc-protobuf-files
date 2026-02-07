@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message QualityInfo {
+  string bgColorNight = 5;
+  string bgColor = 4;
+  int32 bgStyle = 10;
+  string borderColorNight = 12;
+  string borderColor = 11;
+  string iconNight = 9;
+  string icon = 1;
+  bool isBg = 3;
+  string textColorNight = 7;
+  string textColor = 6;
+  string text = 2;
+  repeated Data userFaces = 8;
+}

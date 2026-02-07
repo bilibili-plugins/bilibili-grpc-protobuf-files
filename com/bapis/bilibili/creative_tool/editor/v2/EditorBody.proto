@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.creative_tool.editor.v2;
+
+message EditorBody {
+  repeated Data features = 3;
+  repeated Data materials = 2;
+  Metadata metadata = 4;
+  int32 version = 1;
+}

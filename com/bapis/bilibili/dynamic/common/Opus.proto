@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Opus {
+  Article article = 9;
+  OpusAttachments attachments = 12;
+  OpusContent content = 6;
+  int64 coverAvid = 4;
+  string h5Content = 5;
+  int64 musicId = 11;
+  int64 opusId = 1;
+  int32 opusSource = 2;
+  PubInfo pubInfo = 8;
+  repeated Data tags = 7;
+  string title = 3;
+  TranslateResult translateResult = 13;
+  string translatedTitle = 14;
+  Version version = 10;
+}

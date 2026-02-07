@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.gateway.v1;
+
+message GetActProgressReply {
+  NativePageEvent event = 1;
+}

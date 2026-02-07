@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateCommonAttachCard {
+  int64 bizId = 2;
+  int32 reserveLottery = 4;
+  int32 reserveSource = 3;
+  int32 type = 1;
+}

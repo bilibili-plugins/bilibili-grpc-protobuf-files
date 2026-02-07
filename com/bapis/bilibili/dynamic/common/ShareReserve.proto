@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareReserve {
+  string badgeText = 10;
+  string desc = 2;
+  string face = 7;
+  string name = 6;
+  ShareReservePoster poster = 8;
+  string qrCodeIcon = 3;
+  string qrCodeText = 4;
+  string qrCodeUrl = 5;
+  ShareReserveLottery reserveLottery = 9;
+  string title = 1;
+}

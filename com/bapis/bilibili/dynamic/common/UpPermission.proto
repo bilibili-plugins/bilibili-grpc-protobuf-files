@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message UpPermission {
+  repeated Data items = 1;
+  LaunchedActivity launchedActivity = 2;
+  OnlyFansPermission onlyFansPermission = 4;
+  ShareResult shareResult = 3;
+}

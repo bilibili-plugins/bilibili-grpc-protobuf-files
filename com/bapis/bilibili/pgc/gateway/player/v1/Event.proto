@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message Event {
+  Shake shake = 1;
+}

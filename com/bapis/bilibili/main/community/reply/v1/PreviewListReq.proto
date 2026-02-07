@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message PreviewListReq {
+  CursorReq cursor = 3;
+  int64 oid = 1;
+  int64 type = 2;
+}

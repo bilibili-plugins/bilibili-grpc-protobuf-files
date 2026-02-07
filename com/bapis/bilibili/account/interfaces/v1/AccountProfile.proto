@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message AccountProfile {
+  string birthday = 4;
+  string handle = 6;
+  int64 mid = 1;
+  string sex = 5;
+  string sign = 3;
+  string uname = 2;
+}

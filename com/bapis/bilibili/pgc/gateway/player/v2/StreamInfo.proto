@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message StreamInfo {
+  int64 attribute = 10;
+  int32 canWatchQnReason = 23;
+  string descriptionFoldImg = 20;
+  string descriptionImgSelected = 19;
+  string descriptionImg = 18;
+  string description = 3;
+  string displayDescImg = 17;
+  string displayDesc = 12;
+  int32 errCode = 4;
+  string format = 2;
+  bool intact = 8;
+  int32 limitWatchReason = 24;
+  StreamLimit limit = 5;
+  bool needLogin = 7;
+  bool needVip = 6;
+  string newDescription = 11;
+  bool noRexcode = 9;
+  int32 quality = 1;
+  MapFieldLite reportParams = 21;
+  Scheme scheme = 14;
+  string subtitle = 16;
+  string superscript = 13;
+  bool supportDrm = 15;
+  string switchToast = 22;
+}

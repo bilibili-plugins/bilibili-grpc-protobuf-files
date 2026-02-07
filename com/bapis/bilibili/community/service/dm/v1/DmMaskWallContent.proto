@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmMaskWallContent {
+  string content = 2;
+  int32 type = 1;
+}

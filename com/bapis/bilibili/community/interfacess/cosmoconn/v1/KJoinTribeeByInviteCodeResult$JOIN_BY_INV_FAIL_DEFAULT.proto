@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message KJoinTribeeByInviteCodeResult$JOIN_BY_INV_FAIL_DEFAULT {
+}

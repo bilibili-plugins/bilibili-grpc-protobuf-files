@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Celebrity {
+  string avatar = 4;
+  string characterAvatar = 7;
+  string desc = 6;
+  int32 id = 1;
+  int32 isFollow = 10;
+  string link = 8;
+  int64 mid = 9;
+  string name = 2;
+  string occupationName = 11;
+  int32 occupationType = 12;
+  OfficialVerify official = 16;
+  int32 relateAttr = 13;
+  MapFieldLite report = 15;
+  string role = 3;
+  string shortDesc = 5;
+  string smallAvatar = 14;
+}

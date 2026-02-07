@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message TopicInfo {
+  int64 isActivity = 3;
+  int64 topicId = 1;
+  string topicLink = 4;
+  string topicName = 2;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ContentVideoCard {
+  int64 avid = 1;
+  VideoBadge badge = 11;
+  string bvid = 4;
+  string cardType = 15;
+  int64 cid = 2;
+  string cover = 5;
+  string desc = 9;
+  Dimension dimension = 16;
+  int64 epid = 3;
+  bool isOnlyFans = 18;
+  string jumpUrl = 7;
+  int32 mediaType = 12;
+  string playIcon = 14;
+  int64 ssid = 17;
+  repeated Data statInfos = 10;
+  string title = 8;
+  string uri = 6;
+  VideoTs videoTs = 13;
+}

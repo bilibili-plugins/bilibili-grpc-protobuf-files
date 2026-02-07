@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message VideoSmallCardItem {
+  string coverLeftBadgeText = 2;
+  string serverInfo = 7;
+  VideoCardBase videoCardBase = 1;
+}

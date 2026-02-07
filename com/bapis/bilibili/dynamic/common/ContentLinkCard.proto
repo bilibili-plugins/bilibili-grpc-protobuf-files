@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ContentLinkCard {
+  ContentCardInfo cardInfo = 2;
+  int32 cardStyle = 1;
+}

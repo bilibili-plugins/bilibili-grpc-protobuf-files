@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message FragmentVideoMessage {
+  bool hasFragmentVideo = 1;
+}

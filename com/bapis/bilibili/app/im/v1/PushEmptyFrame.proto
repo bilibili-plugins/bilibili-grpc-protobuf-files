@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PushEmptyFrame {
+  repeated Data menuItems = 2;
+  repeated Data msgModules = 1;
+  string url = 3;
+}

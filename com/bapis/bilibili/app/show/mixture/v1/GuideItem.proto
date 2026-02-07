@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message GuideItem {
+  repeated Data card = 1;
+  string title = 2;
+}

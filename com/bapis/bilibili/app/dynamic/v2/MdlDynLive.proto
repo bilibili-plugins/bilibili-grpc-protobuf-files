@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynLive {
+  VideoBadge badge = 8;
+  string coverLabel2 = 6;
+  string coverLabel = 5;
+  string cover = 4;
+  int64 id = 1;
+  int32 liveState = 7;
+  int32 reserveType = 9;
+  string title = 3;
+  string uri = 2;
+}

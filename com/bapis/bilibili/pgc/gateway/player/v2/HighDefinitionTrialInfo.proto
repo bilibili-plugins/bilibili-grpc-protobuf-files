@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message HighDefinitionTrialInfo {
+  Toast endToast = 6;
+  ButtonInfo noLongerTrialBtn = 9;
+  ButtonInfo qualityOpenTipBtn = 8;
+  int32 remainingTimes = 2;
+  Report report = 7;
+  Toast startToast = 5;
+  int32 start = 3;
+  int32 timeLength = 4;
+  bool trialAble = 1;
+  int32 trialQualityType = 10;
+}

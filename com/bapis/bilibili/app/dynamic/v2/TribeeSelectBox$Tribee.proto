@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSelectBox$Tribee {
+  repeated Data categories = 5;
+  string desc = 4;
+  int64 id = 2;
+  string name = 1;
+  string picUrl = 3;
+}

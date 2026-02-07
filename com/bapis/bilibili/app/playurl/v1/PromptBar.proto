@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PromptBar {
+  string bgImage = 4;
+  repeated Data button = 5;
+  Report report = 6;
+  string subTitleIcon = 3;
+  TextInfo subTitle = 2;
+  TextInfo title = 1;
+}

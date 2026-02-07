@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TextNode {
+  int32 nodeType = 1;
+  string rawText = 2;
+}

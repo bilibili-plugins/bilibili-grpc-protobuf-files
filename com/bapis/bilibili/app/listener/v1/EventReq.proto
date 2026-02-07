@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message EventReq {
+  int32 eventType = 1;
+  PlayItem item = 2;
+}

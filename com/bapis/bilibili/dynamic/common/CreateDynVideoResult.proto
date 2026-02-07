@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateDynVideoResult {
+  int64 aid = 1;
+  string message = 2;
+  DynVideoPushIntro pushIntro = 4;
+  DynVideoSubmitActBanner submitactBanner = 3;
+}

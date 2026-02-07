@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchTips {
+  LinkUrl link = 2;
+  string tips = 1;
+}

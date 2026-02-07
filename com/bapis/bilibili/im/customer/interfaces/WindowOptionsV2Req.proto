@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message WindowOptionsV2Req {
+  int64 msgSource = 5;
+  int64 shopFatherId = 2;
+  int64 shopId = 3;
+  int64 situation = 4;
+}

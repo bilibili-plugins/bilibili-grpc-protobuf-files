@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqSingleUnread {
+  int32 showDustbin = 4;
+  int32 showUnfollowList = 2;
+  int64 uid = 3;
+  int32 unreadType = 1;
+}

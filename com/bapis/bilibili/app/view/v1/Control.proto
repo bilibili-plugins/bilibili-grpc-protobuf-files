@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Control {
+  string disableClickTip = 3;
+  bool disable = 2;
+  bool limit = 1;
+}

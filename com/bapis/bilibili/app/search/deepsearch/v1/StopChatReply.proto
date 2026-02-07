@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message StopChatReply {
+  int32 code = 1;
+  string queryId = 3;
+  string sessionId = 2;
+}

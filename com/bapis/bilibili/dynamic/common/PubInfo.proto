@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message PubInfo {
+  string editorVersion = 5;
+  int64 lastMtime = 3;
+  int64 pubTime = 2;
+  int64 timerPubTime = 4;
+  int64 uid = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message NavButton {
+  string icon = 1;
+  string url = 2;
+}

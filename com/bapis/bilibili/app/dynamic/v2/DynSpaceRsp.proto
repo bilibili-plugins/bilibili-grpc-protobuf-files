@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynSpaceRsp {
+  bool hasMore = 3;
+  string historyOffset = 2;
+  repeated Data list = 1;
+}

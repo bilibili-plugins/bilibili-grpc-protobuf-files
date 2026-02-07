@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message CloseConversationRsp {
+  string evaluationUrl = 1;
+}

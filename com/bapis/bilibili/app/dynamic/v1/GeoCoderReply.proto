@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message GeoCoderReply {
+  AdInfo adInfo = 3;
+  AddressComponent addressComponent = 2;
+  string address = 1;
+}

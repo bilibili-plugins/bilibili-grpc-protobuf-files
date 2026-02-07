@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Label {
+  int64 iconHeight = 6;
+  string iconNight = 4;
+  int64 iconWidth = 5;
+  string icon = 3;
+  string lottieNight = 8;
+  string lottie = 7;
+  int32 type = 1;
+  string uri = 2;
+}

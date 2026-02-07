@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply {
+  int64 count = 1;
+  SubjectDescriptionReply$EmoteConfig emote = 3;
+  EmptyPage emptyPage = 4;
+  GuideText filterGuideText = 11;
+  bool guestLimit = 10;
+  SubjectDescriptionReply$InputConfig input = 2;
+  repeated Data preloadResUrls = 6;
+  repeated Data preloadResources = 9;
+  repeated Data supportFilterTags = 5;
+  string upFilterLink = 12;
+  int64 upMid = 8;
+  repeated Data userCallbacks = 7;
+  string webUpFilterLink = 13;
+}

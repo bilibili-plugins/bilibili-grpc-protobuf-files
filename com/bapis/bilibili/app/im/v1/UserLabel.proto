@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message UserLabel {
+  UserLabelStyle style = 2;
+  int32 type = 1;
+}

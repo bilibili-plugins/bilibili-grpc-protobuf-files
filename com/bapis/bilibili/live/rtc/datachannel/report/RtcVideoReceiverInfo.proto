@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcVideoReceiverInfo {
+  int64 bytesReceived = 9;
+  string decoderImplementation = 2;
+  double estimatedPlayoutTimestamp = 3;
+  int32 firCount = 18;
+  int64 firstFrameCost = 30;
+  int32 frameHeight = 5;
+  int32 frameWidth = 4;
+  int32 framesDecoded = 6;
+  int32 framesDropped = 7;
+  double framesPerSecond = 37;
+  int32 framesReceived = 8;
+  int32 freezeCount = 25;
+  int64 freezeDuration = 34;
+  int64 freezeSamples = 33;
+  int64 headerBytesReceived = 10;
+  double jitterBufferDelay = 14;
+  int64 jitterBufferEmittedCount = 15;
+  double jitter = 13;
+  int32 keyFramesDecoded = 16;
+  double lastPacketReceivedTimestamp = 17;
+  bool mute = 32;
+  int32 nackCount = 19;
+  int64 packetsLost = 11;
+  int64 packetsReceived = 12;
+  int32 pauseCount = 26;
+  int32 pliCount = 20;
+  int64 qpSum = 21;
+  int32 ssrc = 1;
+  int32 streamId = 31;
+  double sumOfSquaredFramesDuration = 27;
+  double totalDecodeTime = 22;
+  double totalFreezesDuration = 28;
+  double totalInterFrameDelay = 23;
+  double totalPausesDuration = 29;
+  double totalSquaredInterFrameDelay = 24;
+  string trackId = 35;
+  int64 uid = 36;
+}

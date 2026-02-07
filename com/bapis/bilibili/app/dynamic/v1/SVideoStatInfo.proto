@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoStatInfo {
+  int32 icon = 1;
+  int64 num = 2;
+  int32 selected = 3;
+  string uri = 4;
+}

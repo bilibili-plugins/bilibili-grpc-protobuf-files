@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.vote.v1;
+
+message VoteBizInfo {
+  string bizExt = 3;
+  int64 bizId = 1;
+  int32 bizType = 2;
+}

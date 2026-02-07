@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1;
+
+message KLayerTagConfig$c$$b {
+}

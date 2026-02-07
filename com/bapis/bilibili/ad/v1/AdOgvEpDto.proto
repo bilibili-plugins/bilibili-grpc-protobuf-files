@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdOgvEpDto {
+  int64 epid = 1;
+  bool hasRecommend = 2;
+}

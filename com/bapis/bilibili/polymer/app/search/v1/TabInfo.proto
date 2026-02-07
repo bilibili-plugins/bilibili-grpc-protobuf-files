@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message TabInfo {
+  int32 sort = 3;
+  string tabName = 1;
+  string tabUrl = 2;
+}

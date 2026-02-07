@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message DescV2 {
+  bool needHighlight = 5;
+  MapFieldLite report = 6;
+  int64 rid = 4;
+  string text = 1;
+  int32 type = 2;
+  string uri = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message GoodsInfo {
+  int32 category = 2;
+  string goodsId = 1;
+  string goodsName = 5;
+  int64 goodsPrice = 3;
+  int32 payState = 4;
+  string priceFmt = 6;
+}

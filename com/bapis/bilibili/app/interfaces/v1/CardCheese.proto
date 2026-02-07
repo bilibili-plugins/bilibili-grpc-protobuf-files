@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CardCheese {
+  string cover = 1;
+  int64 duration = 3;
+  int64 progress = 2;
+  int64 seasonId = 6;
+  int64 state = 5;
+  string subtitle = 4;
+}

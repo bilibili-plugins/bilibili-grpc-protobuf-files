@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TipsFootCard {
+  string confirmTextJumpUrl = 3;
+  string confirmText = 2;
+  string title = 1;
+  ToastDialog toast = 4;
+}

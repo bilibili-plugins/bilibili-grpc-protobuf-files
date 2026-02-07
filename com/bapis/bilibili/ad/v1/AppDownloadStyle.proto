@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AppDownloadStyle {
+  int32 detailImgLayout = 6;
+  repeated Data detailImgs = 5;
+  string detailText = 7;
+  string guideText = 3;
+  repeated Data headImgs = 4;
+  int32 style = 1;
+  repeated Data tags = 2;
+}

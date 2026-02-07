@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message r$$d$$a {
+}

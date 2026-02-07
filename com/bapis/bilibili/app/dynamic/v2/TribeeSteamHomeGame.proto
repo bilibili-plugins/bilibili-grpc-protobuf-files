@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeGame {
+  int64 currentIdx = 3;
+  string footTips = 2;
+  repeated Data item = 1;
+}

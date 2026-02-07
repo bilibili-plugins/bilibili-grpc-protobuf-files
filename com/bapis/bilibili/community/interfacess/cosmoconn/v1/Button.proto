@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message Button {
+  bool disable = 1;
+  string jumpUrl = 4;
+  int32 opType = 2;
+  string text = 3;
+  TimeLimited timeLimit = 5;
+}

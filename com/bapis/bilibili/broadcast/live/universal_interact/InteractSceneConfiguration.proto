@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message InteractSceneConfiguration {
+  int64 interactMaxUsers = 3;
+  int32 interactMode = 1;
+  InteractSceneConfiguration$InteractTemplate interactTemplate = 2;
+}

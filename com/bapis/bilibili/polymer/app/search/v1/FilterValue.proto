@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message FilterValue {
+  string subModuleForNeuron = 2;
+  string value = 1;
+}

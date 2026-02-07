@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message VideoBadge {
+  int32 bgAlphaNight = 10;
+  int32 bgAlpha = 9;
+  string bgColorNight = 5;
+  string bgColor = 4;
+  int32 bgStyle = 8;
+  string borderColorNight = 7;
+  string borderColor = 6;
+  int32 headIconLocal = 12;
+  string headIcon = 11;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcLocalCandidate {
+  string address = 4;
+  string candidateType = 7;
+  string id = 1;
+  string ip = 3;
+  string networkType = 2;
+  int32 port = 5;
+  int64 priority = 8;
+  string protocol = 6;
+}

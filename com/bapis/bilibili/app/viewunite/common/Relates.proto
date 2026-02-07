@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Relates {
+  repeated Data cards = 1;
+  RelateConfig config = 2;
+  repeated Data tab = 3;
+}

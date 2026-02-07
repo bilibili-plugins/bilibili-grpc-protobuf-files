@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ImageLabel {
+  int32 height = 3;
+  string url = 1;
+  int32 width = 2;
+}

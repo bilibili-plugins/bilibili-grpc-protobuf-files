@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message PostPurchaseInfo {
+  int64 popUpInterval = 2;
+  string popUpPic = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message PreEvaluateReq {
+  int64 customSessionId = 5;
+  int64 machineSessionId = 6;
+  int64 msgKey = 4;
+  int64 shopFatherId = 2;
+  int64 shopId = 3;
+  int32 type = 1;
+}

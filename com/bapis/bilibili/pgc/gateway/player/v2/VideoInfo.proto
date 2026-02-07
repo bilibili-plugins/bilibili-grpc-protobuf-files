@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message VideoInfo {
+  repeated Data dashAudio = 6;
+  DolbyItem dolby = 7;
+  string format = 2;
+  int64 mainTimelength = 8;
+  QnPanel qnPanel = 9;
+  int32 quality = 1;
+  repeated Data streamList = 5;
+  int64 timelength = 3;
+  int32 videoCodecid = 4;
+}

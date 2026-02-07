@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message AtCard {
+  AtBiz atBiz = 2;
+  CommonMsgCard atMsg = 1;
+}

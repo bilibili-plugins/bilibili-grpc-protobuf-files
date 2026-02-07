@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message PopupBasicInfo {
+  PopupButton cancelButton = 5;
+  PopupButton confirmButton = 4;
+  string icon = 3;
+  string subtitle = 2;
+  string title = 1;
+}

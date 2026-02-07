@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvShoppingNoticeContent {
+  string content = 2;
+  bool isBold = 3;
+  string number = 1;
+}

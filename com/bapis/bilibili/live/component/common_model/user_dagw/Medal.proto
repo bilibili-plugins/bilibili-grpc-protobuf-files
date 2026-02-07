@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message Medal {
+  int64 colorBorder = 5;
+  int64 colorEnd = 4;
+  int64 colorStart = 3;
+  int64 color = 6;
+  string guardIcon = 13;
+  int64 guardLevel = 11;
+  string honorIcon = 14;
+  int64 id = 7;
+  int64 isLight = 9;
+  int64 level = 2;
+  string name = 1;
+  int64 ruid = 10;
+  int64 score = 12;
+  int32 typ = 8;
+  int64 userReceiveCount = 20;
+  string v2MedalColorBorder = 17;
+  string v2MedalColorEnd = 16;
+  string v2MedalColorLevel = 19;
+  string v2MedalColorStart = 15;
+  string v2MedalColorText = 18;
+}

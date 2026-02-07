@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DetailListReply {
+  Activity activity = 4;
+  CursorReply cursor = 1;
+  LikeInfo likes = 5;
+  repeated Data mixedCards = 11;
+  string modeText = 7;
+  int32 mode = 6;
+  FeedPaginationReply paginationReply = 8;
+  ReplyInfo root = 3;
+  string sessionId = 9;
+  SubjectControl subjectControl = 2;
+  repeated Data subjectTitle = 10;
+}

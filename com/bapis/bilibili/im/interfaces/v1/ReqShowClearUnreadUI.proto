@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqShowClearUnreadUI {
+  int32 showDustbin = 4;
+  int32 showUnfollowList = 2;
+  int32 unreadType = 1;
+}

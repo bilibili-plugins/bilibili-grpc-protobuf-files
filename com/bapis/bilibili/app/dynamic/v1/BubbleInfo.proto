@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message BubbleInfo {
+  string bubbleRecallExtraWhenShow = 3;
+  repeated Data modules = 1;
+  string trackId = 2;
+}

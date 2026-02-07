@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdverDto {
+  string adverDesc = 6;
+  int64 adverId = 1;
+  string adverLogo = 2;
+  string adverName = 3;
+  string adverPageUrl = 5;
+  int32 adverType = 4;
+}

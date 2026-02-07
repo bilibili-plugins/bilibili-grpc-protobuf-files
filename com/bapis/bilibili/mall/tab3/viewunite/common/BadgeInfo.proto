@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message BadgeInfo {
+  string bgColorNight = 5;
+  string bgColor = 4;
+  int32 bgStyle = 8;
+  string borderColorNight = 7;
+  string borderColor = 6;
+  string img = 9;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+  int32 type = 10;
+}

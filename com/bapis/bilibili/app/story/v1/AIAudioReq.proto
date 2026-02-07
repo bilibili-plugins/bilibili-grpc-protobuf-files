@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message AIAudioReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  int64 upMid = 3;
+}

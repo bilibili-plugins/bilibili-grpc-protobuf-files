@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.list;
+
+message CheckAccountReply {
+  bool isNew = 1;
+}

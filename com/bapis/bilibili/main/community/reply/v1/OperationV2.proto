@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message OperationV2 {
+  OperationV2$Icon icon = 3;
+  string link = 5;
+  string prefixText = 2;
+  string reportExtra = 6;
+  string title = 4;
+  int32 type = 1;
+}

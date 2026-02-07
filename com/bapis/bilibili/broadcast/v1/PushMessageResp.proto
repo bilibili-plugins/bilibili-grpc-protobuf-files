@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message PushMessageResp {
+  int32 bid = 28;
+  int32 biz = 2;
+  int32 displayType = 23;
+  int32 duration = 9;
+  int64 expire = 10;
+  string extra = 30;
+  bool hideArrow = 20;
+  int32 imageFrame = 15;
+  int32 imageMarker = 16;
+  int32 imagePosition = 17;
+  string img = 6;
+  int64 job = 18;
+  int32 level = 26;
+  string link = 7;
+  MapFieldLite metadata = 21;
+  string msgSource = 19;
+  int32 msgType = 31;
+  int64 oldTaskid = 1;
+  repeated Data pageView = 13;
+  int32 popType = 24;
+  int32 position = 8;
+  string pureImg = 22;
+  bool query = 27;
+  int32 reserve = 25;
+  string summary = 5;
+  TargetResource targetResource = 14;
+  string taskid = 11;
+  string title = 4;
+  int32 type = 3;
+}

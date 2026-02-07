@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Share {
+  H5Share h5 = 4;
+  OGVShare ogv = 3;
+  string type = 1;
+  Video video = 2;
+}

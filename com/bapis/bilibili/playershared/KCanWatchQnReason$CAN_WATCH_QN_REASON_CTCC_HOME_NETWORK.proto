@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KCanWatchQnReason$CAN_WATCH_QN_REASON_CTCC_HOME_NETWORK {
+}

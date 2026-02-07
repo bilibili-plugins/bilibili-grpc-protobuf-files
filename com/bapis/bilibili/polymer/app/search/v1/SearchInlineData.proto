@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchInlineData {
+  Args args = 5;
+  Avatar avatar = 23;
+  ReasonStyle badgeStyle = 36;
+  int32 canPlay = 4;
+  string cardGoto = 6;
+  string cardType = 7;
+  ReasonStyle coverBadgeStyle = 38;
+  string coverRightText = 24;
+  string cover = 8;
+  string desc = 25;
+  bool disableDanmaku = 34;
+  string extraUri = 14;
+  GotoIcon gotoIcon = 33;
+  string goto = 17;
+  bool hideDanmakuSwitch = 35;
+  InlineProgressBar inlineProgressBar = 26;
+  bool isAtten = 32;
+  bool isCoin = 16;
+  bool isFav = 15;
+  SearchLikeButtonItem likeButton = 27;
+  int32 officialIconV2 = 29;
+  int32 officialIcon = 28;
+  string param = 30;
+  PlayerArgs playerArgs = 3;
+  PlayerWidget playerWidget = 37;
+  string reportFlowData = 40;
+  RightTopLiveBadge rightTopLiveBadge = 39;
+  SharePlane sharePlane = 21;
+  Share share = 18;
+  InlineThreePointPanel threePointMeta = 22;
+  repeated Data threePointV2 = 20;
+  ThreePoint2 threePoint = 19;
+  string title = 2;
+  TrafficConfig trafficConfig = 31;
+  string translatedTitle = 41;
+  UpArgs upArgs = 13;
+  string uri = 1;
+}

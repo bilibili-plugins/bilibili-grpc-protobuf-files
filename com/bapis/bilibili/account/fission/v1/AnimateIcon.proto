@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.fission.v1;
+
+message AnimateIcon {
+  string icon = 1;
+  string json = 2;
+}

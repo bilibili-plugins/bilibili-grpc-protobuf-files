@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message NameplateInfo {
+  string condition = 6;
+  string imageSmall = 4;
+  string image = 3;
+  string level = 5;
+  string name = 2;
+  int32 nid = 1;
+}

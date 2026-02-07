@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ShareSessionInfo {
+  int32 officialType = 4;
+  string talkerIcon = 3;
+  int64 talkerId = 1;
+  string talkerUname = 2;
+}

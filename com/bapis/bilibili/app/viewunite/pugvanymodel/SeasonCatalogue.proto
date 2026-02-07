@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonCatalogue {
+  int64 endEpIndex = 4;
+  int64 index = 2;
+  int64 startEpIndex = 3;
+  string title = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MsgFeedMsgCard {
+  int64 msgId = 2;
+  MsgItem msgItem = 4;
+  int64 msgTime = 3;
+  int32 msgType = 1;
+}

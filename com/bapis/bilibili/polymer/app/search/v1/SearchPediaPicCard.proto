@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchPediaPicCard {
+  CardLayout cardLayout = 3;
+  int32 coverType = 5;
+  string cover = 1;
+  PediaCardUI pediaCardUi = 4;
+  repeated Data picNavigation = 2;
+}

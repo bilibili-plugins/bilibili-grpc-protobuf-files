@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pagination;
+
+message Pagination {
+  string next = 2;
+  int32 pageSize = 1;
+}

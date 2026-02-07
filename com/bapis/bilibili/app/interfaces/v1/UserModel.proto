@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message UserModel {
+  int32 age = 10;
+  bool isForced = 6;
+  bool isOverseas = 11;
+  bool isParentControl = 9;
+  int64 mid = 1;
+  string mode = 2;
+  bool mustRealName = 8;
+  bool mustTeen = 7;
+  Policy policy = 5;
+  int32 status = 4;
+  string wsxcde = 3;
+}

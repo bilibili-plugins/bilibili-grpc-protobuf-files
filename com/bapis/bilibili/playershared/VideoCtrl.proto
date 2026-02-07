@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message VideoCtrl {
+  AutoQnCtl autoQnCtl = 1;
+  repeated Data deviceEnhance = 4;
+  MapFieldLite qnCoverRules = 5;
+  QnExp qnExp = 2;
+  string qnFeature = 3;
+}

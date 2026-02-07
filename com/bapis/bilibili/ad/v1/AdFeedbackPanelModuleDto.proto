@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdFeedbackPanelModuleDto {
+  string iconUrl = 2;
+  int32 jumpType = 3;
+  string jumpUrl = 4;
+  int32 moduleId = 1;
+  repeated Data secondaryPanel = 6;
+  string subText = 7;
+  string text = 5;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicReserveButtonClickReq {
+  int32 curBtnStatus = 4;
+  int64 reserveId = 2;
+  int64 reserveTotal = 3;
+  int64 uid = 1;
+}

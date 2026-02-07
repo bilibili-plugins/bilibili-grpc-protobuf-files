@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message Dimension {
+  int32 height = 2;
+  int32 rotate = 3;
+  int32 width = 1;
+}

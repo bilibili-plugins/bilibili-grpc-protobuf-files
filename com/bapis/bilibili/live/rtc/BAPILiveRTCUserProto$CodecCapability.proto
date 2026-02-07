@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCUserProto$CodecCapability {
+  bool av1 = 1;
+  bool h265 = 2;
+  bool useColorSpace = 5;
+}

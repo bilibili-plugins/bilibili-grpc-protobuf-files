@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateBaseDraft {
+  int64 draftId = 1;
+  int32 version = 2;
+}

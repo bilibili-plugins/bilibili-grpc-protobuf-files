@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.locale;
+
+message Locale {
+  bool alwaysTranslate = 7;
+  LocaleIds cLocale = 1;
+  bool isDaylightTime = 6;
+  LocaleIds sLocale = 2;
+  string simCode = 3;
+  string timezone = 4;
+  string utcOffset = 5;
+}

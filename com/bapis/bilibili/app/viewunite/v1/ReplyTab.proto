@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ReplyTab {
+  TabControl control = 3;
+  ReplyStyle replyStyle = 1;
+  string title = 2;
+}

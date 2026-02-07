@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Activity {
+  int64 activityId = 1;
+  string activityPlaceholder = 3;
+  int64 activityState = 2;
+}

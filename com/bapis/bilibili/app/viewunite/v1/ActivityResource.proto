@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ActivityResource {
+  string bgColor = 3;
+  string darkTextColor = 1;
+  string dividerColor = 2;
+  string lightTextColor = 6;
+  string selectedBgColor = 4;
+  string textColor = 5;
+}

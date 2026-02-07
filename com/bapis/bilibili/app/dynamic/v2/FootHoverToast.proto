@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message FootHoverToast {
+  string confirmText = 5;
+  string jumpText = 6;
+  string jumpUrl = 7;
+  string picUrlDark = 4;
+  string picUrlLight = 3;
+  string subtitle = 2;
+  string title = 1;
+}

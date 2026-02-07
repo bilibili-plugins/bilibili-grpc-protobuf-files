@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OfficialVerify {
+  string desc = 2;
+  int32 isAtten = 3;
+  int32 type = 1;
+}

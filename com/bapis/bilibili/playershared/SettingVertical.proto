@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message SettingVertical {
+  Badge badge = 4;
+  int32 jumpType = 2;
+  bool needLogin = 3;
+  string url = 1;
+}

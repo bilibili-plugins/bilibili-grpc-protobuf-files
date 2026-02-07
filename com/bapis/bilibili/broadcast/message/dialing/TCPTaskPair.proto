@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.dialing;
+
+message TCPTaskPair {
+  string fromPeer = 1;
+  string localIP = 4;
+  repeated Data remotedAddrs = 3;
+  repeated Data toPeers = 2;
+}

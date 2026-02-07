@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message WordNode {
+  BgStyle bgStyle = 9;
+  Colors color = 3;
+  string fontLevel = 7;
+  double fontSize = 2;
+  int32 fontWeight = 8;
+  WordNode$WordNodeStyle style = 4;
+  WordNode$UnderlineStyle underlineStyle = 5;
+  string words = 1;
+}

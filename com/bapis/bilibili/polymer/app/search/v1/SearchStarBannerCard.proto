@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchStarBannerCard {
+  ReasonStyle badge = 5;
+  string bgImage = 3;
+  string cardDesc = 4;
+  string cover = 2;
+  string title = 1;
+}

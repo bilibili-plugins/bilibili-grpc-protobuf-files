@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message Earphone {
+  string likeToastText = 2;
+  string likeToastVoice = 4;
+  string productModel = 1;
+  string switchToastText = 3;
+}

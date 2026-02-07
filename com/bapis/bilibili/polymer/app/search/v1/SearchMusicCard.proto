@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchMusicCard {
+  string author = 4;
+  string badge = 3;
+  string cover = 2;
+  string desc = 5;
+  Feedback feedback = 10;
+  ReasonStyle newRecTag = 6;
+  string title = 1;
+  WatchButton watchButton = 9;
+}

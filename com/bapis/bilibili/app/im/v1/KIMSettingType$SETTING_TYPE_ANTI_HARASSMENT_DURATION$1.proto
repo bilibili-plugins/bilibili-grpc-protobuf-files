@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message KIMSettingType$SETTING_TYPE_ANTI_HARASSMENT_DURATION$1 {
+}

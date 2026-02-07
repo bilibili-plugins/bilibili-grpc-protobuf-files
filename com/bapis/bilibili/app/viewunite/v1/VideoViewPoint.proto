@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message VideoViewPoint {
+  PointMaterial pointMaterial = 2;
+  bool pointPermanent = 3;
+  repeated Data points = 1;
+}

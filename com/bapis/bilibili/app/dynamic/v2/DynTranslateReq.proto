@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynTranslateReq {
+  int64 dynId = 1;
+  string from = 3;
+  int32 localTime = 2;
+  PlayerArgs playerArgs = 4;
+  string scene = 5;
+  int32 switch = 6;
+}

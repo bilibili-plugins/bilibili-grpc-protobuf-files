@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ActPageItems {
+  repeated Data item = 1;
+  int32 showStyle = 2;
+  string title = 3;
+}

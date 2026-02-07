@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message TopVideoInfo {
+  string bvid = 1;
+  int64 cid = 4;
+  string pic = 2;
+  string title = 3;
+}

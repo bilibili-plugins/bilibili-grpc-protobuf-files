@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message UnameMessageReply {
+  bool allow = 1;
+  string bindTel = 6;
+  string conditionMessage = 5;
+  string confirmMessage = 4;
+  bool realnameOrTel = 2;
+  string unameMessage = 3;
+}

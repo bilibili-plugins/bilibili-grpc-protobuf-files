@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PushArticleModule {
+  int64 articleId = 1;
+  repeated Data coverImg = 2;
+  Paragraph summary = 4;
+  Paragraph title = 3;
+}

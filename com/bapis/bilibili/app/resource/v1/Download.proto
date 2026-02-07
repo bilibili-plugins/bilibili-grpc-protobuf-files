@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message Download {
+  string extraValue = 2;
+  repeated Data list = 3;
+  string type = 1;
+}

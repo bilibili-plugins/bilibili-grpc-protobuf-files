@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayAbilityConf {
+  CloudConf backgroundPlayConf = 1;
+  CloudConf castConf = 3;
+  CloudConf coinConf = 12;
+  CloudConf colorFilterConf = 29;
+  CloudConf definitionConf = 19;
+  CloudConf dislikeConf = 11;
+  CloudConf dolbyConf = 28;
+  CloudConf editDmConf = 22;
+  CloudConf elecConf = 13;
+  CloudConf feedbackConf = 4;
+  CloudConf flipConf = 2;
+  CloudConf innerDmConf = 26;
+  CloudConf likeConf = 10;
+  CloudConf lockScreenConf = 16;
+  CloudConf lossLessConf = 30;
+  CloudConf nextConf = 21;
+  CloudConf outerDmConf = 25;
+  CloudConf panoramaConf = 27;
+  CloudConf playbackModeConf = 8;
+  CloudConf playbackRateConf = 6;
+  CloudConf playbackSpeedConf = 18;
+  CloudConf recommendConf = 17;
+  CloudConf scaleModeConf = 9;
+  CloudConf screenShotConf = 15;
+  CloudConf selectionsConf = 20;
+  CloudConf shakeConf = 24;
+  CloudConf shareConf = 14;
+  CloudConf smallWindowConf = 23;
+  CloudConf subtitleConf = 5;
+  CloudConf timeUpConf = 7;
+}

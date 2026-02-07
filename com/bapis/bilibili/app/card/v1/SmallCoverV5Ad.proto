@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SmallCoverV5Ad {
+  Base base = 1;
+  ReasonStyle cornerMarkStyle = 9;
+  string coverGif = 2;
+  string coverRightTextContentDescription = 13;
+  HotwordEntrance hotwordEntrance = 8;
+  ReasonStyle leftCornerMarkStyle = 12;
+  ReasonStyle rcmdReasonStyle = 7;
+  Up up = 3;
+}

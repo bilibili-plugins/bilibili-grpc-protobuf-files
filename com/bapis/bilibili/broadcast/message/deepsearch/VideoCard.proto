@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message VideoCard {
+  int64 aid = 1;
+  string cardDesc = 6;
+  ClipInfo clipInfo = 7;
+  string cover = 2;
+  string icon = 5;
+  string rawText = 8;
+  string title = 3;
+  string url = 4;
+}

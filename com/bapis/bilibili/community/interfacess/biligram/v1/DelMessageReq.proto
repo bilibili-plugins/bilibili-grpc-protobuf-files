@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message DelMessageReq {
+  int64 id = 1;
+  int64 topicId = 2;
+}

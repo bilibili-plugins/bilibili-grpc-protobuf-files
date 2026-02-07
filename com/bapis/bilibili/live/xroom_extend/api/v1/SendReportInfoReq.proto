@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xroom_extend.api.v1;
+
+message SendReportInfoReq {
+  string picUrl = 4;
+  string playStream = 5;
+  string reportReason = 3;
+  string reportTag = 2;
+  int64 roomId = 1;
+}

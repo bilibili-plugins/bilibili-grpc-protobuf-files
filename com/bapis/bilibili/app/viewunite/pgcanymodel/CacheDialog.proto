@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message CacheDialog {
+  string bgImage = 4;
+  string buttonTitle = 2;
+  string link = 3;
+  string title = 1;
+}

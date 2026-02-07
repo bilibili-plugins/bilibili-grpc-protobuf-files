@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionVotePicItem {
+  string cover = 2;
+  MdlDynDrawItem drawItem = 8;
+  bool isMaxOption = 7;
+  bool isVote = 3;
+  int32 optIdx = 1;
+  double persent = 5;
+  string title = 6;
+  int32 total = 4;
+}

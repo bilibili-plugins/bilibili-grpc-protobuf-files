@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.player.v1;
+
+message HeartbeatReq$b {
+}

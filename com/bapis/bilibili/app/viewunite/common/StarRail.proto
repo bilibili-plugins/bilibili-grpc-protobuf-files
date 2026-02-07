@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message StarRail {
+  int64 aid = 2;
+  int64 cid = 3;
+  int64 openTime = 4;
+  int64 seasonId = 1;
+  int32 status = 5;
+}

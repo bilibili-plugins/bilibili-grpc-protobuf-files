@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Notice {
+  string bgColorNight = 11;
+  string bgColor = 10;
+  string content = 3;
+  string iconNight = 7;
+  string icon = 6;
+  int64 mid = 1;
+  int64 noticeId = 2;
+  int64 noticeType = 5;
+  string textColorNight = 9;
+  string textColor = 8;
+  string url = 4;
+}

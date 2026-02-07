@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KUpPermissionType$UP_PERMISSION_TYPE_NONE$1 {
+}

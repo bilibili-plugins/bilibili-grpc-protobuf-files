@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message OpusInitVerify {
+  OpusInitVerifyItem banned = 1;
+  OpusInitVerifyItem editCountExceeded = 6;
+  OpusInitVerifyItem levelUnsufficient = 2;
+  OpusInitVerifyItem postCountExceeded = 5;
+  OpusInitVerifyItem unbindPhone = 4;
+  OpusInitVerifyItem unrealName = 3;
+}

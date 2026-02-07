@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message RelateSpecial {
+  BadgeInfo badge = 1;
+  BadgeInfo rcmdReason = 2;
+}

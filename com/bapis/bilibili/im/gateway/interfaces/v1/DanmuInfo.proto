@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message DanmuInfo {
+  int64 aid = 1;
+  int64 progress = 2;
+}

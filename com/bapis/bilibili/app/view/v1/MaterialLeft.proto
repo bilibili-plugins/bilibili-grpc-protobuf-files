@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message MaterialLeft {
+  string icon = 1;
+  string leftType = 4;
+  string operationalType = 6;
+  string param = 5;
+  string staticIcon = 7;
+  string text = 2;
+  string url = 3;
+}

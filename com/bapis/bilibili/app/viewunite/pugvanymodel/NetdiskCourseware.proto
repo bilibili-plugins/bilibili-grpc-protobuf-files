@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message NetdiskCourseware {
+  int64 coursewareId = 1;
+  string desc = 4;
+  string icon = 6;
+  string name = 2;
+  string remark = 3;
+  string url = 5;
+}

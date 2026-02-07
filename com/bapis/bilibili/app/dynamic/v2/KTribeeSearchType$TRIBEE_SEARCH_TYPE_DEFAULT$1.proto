@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KTribeeSearchType$TRIBEE_SEARCH_TYPE_DEFAULT$1 {
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message TranslateReplyResp {
+  MapFieldLite translatedReplies = 1;
+}

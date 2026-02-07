@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message ViewPush {
+  int64 aid = 2;
+  Stats stats = 1;
+  int64 upTime = 3;
+}

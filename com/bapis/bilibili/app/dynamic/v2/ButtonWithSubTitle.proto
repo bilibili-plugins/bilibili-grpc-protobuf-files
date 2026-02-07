@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ButtonWithSubTitle {
+  string btnSubTitle = 2;
+  string btnTitle = 1;
+  string jumpUri = 3;
+}

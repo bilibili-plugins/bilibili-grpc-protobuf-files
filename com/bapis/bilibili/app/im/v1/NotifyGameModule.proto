@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message NotifyGameModule {
+  string gameCover = 1;
+  string gameDescContent = 7;
+  int64 gameGiftId = 9;
+  string gameIcon = 2;
+  int64 gameId = 8;
+  string gameName = 3;
+  string gameTag = 6;
+  string gameTypes = 5;
+  string score = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.ticket.v1;
+
+message GetTicketRequest {
+  MapFieldLite context = 1;
+  string keyId = 2;
+  bytes sign = 3;
+  string token = 4;
+}

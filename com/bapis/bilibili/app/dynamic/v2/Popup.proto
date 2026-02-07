@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Popup {
+  string desc = 2;
+  string title = 1;
+  string uri = 3;
+}

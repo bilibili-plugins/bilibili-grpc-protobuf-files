@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeReq {
+  string appId = 2;
+  int64 needLatest = 4;
+  int64 retryCnt = 3;
+  string sig = 5;
+  int64 vmid = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CardArticle {
+  string badge = 5;
+  repeated Data covers = 1;
+  bool displayAttention = 4;
+  int64 mid = 3;
+  string name = 2;
+  Relation relation = 6;
+}

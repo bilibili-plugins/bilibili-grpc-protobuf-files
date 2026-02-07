@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ActivitySeason {
+  ActivityResource activityResource = 16;
+  ArcExtra arcExtra = 31;
+  Arc arc = 1;
+  ArgueBar argueBar = 41;
+  string argueMsg = 24;
+  string badgeUrl = 27;
+  string bvid = 7;
+  CMConfig cmConfig = 22;
+  CoinStyle coinStyle = 38;
+  Config config = 29;
+  ControlConfig controlConfig = 37;
+  CustomConfig customConfig = 26;
+  repeated Data descV2 = 28;
+  Dislike dislike = 19;
+  int32 ecode = 25;
+  ElecRank elecRank = 5;
+  History history = 6;
+  Honor honor = 8;
+  Label label = 18;
+  LikeAnimation likeAnimation = 35;
+  Online online = 30;
+  OperationRelate operationRelate = 15;
+  Order order = 13;
+  OnwerExt ownerExt = 3;
+  repeated Data pages = 2;
+  PlayerIcon playerIcon = 20;
+  RabbitYear rabbitYear = 39;
+  Rank rank = 12;
+  ReplyStyle replyPreface = 32;
+  ReqUser reqUser = 4;
+  string shareSubtitle = 21;
+  string shortLink = 17;
+  repeated Data specialCellNew = 34;
+  repeated Data staff = 9;
+  ArchiveStat statV2 = 40;
+  bool supportDislike = 14;
+  Tab tab = 11;
+  TFPanelCustomized tfPanelCustomized = 23;
+  UgcSeason ugcSeason = 10;
+  UpLikeImg upLikeImg = 33;
+  UserGarb userGarb = 36;
+}

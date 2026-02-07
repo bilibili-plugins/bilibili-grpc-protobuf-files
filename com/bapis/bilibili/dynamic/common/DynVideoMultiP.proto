@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoMultiP {
+  int64 cid = 3;
+  DynVideoEditor editor = 4;
+  string filename = 2;
+  string title = 1;
+}

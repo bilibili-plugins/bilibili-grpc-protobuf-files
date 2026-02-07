@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message DetailItem {
+  BKArchive arc = 2;
+  PlayItem associatedItem = 11;
+  DeviceType deviceType = 14;
+  string historyTag = 13;
+  PlayItem item = 1;
+  int64 lastPart = 6;
+  int64 lastPlayTime = 12;
+  string message = 9;
+  Author owner = 4;
+  repeated Data parts = 3;
+  int32 playable = 8;
+  MapFieldLite playerInfo = 10;
+  int64 progress = 7;
+  BKStat stat = 5;
+  FavFolder ugcSeasonInfo = 15;
+}

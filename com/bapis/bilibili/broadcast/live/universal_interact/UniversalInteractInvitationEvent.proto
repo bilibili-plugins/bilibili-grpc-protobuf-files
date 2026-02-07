@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractInvitationEvent {
+  string bizLabel = 3;
+  string bizSessionId = 5;
+  string customContentRich = 14;
+  string customContent = 13;
+  int64 initiator = 6;
+  int64 invitationTimeout = 7;
+  int64 peerUid = 10;
+  int64 rtcChannelId = 1;
+  int64 source = 11;
+  int64 targetRoomId = 15;
+  string title = 8;
+  string toastRich = 12;
+  string traceId = 4;
+  int64 uid = 2;
+  PeerUserInfo userInfo = 9;
+  int64 wantPosition = 16;
+}

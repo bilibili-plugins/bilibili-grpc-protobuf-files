@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleMangaCollection {
+  string floatBtnNextLink = 8;
+  string floatBtnPrevLink = 7;
+  OpusCollection mangaCollectionInfo = 6;
+  string subTextLeft = 3;
+  string subTextRight = 4;
+  SubscribeButton subscribeBtn = 5;
+  string titleIcon = 1;
+  string title = 2;
+}

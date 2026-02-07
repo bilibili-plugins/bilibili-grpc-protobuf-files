@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message AiIntroduceModule {
+  string aiMark = 3;
+  AvatarItem avatar = 1;
+  string buttonText = 7;
+  string buttonUrl = 8;
+  string desc = 6;
+  string displayName = 2;
+  string limitText = 4;
+  string title = 5;
+  string upUrl = 9;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeInteraction {
+  AppMineRcmd appMineRcmd = 6;
+  ExitTribeeToast exit = 2;
+  GameStatsButton gameStats = 5;
+  JoinButton join = 4;
+  PublishButton publish = 1;
+  ShareConfig share = 3;
+}

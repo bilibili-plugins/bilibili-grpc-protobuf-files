@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Article {
+  repeated Data bizTags = 6;
+  int64 categoryId = 1;
+  repeated Data cover = 5;
+  int64 listId = 2;
+  int32 originality = 3;
+  int32 reproduced = 4;
+}

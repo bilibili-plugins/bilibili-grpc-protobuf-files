@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message FollowIconConfig {
+  ColorConfig borderColor = 4;
+  double borderWidth = 3;
+  bool hasFollow = 1;
+  ResourceSource iconRes = 2;
+  int64 mid = 5;
+}

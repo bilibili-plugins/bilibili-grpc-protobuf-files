@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcAVSenderStats {
+  repeated Data audio = 3;
+  int64 uid = 1;
+  repeated Data video = 2;
+}

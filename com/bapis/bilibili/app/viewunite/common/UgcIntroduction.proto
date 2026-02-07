@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UgcIntroduction {
+  repeated Data bgm = 4;
+  repeated Data desc = 8;
+  Neutral neutral = 9;
+  int64 pubdate = 7;
+  Rank rank = 3;
+  Rating rating = 2;
+  repeated Data sticker = 5;
+  repeated Data tags = 1;
+  repeated Data videoSource = 6;
+}

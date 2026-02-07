@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message TextStyle {
+  int32 fontSize = 1;
+  int32 fontStyle = 2;
+  string textDayColor = 3;
+  string textNightColor = 4;
+}

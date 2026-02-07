@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoEditor {
+  int32 audioRecord = 28;
+  string backgrounds = 17;
+  string bcutFeatures = 27;
+  string bgms = 6;
+  int32 cameraRotate = 31;
+  int32 camera = 29;
+  int64 cid = 1;
+  string cooperates = 14;
+  string coverTemplates = 21;
+  int32 defaultEnd = 33;
+  int32 duration = 34;
+  string effects = 16;
+  string features = 26;
+  string filters = 3;
+  string flowers = 20;
+  string fonts = 4;
+  int32 highlightCnt = 40;
+  bool highlight = 39;
+  string makeups = 10;
+  string openings = 23;
+  int32 picCount = 35;
+  int32 pipCount = 41;
+  bool recordText = 24;
+  string rhythms = 15;
+  int32 screenRecord = 32;
+  int32 shotDuration = 37;
+  string shotGame = 38;
+  string sounds = 19;
+  int32 speed = 30;
+  string stickers = 7;
+  string subtitles = 5;
+  string surgerys = 11;
+  string themes = 13;
+  string trans = 9;
+  string tts = 22;
+  int32 upfrom = 2;
+  int32 videoCount = 36;
+  string videofxs = 12;
+  string videos = 18;
+  string videoupStickers = 8;
+  string vupers = 25;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoSubmitActBanner {
+  string hotactText = 1;
+  string hotactUrl = 2;
+  repeated Data list = 3;
+}

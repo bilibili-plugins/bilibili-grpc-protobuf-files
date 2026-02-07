@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateBangumiResourceCard {
+  int32 card = 6;
+  string corner = 5;
+  string gotoType = 12;
+  string label = 10;
+  int32 position = 8;
+  string rcmdReason = 9;
+  int32 reType = 3;
+  string reValue = 4;
+  MapFieldLite report = 11;
+  string scover = 2;
+  string siz = 7;
+  int32 type = 1;
+}

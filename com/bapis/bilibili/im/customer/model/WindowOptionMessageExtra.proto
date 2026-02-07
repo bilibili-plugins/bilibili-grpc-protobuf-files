@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message WindowOptionMessageExtra {
+  string subTitle = 1;
+}

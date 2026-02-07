@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleDesc {
+  repeated Data desc = 1;
+  string jumpUri = 2;
+  string text = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message AutoQnRange {
+  int64 max = 1;
+  int64 min = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message TpcdUpRecall {
+  string avatar = 3;
+  DetailItem item = 6;
+  int64 medialistBizId = 5;
+  int64 medialistType = 4;
+  string text = 2;
+  int64 upMid = 1;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message Medal {
+  int64 guardLevel = 14;
+  int32 intimacy = 6;
+  int32 isReceive = 8;
+  int32 level = 3;
+  int32 masterStatus = 7;
+  string medalColorBorder = 11;
+  string medalColorEnd = 10;
+  string medalColorLevel = 13;
+  string medalColorName = 12;
+  string medalColorStart = 9;
+  int32 medalId = 2;
+  string medalName = 4;
+  int32 score = 5;
+  int64 uid = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message UserItemStyle {
+  string outerAnimation = 5;
+  string rectBgColor = 4;
+  string rectIcon = 3;
+  string rectTextColor = 2;
+  string rectText = 1;
+}

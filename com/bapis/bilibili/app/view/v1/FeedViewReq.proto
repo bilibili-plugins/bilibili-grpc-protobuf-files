@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message FeedViewReq {
+  int64 aid = 1;
+  string bvid = 2;
+  int64 displayId = 7;
+  string fromSpmid = 5;
+  string fromTrackId = 10;
+  string from = 3;
+  string pageVersion = 9;
+  PlayerArgs playerArgs = 6;
+  string sessionId = 8;
+  string spmid = 4;
+}

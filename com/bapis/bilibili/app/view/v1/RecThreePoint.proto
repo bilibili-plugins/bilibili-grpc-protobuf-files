@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RecThreePoint {
+  RecDislike dislike = 1;
+  RecDislike feedback = 2;
+  bool watchLater = 3;
+}

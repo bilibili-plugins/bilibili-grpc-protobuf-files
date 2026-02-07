@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message WatchProgress {
+  int64 lastEpId = 1;
+  string lastEpIndex = 2;
+  int64 lastTime = 3;
+}

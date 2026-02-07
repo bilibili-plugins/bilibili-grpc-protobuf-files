@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ArticleList {
+  string applyTime = 14;
+  int64 articlesCount = 11;
+  string checkTime = 15;
+  int64 ctime = 6;
+  int64 id = 1;
+  string imageUrl = 4;
+  int64 mid = 2;
+  string name = 3;
+  int64 publishTime = 7;
+  int64 read = 10;
+  string reason = 13;
+  int64 state = 12;
+  string summary = 8;
+  int64 updateTime = 5;
+  int64 words = 9;
+}

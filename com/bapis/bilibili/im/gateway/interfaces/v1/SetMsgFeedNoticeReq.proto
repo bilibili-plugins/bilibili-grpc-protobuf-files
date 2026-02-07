@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message SetMsgFeedNoticeReq {
+  string bizType = 5;
+  int32 filterType = 6;
+  int64 id = 1;
+  bool isTopMsg = 4;
+  int32 msgType = 2;
+  int32 noticeState = 3;
+}

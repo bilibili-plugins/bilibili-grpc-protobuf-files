@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Reward {
+  string content = 3;
+  int32 level = 1;
+  string pic = 4;
+  bool reach = 5;
+  string title = 2;
+}

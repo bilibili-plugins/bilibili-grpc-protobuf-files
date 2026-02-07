@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaTabReply {
+  ChannelInfo channelInfo = 4;
+  int64 defaultTabIndex = 3;
+  MediaCard mediaCard = 1;
+  repeated Data tab = 2;
+}

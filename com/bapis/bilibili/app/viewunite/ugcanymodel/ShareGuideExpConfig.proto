@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message ShareGuideExpConfig {
+  int32 dailyTotalLimit = 4;
+  int32 expType = 1;
+  MapFieldLite extraParams = 5;
+  repeated Data strategies = 3;
+  string text = 2;
+}

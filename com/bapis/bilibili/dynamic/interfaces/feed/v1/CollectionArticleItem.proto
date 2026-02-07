@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CollectionArticleItem {
+  int64 attributes = 14;
+  int64 authorUid = 15;
+  repeated Data categories = 9;
+  Category category = 8;
+  string dynIdStr = 13;
+  int64 dynId = 12;
+  int64 id = 1;
+  repeated Data imageUrls = 7;
+  int64 onlyFans = 16;
+  int64 position = 5;
+  int64 publishTime = 4;
+  int64 state = 3;
+  string summary = 10;
+  string title = 2;
+  int64 type = 11;
+  int64 words = 6;
+}

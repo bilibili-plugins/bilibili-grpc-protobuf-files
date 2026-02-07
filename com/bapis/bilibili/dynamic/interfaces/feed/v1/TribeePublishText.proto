@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message TribeePublishText {
+  string placeholder = 2;
+  string title = 1;
+  TribeePublishText$TopTips topTips = 3;
+}

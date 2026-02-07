@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message OperationV2$Icon {
+  int32 position = 1;
+  string url = 2;
+}

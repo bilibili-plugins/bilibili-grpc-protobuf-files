@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Config {
+  BgPlayNotice bgPlayNotice = 4;
+  Immersion immersion = 5;
+  Online online = 1;
+  PlayerIcon playerIcon = 2;
+  StoryEntrance storyEntrance = 3;
+  TranslateGuide translateGuide = 6;
+}

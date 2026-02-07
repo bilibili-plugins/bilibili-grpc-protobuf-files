@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$GradePanel$CidGradeGroup {
+  int64 cid = 1;
+  repeated Data grades = 3;
+  string title = 2;
+}

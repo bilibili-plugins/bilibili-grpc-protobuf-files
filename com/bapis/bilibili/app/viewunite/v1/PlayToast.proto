@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message PlayToast {
+  int32 business = 1;
+  string iconUrl = 2;
+  string text = 3;
+}

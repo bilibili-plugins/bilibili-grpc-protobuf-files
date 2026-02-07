@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RelatesFeedReq {
+  string adExtra = 13;
+  int64 aid = 1;
+  int32 autoplay = 9;
+  string bizExtra = 11;
+  string bvid = 2;
+  int64 deviceType = 12;
+  string fromSpmid = 5;
+  string fromTrackId = 10;
+  string from = 3;
+  Pagination pagination = 14;
+  PlayerArgs playerArgs = 6;
+  int32 refreshNum = 15;
+  int64 relatesPage = 7;
+  string sessionId = 8;
+  string spmid = 4;
+}

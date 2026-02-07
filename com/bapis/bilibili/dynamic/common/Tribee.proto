@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Tribee {
+  bool showReprintSource = 2;
+  int64 tribeeId = 1;
+}

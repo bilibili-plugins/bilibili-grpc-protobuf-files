@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message CardOpus {
+  string cover = 2;
+  string date = 6;
+  int64 dynId = 7;
+  bool hasShare = 8;
+  SubTitleWithStat statTitle = 4;
+  Stat stat = 5;
+  int32 state = 9;
+  string url = 3;
+  Paragraph wordParagraph = 1;
+}

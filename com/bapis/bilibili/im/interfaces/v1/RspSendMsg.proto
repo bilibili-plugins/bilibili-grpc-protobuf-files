@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspSendMsg {
+  repeated Data eInfos = 2;
+  KeyHitInfos keyHitInfos = 4;
+  string msgContent = 3;
+  int64 msgKey = 1;
+  RichTextMsgContent richTextMsgContent = 5;
+  int64 seqno = 6;
+}

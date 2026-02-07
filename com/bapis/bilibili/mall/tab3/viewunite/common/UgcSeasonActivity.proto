@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message UgcSeasonActivity {
+  int64 activityDeadline = 9;
+  int64 activityId = 3;
+  int32 checkinViewTime = 10;
+  int32 dayCount = 6;
+  string intro = 5;
+  int64 joinDeadline = 8;
+  bool newActivity = 11;
+  int64 oid = 2;
+  SeasonShow seasonShow = 13;
+  string title = 4;
+  int32 type = 1;
+  UserActivity userActivity = 12;
+  int32 userCount = 7;
+}

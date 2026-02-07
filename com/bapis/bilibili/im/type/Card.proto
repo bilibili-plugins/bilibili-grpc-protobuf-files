@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message Card {
+  AttestationDisplay attestation = 28;
+  int64 birthday = 13;
+  string digitalId = 26;
+  int64 digitalType = 27;
+  ExpertInfo expertInfo = 29;
+  int32 faceNftNew = 24;
+  int32 faceNft = 23;
+  string face = 4;
+  UserHonourInfo honours = 30;
+  int32 inRegAudit = 22;
+  int32 isDeleted = 21;
+  int32 isFakeAccount = 20;
+  int32 isSeniorMember = 25;
+  int32 level = 7;
+  int64 mid = 1;
+  NameRender nameRender = 31;
+  string name = 2;
+  NameplateInfo nameplate = 11;
+  OfficialInfo official = 12;
+  PendantInfo pendant = 10;
+  int32 rank = 6;
+  string sex = 3;
+  string sign = 5;
+  int32 silence = 8;
+  VipInfo vip = 9;
+}

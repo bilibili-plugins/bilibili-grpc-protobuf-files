@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message SubjectControl$CmTopReplyProtection {
+  string appealUrl = 3;
+  string popupMessage = 2;
+  int64 protectedTopRpid = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchPediaCard {
+  CardBusinessBadge cardBusinessBadge = 7;
+  string cover = 2;
+  int32 navigationModuleCount = 5;
+  repeated Data navigation = 3;
+  PediaCover pediaCover = 6;
+  NavigationButton readMore = 4;
+  string title = 1;
+}

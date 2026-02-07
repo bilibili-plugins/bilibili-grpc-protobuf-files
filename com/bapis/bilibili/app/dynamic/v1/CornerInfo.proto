@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message CornerInfo {
+  string cornerIcon = 5;
+  int64 cornerNumber = 6;
+  Color cornerTextBgColor = 4;
+  Color cornerTextColor = 3;
+  string cornerText = 2;
+  int32 cornerType = 1;
+}

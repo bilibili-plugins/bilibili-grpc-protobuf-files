@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleOpusCollection {
+  OpusCollection collectionInfo = 1;
+  string titlePrefixIcon = 4;
+  string titleUpper = 2;
+  string title = 3;
+  string totalText = 5;
+}

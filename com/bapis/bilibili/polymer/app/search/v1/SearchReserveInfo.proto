@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchReserveInfo {
+  string oid = 2;
+  int64 sid = 1;
+  int32 type = 3;
+}

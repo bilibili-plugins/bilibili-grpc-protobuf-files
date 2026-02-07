@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message OgvCardInfo {
+  string cover = 3;
+  bool isUnread = 5;
+  bool isUpdated = 6;
+  string jumpUrl = 4;
+  OgvStats stats = 7;
+  string subTitle = 2;
+  string title = 1;
+}

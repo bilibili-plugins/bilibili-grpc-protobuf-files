@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message ViewPugvAny {
+  AbTest abTest = 9;
+  SeasonAIInfo aiInfo = 17;
+  CatalogueInfo catalogueInfo = 4;
+  CourseCoach courseCoach = 7;
+  CoursewareInfo coursewareInfo = 6;
+  CredentialInfo credentialInfo = 15;
+  FragmentVideoMessage fragmentVideoMessage = 16;
+  GiftInfo giftInfo = 13;
+  NetdiskCoursewareInfo netdiskCoursewareInfo = 14;
+  OperationArea operationArea = 10;
+  PostPurchaseInfo postPurchaseInfo = 12;
+  SeasonCoupon seasonCoupon = 3;
+  SeasonCustom seasonCustom = 5;
+  SeasonOverview seasonOverview = 1;
+  SeasonPayment seasonPayment = 2;
+  SeasonStat seasonStat = 11;
+  SectionInfo sectionInfo = 8;
+}

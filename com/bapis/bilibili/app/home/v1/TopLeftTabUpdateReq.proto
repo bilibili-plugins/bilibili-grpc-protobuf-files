@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message TopLeftTabUpdateReq {
+  int32 source = 3;
+  int32 tabGoto = 1;
+  int32 tabSelection = 2;
+}

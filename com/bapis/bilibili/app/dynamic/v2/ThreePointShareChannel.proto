@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointShareChannel {
+  string icon = 1;
+  string title = 2;
+}

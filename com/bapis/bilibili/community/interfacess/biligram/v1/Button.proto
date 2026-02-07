@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message Button {
+  string icon = 3;
+  string text = 1;
+  string url = 2;
+}

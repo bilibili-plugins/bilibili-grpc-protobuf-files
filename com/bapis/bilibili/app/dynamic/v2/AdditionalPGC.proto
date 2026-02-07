@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionalPGC {
+  AdditionalButton button = 7;
+  string headIcon = 8;
+  string headText = 1;
+  string imageUrl = 3;
+  int32 style = 9;
+  string title = 2;
+  string type = 10;
+  string url = 6;
+}

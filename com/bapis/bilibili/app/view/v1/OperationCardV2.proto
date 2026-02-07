@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message OperationCardV2 {
+  int32 bizType = 5;
+  OperationCardV2Content content = 6;
+  int32 from = 2;
+  int64 id = 1;
+  bool status = 4;
+  int32 to = 3;
+}

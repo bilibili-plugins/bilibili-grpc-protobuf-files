@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchAllResp {
+  repeated Data contents = 1;
+  PaginationReply nextPage = 2;
+  repeated Data possibleOrders = 4;
+  repeated Data possibleTypes = 3;
+  string qvId = 5;
+  TribeeSearchTab tab = 6;
+}

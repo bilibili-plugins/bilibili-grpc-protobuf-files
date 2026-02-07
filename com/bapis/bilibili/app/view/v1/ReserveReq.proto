@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ReserveReq {
+  int64 reserveAction = 2;
+  int64 reserveId = 1;
+  int64 upId = 3;
+}

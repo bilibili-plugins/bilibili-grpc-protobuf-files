@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleAuthorSlim {
+  string ptimeLabelText = 2;
+  BasicUserInfoV2 userInfo = 1;
+}

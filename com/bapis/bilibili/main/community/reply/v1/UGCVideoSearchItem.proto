@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message UGCVideoSearchItem {
+  string cover = 4;
+  int64 duration = 3;
+  string title = 1;
+  string upNickname = 2;
+}

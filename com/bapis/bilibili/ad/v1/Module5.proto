@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module5 {
+  bool display = 1;
+  string gameSummary = 2;
+}

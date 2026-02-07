@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.common;
+
+message MaskProperty {
+  LayerGeneralSpec generalSpec = 1;
+  ResourceSource maskSrc = 2;
+}

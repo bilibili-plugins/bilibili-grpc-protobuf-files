@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointFavorite {
+  string cancelIcon = 5;
+  string cancelTitle = 6;
+  string icon = 1;
+  int64 id = 3;
+  bool isFavourite = 4;
+  string title = 2;
+}

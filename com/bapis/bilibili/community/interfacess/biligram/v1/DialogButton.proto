@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message DialogButton {
+  string cancel = 4;
+  ActionButton confirm = 3;
+  string content = 2;
+  string text = 5;
+  string title = 1;
+}

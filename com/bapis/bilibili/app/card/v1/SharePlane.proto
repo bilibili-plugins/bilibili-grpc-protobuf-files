@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SharePlane {
+  int64 aid = 5;
+  int64 authorId = 9;
+  string author = 8;
+  string bvid = 6;
+  string cover = 4;
+  string desc = 3;
+  int64 firstCid = 12;
+  string playNumber = 11;
+  string shareSubtitle = 2;
+  MapFieldLite shareTo = 7;
+  string shortLink = 10;
+  string title = 1;
+}

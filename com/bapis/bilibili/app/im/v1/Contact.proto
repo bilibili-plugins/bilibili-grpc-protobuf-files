@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message Contact {
+  AvatarItem avatar = 3;
+  string face = 8;
+  int64 id = 1;
+  bool isSpecialFollow = 7;
+  NameRender nameRender = 6;
+  string name = 2;
+  int32 officialType = 9;
+  string url = 5;
+  string vipInfo = 4;
+}

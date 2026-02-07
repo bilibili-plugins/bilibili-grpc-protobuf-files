@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SunflowerParsedItem {
+  string bizId = 3;
+  string linkIcon = 10;
+  string linkText = 12;
+  int32 linkType = 2;
+  int32 type = 1;
+}

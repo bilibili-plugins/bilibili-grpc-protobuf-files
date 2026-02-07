@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message AirDropShareUserInfo {
+  string face = 2;
+  int64 mid = 1;
+  string name = 4;
+  string url = 3;
+}

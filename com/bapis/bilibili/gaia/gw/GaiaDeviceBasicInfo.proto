@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.gaia.gw;
+
+message GaiaDeviceBasicInfo {
+  string appId = 5;
+  string appVersionCode = 8;
+  string appVersion = 7;
+  string brand = 11;
+  string build = 9;
+  string buvidLocal = 15;
+  string buvid = 16;
+  string channel = 10;
+  string device = 2;
+  int32 first = 19;
+  int64 fts = 18;
+  string mid = 17;
+  string mobiApp = 3;
+  string model = 12;
+  string network = 20;
+  string origin = 4;
+  string osver = 13;
+  string platform = 1;
+  string sdkver = 6;
+  string userAgent = 14;
+}

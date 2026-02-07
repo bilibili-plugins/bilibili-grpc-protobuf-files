@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonPrimaryBadge {
+  int32 height = 6;
+  string icon = 1;
+  string link = 2;
+  string nightIcon = 3;
+  int32 type = 4;
+  int32 width = 5;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message FoldCardItem {
+  string cardShowDesc = 3;
+  int64 foldCount = 2;
+  string foldDesc = 4;
+  int32 isShowFold = 1;
+}

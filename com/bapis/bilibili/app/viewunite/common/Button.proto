@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Button {
+  BadgeInfo badgeInfo = 5;
+  string leftStrikethroughText = 2;
+  string link = 4;
+  string subTitle = 6;
+  string title = 1;
+  string type = 3;
+}

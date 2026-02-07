@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynAllUpdOffsetReq {
+  string footprint = 3;
+  int64 hostUid = 1;
+  string personalExtra = 4;
+  string readOffset = 2;
+}

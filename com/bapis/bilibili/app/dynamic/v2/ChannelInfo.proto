@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ChannelInfo {
+  int64 channelId = 1;
+  string channelName = 2;
+  string desc = 3;
+  string icon = 7;
+  bool isAtten = 4;
+  repeated Data items = 6;
+  string jumpUri = 8;
+  string typeIcon = 5;
+}

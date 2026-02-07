@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Button {
+  string link = 2;
+  MapFieldLite reportParams = 3;
+  string text = 1;
+}

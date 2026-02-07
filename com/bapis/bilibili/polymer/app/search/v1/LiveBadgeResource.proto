@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message LiveBadgeResource {
+  int64 alphaLight = 6;
+  int64 alphaNight = 7;
+  string animationUrlHash = 3;
+  string animationUrl = 2;
+  string backgroundColorLight = 4;
+  string backgroundColorNight = 5;
+  string fontColor = 8;
+  string text = 1;
+}

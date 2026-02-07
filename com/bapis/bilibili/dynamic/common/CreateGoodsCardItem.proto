@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateGoodsCardItem {
+  int64 actId = 2;
+  int64 actMid = 3;
+  string itemId = 1;
+}

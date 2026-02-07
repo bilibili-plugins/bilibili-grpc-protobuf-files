@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message InputBoxButton {
+  int32 action = 3;
+  ConfirmPanel confirm = 5;
+  string icon = 1;
+  string title = 2;
+  int32 urlType = 6;
+  string url = 4;
+}

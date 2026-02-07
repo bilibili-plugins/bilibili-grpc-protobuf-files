@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreeItemAllV2 {
+  Base base = 1;
+  repeated Data item = 3;
+  ReasonStyle topRcmdReasonStyle = 2;
+}

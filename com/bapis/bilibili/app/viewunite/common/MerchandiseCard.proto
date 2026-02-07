@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message MerchandiseCard {
+  MerchandiseButton button = 4;
+  string cover = 1;
+  Any sourceContent = 5;
+  repeated Data subTitle = 3;
+  string title = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message TitleDeliveryButton {
+  string bubble = 5;
+  string icon = 1;
+  string link = 3;
+  MapFieldLite report = 4;
+  string title = 2;
+}

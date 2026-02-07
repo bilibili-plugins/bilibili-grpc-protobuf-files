@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngBasicInfo {
+  int64 campusId = 1;
+  string campusName = 2;
+  string hintMsg = 3;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message OgvLiveReserve {
+  int32 activeType = 16;
+  string bgColor = 8;
+  string btBgColor = 12;
+  string btFrameColor = 13;
+  string btTextColor = 18;
+  string clickButton = 5;
+  int32 followVideoIsReserveLive = 7;
+  string icon = 3;
+  string link = 6;
+  string nightBgColor = 9;
+  string nightBtBgColor = 14;
+  string nightBtFrameColor = 15;
+  string nightBtTextColor = 19;
+  string nightIcon = 4;
+  string nightTextColor = 11;
+  MapFieldLite report = 20;
+  int64 reserveId = 1;
+  int32 reserveStatus = 17;
+  string textColor = 10;
+  string title = 2;
+}

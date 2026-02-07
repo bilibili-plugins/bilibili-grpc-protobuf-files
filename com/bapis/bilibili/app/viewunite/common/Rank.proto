@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Rank {
+  string iconNight = 2;
+  string icon = 1;
+  string text = 3;
+}

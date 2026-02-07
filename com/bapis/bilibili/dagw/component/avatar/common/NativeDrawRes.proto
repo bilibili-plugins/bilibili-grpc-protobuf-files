@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.common;
+
+message NativeDrawRes {
+  ColorConfig colorConfig = 3;
+  int32 drawType = 1;
+  double edgeWeight = 4;
+  int32 fillMode = 2;
+}

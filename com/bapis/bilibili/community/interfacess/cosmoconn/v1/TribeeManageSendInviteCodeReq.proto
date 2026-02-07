@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message TribeeManageSendInviteCodeReq {
+  int64 count = 2;
+  int64 sendType = 4;
+  int64 targetUid = 3;
+  int64 tribeeId = 1;
+}

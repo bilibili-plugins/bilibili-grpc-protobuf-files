@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PlayList {
+  string desc = 4;
+  int32 id = 1;
+  string morePlaylistUrl = 9;
+  bool morePlaylist = 7;
+  string moreTitle = 5;
+  MapFieldLite report = 8;
+  repeated Data seasons = 6;
+  string title = 2;
+  Owner upper = 3;
+}

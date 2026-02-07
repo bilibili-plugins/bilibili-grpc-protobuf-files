@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message CharacterGroup {
+  repeated Data characters = 2;
+  string title = 1;
+}

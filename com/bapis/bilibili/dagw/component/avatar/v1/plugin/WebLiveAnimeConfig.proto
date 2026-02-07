@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message WebLiveAnimeConfig {
+  double circleGapWidth = 1;
+  double liveLabelBorderWidth = 6;
+  double liveLabelHeight = 4;
+  double liveLabelOffsetY = 5;
+  double liveLabelWidth = 3;
+  double pinkCircleWidth = 2;
+}

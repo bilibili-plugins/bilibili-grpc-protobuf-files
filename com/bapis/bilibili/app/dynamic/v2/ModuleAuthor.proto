@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleAuthor {
+  int32 attend = 9;
+  AuthorBadge authorBadge = 17;
+  UserInfo author = 3;
+  ModuleAuthorBadgeButton badgeButton = 8;
+  int32 badgeType = 7;
+  DecorateCard decorateCard = 4;
+  OneLineText handlePtimeText = 18;
+  bool isTop = 13;
+  int64 mid = 1;
+  OnlyFans onlyFans = 16;
+  string ptimeLabelText = 2;
+  string ptimeLocationText = 14;
+  Relation relation = 10;
+  bool showFollow = 12;
+  bool showLevel = 15;
+  repeated Data tpList = 6;
+  string uri = 5;
+  Weight weight = 11;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.playerunite.v1;
+
+message PlayViewUniteReply {
+  Event event = 4;
+  History history = 8;
+  PlayArcConf playArcConf = 2;
+  PlayArc playArc = 6;
+  PlayDeviceConf playDeviceConf = 3;
+  QnTrialInfo qnTrialInfo = 7;
+  Any supplement = 5;
+  ViewInfo viewInfo = 9;
+  VodInfo vodInfo = 1;
+}

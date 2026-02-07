@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateOption {
+  CreateActivity activity = 7;
+  int32 aigc = 23;
+  int32 auditLevel = 4;
+  int32 closeComment = 2;
+  int32 foldExclude = 3;
+  int32 limitPegasus = 12;
+  int32 limitSearch = 13;
+  LiveWaterMark liveWaterMark = 20;
+  int64 onlyFansDnd = 15;
+  int64 onlyFansLevel = 17;
+  int64 onlyFans = 11;
+  int32 picMode = 10;
+  int32 privatePub = 19;
+  bool syncDynamicEnable = 22;
+  int32 syncToComment = 5;
+  int64 timerPubTime = 14;
+  int32 upChooseComment = 1;
+  VideoShareInfo videoShareInfo = 6;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message KSimpleActionReq$$serializer$annotationImpl$kotlinx_serialization_protobuf_ProtoNumber$0 {
+}

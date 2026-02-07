@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message EventTracking {
+  string batch = 2;
+  string entityId = 5;
+  string entityType = 4;
+  string operator = 1;
+  string trackId = 3;
+  string trackJson = 6;
+}

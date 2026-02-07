@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SearchReq {
+  string business = 3;
+  string keyword = 1;
+  int64 pn = 2;
+}

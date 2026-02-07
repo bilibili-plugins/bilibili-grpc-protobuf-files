@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DetailListReply$SubjectTitle {
+  string leftIcon = 1;
+  string link = 3;
+  int32 pushSwitch = 5;
+  int64 rpidMute = 4;
+  string title = 2;
+}

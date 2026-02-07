@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message CommandDm {
+  int32 attr = 14;
+  bool autoCreate = 12;
+  string command = 4;
+  string content = 5;
+  int32 countDown = 13;
+  string ctime = 7;
+  string extra = 9;
+  int64 id = 1;
+  string idstr = 10;
+  int64 mid = 3;
+  string mtime = 8;
+  int64 oid = 2;
+  int32 progress = 6;
+  int32 type = 11;
+}

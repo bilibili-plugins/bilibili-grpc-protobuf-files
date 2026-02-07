@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message DwTime {
+  repeated Data low = 3;
+  repeated Data peak = 2;
+  int32 type = 1;
+}

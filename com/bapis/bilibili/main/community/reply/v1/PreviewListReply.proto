@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message PreviewListReply {
+  ReplyInfo adminTop = 5;
+  CursorReply cursor = 1;
+  repeated Data replies = 2;
+  SubjectControl subjectControl = 3;
+  ReplyInfo upTop = 4;
+  ReplyInfo voteTop = 6;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareReplyMaterialResp$ExtraData {
+  bool isPgc = 1;
+  string originText = 2;
+  int64 topicId = 3;
+}

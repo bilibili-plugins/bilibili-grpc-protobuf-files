@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message TopicList {
+  Base base = 1;
+  TopicButton moreButton = 4;
+  string titleIcon = 3;
+  string title = 2;
+  repeated Data topicListItem = 5;
+}

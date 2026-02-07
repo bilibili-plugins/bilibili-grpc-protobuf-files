@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.bgroup;
+
+message AppEventMessage {
+  int32 eventType = 1;
+  int64 timestamp = 2;
+}

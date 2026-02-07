@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message TwoItemHV1Item {
+  Args args = 5;
+  string coverRightText = 9;
+  string cover = 2;
+  string goto = 6;
+  string param = 4;
+  string title = 1;
+  string uri = 3;
+}

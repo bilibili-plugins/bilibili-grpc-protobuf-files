@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.pegasus;
+
+message PegasusMidConfig {
+  Int64Value column = 1;
+  Int64Value playMode = 2;
+}

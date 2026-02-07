@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message ExtraContent {
+  int64 disabledCode = 2;
+  string disabledReason = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message MaterialInfo {
+  int64 id = 1;
+  string img = 2;
+  string title = 3;
+}

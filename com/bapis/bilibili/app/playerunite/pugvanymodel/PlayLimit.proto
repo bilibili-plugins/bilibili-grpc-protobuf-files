@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message PlayLimit {
+  ButtonStyle button = 4;
+  int32 code = 1;
+  string message = 2;
+  string subMessage = 3;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleBlocked {
+  IconButton actBtn = 4;
+  string archiveTitle = 9;
+  ImageSet bgImg = 2;
+  int32 blockStyle = 5;
+  OneLineText hintMessageOneLine = 10;
+  string hintMessage = 3;
+  ImageSet icon = 1;
+  string subHintMessage = 6;
+  OneLineText videoBottomTextLower = 8;
+  OneLineText videoBottomTextUpper = 7;
+}

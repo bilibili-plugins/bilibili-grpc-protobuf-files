@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Nft$Interaction {
+  string itype = 1;
+  string metadataUrl = 2;
+  string nftId = 3;
+  MemberV2$Nft$Interaction$Region region = 4;
+}

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.vote.v1;
+
+message VoteInfo {
+  int32 bizType = 12;
+  int32 choiceCnt = 6;
+  int64 ctime = 11;
+  int32 defaultShare = 10;
+  string desc = 3;
+  int64 duration = 20;
+  int64 endTime = 7;
+  string face = 22;
+  string imgUrl = 13;
+  int64 joinNum = 4;
+  repeated Data myVotes = 14;
+  string name = 23;
+  int64 onlyFansLevel = 24;
+  int32 optionsCnt = 16;
+  repeated Data options = 15;
+  int64 startTime = 17;
+  int32 status = 8;
+  string title = 2;
+  int32 type = 5;
+  repeated Data voteBizInfo = 21;
+  int64 voteId = 1;
+  int64 votePublisher = 9;
+  int32 voterLevel = 19;
+  int64 voterUid = 18;
+}

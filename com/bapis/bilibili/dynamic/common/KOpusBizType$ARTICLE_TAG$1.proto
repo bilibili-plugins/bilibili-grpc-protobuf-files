@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KOpusBizType$ARTICLE_TAG$1 {
+}

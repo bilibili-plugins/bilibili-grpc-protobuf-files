@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.interfaces;
+
+message SteamCallbackRsp {
+  string desc = 3;
+  bool isBind = 1;
+  string jumpUrl = 4;
+  string title = 2;
+}

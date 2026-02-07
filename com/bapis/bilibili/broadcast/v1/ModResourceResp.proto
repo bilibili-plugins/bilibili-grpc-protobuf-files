@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message ModResourceResp {
+  string appKey = 2;
+  int32 atcion = 1;
+  int64 listVersion = 6;
+  string moduleName = 4;
+  int64 moduleVersion = 5;
+  string poolName = 3;
+}

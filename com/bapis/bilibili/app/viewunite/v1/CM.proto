@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message CM {
+  Any adsControl = 2;
+  Any cmUnderPlayer = 1;
+  PadRelateCM padRelateCm = 4;
+  repeated Data sourceContentItem = 5;
+  repeated Data sourceContent = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message TribeePublishText$TopTips$Layer {
+  string contentPicDark = 3;
+  string contentPicLight = 2;
+  string title = 1;
+}

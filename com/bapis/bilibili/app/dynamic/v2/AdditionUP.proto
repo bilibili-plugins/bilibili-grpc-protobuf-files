@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionUP {
+  AdditionalActSkin actSkin = 8;
+  string badgeText = 18;
+  string businessId = 17;
+  AdditionalButton button = 5;
+  string cardType = 6;
+  int64 dynType = 16;
+  string dynamicId = 14;
+  bool isPremiere = 19;
+  int32 lotteryType = 10;
+  int64 reserveTotal = 7;
+  int64 rid = 9;
+  string title = 1;
+  int64 upMid = 12;
+  string url = 4;
+  AdditionUserInfo userInfo = 13;
+}

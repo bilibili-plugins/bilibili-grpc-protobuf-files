@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message TextInputV2 {
+  repeated Data avatar = 5;
+  repeated Data landscapePlaceholder = 2;
+  bool placeholderPost = 4;
+  repeated Data portraitPlaceholder = 1;
+  int32 renderType = 3;
+  int32 textInputLimit = 6;
+}

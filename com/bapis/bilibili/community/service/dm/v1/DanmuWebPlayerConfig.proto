@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DanmuWebPlayerConfig {
+  MapFieldLite aiLevelV2Map = 23;
+  int32 aiLevelV2 = 22;
+  int32 aiLevel = 3;
+  bool aiSwitch = 2;
+  bool blockbottom = 6;
+  bool blockcolor = 7;
+  bool blockscroll = 5;
+  bool blockspecial = 8;
+  bool blocktopBottom = 24;
+  bool blocktop = 4;
+  bool bold = 18;
+  int32 dmAreaV2 = 25;
+  int32 dmDensity = 26;
+  bool dmSwitch = 1;
+  int32 dmarea = 12;
+  bool dmask = 10;
+  string drawType = 20;
+  int32 fontborder = 19;
+  string fontfamily = 17;
+  float fontsize = 14;
+  float opacity = 11;
+  bool preventshade = 9;
+  bool screensync = 15;
+  int32 seniorModeSwitch = 21;
+  float speedplus = 13;
+  bool speedsync = 16;
+}

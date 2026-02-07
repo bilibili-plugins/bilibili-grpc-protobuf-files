@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message ReqUser {
+  ChargingPlus chargingPlus = 8;
+  int32 coin = 3;
+  int32 dislike = 6;
+  Button elecPlusBtn = 7;
+  int32 favSeason = 4;
+  int32 favorite = 1;
+  int32 follow = 5;
+  int32 like = 2;
+}

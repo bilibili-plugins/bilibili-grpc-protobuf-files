@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message SourceContentAV {
+  int64 aid = 1;
+  Stat stat = 2;
+}

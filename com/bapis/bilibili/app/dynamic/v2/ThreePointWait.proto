@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointWait {
+  string additionIcon = 1;
+  string additionText = 2;
+  int64 id = 5;
+  string noAdditionIcon = 3;
+  string noAdditionText = 4;
+}

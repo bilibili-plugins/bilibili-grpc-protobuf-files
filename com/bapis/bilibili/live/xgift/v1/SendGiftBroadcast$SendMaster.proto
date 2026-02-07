@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast$SendMaster {
+  int64 uid = 1;
+  string uname = 2;
+}

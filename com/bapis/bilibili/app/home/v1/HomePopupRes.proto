@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message HomePopupRes {
+  RatingGuidePopup ratingGuide = 2;
+  PopupBasicInfo remindUsePcClient = 1;
+}

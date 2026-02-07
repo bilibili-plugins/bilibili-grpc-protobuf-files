@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message CountdownInfo {
+  string buttonPicUrl = 7;
+  int32 buttonType = 6;
+  string countdownJumpUrl = 9;
+  string countdownNumColor = 4;
+  string countdownNumPicUrl = 3;
+  string countdownPicUrl = 2;
+  string countdownTimeColor = 5;
+  int64 countdownTime = 1;
+  int64 isFollow = 11;
+  string reserveButtonPicUrl = 8;
+  SearchReserveInfo reserveInfo = 10;
+  int64 state = 12;
+}

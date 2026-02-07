@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message AvItem {
+  LabelStyle chargingLabel = 15;
+  ReasonStyle coverBadge = 17;
+  string cover = 2;
+  string ctimeLabelV2 = 12;
+  string ctimeLabel = 4;
+  int32 ctime = 8;
+  int64 danmaku = 7;
+  string duration = 5;
+  string goto = 9;
+  int32 iconType = 14;
+  int32 isIaaVideo = 18;
+  bool isInline = 16;
+  string param = 10;
+  int32 play = 6;
+  int32 position = 11;
+  string title = 1;
+  string translatedTitle = 19;
+  string uri = 3;
+  string viewContent = 13;
+}

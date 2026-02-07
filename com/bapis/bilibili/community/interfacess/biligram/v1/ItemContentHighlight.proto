@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message ItemContentHighlight {
+  int32 iconPosition = 3;
+  string icon = 2;
+  string jumpUrl = 4;
+  string text = 1;
+}

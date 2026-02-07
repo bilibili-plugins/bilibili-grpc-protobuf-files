@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleMangaHorizontalPagePicContent {
+  MangaLikeBrowserGuidance browserGuidance = 4;
+  repeated Data mangaPics = 2;
+  int32 pageDirection = 1;
+  int32 picClickAction = 3;
+}

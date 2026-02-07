@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlaylistReq {
+  PlayItem anchor = 3;
+  int64 extraId = 6;
+  int32 from = 1;
+  int64 id = 2;
+  PageOption pageOpt = 4;
+  Pagination pagination = 8;
+  PlayerArgs playerArgs = 5;
+  SortOption sortOpt = 7;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ContentComment {
+  int64 oid = 3;
+  int64 parentId = 1;
+  int64 type = 2;
+}

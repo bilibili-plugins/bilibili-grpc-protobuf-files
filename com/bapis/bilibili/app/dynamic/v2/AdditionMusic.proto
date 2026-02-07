@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionMusic {
+  string badge = 4;
+  string cardType = 2;
+  CoverIconWithText descTextUpper = 3;
+  MdlDynMusic musicCard = 1;
+}

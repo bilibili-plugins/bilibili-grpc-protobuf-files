@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message EvaluationCard {
+  int64 customSessionId = 2;
+  int64 machineSessionId = 3;
+  repeated Data satisfactionOption = 7;
+  string satisfactionTitle = 6;
+  repeated Data solvedButton = 5;
+  string solvedTitle = 4;
+  EvaluationSubmit submitButton = 8;
+  int32 type = 1;
+}

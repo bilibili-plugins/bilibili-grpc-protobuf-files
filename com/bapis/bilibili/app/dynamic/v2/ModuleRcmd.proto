@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleRcmd {
+  RcmdAuthor author = 1;
+  repeated Data items = 2;
+  string serverInfo = 3;
+}

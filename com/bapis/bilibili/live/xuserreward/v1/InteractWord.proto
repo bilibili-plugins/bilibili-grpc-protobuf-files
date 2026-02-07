@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xuserreward.v1;
+
+message InteractWord {
+  InteractWord$ContributionInfoV2 contributionV2 = 19;
+  InteractWord$ContributionInfo contribution = 12;
+  InteractWord$ControlInfo controlInfo = 24;
+  int64 coreUserType = 17;
+  InteractWord$FansMedalInfo fansMedal = 9;
+  GroupMedalBrief groupMedal = 20;
+  repeated Data identities = 4;
+  bool isMystery = 21;
+  int64 isSpread = 10;
+  int64 msgType = 5;
+  int64 privilegeType = 16;
+  InteractWord$UserAnchorRelation relationTail = 23;
+  int64 roomid = 6;
+  int64 score = 8;
+  string spreadDesc = 13;
+  string spreadInfo = 11;
+  int64 tailIcon = 14;
+  string tailText = 18;
+  int64 timestamp = 7;
+  int64 triggerTime = 15;
+  int64 uid = 1;
+  UserInfo uinfo = 22;
+  string unameColor = 3;
+  string uname = 2;
+}

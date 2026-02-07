@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message MsgSpLitA {
+  repeated Data businessList = 2;
+  CustomerInfo customerInfo = 4;
+  repeated Data groupList = 3;
+  int32 type = 1;
+}

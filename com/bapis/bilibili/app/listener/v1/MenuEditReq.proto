@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MenuEditReq {
+  string desc = 3;
+  int64 id = 1;
+  int32 isPublic = 4;
+  string title = 2;
+}

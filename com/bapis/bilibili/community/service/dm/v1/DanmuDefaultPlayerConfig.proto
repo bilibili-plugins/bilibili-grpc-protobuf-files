@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DanmuDefaultPlayerConfig {
+  bool inlinePlayerDanmakuSwitch = 16;
+  MapFieldLite playerDanmakuAiRecommendedLevelV2Map = 19;
+  int32 playerDanmakuAiRecommendedLevelV2 = 18;
+  int32 playerDanmakuAiRecommendedLevel = 5;
+  bool playerDanmakuAiRecommendedSwitch = 4;
+  bool playerDanmakuBlockbottom = 8;
+  bool playerDanmakuBlockcolorful = 9;
+  bool playerDanmakuBlockrepeat = 10;
+  bool playerDanmakuBlockscroll = 7;
+  bool playerDanmakuBlockspecial = 11;
+  bool playerDanmakuBlocktop = 6;
+  float playerDanmakuDomain = 14;
+  bool playerDanmakuEnableHerdDm = 20;
+  float playerDanmakuOpacity = 12;
+  float playerDanmakuScalingfactor = 13;
+  int32 playerDanmakuSeniorModeSwitch = 17;
+  int32 playerDanmakuSpeed = 15;
+  bool playerDanmakuUseDefaultConfig = 1;
+}

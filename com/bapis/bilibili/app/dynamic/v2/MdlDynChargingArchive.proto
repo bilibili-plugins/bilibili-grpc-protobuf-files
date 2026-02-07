@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynChargingArchive {
+  IconButton actBtn = 11;
+  string archiveCover = 9;
+  MdlDynArchive archiveInfo = 1;
+  string archiveTitle = 10;
+  bool canInline = 3;
+  int64 cfgNormalInlineToastDuration = 6;
+  int64 cfgPreviewEndToastCountdown = 5;
+  string chargingBundleName = 4;
+  bool hasPermission = 2;
+  OneLineText textAppendPreviewEndToast = 13;
+  OneLineText textNormalInlineToast = 12;
+  OneLineText videoBottomTextLower = 8;
+  OneLineText videoBottomTextUpper = 7;
+}

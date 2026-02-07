@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvActivityModel {
+  int32 activityId = 10;
+  string activityImg = 9;
+  string activityName = 1;
+  string activityUrl = 6;
+  string avatar = 4;
+  bool bought = 7;
+  int32 currentProgress = 11;
+  string cycleDescribe = 8;
+  string describe = 3;
+  string progressMessage = 5;
+  int32 theme = 2;
+}

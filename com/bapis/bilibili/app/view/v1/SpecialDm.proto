@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message SpecialDm {
+  int64 end = 2;
+  bool isDisplay = 3;
+  int64 start = 1;
+}

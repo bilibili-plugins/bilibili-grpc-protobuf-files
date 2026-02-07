@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ViewProgressReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  string engineVersion = 4;
+  string messageProtocol = 5;
+  string serviceKey = 6;
+  int64 upMid = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message RedDot {
+  int64 num = 2;
+  bool show = 1;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ReqUser {
+  int32 attentionLevel = 7;
+  int32 attention = 1;
+  int32 coin = 6;
+  int32 dislike = 5;
+  Button elecPlusBtn = 9;
+  ELecPlus elecPlus = 10;
+  int32 favSeason = 8;
+  int32 favorite = 3;
+  int32 guestAttention = 2;
+  int32 like = 4;
+}

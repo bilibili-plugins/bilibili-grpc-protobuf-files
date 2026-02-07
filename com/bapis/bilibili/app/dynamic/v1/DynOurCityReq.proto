@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynOurCityReq {
+  int64 buildTime = 17;
+  int64 cityCode = 16;
+  int64 cityId = 1;
+  ExpConf expConf = 14;
+  int32 fnval = 9;
+  int32 fnver = 8;
+  int32 forceHost = 10;
+  int32 fourk = 11;
+  double lat = 2;
+  int32 lbsState = 12;
+  double lng = 3;
+  string offset = 4;
+  int32 pageSize = 5;
+  PlayerArgs playerArgs = 15;
+  int32 qn = 7;
+  int32 refreshCity = 13;
+  int32 teenagersMode = 6;
+}

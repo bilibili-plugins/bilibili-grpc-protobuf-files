@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.contract;
+
+message AddContractReply {
+  bool allowMessage = 1;
+  bool allowReply = 2;
+  string inputText = 3;
+  string inputTitle = 4;
+}

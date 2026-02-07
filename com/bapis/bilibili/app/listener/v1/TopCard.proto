@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message TopCard {
+  int32 cardType = 3;
+  int32 playStyle = 2;
+  int64 pos = 8;
+  string titleIcon = 9;
+  string title = 1;
+}

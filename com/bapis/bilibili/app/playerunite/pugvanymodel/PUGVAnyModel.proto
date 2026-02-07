@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message PUGVAnyModel {
+  ClipInfo clipInfo = 6;
+  int64 episodeId = 2;
+  PlayLimit playLimit = 7;
+  PlayerMask playerMask = 5;
+  RiskControl riskControl = 4;
+  int64 seasonId = 1;
+  int32 status = 3;
+  StudyRecordConfig studyRecordConfig = 8;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateBangumiUGCCard {
+  BadgeInfo badge = 1;
+  Rating rating = 3;
+  Stat stat = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message AddContractReq {
+  int64 aid = 1;
+  string spmid = 3;
+  int64 upMid = 2;
+}

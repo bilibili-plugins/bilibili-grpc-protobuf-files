@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.play;
+
+message CloudPlayConfig {
+  BoolValue enableBackground = 4;
+  BoolValue enableDolby = 2;
+  BoolValue enableLossLess = 5;
+  BoolValue enablePanorama = 1;
+  BoolValue enableShake = 3;
+  BoolValue priorityUseDolbyHDR = 6;
+}

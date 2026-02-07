@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.archive.v1;
+
+message Arc {
+  int32 access = 12;
+  int64 aid = 1;
+  int64 attributeV2 = 30;
+  int32 attribute = 13;
+  Author author = 22;
+  int32 copyright = 5;
+  int64 ctime = 9;
+  string desc = 10;
+  Dimension dimension = 27;
+  int64 duration = 16;
+  string dynamic = 25;
+  int64 firstCid = 26;
+  string firstFrame = 42;
+  int64 forward = 20;
+  int64 missionId = 17;
+  int64 orderId = 18;
+  string pic = 6;
+  int64 pubdate = 8;
+  string redirectUrl = 19;
+  string reportResult = 24;
+  Rights rights = 21;
+  int64 seasonId = 29;
+  SeasonTheme seasonTheme = 31;
+  string shortLinkV2 = 40;
+  repeated Data staffInfo = 28;
+  Stat stat = 23;
+  int32 state = 11;
+  string tag = 14;
+  repeated Data tags = 15;
+  string title = 7;
+  int32 typeId = 3;
+  string typeName = 4;
+  int32 upFromV2 = 41;
+  int64 videos = 2;
+}

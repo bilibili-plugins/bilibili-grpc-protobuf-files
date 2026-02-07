@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LikeListReq {
+  int64 dynType = 2;
+  string dynamicId = 1;
+  int32 page = 5;
+  int64 rid = 3;
+  int64 uidOffset = 4;
+}

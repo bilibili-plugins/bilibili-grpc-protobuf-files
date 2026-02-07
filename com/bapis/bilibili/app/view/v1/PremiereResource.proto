@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PremiereResource {
+  Premiere premiere = 1;
+  PremiereReserve reserve = 2;
+  PremiereText text = 3;
+}

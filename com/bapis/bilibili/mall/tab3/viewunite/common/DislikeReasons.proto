@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message DislikeReasons {
+  int64 id = 1;
+  int64 mid = 2;
+  string name = 5;
+  int32 rid = 3;
+  int64 tagId = 4;
+}

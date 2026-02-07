@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message FetchMessageReply {
+  bool hasMore = 1;
+  int64 maxSeqNo = 3;
+  repeated Data messages = 2;
+  int64 minSeqNo = 4;
+}

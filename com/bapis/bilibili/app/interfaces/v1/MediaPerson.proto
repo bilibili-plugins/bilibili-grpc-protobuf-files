@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaPerson {
+  string character = 3;
+  int64 personId = 4;
+  string realName = 1;
+  string squareUrl = 2;
+  string type = 5;
+}

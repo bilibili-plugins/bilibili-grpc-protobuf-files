@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.govern.v1;
+
+message DeviceInfo {
+  int64 build = 2;
+  string buvid3 = 7;
+  string buvid = 1;
+  string channel = 6;
+  string device = 5;
+  string rawMobiApp = 4;
+  string rawPlatform = 3;
+  string userAgent = 8;
+}

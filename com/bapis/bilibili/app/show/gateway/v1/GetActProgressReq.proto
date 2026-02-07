@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.gateway.v1;
+
+message GetActProgressReq {
+  int64 mid = 2;
+  int64 pageID = 1;
+}

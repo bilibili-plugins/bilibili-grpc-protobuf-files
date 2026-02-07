@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynDrawBadge {
+  string icon = 2;
+  string text = 1;
+}

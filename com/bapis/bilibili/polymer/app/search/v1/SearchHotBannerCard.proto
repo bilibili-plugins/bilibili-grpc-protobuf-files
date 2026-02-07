@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchHotBannerCard {
+  string description = 6;
+  string iconNight = 2;
+  string icon = 1;
+  string moreText = 4;
+  string moreUrl = 5;
+  string title = 3;
+}

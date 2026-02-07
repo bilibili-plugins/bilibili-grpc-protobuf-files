@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SearchTopicItem {
+  string cover = 8;
+  string descLong = 7;
+  string desc = 3;
+  bool isActivity = 5;
+  string tagIcon = 6;
+  string tagText = 9;
+  int64 topicId = 1;
+  string topicName = 2;
+  string url = 4;
+}

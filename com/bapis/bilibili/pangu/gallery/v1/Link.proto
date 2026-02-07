@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message Link {
+  string linkUrl = 2;
+  string name = 1;
+  string trackEventId = 3;
+}

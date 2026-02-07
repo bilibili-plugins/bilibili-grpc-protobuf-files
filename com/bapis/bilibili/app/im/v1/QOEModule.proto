@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message QOEModule {
+  string businessData = 7;
+  bool clickable = 6;
+  int64 id = 1;
+  int32 maxScore = 5;
+  string title = 2;
+  string url = 3;
+  int32 userScore = 4;
+}

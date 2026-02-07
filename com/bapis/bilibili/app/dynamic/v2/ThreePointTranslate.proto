@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointTranslate {
+  string icon = 1;
+  int32 switch = 3;
+  string title = 2;
+}

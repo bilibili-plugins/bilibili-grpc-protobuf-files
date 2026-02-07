@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractTemplate$Layout {
+  string layoutId = 1;
+  int64 maxUsers = 3;
+  string videoSize = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message TreadPop {
+  string inputPlaceholder = 4;
+  int32 maxCountWords = 3;
+  repeated Data reasons = 2;
+  string title = 1;
+}

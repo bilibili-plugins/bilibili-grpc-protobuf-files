@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message LiveWaterMark {
+  string biz = 6;
+  string g = 4;
+  string username = 3;
+  int64 watermark = 1;
+  string wmText = 2;
+  double wmTransparency = 5;
+}

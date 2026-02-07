@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.rank.v1;
+
+message RankRegionResultReq {
+  int32 pn = 2;
+  int32 ps = 3;
+  int32 rid = 1;
+}

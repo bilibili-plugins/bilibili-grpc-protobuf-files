@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.community.govern.v1;
+
+message AntiHarassmentLimit$a {
+}

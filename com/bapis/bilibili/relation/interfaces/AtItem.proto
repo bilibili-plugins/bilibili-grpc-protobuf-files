@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.relation.interfaces;
+
+message AtItem {
+  AvatarItem avatar = 6;
+  string face = 3;
+  int32 fans = 4;
+  string handle = 7;
+  int64 mid = 1;
+  string name = 2;
+  int32 officialVerifyType = 5;
+}

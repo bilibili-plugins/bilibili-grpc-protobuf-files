@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message PlatformAppInfo {
+  MapFieldLite achievements = 4;
+  string appId = 1;
+  string backgroundUrl = 3;
+  int32 currentPrice = 7;
+  string name = 2;
+  int32 price = 6;
+  int32 totalAchievements = 5;
+}

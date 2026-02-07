@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message AuthorCard {
+  string avatar = 2;
+  int64 mid = 1;
+  string name = 5;
+  ModuleParagraph paragraph = 4;
+  string url = 3;
+}

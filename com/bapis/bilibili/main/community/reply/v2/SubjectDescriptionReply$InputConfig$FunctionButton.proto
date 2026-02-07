@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$FunctionButton {
+  string link = 4;
+  string name = 2;
+  int32 state = 3;
+  int32 type = 1;
+}

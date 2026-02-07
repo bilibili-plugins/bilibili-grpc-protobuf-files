@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message CustomerInfo {
+  int64 customerId = 1;
+  string customerName = 2;
+  string customerStateDesc = 7;
+  int32 customerState = 3;
+  int32 isCancel = 5;
+  MsgSpLitAnsCustomer preCustomer = 6;
+  int64 queueRank = 4;
+}

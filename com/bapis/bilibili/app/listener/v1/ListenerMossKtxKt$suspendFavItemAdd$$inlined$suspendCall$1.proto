@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message ListenerMossKtxKt$suspendFavItemAdd$$inlined$suspendCall$1 {
+}

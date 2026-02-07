@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeResp {
+  TipsFootCard goToBindTips = 6;
+  bool isMaster = 2;
+  int32 stats = 1;
+}

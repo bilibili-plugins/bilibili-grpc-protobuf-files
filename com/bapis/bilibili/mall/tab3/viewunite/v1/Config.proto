@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message Config {
+  Online online = 1;
+  PlayerIcon playerIcon = 2;
+  StoryEntrance storyEntrance = 3;
+}

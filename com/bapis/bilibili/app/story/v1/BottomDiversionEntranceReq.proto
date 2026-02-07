@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message BottomDiversionEntranceReq {
+  repeated Data cardInfo = 1;
+  int64 displayId = 5;
+  int64 fromAv = 3;
+  string fromBv = 4;
+  string trackId = 2;
+}

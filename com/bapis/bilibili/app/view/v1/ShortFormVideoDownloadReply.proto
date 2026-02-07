@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ShortFormVideoDownloadReply {
+  string backupDownloadUrl = 5;
+  string downloadUrl = 2;
+  bool hasDownloadUrl = 1;
+  string md5 = 3;
+  int64 size = 4;
+}

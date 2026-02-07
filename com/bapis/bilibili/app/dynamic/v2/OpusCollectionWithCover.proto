@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCollectionWithCover {
+  OpusCollection collectionInfo = 1;
+  CoverIconWithText coverBottomText = 3;
+  string coverPic = 2;
+  string subTitleText = 4;
+}

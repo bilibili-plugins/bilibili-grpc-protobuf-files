@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message SegmentVideo {
+  repeated Data segment = 1;
+}

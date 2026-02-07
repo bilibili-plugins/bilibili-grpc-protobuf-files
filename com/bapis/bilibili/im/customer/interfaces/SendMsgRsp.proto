@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message SendMsgRsp {
+  AiInfo aiInfo = 4;
+  repeated Data eInfos = 3;
+  string msgContent = 2;
+  int64 msgKey = 1;
+}

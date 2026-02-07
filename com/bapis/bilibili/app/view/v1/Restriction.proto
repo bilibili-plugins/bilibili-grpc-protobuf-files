@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Restriction {
+  bool disableRcmd = 4;
+  bool isLessons = 2;
+  bool isReview = 3;
+  bool isTeenagers = 1;
+}

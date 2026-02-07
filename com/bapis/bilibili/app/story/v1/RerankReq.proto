@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message RerankReq {
+  int32 lastAdGap = 7;
+  int64 lastCardTs = 4;
+  RerankCardInfo lastCard = 5;
+  repeated Data latestCardsInfo = 10;
+  RerankCardInfo preAdCard = 3;
+  int64 preAdEndTs = 2;
+  int64 preAdStartTs = 1;
+  int64 refreshTs = 8;
+  int32 requestFrom = 9;
+  repeated Data unexposedCard = 6;
+}

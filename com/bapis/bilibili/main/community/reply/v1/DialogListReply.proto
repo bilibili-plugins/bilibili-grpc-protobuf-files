@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DialogListReply {
+  Activity activity = 4;
+  CursorReply cursor = 1;
+  FeedPaginationReply paginationReply = 5;
+  repeated Data replies = 3;
+  string sessionId = 6;
+  SubjectControl subjectControl = 2;
+}

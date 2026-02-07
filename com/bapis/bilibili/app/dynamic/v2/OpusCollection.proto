@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCollection {
+  repeated Data allItems = 5;
+  int64 collectionId = 1;
+  string detailUri = 3;
+  string intro = 4;
+  OneLineText title = 2;
+}

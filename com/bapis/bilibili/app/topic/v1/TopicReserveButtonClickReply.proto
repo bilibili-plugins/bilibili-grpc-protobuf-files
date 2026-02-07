@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicReserveButtonClickReply {
+  string activityUrl = 6;
+  int32 btnMode = 2;
+  string descUpdate = 4;
+  int32 finalBtnStatus = 1;
+  bool hasActivity = 5;
+  ReserveCalendarInfo reserveCalendarInfo = 8;
+  int64 reserveUpdate = 3;
+  string toast = 7;
+}

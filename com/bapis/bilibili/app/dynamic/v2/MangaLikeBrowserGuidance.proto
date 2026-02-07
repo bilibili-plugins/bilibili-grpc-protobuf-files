@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MangaLikeBrowserGuidance {
+  string pageRightToLeftGuidanceText = 2;
+  bool showPageRightToLeftGuidance = 1;
+}

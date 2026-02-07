@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Material {
+  string bgColor = 7;
+  string bgPic = 8;
+  string icon = 1;
+  int32 jumpType = 9;
+  bool needLogin = 11;
+  int32 pageType = 10;
+  string param = 5;
+  MapFieldLite report = 12;
+  string staticIcon = 6;
+  string text = 2;
+  int32 type = 4;
+  string url = 3;
+}

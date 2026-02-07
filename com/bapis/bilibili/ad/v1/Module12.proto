@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module12 {
+  repeated Data commentList = 2;
+  string commentNum = 3;
+  bool display = 1;
+  bool showAllComment = 4;
+}

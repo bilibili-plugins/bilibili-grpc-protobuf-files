@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message SettingBase {
+  SettingControl control = 4;
+  string leftIcon = 1;
+  string leftTitle = 2;
+  MapFieldLite report = 5;
+  int32 type = 3;
+}

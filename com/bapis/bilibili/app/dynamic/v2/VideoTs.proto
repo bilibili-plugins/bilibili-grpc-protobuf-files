@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message VideoTs {
+  string durationText = 5;
+  int64 duration = 4;
+  string startIcon = 3;
+  string startTimeText = 2;
+  int64 startTime = 1;
+}

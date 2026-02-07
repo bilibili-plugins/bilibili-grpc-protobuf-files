@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchLikeButtonItem {
+  int64 aid = 1;
+  int64 count = 2;
+  LikeResource dislikeNightResource = 8;
+  LikeResource dislikeResource = 7;
+  LikeResource likeNightResource = 6;
+  LikeResource likeResource = 5;
+  int32 selected = 3;
+  bool showCount = 4;
+}

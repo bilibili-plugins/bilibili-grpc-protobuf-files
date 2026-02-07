@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynRedStyleUp {
+  Color borderColor = 4;
+  int32 faceType = 3;
+  string face = 2;
+  int64 uid = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CardParagraph {
+  ModuleAdditional additionalCard = 1;
+  string bizId = 3;
+  int32 bizType = 2;
+  int32 cardStyle = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message MembersReq {
+  int32 callId = 3;
+  int64 channelId = 1;
+  int64 uid = 2;
+}

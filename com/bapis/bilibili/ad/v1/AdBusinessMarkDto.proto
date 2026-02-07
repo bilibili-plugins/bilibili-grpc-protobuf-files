@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdBusinessMarkDto {
+  string bgBorderColor = 12;
+  string bgColorNight = 6;
+  string bgColor = 5;
+  string borderColorNight = 8;
+  string borderColor = 7;
+  int32 imgHeight = 10;
+  string imgUrl = 9;
+  int32 imgWidth = 11;
+  string textColorNight = 4;
+  string textColor = 3;
+  string text = 2;
+  int32 type = 1;
+}

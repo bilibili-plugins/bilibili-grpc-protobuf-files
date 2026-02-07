@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message UPRecommendItem {
+  AvatarItem avatarInfo = 10;
+  string cover = 5;
+  int32 isLive = 13;
+  int32 isSeniorMember = 3;
+  int32 level = 2;
+  string liveLink = 12;
+  int64 mid = 1;
+  string name = 4;
+  Relation relation = 9;
+  SharePlane sharePlane = 11;
+  repeated Data threePoint = 8;
+  string uri = 6;
+  repeated Data userCardInfo = 7;
+}

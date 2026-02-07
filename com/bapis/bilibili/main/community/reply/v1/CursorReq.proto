@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message CursorReq {
+  int32 mode = 4;
+  int64 next = 1;
+  int64 prev = 2;
+}

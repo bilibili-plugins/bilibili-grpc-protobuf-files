@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynLiveRcmd {
+  string content = 1;
+  LivePendant pendant = 3;
+  int32 reserveType = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message CardPubGuide {
+  Button button = 2;
+  repeated Data material = 3;
+  Button moreButton = 4;
+  Title title = 1;
+}

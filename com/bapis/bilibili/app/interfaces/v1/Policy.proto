@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message Policy {
+  int64 interval = 1;
+  bool useLocalTime = 2;
+}

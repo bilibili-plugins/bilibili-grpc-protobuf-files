@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ActiveReportMessage {
+  int32 action = 1;
+  string metricData = 2;
+}

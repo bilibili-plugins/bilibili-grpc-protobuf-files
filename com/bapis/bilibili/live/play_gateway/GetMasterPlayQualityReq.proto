@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.play_gateway;
+
+message GetMasterPlayQualityReq {
+  int64 roomId = 1;
+}

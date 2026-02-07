@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SmallCoverV3 {
+  Avatar avatar = 2;
+  Base base = 1;
+  int32 canPlay = 8;
+  string coverLeftText = 3;
+  Button coverRightButton = 4;
+  string desc = 6;
+  int32 officialIcon = 7;
+  ReasonStyle rcmdReasonStyle = 9;
+  string rcmdReason = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.ticket.v1;
+
+message GenWebTicketResponse {
+  GenWebTicketResponse$Context context = 4;
+  int64 createdAt = 2;
+  GenWebTicketResponse$Nav nav = 5;
+  string ticket = 1;
+  int64 ttl = 3;
+}

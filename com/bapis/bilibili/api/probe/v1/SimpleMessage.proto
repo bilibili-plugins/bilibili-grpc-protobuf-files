@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message SimpleMessage {
+  int32 cate = 4;
+  Embedded embedded = 5;
+  int32 id = 1;
+  string lang = 3;
+  int64 num = 2;
+}

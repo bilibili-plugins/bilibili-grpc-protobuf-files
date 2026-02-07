@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message IPTopicInfo {
+  string icon = 4;
+  int64 id = 5;
+  string jumpUrl = 3;
+  string name = 1;
+  string statsDesc = 2;
+}

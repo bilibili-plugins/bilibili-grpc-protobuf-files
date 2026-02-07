@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchAuthorNewCard {
+  int32 archives = 10;
+  int32 attentions = 30;
+  repeated Data avItems = 21;
+  int32 avStyle = 19;
+  AvatarItem avatarInfo = 34;
+  Background background = 18;
+  CardLayout cardLayout = 33;
+  string cover = 2;
+  int32 faceNftNew = 15;
+  int32 fans = 6;
+  Feedback feedback = 31;
+  string handle = 36;
+  SearchInlineData inlineLive = 25;
+  string inlineType = 24;
+  int32 isInlineLive = 26;
+  int32 isSeniorMember = 17;
+  bool isUp = 9;
+  int32 level = 7;
+  int32 liveFace = 3;
+  string liveLink = 5;
+  int32 liveStatus = 28;
+  string liveUri = 4;
+  int64 mid = 11;
+  NftFaceIcon nftFaceIcon = 16;
+  Notice notice = 22;
+  OfficialVerify officialVerify = 14;
+  Relation relation = 13;
+  int64 roomid = 12;
+  SharePlane sharePlane = 23;
+  string sign = 8;
+  Space space = 20;
+  repeated Data threePoint = 27;
+  string title = 1;
+  int64 translationStatus = 35;
+  repeated Data userCardInfo = 32;
+  VipInfo vip = 29;
+}

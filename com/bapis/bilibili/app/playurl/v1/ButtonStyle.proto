@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ButtonStyle {
+  string bgColor = 3;
+  string jumpLink = 4;
+  string textColor = 2;
+  string text = 1;
+}

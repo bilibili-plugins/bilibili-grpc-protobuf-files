@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOGVReq {
+  string firstExtraWord = 2;
+  string fromSource = 4;
+  string keyword = 5;
+  bool needOgvExtraWord = 9;
+  int32 order = 1;
+  Pagination pagination = 6;
+  PlayerArgs playerArgs = 7;
+  string secondExtraWord = 3;
+  string userAct = 8;
+}

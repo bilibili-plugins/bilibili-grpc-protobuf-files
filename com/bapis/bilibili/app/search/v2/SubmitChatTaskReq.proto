@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message SubmitChatTaskReq {
+  string fromSource = 3;
+  string query = 1;
+  string trackId = 2;
+}

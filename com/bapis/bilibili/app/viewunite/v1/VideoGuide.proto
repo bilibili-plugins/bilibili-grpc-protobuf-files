@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message VideoGuide {
+  ContractCard contractCard = 3;
+  repeated Data material = 1;
+  Material rightMaterial = 4;
+  VideoViewPoint videoPoint = 2;
+}

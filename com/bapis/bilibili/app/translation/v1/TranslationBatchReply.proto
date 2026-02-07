@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.translation.v1;
+
+message TranslationBatchReply {
+  repeated Data results = 1;
+}

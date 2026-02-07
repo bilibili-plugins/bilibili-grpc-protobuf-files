@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Url {
+  string appName = 5;
+  string appPackageName = 6;
+  string appUrlSchema = 4;
+  string clickReport = 7;
+  string exposureReport = 9;
+  Url$Extra extra = 10;
+  int32 iconPosition = 14;
+  bool isHalfScreen = 8;
+  bool matchOnce = 12;
+  string pcUrl = 13;
+  string prefixIcon = 3;
+  int64 state = 2;
+  string title = 1;
+  bool underline = 11;
+}

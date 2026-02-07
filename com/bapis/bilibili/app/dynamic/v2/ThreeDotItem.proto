@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreeDotItem {
+  string desc = 3;
+  string jumpUrl = 5;
+  string title = 2;
+  ToastDialog toast = 4;
+  int32 type = 1;
+}

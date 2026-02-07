@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynArchive {
+  int64 avid = 7;
+  repeated Data badgeCategory = 23;
+  repeated Data badge = 11;
+  string bvid = 26;
+  bool canPlay = 12;
+  int64 cid = 8;
+  string cover = 2;
+  Dimension dimension = 10;
+  int64 duration = 20;
+  int64 episodeId = 16;
+  string inlineURL = 15;
+  bool isFeature = 24;
+  bool isPGC = 14;
+  bool isPreview = 22;
+  string jumpUrl = 21;
+  int32 mediaType = 9;
+  int64 partDuration = 31;
+  int64 partProgress = 32;
+  int64 pgcSeasonId = 18;
+  string playIcon = 19;
+  bool premiereCard = 29;
+  int32 reserveType = 25;
+  bool showPremiereBadge = 28;
+  bool showProgress = 30;
+  int32 stype = 13;
+  int32 subType = 17;
+  string title = 1;
+  string uri = 3;
+  int32 view = 27;
+}

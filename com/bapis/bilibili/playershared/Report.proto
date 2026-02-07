@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Report {
+  string clickEventId = 2;
+  string extends = 3;
+  string showEventId = 1;
+}

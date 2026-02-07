@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message OperationCardV2Content {
+  string buttonSelectedTitle = 5;
+  string buttonTitle = 4;
+  string icon = 3;
+  bool showSelected = 6;
+  string subtitle = 2;
+  string title = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateBangumiAvCard {
+  BadgeInfo badge = 1;
+  string coverRightText = 4;
+  Rating rating = 3;
+  bool showRcmdStyle = 5;
+  Stat stat = 2;
+}

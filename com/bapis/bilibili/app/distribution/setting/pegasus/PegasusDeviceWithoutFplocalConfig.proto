@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.pegasus;
+
+message PegasusDeviceWithoutFplocalConfig {
+  Int64Value autoRefreshState = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message RoomInfo {
+  int64 roomId = 1;
+  RoomShowInfo show = 4;
+  RoomStatusInfo status = 3;
+  int64 uid = 2;
+}

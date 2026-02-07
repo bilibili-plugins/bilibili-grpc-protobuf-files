@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Paragraph {
+  CodeParagraph code = 7;
+  Paragraph$ParagraphFormat format = 2;
+  LineParagraph line = 5;
+  CardParagraph linkCard = 6;
+  int32 paraType = 1;
+  PicParagraph pic = 4;
+  TextParagraph text = 3;
+}

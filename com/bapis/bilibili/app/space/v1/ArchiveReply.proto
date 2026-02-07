@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.space.v1;
+
+message ArchiveReply {
+  int32 count = 2;
+  EpisodicButton episodicButton = 3;
+  repeated Data item = 1;
+  repeated Data order = 4;
+}

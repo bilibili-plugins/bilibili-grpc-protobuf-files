@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message LikeReq {
+  string actionId = 11;
+  int64 aid = 1;
+  string fromSpmid = 5;
+  string from = 3;
+  string goto = 7;
+  int32 like = 8;
+  int64 ogvType = 2;
+  string source = 9;
+  string spmid = 4;
+  string token = 10;
+  string trackId = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message CustomPlayUrl {
+  int32 playTime = 1;
+  repeated Data urls = 2;
+}

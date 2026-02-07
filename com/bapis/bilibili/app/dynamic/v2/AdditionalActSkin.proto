@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionalActSkin {
+  string lastImage = 2;
+  int64 playTimes = 3;
+  string svga = 1;
+}

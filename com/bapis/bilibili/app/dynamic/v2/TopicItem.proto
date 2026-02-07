@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicItem {
+  IconButton button = 7;
+  string desc = 4;
+  string rcmdDesc = 6;
+  int64 topicId = 1;
+  string topicName = 2;
+  string url = 3;
+}

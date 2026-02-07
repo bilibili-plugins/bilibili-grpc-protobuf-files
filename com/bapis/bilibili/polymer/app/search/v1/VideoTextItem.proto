@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message VideoTextItem {
+  string imgUrl = 5;
+  string jumpUrl = 4;
+  int64 startSecond = 3;
+  string text = 2;
+  int32 type = 1;
+  string videoTime = 6;
+}

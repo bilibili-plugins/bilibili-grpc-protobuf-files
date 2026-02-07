@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointShare {
+  string channelName = 4;
+  repeated Data channel = 3;
+  string icon = 1;
+  ShareReserve reserve = 5;
+  string title = 2;
+}

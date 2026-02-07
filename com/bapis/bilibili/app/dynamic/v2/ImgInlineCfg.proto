@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ImgInlineCfg {
+  Colors borderColor = 6;
+  double borderWidth = 5;
+  Colors color = 3;
+  double height = 2;
+  int32 roundRadius = 4;
+  double width = 1;
+}

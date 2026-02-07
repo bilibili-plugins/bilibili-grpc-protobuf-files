@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message BackgroundInfo {
+  string drawableBitmapUrl = 2;
+  string drawableColor = 1;
+  int32 effects = 3;
+}

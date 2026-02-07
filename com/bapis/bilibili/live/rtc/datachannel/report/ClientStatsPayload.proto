@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message ClientStatsPayload {
+  repeated Data avReceivers = 5;
+  repeated Data avSenders = 4;
+  string businessName = 8;
+  repeated Data candidatePairs = 3;
+  repeated Data dataChannels = 6;
+  int64 generateTs = 7;
+  RtcCandidatePair selectedCandidatePair = 2;
+  RtcTransport transport = 1;
+}

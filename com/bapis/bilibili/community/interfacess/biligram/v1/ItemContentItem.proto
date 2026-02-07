@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message ItemContentItem {
+  ItemContentEmoji emoji = 4;
+  ItemContentHighlight highlight = 3;
+  string rawText = 5;
+  ItemContentText text = 2;
+  int32 type = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message TimeLineEvents {
+  int64 eventId = 1;
+  string jumpLink = 4;
+  string timeDesc = 3;
+  string title = 2;
+}

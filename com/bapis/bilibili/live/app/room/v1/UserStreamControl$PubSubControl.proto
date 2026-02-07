@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message UserStreamControl$PubSubControl {
+  repeated Data explicitSubUsers = 2;
+  int32 pubStatus = 1;
+  RtcResolution rtcResolutionSimulcast = 6;
+  RtcResolution rtcResolution = 4;
+  MapFieldLite subVideoIndex = 5;
+  int64 version = 3;
+}

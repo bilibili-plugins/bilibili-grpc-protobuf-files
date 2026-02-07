@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CommentSimpleInfo {
+  string content = 3;
+  int64 id = 1;
+  string link = 6;
+  CommentSource source = 5;
+  string userName = 4;
+}

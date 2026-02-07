@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleButtom {
+  string commentBoxMsg = 3;
+  bool commentBox = 2;
+  repeated Data faces = 5;
+  repeated Data interactionIcons = 4;
+  ModuleStat moduleStat = 1;
+}

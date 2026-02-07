@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message KInvFeedBackType$INV_FEED_BACK_TYPE_INVALID {
+}

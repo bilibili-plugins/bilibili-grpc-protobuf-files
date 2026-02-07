@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message KToastType$TOAST_TYPE_REPORT$1 {
+}

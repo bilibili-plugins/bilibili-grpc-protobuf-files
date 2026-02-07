@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message KInteractConnectType$INTERACT_CONNECT_TYPE_ONLY_VOICE$1 {
+}

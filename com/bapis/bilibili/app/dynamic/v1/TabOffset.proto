@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message TabOffset {
+  string offset = 2;
+  int32 tab = 1;
+}

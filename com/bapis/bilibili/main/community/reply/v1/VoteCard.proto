@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message VoteCard {
+  int64 count = 3;
+  int64 myVoteOption = 5;
+  repeated Data options = 4;
+  string title = 2;
+  int64 voteId = 1;
+}

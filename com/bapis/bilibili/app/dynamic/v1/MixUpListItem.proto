@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message MixUpListItem {
+  string face = 6;
+  repeated Data liveInfo = 4;
+  string name = 5;
+  OfficialVerify official = 7;
+  int32 premiereState = 10;
+  int32 reddotState = 3;
+  Relation relation = 9;
+  int32 specialAttention = 2;
+  int64 uid = 1;
+  string uri = 11;
+  VipInfo vip = 8;
+}

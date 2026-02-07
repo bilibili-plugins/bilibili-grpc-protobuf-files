@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusBillboardInternalReq {
+  int64 campusId = 2;
+  int64 mid = 1;
+  string versionCode = 3;
+}

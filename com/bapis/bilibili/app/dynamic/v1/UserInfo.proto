@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message UserInfo {
+  string face = 3;
+  LiveInfo live = 6;
+  int64 mid = 1;
+  string name = 2;
+  Nameplate nameplate = 9;
+  OfficialVerify official = 4;
+  UserPendant pendant = 8;
+  string uri = 7;
+  VipInfo vip = 5;
+}

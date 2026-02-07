@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractLeaveEvent {
+  string bizLabel = 3;
+  string bizSessionId = 5;
+  int32 closeUserReason = 6;
+  int64 rtcChannelId = 1;
+  string toast = 7;
+  string traceId = 4;
+  int64 uid = 2;
+}

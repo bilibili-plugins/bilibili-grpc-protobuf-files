@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynDetailsReq {
+  string dynamicIds = 2;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 6;
+  int32 fourk = 7;
+  int32 qn = 3;
+  int32 teenagersMode = 1;
+}

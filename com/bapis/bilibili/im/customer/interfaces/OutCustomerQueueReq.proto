@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message OutCustomerQueueReq {
+  int64 msgKey = 3;
+  int64 shopFatherId = 1;
+  int64 shopId = 2;
+}

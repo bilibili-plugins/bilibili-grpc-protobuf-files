@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PkCard {
+  string cardId = 1;
+  int64 cardType = 2;
+  int64 endTime = 3;
+  string text = 4;
+}

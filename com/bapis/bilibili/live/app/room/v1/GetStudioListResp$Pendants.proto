@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message GetStudioListResp$Pendants {
+  repeated Data badge = 2;
+  repeated Data frame = 1;
+}

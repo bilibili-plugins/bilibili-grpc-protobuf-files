@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.region.v1;
+
+message RegionReply {
+  repeated Data regions = 1;
+}

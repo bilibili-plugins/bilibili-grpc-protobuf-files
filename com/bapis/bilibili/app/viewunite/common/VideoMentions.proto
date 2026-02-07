@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message VideoMentions {
+  VideoMentionButton button = 2;
+  repeated Data mentions = 1;
+  string title = 4;
+  string videoReq = 3;
+}

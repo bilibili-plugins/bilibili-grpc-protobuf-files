@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message MsgBuildDepInfoReq$FetchMsgReq {
+  int64 beginSequenceNumber = 1;
+  int32 direction = 2;
+}

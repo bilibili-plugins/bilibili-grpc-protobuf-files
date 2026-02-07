@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.experimental;
+
+message MultipleTusConfig {
+  DynamicSelect dynamicSelect = 2;
+  TopLeft topLeft = 1;
+}

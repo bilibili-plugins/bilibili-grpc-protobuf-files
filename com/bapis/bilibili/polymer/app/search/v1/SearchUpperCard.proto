@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchUpperCard {
+  int32 archives = 5;
+  int32 attentions = 13;
+  repeated Data avItems = 11;
+  AvatarItem avatarInfo = 20;
+  string cover = 2;
+  int32 faceNftNew = 9;
+  int32 fans = 4;
+  string handle = 22;
+  int32 isSeniorMember = 15;
+  bool isUp = 12;
+  int32 level = 14;
+  string liveLink = 18;
+  int32 liveStatus = 6;
+  NftFaceIcon nftFaceIcon = 10;
+  Notice notice = 19;
+  OfficialVerify officialVerify = 8;
+  Relation relation = 17;
+  int32 roomid = 7;
+  string sign = 3;
+  string title = 1;
+  string userCardDesc = 21;
+  VipInfo vip = 16;
+}

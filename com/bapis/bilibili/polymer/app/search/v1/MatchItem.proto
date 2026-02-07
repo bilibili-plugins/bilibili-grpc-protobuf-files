@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message MatchItem {
+  string liveLink = 6;
+  int32 state = 1;
+  string textColorNight = 4;
+  string textColor = 3;
+  string text = 2;
+  Texts texts = 7;
+  string uri = 5;
+}

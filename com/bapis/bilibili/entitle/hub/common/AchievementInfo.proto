@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message AchievementInfo {
+  string achievementId = 1;
+  string description = 3;
+  bool hidden = 4;
+  string icon = 5;
+  string icongray = 6;
+  string name = 2;
+  string percent = 7;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayHistoryReq {
+  int64 localTodayZero = 2;
+  PageOption pageOpt = 1;
+  Pagination pagination = 3;
+}

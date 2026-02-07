@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$FilterTag {
+  string eventId = 3;
+  int64 id = 1;
+  bool supportPicList = 4;
+  string title = 2;
+}

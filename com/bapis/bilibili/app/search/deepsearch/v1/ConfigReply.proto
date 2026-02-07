@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message ConfigReply {
+  int64 broadcastTimeout = 6;
+  string chatBotIcon = 3;
+  string completeText = 2;
+  int64 interval = 5;
+  string navigationAnsweringText = 9;
+  string navigationThinkingText = 8;
+  string startText = 1;
+  string streamingText = 7;
+  repeated Data thinkingText = 4;
+  TreadPop treadPop = 10;
+}

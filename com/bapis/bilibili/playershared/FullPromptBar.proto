@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message FullPromptBar {
+  int32 barHeight = 10;
+  string bgImage = 9;
+  repeated Data button = 6;
+  bool countdownEnable = 4;
+  FoldData foldData = 7;
+  string icon = 1;
+  Report report = 8;
+  TextInfo subtitle = 5;
+  int64 timerCountdown = 3;
+  TextInfo title = 2;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchPurchaseCard {
+  string badge = 3;
+  CardLayout cardLayout = 13;
+  string city = 9;
+  string cover = 2;
+  int64 id = 11;
+  string priceComplete = 6;
+  int32 priceType = 7;
+  int32 price = 5;
+  int32 requiredNumber = 8;
+  string saleTypeColor = 15;
+  string saleTypeNightColor = 16;
+  string saleType = 14;
+  string shopName = 12;
+  string showTime = 10;
+  string title = 1;
+  string venue = 4;
+}

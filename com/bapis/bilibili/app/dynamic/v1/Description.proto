@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message Description {
+  string emojiType = 4;
+  string goodsType = 5;
+  string text = 1;
+  string type = 2;
+  string uri = 3;
+}

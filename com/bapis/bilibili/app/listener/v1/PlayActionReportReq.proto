@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayActionReportReq {
+  string fromSpmid = 2;
+  PlayItem item = 1;
+}

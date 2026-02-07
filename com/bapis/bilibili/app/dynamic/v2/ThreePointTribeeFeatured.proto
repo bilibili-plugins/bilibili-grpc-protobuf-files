@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointTribeeFeatured {
+  string icon = 1;
+  bool isFeatured = 3;
+  string title = 2;
+  ThreePointDefaultToast toast = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyInfoReq {
+  int32 bizScene = 3;
+  int64 rpid = 1;
+  int32 scene = 2;
+}

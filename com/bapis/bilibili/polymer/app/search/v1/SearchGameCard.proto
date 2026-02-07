@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchGameCard {
+  CardLayout cardLayout = 17;
+  CloudGameParams cloudGameParams = 13;
+  string cover = 2;
+  int32 gameStyle = 18;
+  string giftContent = 8;
+  string giftUrl = 9;
+  ReasonStyle newRecTag = 15;
+  string noticeContentName = 16;
+  string noticeContent = 7;
+  string noticeName = 6;
+  RankInfo rankInfo = 11;
+  float rating = 4;
+  int32 reserveStatus = 10;
+  string reserve = 3;
+  bool showCloudGameEntry = 14;
+  string specialBgColor = 12;
+  string tags = 5;
+  string title = 1;
+}

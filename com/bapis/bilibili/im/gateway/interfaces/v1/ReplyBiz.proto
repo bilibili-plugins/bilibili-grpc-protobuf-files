@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ReplyBiz {
+  repeated Data atDetails = 8;
+  bool hideLikeButton = 11;
+  bool hideReplyButton = 10;
+  int32 likeState = 12;
+  string message = 13;
+  int64 rootId = 2;
+  string rootReplyContent = 6;
+  string sourceContent = 5;
+  int64 sourceId = 3;
+  int64 subjectId = 1;
+  int64 targetId = 4;
+  string targetReplyContent = 7;
+  repeated Data topicDetails = 9;
+}

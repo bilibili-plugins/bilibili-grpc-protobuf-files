@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PushPastWorksModule {
+  repeated Data items = 2;
+  string title = 1;
+}

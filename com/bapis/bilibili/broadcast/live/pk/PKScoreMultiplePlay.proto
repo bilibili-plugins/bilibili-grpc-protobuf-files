@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PKScoreMultiplePlay {
+  int64 awardEndTime = 16;
+  int64 awardMultipleTime = 14;
+  string awardName = 6;
+  int64 awardNo = 8;
+  int64 awardNum = 7;
+  int64 awardStartTime = 15;
+  string drawAwardName = 12;
+  string drawAwardValue = 13;
+  int64 drawEndTime = 11;
+  int64 drawStartTime = 10;
+  string guideStr = 18;
+  int64 multipleCollectEndTime = 5;
+  int64 multipleCollectStartTime = 4;
+  int64 pkId = 1;
+  int64 power = 17;
+  string ruleUrl = 9;
+  int64 status = 2;
+  int64 targetVotes = 3;
+}

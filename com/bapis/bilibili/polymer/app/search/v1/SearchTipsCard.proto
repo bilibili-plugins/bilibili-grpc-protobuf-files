@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchTipsCard {
+  string coverNight = 134;
+  string cover = 2;
+  string subTitle = 4;
+  string title = 1;
+}

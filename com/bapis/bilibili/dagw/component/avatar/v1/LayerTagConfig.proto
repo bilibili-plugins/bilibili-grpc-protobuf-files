@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1;
+
+message LayerTagConfig {
+  int32 configType = 1;
+}

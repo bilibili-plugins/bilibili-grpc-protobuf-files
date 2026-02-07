@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SignedStaticResource {
+  bool isSucceed = 2;
+  string signedResUrl = 1;
+}

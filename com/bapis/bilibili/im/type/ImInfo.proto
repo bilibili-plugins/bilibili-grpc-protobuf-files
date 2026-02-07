@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message ImInfo {
+  int32 aiLoadingMax = 4;
+  string aiLoading = 3;
+  repeated Data aiPrompt = 2;
+  string backgroundUrl = 1;
+}

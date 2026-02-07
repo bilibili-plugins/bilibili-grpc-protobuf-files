@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rankdb.v1;
+
+message GoldRankBroadcast$GoldRankBroadcastItem {
+  string face = 2;
+  int64 guardLevel = 6;
+  bool isMystery = 7;
+  int64 rank = 5;
+  string score = 3;
+  int64 uid = 1;
+  UserInfo uinfo = 8;
+  string uname = 4;
+}

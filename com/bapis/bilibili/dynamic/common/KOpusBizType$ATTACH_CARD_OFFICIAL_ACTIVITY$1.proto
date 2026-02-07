@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KOpusBizType$ATTACH_CARD_OFFICIAL_ACTIVITY$1 {
+}

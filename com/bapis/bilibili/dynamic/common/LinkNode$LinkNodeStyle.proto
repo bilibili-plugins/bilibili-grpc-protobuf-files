@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message LinkNode$LinkNodeStyle {
+  bool bold = 1;
+  string fontLevel = 7;
+  double fontSize = 5;
+  bool italic = 2;
+  bool strikethrough = 3;
+  bool underline = 4;
+}

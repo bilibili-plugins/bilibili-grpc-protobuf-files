@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message TranslateButton {
+  int32 buttonStatus = 1;
+}

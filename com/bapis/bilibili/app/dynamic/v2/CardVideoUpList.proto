@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CardVideoUpList {
+  string footprint = 3;
+  bool hasMoreList = 11;
+  repeated Data listSecond = 10;
+  repeated Data list = 2;
+  repeated Data moreLabel = 5;
+  string moreListOffset = 12;
+  bool showInPersonal = 8;
+  int32 showLiveNum = 4;
+  bool showMoreButton = 9;
+  bool showMoreLabel = 7;
+  int32 titleSwitch = 6;
+  string title = 1;
+}

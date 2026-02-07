@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.community.govern.v1;
+
+message LoadAntiHarassmentSettingsReq {
+  int32 bizType = 1;
+  int64 recvMid = 2;
+  int64 sendMid = 3;
+}

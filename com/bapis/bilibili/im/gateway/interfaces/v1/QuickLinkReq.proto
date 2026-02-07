@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message QuickLinkReq {
+  int32 lessonsMode = 2;
+  int32 teenagerMode = 1;
+}

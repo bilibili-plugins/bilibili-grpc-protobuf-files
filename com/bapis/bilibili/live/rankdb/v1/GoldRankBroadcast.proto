@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rankdb.v1;
+
+message GoldRankBroadcast {
+  repeated Data list = 2;
+  repeated Data onlineList = 3;
+  string rankType = 1;
+}

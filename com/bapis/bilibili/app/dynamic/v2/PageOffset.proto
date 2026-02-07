@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message PageOffset {
+  int64 page = 1;
+  string qvId = 2;
+}

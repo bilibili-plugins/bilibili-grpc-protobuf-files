@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynMixUpListViewMoreReply {
+  repeated Data items = 1;
+  string searchDefaultText = 2;
+}

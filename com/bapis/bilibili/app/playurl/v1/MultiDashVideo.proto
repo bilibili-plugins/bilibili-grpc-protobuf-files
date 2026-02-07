@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message MultiDashVideo {
+  repeated Data dashVideos = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message OpusArticleDraftListRsp {
+  string draftUrl = 3;
+  repeated Data drafts = 1;
+  repeated Data keywords = 4;
+  Page page = 2;
+}

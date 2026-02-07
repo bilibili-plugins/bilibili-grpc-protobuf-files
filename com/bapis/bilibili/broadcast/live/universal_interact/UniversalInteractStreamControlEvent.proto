@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractStreamControlEvent {
+  string bizSessionId = 3;
+  repeated Data channelUsers = 7;
+  int64 rtcChannelId = 1;
+  UniversalInteractStreamControl streamControl = 4;
+  string traceId = 6;
+  int64 uid = 2;
+  int64 version = 5;
+}

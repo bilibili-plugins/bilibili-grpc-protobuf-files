@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PointActivity {
+  string content = 2;
+  string link = 3;
+  string tip = 1;
+}

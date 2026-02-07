@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message LiveInfo {
+  string endText = 3;
+  string liveBadgeText = 2;
+  int64 liveStatus = 1;
+}

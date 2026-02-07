@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message SeasonPlayer {
+  int64 aid = 1;
+  int64 cid = 3;
+  string from = 4;
+  string vid = 2;
+}

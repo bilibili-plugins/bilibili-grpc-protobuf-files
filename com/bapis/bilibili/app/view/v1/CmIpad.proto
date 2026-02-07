@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message CmIpad {
+  int64 aid = 5;
+  Author author = 2;
+  CM cm = 1;
+  int64 duration = 4;
+  ArchiveStat statV2 = 6;
+  Stat stat = 3;
+}

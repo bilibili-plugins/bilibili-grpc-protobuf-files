@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DanmuPlayerViewConfig {
+  DanmuDefaultPlayerConfig danmukuDefaultPlayerConfig = 1;
+  DanmuPlayerConfigPanel danmukuPlayerConfigPanel = 4;
+  DanmuPlayerConfig danmukuPlayerConfig = 2;
+  repeated Data danmukuPlayerDynamicConfig = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message Up {
+  Avatar avatar = 4;
+  string cooperation = 7;
+  Button descButton = 6;
+  string desc = 3;
+  int64 id = 1;
+  string name = 2;
+  int32 officialIcon = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message TopLeftTabRes {
+  int32 defaultTab = 2;
+  TabExtraInfo extra = 3;
+  repeated Data tabs = 1;
+}

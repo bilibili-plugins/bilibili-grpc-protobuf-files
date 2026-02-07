@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message Toast {
+  Button button = 4;
+  int32 duration = 2;
+  bool show = 3;
+  string text = 1;
+}

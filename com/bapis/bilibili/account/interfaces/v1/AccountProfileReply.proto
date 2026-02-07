@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message AccountProfileReply {
+  int64 code = 1;
+  repeated Data fieldSetting = 4;
+  string msg = 2;
+  AccountProfile profile = 3;
+}

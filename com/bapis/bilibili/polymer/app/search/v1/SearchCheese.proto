@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchCheese {
+  repeated Data badges = 10;
+  CardLayout cardLayout = 14;
+  string cover = 3;
+  Feedback feedback = 12;
+  int32 iconType = 9;
+  string name = 4;
+  int64 seasonId = 1;
+  string shareFrom = 13;
+  repeated Data threePoint = 11;
+  string title = 2;
+  string translatedTitle = 16;
+  int64 translationStatus = 15;
+  string uri = 5;
+  string viewContent = 8;
+}

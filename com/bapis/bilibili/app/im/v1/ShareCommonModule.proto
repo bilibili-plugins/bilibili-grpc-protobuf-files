@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareCommonModule {
+  string coverImg = 1;
+  int64 id = 4;
+  string subtitle = 3;
+  string title = 2;
+  int32 type = 5;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointAttention {
+  string attentionIcon = 1;
+  string attentionText = 2;
+  string notAttentionIcon = 3;
+  string notAttentionText = 4;
+  int32 status = 5;
+  string subscribeOid = 6;
+}

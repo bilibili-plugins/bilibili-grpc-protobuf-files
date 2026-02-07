@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdCardCalenderInfo {
+  string calendarIdStr = 6;
+  int32 calenderId = 4;
+  string comment = 5;
+  int64 endTime = 3;
+  int64 startTime = 2;
+  string title = 1;
+}

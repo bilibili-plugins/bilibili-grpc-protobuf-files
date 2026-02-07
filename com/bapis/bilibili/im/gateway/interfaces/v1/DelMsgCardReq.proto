@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message DelMsgCardReq {
+  bool deleteTopMsg = 5;
+  int32 filterType = 4;
+  int64 id = 1;
+  int32 msgType = 3;
+  int32 tabType = 2;
+}

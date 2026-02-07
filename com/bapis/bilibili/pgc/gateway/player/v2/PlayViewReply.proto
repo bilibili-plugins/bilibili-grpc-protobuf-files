@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PlayViewReply {
+  PlayViewBusinessInfo business = 3;
+  Event event = 4;
+  HideField hideField = 8;
+  PlayAbilityConf playConf = 2;
+  PlayAbilityExtConf playExtConf = 6;
+  PlayExtInfo playExtInfo = 7;
+  VideoInfo videoInfo = 1;
+  ViewInfo viewInfo = 5;
+}

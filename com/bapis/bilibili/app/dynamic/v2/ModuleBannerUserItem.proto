@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleBannerUserItem {
+  AdditionalButton button = 8;
+  string face = 1;
+  string label = 7;
+  int32 liveState = 4;
+  string name = 2;
+  OfficialVerify official = 5;
+  Relation relation = 10;
+  int64 uid = 3;
+  string uri = 9;
+  VipInfo vip = 6;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayURLReply {
+  ResponseDash dash = 9;
+  repeated Data durl = 8;
+  int32 fnval = 6;
+  int32 fnver = 5;
+  string format = 2;
+  int32 noRexcode = 10;
+  int32 quality = 1;
+  repeated Data supportFormats = 12;
+  int64 timelength = 3;
+  int32 type = 13;
+  UpgradeLimit upgradeLimit = 11;
+  int32 videoCodecid = 4;
+  bool videoProject = 7;
+  VipRisk vipRisk = 14;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonRecommendContent {
+  string author = 7;
+  string coverUrl = 1;
+  string desc = 5;
+  string link = 4;
+  BadgeInfo rcmdReason = 9;
+  int64 seasonId = 6;
+  string subtitle = 3;
+  string title = 2;
+  StatInfo view = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DoVoteReq {
+  int64 oid = 1;
+  int64 option = 4;
+  int64 type = 2;
+  int64 voteId = 3;
+}

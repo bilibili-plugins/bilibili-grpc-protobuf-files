@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyInAppPushPayload {
+  ReplyInAppPushPayload$Reply parentReply = 2;
+  ReplyInAppPushPayload$Reply reply = 1;
+  ReplyInAppPushPayload$SubjectMaterial subjectMaterial = 4;
+  ReplyInAppPushPayload$Subject subject = 3;
+}

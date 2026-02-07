@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message VersionReq {
+  int64 moduleId = 5;
+  string moduleName = 1;
+  bool needFull = 4;
+  int64 type = 3;
+  int64 version = 2;
+}

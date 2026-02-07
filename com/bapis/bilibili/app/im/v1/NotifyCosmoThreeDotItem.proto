@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message NotifyCosmoThreeDotItem {
+  string business = 1;
+  int32 opType = 4;
+  int32 state = 3;
+  string title = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message RcmdPlaylistResp {
+  int64 historyLen = 2;
+  repeated Data list = 1;
+  PaginationReply nextPage = 4;
+  repeated Data topCards = 3;
+}

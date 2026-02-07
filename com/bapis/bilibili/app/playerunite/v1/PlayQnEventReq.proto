@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.v1;
+
+message PlayQnEventReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  int64 qn = 3;
+  int32 reason = 4;
+  MapFieldLite reportParams = 5;
+}

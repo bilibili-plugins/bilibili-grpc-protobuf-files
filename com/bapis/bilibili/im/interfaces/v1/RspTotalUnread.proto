@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspTotalUnread {
+  int64 customUnread = 5;
+  MsgFeedUnreadRsp msgFeedUnread = 2;
+  NewTotalUnread newTotalUnread = 6;
+  SessionSingleUnreadRsp sessionSingleUnread = 1;
+  SysMsgInterfaceLastMsgRsp sysMsgInterfaceLastMsg = 3;
+  int32 totalUnread = 4;
+}

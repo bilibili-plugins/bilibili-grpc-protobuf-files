@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.contract;
+
+message CommonReq {
+  int32 build = 2;
+  string buvid = 3;
+  string device = 5;
+  string ip = 6;
+  string mobiApp = 4;
+  string platform = 1;
+  string spmid = 7;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message OperationAreaButton {
+  ConsultBubble consultBubble = 5;
+  bool disabled = 3;
+  string link = 4;
+  string text = 2;
+  int32 type = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreateCheckTribeeWebResp {
+  repeated Data categories = 2;
+  PermissionsWeb permissions = 3;
+  TribeePublishText publishText = 4;
+  TribeePublishConfig setting = 1;
+}

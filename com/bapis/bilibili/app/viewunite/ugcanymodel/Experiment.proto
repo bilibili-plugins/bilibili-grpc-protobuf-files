@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message Experiment {
+  FollowGuide followGuide = 2;
+  ShareGuide shareGuide = 1;
+  bool tagFold = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleTitle {
+  IconButton rightBtn = 2;
+  int32 titleStyle = 3;
+  string title = 1;
+}

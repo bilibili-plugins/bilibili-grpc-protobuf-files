@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.interfaces.api.grpc.v1;
+
+message GetViewHistoryResp {
+  repeated Data history = 1;
+  PaginationReply paginationReply = 2;
+}

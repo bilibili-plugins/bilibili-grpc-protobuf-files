@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message FollowLayer {
+  Desc desc = 2;
+  MapFieldLite report = 3;
+  Staff staff = 1;
+}

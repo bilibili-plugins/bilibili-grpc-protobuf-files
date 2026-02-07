@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message NewTotalUnread {
+  int32 unreadCount = 1;
+  int32 unreadType = 2;
+}

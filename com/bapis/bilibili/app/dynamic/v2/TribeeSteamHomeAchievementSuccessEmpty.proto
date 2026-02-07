@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeAchievementSuccessEmpty {
+  LinkUrl steamPrivateRule = 2;
+  TipsCard tips = 1;
+}

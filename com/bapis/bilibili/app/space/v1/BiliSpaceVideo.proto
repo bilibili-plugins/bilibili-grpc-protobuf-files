@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.space.v1;
+
+message BiliSpaceVideo {
+  repeated Data badges = 12;
+  string bvid = 14;
+  string coverRight = 13;
+  string cover = 4;
+  int64 ctime = 9;
+  string danmaku = 7;
+  int64 duration = 3;
+  bool isCooperation = 17;
+  bool isPopular = 11;
+  bool isSteins = 15;
+  bool isUgcpay = 16;
+  string param = 6;
+  int32 play = 8;
+  bool state = 10;
+  string title = 1;
+  string tname = 2;
+  string uri = 5;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message SerialSeason {
+  BadgeInfo badgeInfo = 8;
+  int32 badgeType = 7;
+  string badge = 6;
+  string cover = 5;
+  int32 isNew = 4;
+  string link = 9;
+  NewEp newEp = 11;
+  MapFieldLite report = 12;
+  string resource = 10;
+  int32 seasonId = 1;
+  string seasonTitle = 3;
+  string title = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message Operator {
+  int64 anchorUid = 1;
+  int64 build = 7;
+  string buvid = 6;
+  string ip = 8;
+  string liveKey = 3;
+  string mobiApp = 9;
+  string platform = 5;
+  int64 roomId = 2;
+  int64 uid = 4;
+}

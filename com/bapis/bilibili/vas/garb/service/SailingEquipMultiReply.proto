@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.service;
+
+message SailingEquipMultiReply {
+  MapFieldLite data = 1;
+}

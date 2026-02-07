@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeInviteCodeAllResp {
+  string desc = 3;
+  repeated Data items = 6;
+  string ruleJumpUrl = 5;
+  string ruleText = 4;
+  string title = 2;
+  int64 used = 1;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareReplyMaterialResp {
+  string bgColor = 10;
+  string bgTopOverlayImage = 13;
+  string biliLogoIcon = 6;
+  string contentAnchorImage = 12;
+  string contentBgColor = 11;
+  ShareReplyMaterialResp$ExtraData extra = 7;
+  string fromSubjectTypeText = 8;
+  string openAppTextSubtitle = 9;
+  string openAppText = 4;
+  ReplyInfo parentReply = 15;
+  string qrcodeUrl = 2;
+  ReplyInfo reply = 14;
+  string savePicText = 3;
+  string shareTimeText = 5;
+  SubjectControl subjectControl = 16;
+  ShareReplyMaterialResp$SubjectMaterial subjectMaterial = 1;
+}

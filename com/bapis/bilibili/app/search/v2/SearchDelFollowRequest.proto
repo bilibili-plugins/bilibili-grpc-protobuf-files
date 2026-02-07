@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message SearchDelFollowRequest {
+  int64 cid = 1;
+  int32 followType = 2;
+}

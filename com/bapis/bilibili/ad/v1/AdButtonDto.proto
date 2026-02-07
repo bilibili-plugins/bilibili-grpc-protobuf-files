@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdButtonDto {
+  string callupUrl = 10;
+  string dlsucCallupText = 13;
+  string dlsucCallupUrl = 5;
+  string gameChannelExtra = 9;
+  int32 gameChannelId = 8;
+  int32 gameId = 6;
+  string gameMonitorParam = 7;
+  string gameSourcefrom = 11;
+  string jumpUrl = 3;
+  repeated Data reportUrls = 4;
+  bool showGameCustomText = 12;
+  string text = 2;
+  int32 type = 1;
+}

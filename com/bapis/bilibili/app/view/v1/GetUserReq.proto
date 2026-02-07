@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message GetUserReq {
+  int64 aid = 2;
+  repeated Data mids = 1;
+  bool onlyFans = 4;
+  int64 upMid = 3;
+}

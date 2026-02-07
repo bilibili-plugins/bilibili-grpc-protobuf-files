@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AuthorBadge {
+  int32 badgeStyle = 1;
+  IconBadge badge = 2;
+}

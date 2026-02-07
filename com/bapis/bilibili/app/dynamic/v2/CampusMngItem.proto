@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngItem {
+  string auditMessage = 2;
+  int32 auditStatus = 1;
+  bool isDel = 5;
+  int32 itemType = 3;
+  string mngItemId = 4;
+}

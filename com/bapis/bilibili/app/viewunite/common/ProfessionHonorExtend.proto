@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ProfessionHonorExtend {
+  int64 count = 1;
+  ProfessionPopup popup = 3;
+  bool selfGrant = 2;
+}

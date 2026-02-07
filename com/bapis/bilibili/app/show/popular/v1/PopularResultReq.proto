@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.popular.v1;
+
+message PopularResultReq {
+  int64 entranceId = 11;
+  int32 flush = 14;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 6;
+  int32 fourk = 7;
+  int64 idx = 1;
+  string lastParam = 9;
+  string locationIds = 12;
+  int32 loginEvent = 2;
+  PlayerArgs playerArgs = 15;
+  PopularAd popularAd = 16;
+  int32 qn = 3;
+  int32 sourceId = 13;
+  string spmid = 8;
+  string ver = 10;
+}

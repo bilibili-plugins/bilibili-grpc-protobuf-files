@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message VideoPoint {
+  string content = 4;
+  string cover = 5;
+  int64 from = 2;
+  string logoUrl = 6;
+  int64 to = 3;
+  int32 type = 1;
+}

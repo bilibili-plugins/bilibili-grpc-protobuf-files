@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.wall.v1;
+
+message RuleInfo {
+  repeated Data aBackup = 5;
+  string a = 3;
+  string m = 2;
+  string p = 4;
+  bool tf = 1;
+}

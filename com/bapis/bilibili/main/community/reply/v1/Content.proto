@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Content {
+  MapFieldLite atNameToMid = 7;
+  MapFieldLite emotes = 3;
+  MapFieldLite members = 2;
+  string message = 1;
+  double pictureScale = 10;
+  repeated Data pictures = 9;
+  RichText richText = 8;
+  MapFieldLite topics = 4;
+  MapFieldLite urls = 5;
+  Vote vote = 6;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$GradePanel {
+  repeated Data cidGradeGroups = 3;
+  int32 gradeType = 5;
+  repeated Data grades = 2;
+  string promptText = 1;
+  string replyAddReportParams = 6;
+  SubjectDescriptionReply$InputConfig$GradePanel$Grade singleGrade = 4;
+}

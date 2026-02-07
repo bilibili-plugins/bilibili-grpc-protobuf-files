@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message OpusInitConfig {
+  int64 maxArticleLen = 3;
+  int64 maxCardCount = 5;
+  int64 maxHashtagLen = 6;
+  int64 maxImageCount = 4;
+  int64 maxTitleLen = 2;
+  int64 minTitleLen = 1;
+}

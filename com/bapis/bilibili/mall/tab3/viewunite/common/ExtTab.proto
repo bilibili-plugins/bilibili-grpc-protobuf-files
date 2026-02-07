@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message ExtTab {
+  string data = 2;
+  int32 extType = 1;
+}

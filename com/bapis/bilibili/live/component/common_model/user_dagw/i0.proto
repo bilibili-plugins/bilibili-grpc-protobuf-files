@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message i0 {
+}

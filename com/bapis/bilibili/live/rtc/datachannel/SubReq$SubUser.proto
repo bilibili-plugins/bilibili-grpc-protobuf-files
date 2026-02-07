@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message SubReq$SubUser {
+  bool subAudio = 3;
+  bool subVideo = 2;
+  int64 uid = 1;
+  int32 videoIndex = 4;
+}

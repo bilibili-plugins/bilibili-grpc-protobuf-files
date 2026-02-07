@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeAchievementItem {
+  string achieveDesc = 6;
+  string achieveName = 4;
+  string achievePerc = 7;
+  string achievePicUrl = 3;
+  string achieveTime = 5;
+  bool isAchieved = 2;
+  int32 type = 1;
+}

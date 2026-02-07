@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message GetUserSettingsRsp {
+  bool doNotDisturb = 2;
+  bool enableInitiativeMsg = 1;
+  string reportUrl = 3;
+}

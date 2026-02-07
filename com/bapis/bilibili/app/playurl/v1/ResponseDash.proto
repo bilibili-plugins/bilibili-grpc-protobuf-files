@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ResponseDash {
+  repeated Data audio = 2;
+  repeated Data video = 1;
+}

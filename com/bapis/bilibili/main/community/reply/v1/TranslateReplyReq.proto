@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message TranslateReplyReq {
+  int64 oid = 2;
+  repeated Data rpids = 3;
+  int64 type = 1;
+}

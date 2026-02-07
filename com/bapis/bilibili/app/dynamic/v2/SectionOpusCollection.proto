@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SectionOpusCollection {
+  repeated Data allCollections = 2;
+  string title = 1;
+}

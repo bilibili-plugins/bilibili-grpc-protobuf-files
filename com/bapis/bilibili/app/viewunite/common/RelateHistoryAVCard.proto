@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateHistoryAVCard {
+  int64 duration = 1;
+  string icon = 4;
+  int64 progress = 2;
+  int64 unix = 3;
+}

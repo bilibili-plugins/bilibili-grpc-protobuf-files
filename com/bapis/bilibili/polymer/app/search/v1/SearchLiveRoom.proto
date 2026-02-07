@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchLiveRoom {
+  string areaV2Name = 10;
+  ReasonStyle badge = 18;
+  string cover = 3;
+  string goto = 9;
+  string liveLink = 14;
+  int32 liveStatus = 13;
+  int64 mid = 12;
+  string name = 2;
+  int32 online = 11;
+  string param = 5;
+  int64 roomid = 7;
+  int64 shortId = 8;
+  repeated Data threePoint = 15;
+  string title = 1;
+  string translatedTitle = 17;
+  int64 translationStatus = 16;
+  string uri = 4;
+  WatchedShow watchedShow = 6;
+}

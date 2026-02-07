@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message SpliceInfo {
+  string title = 1;
+}

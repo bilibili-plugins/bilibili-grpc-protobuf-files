@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message CardUGC {
+  Arc arc = 5;
+  string archiveVideoAuditJson = 8;
+  bool hasShare = 7;
+  Color titleColor = 2;
+  string title = 1;
+  string url = 6;
+}

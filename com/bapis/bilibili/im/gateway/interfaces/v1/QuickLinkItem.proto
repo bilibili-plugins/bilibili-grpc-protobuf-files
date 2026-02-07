@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message QuickLinkItem {
+  string iconDark = 4;
+  string icon = 3;
+  int32 tabType = 1;
+  string title = 2;
+  string url = 5;
+}

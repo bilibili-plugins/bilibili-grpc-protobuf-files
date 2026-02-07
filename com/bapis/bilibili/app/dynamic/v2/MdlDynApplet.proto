@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynApplet {
+  string buttonTitle = 9;
+  string cover = 6;
+  string icon = 7;
+  int64 id = 1;
+  string label = 8;
+  string subTitle = 5;
+  string title = 4;
+  string uri = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message UpSelection {
+  int64 ignoreCount = 2;
+  int64 pendingCount = 1;
+}

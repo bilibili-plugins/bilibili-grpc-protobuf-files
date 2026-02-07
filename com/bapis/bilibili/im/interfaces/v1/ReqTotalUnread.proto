@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqTotalUnread {
+  int32 msgfeedOn = 6;
+  int32 showDustbin = 4;
+  int32 showUnfollowList = 2;
+  int32 singleunreadOn = 5;
+  int32 sysupOn = 7;
+  int64 uid = 3;
+  int32 unreadType = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KLangMatchResult$Companion$values$2 {
+}

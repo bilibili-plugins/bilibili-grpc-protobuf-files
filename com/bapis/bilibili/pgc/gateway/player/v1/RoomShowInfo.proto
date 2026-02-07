@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message RoomShowInfo {
+  int64 liveStartTime = 10;
+  int64 popularityCount = 8;
+  int64 shortId = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqGroupAssisMsg {
+  int64 clientSeqno = 1;
+  int32 size = 2;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmSegMobileReq {
+  string contextExt = 11;
+  int32 fromScene = 9;
+  int64 oid = 2;
+  int64 pe = 7;
+  int64 pid = 1;
+  int64 ps = 6;
+  int32 pullMode = 8;
+  int64 segmentIndex = 4;
+  string spmid = 10;
+  int32 teenagersMode = 5;
+  int32 type = 3;
+}

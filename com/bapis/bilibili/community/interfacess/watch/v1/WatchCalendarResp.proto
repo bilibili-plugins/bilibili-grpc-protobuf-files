@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message WatchCalendarResp {
+  repeated Data calendarItem = 1;
+  repeated Data recommend = 2;
+}

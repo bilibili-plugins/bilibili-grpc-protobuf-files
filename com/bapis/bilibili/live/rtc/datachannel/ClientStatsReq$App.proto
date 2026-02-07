@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message ClientStatsReq$App {
+  string appName = 1;
+  string appVersion = 2;
+  string network = 5;
+  string platform = 4;
+  string sdkVersion = 3;
+}

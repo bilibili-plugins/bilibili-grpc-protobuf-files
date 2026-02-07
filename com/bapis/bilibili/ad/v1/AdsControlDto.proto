@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdsControlDto {
+  repeated Data cids = 2;
+  repeated Data eps = 3;
+  int32 hasDanmu = 1;
+  bool hasLiveBookingAd = 6;
+  int32 underPlayerBannerMode = 7;
+  int32 underPlayerScrollerSeconds = 4;
+  bool vipSkippedAd = 5;
+}

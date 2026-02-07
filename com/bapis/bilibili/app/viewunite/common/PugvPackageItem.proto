@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvPackageItem {
+  string cover = 2;
+  string desc = 6;
+  string discountPriceDesc = 4;
+  string link = 7;
+  string originalPriceDesc = 5;
+  int64 productId = 1;
+  PugvPackageSaleInfo saleInfo = 9;
+  int64 seasonCount = 8;
+  string title = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeAchievementSuccess {
+  string achieveCountIcon = 7;
+  string countStr = 2;
+  TribeeSteamHomeGameItem game = 3;
+  string playTimeIcon = 6;
+  int32 type = 1;
+}

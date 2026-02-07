@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdGoodDto {
+  int64 itemId = 1;
+  int64 shopId = 3;
+  int64 skuId = 2;
+  int64 skuNum = 4;
+}

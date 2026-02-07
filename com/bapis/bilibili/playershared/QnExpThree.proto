@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message QnExpThree {
+  float lowScreenThreshold = 3;
+  int64 sid = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ReserveButtonClickReq {
+  int32 curBtnStatus = 4;
+  int64 dynId = 6;
+  int64 dynType = 7;
+  int64 reserveId = 2;
+  int64 reserveTotal = 3;
+  string spmid = 5;
+  int64 uid = 1;
+}

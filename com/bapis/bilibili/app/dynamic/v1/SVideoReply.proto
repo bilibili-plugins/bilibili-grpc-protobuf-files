@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoReply {
+  int32 hasMore = 3;
+  repeated Data list = 1;
+  string offset = 2;
+  SVideoTop top = 4;
+}

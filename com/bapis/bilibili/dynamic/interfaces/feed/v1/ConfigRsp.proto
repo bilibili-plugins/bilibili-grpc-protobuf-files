@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ConfigRsp {
+  repeated Data abEntries = 1;
+  string articleLoadingAddress = 3;
+  int32 maxPicCountType = 2;
+}

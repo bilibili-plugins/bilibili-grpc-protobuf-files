@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreeItemV1 {
+  Base base = 1;
+  repeated Data items = 5;
+  string moreText = 4;
+  string moreUri = 3;
+  int32 titleIcon = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message UserPendant {
+  int64 expire = 4;
+  string image = 3;
+  string name = 2;
+  int64 pid = 1;
+}

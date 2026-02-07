@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message DiversionEntrance {
+  string icon = 1;
+  string jumpUri = 2;
+  string textColor = 6;
+  string title = 3;
+  string trackInfo = 5;
+  int64 type = 4;
+}

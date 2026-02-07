@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message SubjectControl {
+  string bgText = 7;
+  string childText = 15;
+  SubjectControl$CmTopReplyProtection cmTopReplyProtection = 28;
+  int64 count = 16;
+  bool disableJumpEmote = 20;
+  string emptyBackgroundTextHighlight = 22;
+  string emptyBackgroundTextPlain = 21;
+  string emptyBackgroundUri = 23;
+  EmptyPage emptyPage = 27;
+  bool enableCharged = 29;
+  string giveupText = 18;
+  bool hasActivityAccess = 9;
+  bool hasFoldedReply = 6;
+  bool hasLotteryAccess = 5;
+  bool hasNoteAccess = 19;
+  bool hasVoteAccess = 4;
+  bool inputDisable = 13;
+  bool isAssist = 2;
+  bool readOnly = 3;
+  string rootText = 14;
+  int32 screenshotIconState = 25;
+  bool showTitle = 10;
+  bool showUpAction = 11;
+  repeated Data supportFilterTags = 24;
+  int64 switcherType = 12;
+  string title = 17;
+  bool upBlocked = 8;
+  int64 upMid = 1;
+  int32 uploadPictureIconState = 26;
+}

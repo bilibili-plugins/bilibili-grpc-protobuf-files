@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message CommandDm {
+  string command = 4;
+  string content = 5;
+  string ctime = 7;
+  string extra = 9;
+  string idStr = 10;
+  int64 id = 1;
+  int64 mid = 3;
+  string mtime = 8;
+  int64 oid = 2;
+  int32 progress = 6;
+}

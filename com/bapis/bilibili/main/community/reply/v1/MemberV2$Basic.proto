@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Basic {
+  AvatarItem avatarItem = 6;
+  string face = 4;
+  string handle = 8;
+  int64 level = 5;
+  int64 mid = 1;
+  NameRender nameRender = 7;
+  string name = 2;
+  string sex = 3;
+}

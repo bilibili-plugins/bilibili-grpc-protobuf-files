@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonAIInfo {
+  string diagram = 4;
+  string guideContent = 3;
+  string guideTitle = 2;
+  bool isAi = 1;
+}

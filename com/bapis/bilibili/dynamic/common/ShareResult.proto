@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareResult {
+  int64 forbidSyncComment = 3;
+  int64 shareEnable = 1;
+  string toast = 2;
+}

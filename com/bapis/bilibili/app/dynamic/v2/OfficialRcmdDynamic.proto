@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OfficialRcmdDynamic {
+  string coverRightTopText = 3;
+  string cover = 2;
+  int64 dynamicId = 10;
+  int64 mid = 11;
+  string reason = 8;
+  int64 rid = 13;
+  string title = 1;
+  string uri = 9;
+  string userName = 12;
+}

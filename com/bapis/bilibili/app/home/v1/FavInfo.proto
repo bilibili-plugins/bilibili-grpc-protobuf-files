@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message FavInfo {
+  RecentRecommendMetaInfo recMeta = 1;
+}

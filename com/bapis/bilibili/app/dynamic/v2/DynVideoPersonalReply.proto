@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynVideoPersonalReply {
+  TopAdditionUP additionUp = 6;
+  bool hasMore = 3;
+  repeated Data list = 1;
+  string offset = 2;
+  string readOffset = 4;
+  Relation relation = 5;
+  string titleSub = 8;
+  string title = 7;
+}

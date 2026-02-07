@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message AiEntry {
+  string icon = 1;
+  string subtitle = 3;
+  string title = 2;
+}

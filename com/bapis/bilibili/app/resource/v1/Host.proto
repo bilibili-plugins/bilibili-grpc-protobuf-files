@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message Host {
+  string bfs = 2;
+  string boss = 1;
+}

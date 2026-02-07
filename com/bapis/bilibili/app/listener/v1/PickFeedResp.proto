@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PickFeedResp {
+  repeated Data cards = 2;
+  int64 offset = 1;
+}

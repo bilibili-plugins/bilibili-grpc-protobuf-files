@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ReasonStyle {
+  string bgColorNight = 7;
+  string bgColor = 3;
+  int32 bgStyle = 10;
+  string borderColorNight = 8;
+  string borderColor = 4;
+  string eventV2 = 14;
+  string event = 13;
+  string iconBgUrl = 12;
+  string iconNightUrl = 9;
+  string iconUrl = 5;
+  string leftIconType = 16;
+  int32 rightIconType = 15;
+  string textColorNight = 6;
+  string textColor = 2;
+  string text = 1;
+  string uri = 11;
+}

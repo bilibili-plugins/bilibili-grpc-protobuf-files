@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$FunctionButtonGroup {
+  repeated Data buttons = 1;
+}

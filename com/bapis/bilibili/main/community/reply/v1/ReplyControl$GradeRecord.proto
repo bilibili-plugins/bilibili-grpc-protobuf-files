@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyControl$GradeRecord {
+  int32 score = 1;
+  repeated Data texts = 2;
+}

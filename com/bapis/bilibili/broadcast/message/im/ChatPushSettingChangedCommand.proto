@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.im;
+
+message ChatPushSettingChangedCommand {
+  SessionId sessionId = 1;
+  bool setting = 2;
+}

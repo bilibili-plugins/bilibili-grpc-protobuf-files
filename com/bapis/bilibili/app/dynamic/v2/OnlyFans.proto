@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OnlyFans {
+  IconBadge badge = 2;
+  bool isOnlyFans = 1;
+}

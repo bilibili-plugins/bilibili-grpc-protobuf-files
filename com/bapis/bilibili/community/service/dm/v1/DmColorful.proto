@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmColorful {
+  string src = 2;
+  int32 type = 1;
+}

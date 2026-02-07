@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.dialing;
+
+message DialingTaskMessage {
+  string buvid = 7;
+  string dialingType = 1;
+  HTTPTask hTTPJob = 2;
+  MapFieldLite ipToNodeId = 9;
+  int64 mid = 8;
+  string resultReportAddress = 4;
+  TCPTask tCPJob = 3;
+  string userIsp = 5;
+  string userProvince = 6;
+}

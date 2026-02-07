@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message Stats {
+  int32 coin = 2;
+  int32 fav = 3;
+  int32 like = 1;
+  int32 share = 4;
+}

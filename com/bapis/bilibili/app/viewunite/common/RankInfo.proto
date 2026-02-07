@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RankInfo {
+  string bkgDayColor = 4;
+  string bkgNightColor = 3;
+  string fontDayColor = 6;
+  string fontNightColor = 5;
+  string iconUrlDay = 2;
+  string iconUrlNight = 1;
+  string rankContent = 7;
+  string rankLink = 8;
+}

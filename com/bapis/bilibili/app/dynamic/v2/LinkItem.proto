@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LinkItem {
+  string icon = 3;
+  bool isShortUrl = 4;
+  string shortUrl = 5;
+  string title = 2;
+  string url = 1;
+}

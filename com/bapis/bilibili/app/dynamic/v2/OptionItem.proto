@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OptionItem {
+  int64 bizType = 4;
+  string subTitle = 3;
+  string title = 2;
+  FootHoverToast toast = 5;
+  int32 type = 1;
+}

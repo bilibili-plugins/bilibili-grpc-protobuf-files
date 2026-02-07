@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message Glance {
+  bool canWatch = 1;
+  int64 duration = 3;
+  int64 times = 2;
+}

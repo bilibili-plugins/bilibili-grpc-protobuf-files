@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message DmLiveReply {
+  repeated Data elems = 1;
+  int32 source = 3;
+  int32 state = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicDetailsFoldReq {
+  int64 fromSortBy = 6;
+  int32 localTime = 4;
+  string offset = 2;
+  int32 pageSize = 3;
+  PlayerArgs playerArgs = 5;
+  int64 topicId = 1;
+}

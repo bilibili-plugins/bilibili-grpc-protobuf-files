@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynPGC {
+  int64 aid = 10;
+  repeated Data badgeCategory = 21;
+  repeated Data badge = 15;
+  bool canPlay = 16;
+  int64 cid = 7;
+  string cover = 2;
+  Dimension dimension = 14;
+  int64 duration = 19;
+  int64 epid = 9;
+  bool isFeature = 22;
+  bool isPreview = 13;
+  string jumpUrl = 20;
+  int32 mediaType = 11;
+  string playIcon = 18;
+  int64 seasonId = 8;
+  PGCSeason season = 17;
+  int32 subType = 12;
+  string title = 1;
+  string uri = 3;
+}

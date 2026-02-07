@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message VipLabel {
+  string bgColor = 6;
+  int32 bgStyle = 5;
+  string borderColor = 7;
+  string imgLabelUriHansStatic = 11;
+  string imgLabelUriHans = 9;
+  string imgLabelUriHantStatic = 12;
+  string imgLabelUriHant = 10;
+  string labelTheme = 3;
+  string path = 1;
+  string textColor = 4;
+  string text = 2;
+  bool useImgLabel = 8;
+}

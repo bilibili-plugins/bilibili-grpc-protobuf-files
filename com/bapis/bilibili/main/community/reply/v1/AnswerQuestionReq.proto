@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message AnswerQuestionReq {
+  string optionKey = 2;
+  int64 qid = 1;
+}

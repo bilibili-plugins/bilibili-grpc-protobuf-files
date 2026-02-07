@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PickArchive {
+  string cover = 4;
+  int64 duration = 5;
+  PlayItem item = 1;
+  string message = 10;
+  PickArchiveAuthor owner = 3;
+  int32 parts = 6;
+  int32 statReply = 8;
+  string statViewVtText = 12;
+  int32 statView = 7;
+  int32 state = 9;
+  string title = 2;
+  bool useStatViewVt = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message GetChatAuthReply {
+  bool display = 1;
+  string iconNight = 3;
+  string icon = 2;
+  int32 jumpLinkType = 6;
+  string jumpLink = 4;
+  string textGuide = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostListRsp {
+  bool hasMore = 3;
+  repeated Data list = 1;
+  string offset = 2;
+  int32 repostType = 5;
+  int64 totalCount = 4;
+}

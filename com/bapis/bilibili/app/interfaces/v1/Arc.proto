@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message Arc {
+  Arc archive = 1;
+  repeated Data badges = 9;
+  string coverIcon = 5;
+  string coverLeftIcon = 11;
+  string coverLeftText = 12;
+  string coverRightIcon = 15;
+  string coverRightText = 16;
+  int64 iconType = 4;
+  bool isFold = 6;
+  bool isOneself = 10;
+  bool isPugv = 7;
+  string publishTimeText = 8;
+  string subTitleIcon = 13;
+  string subTitle = 14;
+  string uri = 2;
+  string viewContent = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message TribeeCategory {
+  int32 allowOutsiderPub = 4;
+  int64 categoryId = 1;
+  bool isSelected = 3;
+  string name = 2;
+  int32 switchable = 5;
+}

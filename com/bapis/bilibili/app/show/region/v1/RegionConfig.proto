@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.region.v1;
+
+message RegionConfig {
+  string scenesName = 1;
+  string scenesType = 2;
+}

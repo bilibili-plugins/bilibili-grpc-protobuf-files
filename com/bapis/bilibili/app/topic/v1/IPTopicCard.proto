@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message IPTopicCard {
+  int64 endTime = 3;
+  repeated Data items = 1;
+  int64 startTime = 2;
+}

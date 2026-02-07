@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message ClipInfo {
+  int32 clipType = 4;
+  int32 end = 3;
+  int64 materialNo = 1;
+  MultiView multiView = 6;
+  int32 start = 2;
+  string toastText = 5;
+}

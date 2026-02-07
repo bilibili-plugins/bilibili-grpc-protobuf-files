@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message CreateTopic {
+  int64 id = 1;
+}

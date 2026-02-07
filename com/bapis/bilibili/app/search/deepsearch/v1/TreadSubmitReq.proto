@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message TreadSubmitReq {
+  string inputContent = 4;
+  string queryId = 2;
+  string selectedReason = 3;
+  string sessionId = 1;
+}

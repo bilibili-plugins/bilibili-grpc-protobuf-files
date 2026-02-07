@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Attention {
+  int32 endTime = 2;
+  double posX = 3;
+  double posY = 4;
+  int32 startTime = 1;
+}

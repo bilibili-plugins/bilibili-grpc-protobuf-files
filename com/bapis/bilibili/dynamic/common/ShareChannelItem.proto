@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareChannelItem {
+  string name = 1;
+  string picture = 2;
+  ShareReserve reserve = 4;
+  string shareChannel = 3;
+}

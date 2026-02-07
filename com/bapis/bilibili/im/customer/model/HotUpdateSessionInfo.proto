@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message HotUpdateSessionInfo {
+  BackButton backButton = 3;
+  BaseSessionInfo baseInfo = 1;
+  bool isWindowOptionAddRedDot = 4;
+  InputBoxPanel panel = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message WordNode {
+  BgStyle bgStyle = 9;
+  string biliTheme = 10;
+  string color = 3;
+  string darkColor = 4;
+  string fontLevel = 7;
+  double fontSize = 2;
+  WordNode$WordNodeStyle style = 5;
+  string translatedWords = 8;
+  string words = 1;
+}

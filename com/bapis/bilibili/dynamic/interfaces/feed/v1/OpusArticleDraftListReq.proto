@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message OpusArticleDraftListReq {
+  string editorVersion = 2;
+  string keyword = 3;
+  Page page = 1;
+}

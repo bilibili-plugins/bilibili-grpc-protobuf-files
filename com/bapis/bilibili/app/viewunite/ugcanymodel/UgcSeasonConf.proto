@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message UgcSeasonConf {
+  int64 foldTime = 2;
+  bool seasonUnfold = 1;
+}

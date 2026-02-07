@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmSegMobileReply {
+  DanmakuAIFlag aiFlag = 3;
+  repeated Data colorfulSrc = 5;
+  string contextSrc = 6;
+  repeated Data elems = 1;
+  repeated Data segmentRules = 4;
+  int32 state = 2;
+}

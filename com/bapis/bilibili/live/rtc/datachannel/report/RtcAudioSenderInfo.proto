@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcAudioSenderInfo {
+  double audioLevel = 14;
+  int64 bytesSent = 2;
+  double fractionLost = 8;
+  int64 headerBytesSent = 3;
+  double jitter = 9;
+  string mediaSourceId = 20;
+  bool mute = 18;
+  int32 nackCount = 4;
+  int64 packetsLost = 10;
+  int64 packetsSent = 5;
+  string remoteId = 19;
+  int64 retransmittedBytesSent = 6;
+  int64 retransmittedPacketsSent = 7;
+  int64 roundTripTimeMeasurements = 12;
+  double roundTripTime = 11;
+  int32 ssrc = 1;
+  int32 streamId = 17;
+  double totalAudioEnergy = 15;
+  double totalRoundTripTime = 13;
+  double totalSamplesDuration = 16;
+}

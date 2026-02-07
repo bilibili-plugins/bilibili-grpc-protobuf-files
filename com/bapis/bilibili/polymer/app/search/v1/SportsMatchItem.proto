@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SportsMatchItem {
+  string beginTimeDesc = 5;
+  string img = 4;
+  int64 matchId = 1;
+  string matchName = 3;
+  string matchStatusDesc = 6;
+  int64 seasonId = 2;
+  string subContent = 7;
+  string subExtraIcon = 8;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message PeerUserInfo {
+  string areaName = 4;
+  string face = 2;
+  int64 fansNum = 3;
+  int32 gender = 5;
+  string uname = 1;
+}

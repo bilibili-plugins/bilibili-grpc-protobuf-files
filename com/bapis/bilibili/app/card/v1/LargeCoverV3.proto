@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message LargeCoverV3 {
+  Avatar avatar = 3;
+  Base base = 1;
+  ReasonStyle bottomRcmdReasonStyle = 5;
+  string coverGif = 2;
+  string coverRightText = 10;
+  string desc = 11;
+  int32 officialIcon = 12;
+  ReasonStyle topRcmdReasonStyle = 4;
+}

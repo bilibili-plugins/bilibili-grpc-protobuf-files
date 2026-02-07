@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Member {
+  int32 faceNftNew = 31;
+  int32 faceNft = 30;
+  string face = 4;
+  string fansGuardIcon = 34;
+  int64 fansGuardLevel = 29;
+  string fansHonorIcon = 35;
+  int64 fansMedalColorBorder = 26;
+  int64 fansMedalColorEnd = 25;
+  int64 fansMedalColorLevel = 28;
+  int64 fansMedalColorName = 27;
+  int64 fansMedalColor = 20;
+  int64 fansMedalLevel = 19;
+  string fansMedalName = 18;
+  string garbCardFanColor = 16;
+  string garbCardImageWithFocus = 13;
+  string garbCardImage = 12;
+  bool garbCardIsFan = 17;
+  string garbCardJumpUrl = 14;
+  string garbCardNumber = 15;
+  string garbPendantImage = 11;
+  int32 isSeniorMember = 32;
+  int64 level = 5;
+  int64 mid = 1;
+  string name = 2;
+  Member$NftInteraction nftInteraction = 33;
+  int64 officialVerifyType = 6;
+  string sex = 3;
+  int32 vipAvatarSubscript = 22;
+  string vipLabelPath = 10;
+  string vipLabelText = 23;
+  string vipLabelTheme = 24;
+  string vipNicknameColor = 21;
+  int64 vipStatus = 8;
+  int64 vipThemeType = 9;
+  int64 vipType = 7;
+}

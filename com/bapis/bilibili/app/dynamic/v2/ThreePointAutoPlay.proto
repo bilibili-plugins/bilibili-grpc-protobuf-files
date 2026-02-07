@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointAutoPlay {
+  string closeIconV2 = 10;
+  string closeIcon = 3;
+  string closeTextV2 = 6;
+  string closeText = 4;
+  string onlyIcon = 7;
+  string onlyText = 8;
+  string openIconV2 = 9;
+  string openIcon = 1;
+  string openTextV2 = 5;
+  string openText = 2;
+}

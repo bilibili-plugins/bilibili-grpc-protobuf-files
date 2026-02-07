@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynamicItem {
+  int32 cardType = 1;
+  Extend extend = 4;
+  int32 hasFold = 5;
+  int32 itemType = 2;
+  repeated Data modules = 3;
+  string serverInfo = 6;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.service;
+
+message SailingEquipMultiReq {
+  Device device = 6;
+  int64 mid = 5;
+  repeated Data mids = 1;
+  int64 oid = 4;
+  int64 otype = 3;
+  int64 upMid = 2;
+}

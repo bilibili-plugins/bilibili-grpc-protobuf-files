@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message BKStat {
+  int32 coin = 2;
+  int32 favourite = 3;
+  bool hasCoin = 8;
+  bool hasFav = 9;
+  bool hasLike = 7;
+  int32 like = 1;
+  int32 reply = 4;
+  int32 share = 5;
+  bool useViewVt = 10;
+  string viewVtText = 11;
+  int32 view = 6;
+}

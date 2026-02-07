@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicThreePoint {
+  repeated Data dynThreePointItems = 1;
+}

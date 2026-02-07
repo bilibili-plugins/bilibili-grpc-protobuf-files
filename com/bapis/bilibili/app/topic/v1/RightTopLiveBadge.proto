@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message RightTopLiveBadge {
+  LiveBadgeResource inLive = 2;
+  string liveStatsDesc = 3;
+  int64 liveStatus = 1;
+}

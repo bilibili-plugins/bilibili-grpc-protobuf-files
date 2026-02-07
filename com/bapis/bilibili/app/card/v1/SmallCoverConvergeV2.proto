@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message SmallCoverConvergeV2 {
+  Base base = 1;
+  string coverRightText = 6;
+  string coverRightTopText = 7;
+  ReasonStyle rcmdReasonStyleV2 = 9;
+  ReasonStyle rcmdReasonStyle = 8;
+}

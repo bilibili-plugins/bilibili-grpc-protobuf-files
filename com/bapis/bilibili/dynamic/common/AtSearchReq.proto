@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message AtSearchReq {
+  string keyword = 2;
+  int64 uid = 1;
+}

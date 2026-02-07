@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.rank.v1;
+
+message RankRegionInfo {
+  string name = 2;
+  int32 regionType = 3;
+  int32 tid = 1;
+  string uri = 4;
+}

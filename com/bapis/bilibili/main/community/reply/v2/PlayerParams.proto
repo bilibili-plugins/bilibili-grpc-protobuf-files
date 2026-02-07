@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message PlayerParams {
+  bool disableFilterTag = 2;
+  bool isStory = 1;
+}

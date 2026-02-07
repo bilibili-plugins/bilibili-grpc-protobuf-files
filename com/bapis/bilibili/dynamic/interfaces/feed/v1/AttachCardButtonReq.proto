@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message AttachCardButtonReq {
+  int32 attachCardType = 3;
+  string cardBizId = 8;
+  string cardType = 7;
+  int32 curBtnStatus = 1;
+  string dynamicIdStr = 6;
+  int64 dynamicId = 2;
+  int32 opusBizType = 9;
+  int64 reserveTotal = 5;
+  string spmId = 4;
+}

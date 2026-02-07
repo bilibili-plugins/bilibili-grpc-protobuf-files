@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message QueryRecAfterClickItem {
+  string iconNight = 6;
+  int32 iconType = 3;
+  string icon = 5;
+  string recommendReason = 2;
+  string showName = 1;
+  string url = 4;
+}

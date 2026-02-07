@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.privacy.v1;
+
+message PrivacyConfigItem {
+  int32 privacyConfigType = 1;
+  int32 state = 3;
+  string subTitleUri = 5;
+  string subTitle = 4;
+  string title = 2;
+}

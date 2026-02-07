@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message SpecialCell {
+  string cellBgcolorNight = 9;
+  string cellBgcolor = 8;
+  CellFluid cellFluid = 15;
+  string cellType = 7;
+  string endIconNight = 14;
+  string endIcon = 13;
+  string iconNight = 2;
+  string icon = 1;
+  string jumpType = 12;
+  string jumpUrl = 6;
+  string pageTitle = 11;
+  string param = 10;
+  string textColorNight = 5;
+  string textColor = 4;
+  string text = 3;
+}

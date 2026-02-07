@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateThreePoint {
+  string dislikeReportData = 4;
+  RelateDislike dislike = 1;
+  RelateDislike feedback = 2;
+  TranslateButton translateButton = 5;
+  bool watchLater = 3;
+}

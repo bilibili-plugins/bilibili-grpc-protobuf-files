@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.im;
+
+message NotifyInfo {
+  int32 msgType = 1;
+  int32 sessionType = 3;
+  int64 talkerId = 2;
+}

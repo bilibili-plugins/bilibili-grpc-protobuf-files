@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message OgvStats {
+  string followText = 2;
+  string viewsText = 1;
+}

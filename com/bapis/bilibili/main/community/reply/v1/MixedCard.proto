@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MixedCard {
+  int64 displayRank = 3;
+  string oid = 2;
+  int32 type = 1;
+}

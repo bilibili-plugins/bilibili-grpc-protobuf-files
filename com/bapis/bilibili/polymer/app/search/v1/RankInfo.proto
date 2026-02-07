@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message RankInfo {
+  int64 gameRank = 9;
+  string rankContent = 7;
+  string rankLink = 8;
+  int64 rankType = 10;
+  string searchBkgDayColor = 4;
+  string searchBkgNightColor = 3;
+  string searchDayIconUrl = 2;
+  string searchFontDayColor = 6;
+  string searchFontNightColor = 5;
+  string searchNightIconUrl = 1;
+}

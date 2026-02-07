@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message PlayerDanmakuBlocktopBottom {
+  bool value = 1;
+}

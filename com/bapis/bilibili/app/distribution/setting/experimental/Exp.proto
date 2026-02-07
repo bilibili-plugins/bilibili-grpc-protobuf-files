@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.experimental;
+
+message Exp {
+  Int32Value bucket = 2;
+  Int64Value id = 1;
+}

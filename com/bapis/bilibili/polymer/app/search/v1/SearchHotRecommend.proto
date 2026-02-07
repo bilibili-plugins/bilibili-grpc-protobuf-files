@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchHotRecommend {
+  string cover = 2;
+  string title = 1;
+}

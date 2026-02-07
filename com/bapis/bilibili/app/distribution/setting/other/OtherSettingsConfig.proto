@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.other;
+
+message OtherSettingsConfig {
+  BoolValue enableGuideScreenshotShare = 8;
+  BoolValue enableReadPasteboard = 3;
+  BoolValue enableResumePlaying = 6;
+  BoolValue enableWifiAutoUpdate = 7;
+  BoolValue miniScreenPlayWhenBack = 5;
+  BoolValue pasteAutoJump = 4;
+  Int64Value watermarkType = 1;
+  Int64Value webImageQualityType = 2;
+}

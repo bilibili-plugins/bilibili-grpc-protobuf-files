@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message Skin {
+  string bgImgNight = 4;
+  string bgImg = 3;
+  string dmBtnBgColor = 9;
+  string dmBtnBgNightColor = 10;
+  string dmBtnIconColor = 11;
+  string dmBtnIconNightColor = 12;
+  string dmInputFrameBgColor = 5;
+  string dmInputFrameBgNightColor = 6;
+  string dmInputFrameColor = 7;
+  string dmInputFrameNightColor = 8;
+  string dmInputTextColor = 13;
+  string dmInputTextNightColor = 14;
+  string tabTextColor = 1;
+  string tabTextNightColor = 2;
+}

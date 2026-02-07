@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateSpecial {
+  BadgeInfo badge = 1;
+  BadgeInfo rcmdReason = 2;
+  bool showRcmdStyle = 3;
+}

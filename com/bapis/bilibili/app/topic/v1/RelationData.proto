@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message RelationData {
+  bool isCoin = 2;
+  bool isFav = 1;
+  bool isFollow = 3;
+  bool isLike = 4;
+  int64 likeCount = 5;
+}

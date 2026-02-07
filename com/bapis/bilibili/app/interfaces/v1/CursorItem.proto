@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CursorItem {
+  string business = 11;
+  DeviceType dt = 13;
+  bool hasShare = 14;
+  int64 kid = 9;
+  int64 oid = 10;
+  string report = 15;
+  string title = 6;
+  int32 tp = 12;
+  TranslateInfo translateInfo = 16;
+  string uri = 7;
+  int64 viewAt = 8;
+}

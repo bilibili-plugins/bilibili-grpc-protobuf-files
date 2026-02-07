@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmViewReply {
+  repeated Data activityMeta = 18;
+  DanmakuFlagConfig aiFlag = 5;
+  bool allow = 8;
+  BuzzwordConfig buzzwordConfig = 15;
+  string checkBoxShowMsg = 10;
+  bool checkBox = 9;
+  bool closed = 1;
+  Command command = 22;
+  DmHerdView dmHerd = 21;
+  repeated Data dmMaskWall = 20;
+  DMRestrict dmRestrict = 26;
+  ExpoReport expoReport = 14;
+  repeated Data expressions = 16;
+  string inputPlaceholder = 12;
+  string kv = 23;
+  VideoMask mask = 2;
+  DanmuPlayerViewConfig playerConfig = 6;
+  repeated Data postPanel = 17;
+  QoeInfo qoe = 25;
+  repeated Data reportFilterContent = 13;
+  int32 sendBoxStyle = 7;
+  repeated Data specialDms = 4;
+  repeated Data subViews = 24;
+  VideoSubtitle subtitle = 3;
+  string textPlaceholder = 11;
+}

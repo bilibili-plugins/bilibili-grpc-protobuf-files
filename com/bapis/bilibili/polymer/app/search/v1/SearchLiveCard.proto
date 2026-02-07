@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchLiveCard {
+  string badge = 6;
+  CardLayout cardLayout = 13;
+  int32 cardLeftIcon = 9;
+  string cardLeftText = 8;
+  string cover = 2;
+  Feedback feedback = 12;
+  string liveLink = 7;
+  string name = 4;
+  int32 online = 5;
+  RcmdReason rcmdReason = 3;
+  RightTopLiveBadge rightTopLiveBadge = 11;
+  int64 roomid = 17;
+  repeated Data threePoint = 14;
+  string title = 1;
+  string translatedTitle = 16;
+  int64 translationStatus = 15;
+}

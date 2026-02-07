@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleNotice {
+  string icon = 2;
+  string identity = 1;
+  int32 noticeType = 5;
+  string title = 3;
+  string url = 4;
+}

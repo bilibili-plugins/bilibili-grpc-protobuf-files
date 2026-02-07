@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message Stat {
+  string likeIcon = 3;
+  string like = 4;
+  string playIcon = 1;
+  string play = 2;
+}

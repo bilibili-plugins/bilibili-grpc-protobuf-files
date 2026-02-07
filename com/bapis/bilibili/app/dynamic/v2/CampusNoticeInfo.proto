@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusNoticeInfo {
+  CampusLabel button = 3;
+  string desc = 2;
+  string title = 1;
+}

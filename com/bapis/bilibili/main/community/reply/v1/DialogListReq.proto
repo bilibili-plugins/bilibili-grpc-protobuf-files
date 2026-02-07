@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DialogListReq {
+  string adExtra = 8;
+  CursorReq cursor = 5;
+  int64 dialog = 4;
+  string extra = 7;
+  int64 oid = 1;
+  FeedPagination pagination = 6;
+  int64 root = 3;
+  int64 type = 2;
+}

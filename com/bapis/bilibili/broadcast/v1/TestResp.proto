@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message TestResp {
+  Any extra = 4;
+  string message = 3;
+  int64 taskid = 1;
+  int64 timestamp = 2;
+}

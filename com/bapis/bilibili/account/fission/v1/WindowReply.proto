@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.fission.v1;
+
+message WindowReply {
+  string reportData = 3;
+  int32 type = 1;
+  string url = 2;
+}

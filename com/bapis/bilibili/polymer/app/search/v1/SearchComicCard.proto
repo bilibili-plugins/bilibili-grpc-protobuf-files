@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchComicCard {
+  string badge = 6;
+  CardLayout cardLayout = 7;
+  int64 cid = 14;
+  string comicUrl = 5;
+  string cover = 2;
+  repeated Data episodesNew = 8;
+  FollowButtonV2 followButton = 10;
+  int32 isAttend = 11;
+  string name = 3;
+  ReasonStyle recTag = 9;
+  string recText = 13;
+  string selectionStyle = 12;
+  Share share = 16;
+  string style = 4;
+  repeated Data threePoint = 15;
+  string title = 1;
+}

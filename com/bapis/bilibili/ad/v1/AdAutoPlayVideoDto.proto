@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdAutoPlayVideoDto {
+  int32 autoPlayValue = 16;
+  bool autoPlay = 7;
+  int64 avid = 1;
+  int64 bizId = 10;
+  bool btnDycColor = 8;
+  int32 btnDycTime = 9;
+  int64 cid = 2;
+  string cover = 6;
+  repeated Data customPlayUrls = 19;
+  string fromSpmid = 15;
+  string from = 4;
+  int32 height = 17;
+  int32 orientation = 14;
+  int64 page = 3;
+  repeated Data process0Urls = 11;
+  repeated Data process1Urls = 22;
+  repeated Data process2Urls = 23;
+  repeated Data process3Urls = 24;
+  repeated Data process4Urls = 25;
+  string url = 5;
+  int32 width = 18;
+}

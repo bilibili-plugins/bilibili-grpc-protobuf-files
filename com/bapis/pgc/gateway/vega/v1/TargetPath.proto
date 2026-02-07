@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.pgc.gateway.vega.v1;
+
+message TargetPath {
+  string key = 1;
+  Any subs = 2;
+}

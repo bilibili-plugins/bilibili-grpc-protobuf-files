@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message DownloadReply {
+  MapFieldLite dwtime = 3;
+  repeated Data resource = 2;
+  string ver = 1;
+}

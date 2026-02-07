@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message LivePlayViewReq {
+  int32 deviceType = 6;
+  int64 epId = 1;
+  bool https = 4;
+  int32 playType = 5;
+  int32 ptype = 3;
+  int32 quality = 2;
+}

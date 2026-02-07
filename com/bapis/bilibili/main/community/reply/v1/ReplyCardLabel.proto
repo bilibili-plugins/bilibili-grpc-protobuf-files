@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyCardLabel {
+  double backgroundHeight = 10;
+  double backgroundWidth = 9;
+  string background = 8;
+  int64 effectStartTime = 13;
+  int64 effect = 12;
+  string image = 6;
+  string jumpUrl = 11;
+  string labelColorDay = 4;
+  string labelColorNight = 5;
+  string textColorDay = 2;
+  string textColorNight = 3;
+  string textContent = 1;
+  int32 type = 7;
+}

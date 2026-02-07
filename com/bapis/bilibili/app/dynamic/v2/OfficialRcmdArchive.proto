@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OfficialRcmdArchive {
+  int64 aid = 11;
+  int64 cid = 15;
+  string coverRightText = 3;
+  string cover = 2;
+  int64 dynamicId = 14;
+  int64 mid = 12;
+  string name = 13;
+  string reason = 8;
+  bool showThreePoint = 9;
+  string title = 1;
+  string uri = 10;
+}

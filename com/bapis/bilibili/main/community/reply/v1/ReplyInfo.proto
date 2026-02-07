@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyInfo {
+  Content content = 12;
+  int64 count = 11;
+  int64 ctime = 10;
+  int64 dialog = 8;
+  int64 id = 2;
+  int64 like = 9;
+  MemberV2 memberV2 = 15;
+  Member member = 13;
+  int64 mid = 5;
+  int64 oid = 3;
+  ParentReplyMember parentReplyMember = 18;
+  int64 parent = 7;
+  repeated Data replies = 1;
+  ReplyControl replyControl = 14;
+  int64 root = 6;
+  string trackInfo = 16;
+  Content translatedContent = 17;
+  int64 type = 4;
+}

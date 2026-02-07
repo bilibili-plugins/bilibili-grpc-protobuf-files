@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Rights {
+  int32 allowDemand = 6;
+  int32 allowDm = 5;
+  int32 allowDownload = 1;
+  int32 allowReview = 2;
+  int32 areaLimit = 7;
+  int32 canWatch = 3;
+  string resource = 4;
+}

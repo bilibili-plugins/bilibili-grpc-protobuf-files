@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavItem {
+  int64 ctime = 6;
+  EventTracking et = 7;
+  int64 fid = 3;
+  int32 itemType = 1;
+  int64 mid = 4;
+  int64 mtime = 5;
+  int64 oid = 2;
+}

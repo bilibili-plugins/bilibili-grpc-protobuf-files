@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ThankButton {
+  bool hasSent = 1;
+  string msgText = 4;
+  int64 receiverMid = 5;
+  string receiverName = 2;
+  string senderAvatar = 3;
+}

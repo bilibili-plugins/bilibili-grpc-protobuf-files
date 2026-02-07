@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message TextInput {
+  repeated Data avatar = 6;
+  Label label = 8;
+  repeated Data landscapePlaceholder = 2;
+  bool placeholderPost = 4;
+  repeated Data portraitPlaceholder = 1;
+  int32 postStatus = 7;
+  int32 renderType = 3;
+  bool show = 5;
+}

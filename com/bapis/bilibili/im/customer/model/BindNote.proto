@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message BindNote {
+  string color = 3;
+  string content = 1;
+  string highColor = 2;
+}

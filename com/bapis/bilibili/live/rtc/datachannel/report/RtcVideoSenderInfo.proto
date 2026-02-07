@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcVideoSenderInfo {
+  int32 avgEncodeMs = 40;
+  double bandwidthQLDurations = 23;
+  int64 bytesSent = 3;
+  string contentType = 35;
+  double cpuQLDurations = 24;
+  string encoderImplementation = 2;
+  int32 firCount = 4;
+  double fractionLost = 27;
+  int32 frameHeight = 5;
+  int32 frameWidth = 6;
+  double framerateInput = 38;
+  int32 framerateSent = 39;
+  int32 framesDroppedByCapturer = 41;
+  int32 framesDroppedByCongestionWindow = 42;
+  int32 framesDroppedByEncoderQueue = 44;
+  int32 framesDroppedByEncoder = 43;
+  int32 framesDroppedByRateLimiter = 45;
+  int32 framesEncoded = 7;
+  int32 framesSent = 8;
+  int32 frames = 37;
+  int32 headerBytesSent = 9;
+  int32 hugeFramesSent = 10;
+  double jitter = 28;
+  int32 keyFramesEncoded = 11;
+  bool mute = 34;
+  int32 nackCount = 12;
+  double noneQLDurations = 25;
+  double otherQLDurations = 26;
+  int64 packetsLost = 29;
+  int64 packetsSent = 13;
+  int32 pliCount = 14;
+  int64 qpSum = 20;
+  string qualityLimitationReason = 21;
+  int32 qualityLimitationResolutionChanges = 22;
+  string remoteId = 36;
+  int64 retransmittedBytesSent = 15;
+  int64 retransmittedPacketsSent = 16;
+  int64 roundTripTimeMeasurements = 31;
+  double roundTripTime = 30;
+  int32 ssrc = 1;
+  int32 streamId = 33;
+  double targetBitrate = 46;
+  double totalEncodeTime = 17;
+  int64 totalEncodedBytesTarget = 18;
+  double totalPacketSendDelay = 19;
+  double totalRoundTripTime = 32;
+}

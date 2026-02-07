@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message KPubStatus$PUB_STATUS_ALL$1 {
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message TopicButton {
+  string jumpUri = 2;
+  bool redDot = 3;
+  string title = 1;
+}

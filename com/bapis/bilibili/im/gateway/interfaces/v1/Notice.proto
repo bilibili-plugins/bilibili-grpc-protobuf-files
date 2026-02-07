@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message Notice {
+  int32 noticeState = 1;
+  string noticeText = 3;
+  int64 sourceId = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvCooperationApplication {
+  string buttonText = 4;
+  string icon = 5;
+  string link = 1;
+  string subtitle = 3;
+  string title = 2;
+}

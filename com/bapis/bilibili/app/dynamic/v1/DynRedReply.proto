@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynRedReply {
+  BubbleInfo bubbleInfo = 6;
+  string defaultTab = 3;
+  DynRedItem dynRedItem = 2;
+  DynRedStyle redStyle = 4;
+  string redType = 1;
+  string tabRecallExtra = 5;
+}

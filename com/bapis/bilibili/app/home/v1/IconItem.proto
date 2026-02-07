@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message IconItem {
+  bool fixure = 6;
+  string icon = 2;
+  string id = 1;
+  string name = 4;
+  RedDot redDot = 5;
+  string url = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1;
+
+message Layer {
+  LayerGeneralSpec generalSpec = 3;
+  LayerConfig layerConfig = 4;
+  string layerId = 1;
+  BasicLayerResource resource = 5;
+  bool visible = 2;
+}

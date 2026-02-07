@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchLiveInlineCard {
+  AvatarItem avatarInfo = 11;
+  CardLayout cardLayout = 10;
+  string cover = 2;
+  Feedback feedback = 9;
+  int32 inlineTitleStyle = 15;
+  string inlineType = 8;
+  string liveLink = 6;
+  SearchInlineData liveRoomInline = 7;
+  int64 mid = 3;
+  ReasonStyle rcmdReasonStyle = 4;
+  int64 roomid = 5;
+  repeated Data threePoint = 12;
+  string title = 1;
+  string translatedTitle = 14;
+  int64 translationStatus = 13;
+}

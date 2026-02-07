@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message ButtonInfo {
+  int32 actionType = 7;
+  BadgeInfo badgeInfo = 8;
+  string bgColorNight = 5;
+  string bgColor = 4;
+  GradientColor bgGradientColor = 14;
+  string deliverCode = 21;
+  int32 fontSize = 19;
+  string frameColor = 17;
+  string icon = 18;
+  string leftStrikethroughText = 10;
+  string link = 6;
+  MapFieldLite orderReportParams = 15;
+  Report report = 9;
+  string simpleBgColorNight = 13;
+  string simpleBgColor = 12;
+  TextInfo simpleTextInfo = 11;
+  TaskParam taskParam = 16;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+  string tipsLink = 20;
+}

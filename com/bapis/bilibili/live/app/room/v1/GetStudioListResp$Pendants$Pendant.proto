@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message GetStudioListResp$Pendants$Pendant {
+  string desc = 4;
+  string name = 1;
+  int64 position = 2;
+  string value = 3;
+}

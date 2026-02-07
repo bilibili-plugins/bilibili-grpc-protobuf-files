@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message UpServer {
+  string face = 4;
+  int64 id = 1;
+  int64 mid = 2;
+  string name = 6;
+  int32 type = 3;
+  int64 unreadCount = 5;
+}

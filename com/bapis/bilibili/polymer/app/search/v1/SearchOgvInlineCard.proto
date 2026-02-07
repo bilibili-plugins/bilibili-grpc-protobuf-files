@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOgvInlineCard {
+  string author = 3;
+  repeated Data badgesV2 = 15;
+  CardLayout cardLayout = 16;
+  string cover = 2;
+  int32 danmaku = 4;
+  string desc = 5;
+  string face = 6;
+  int32 inlineTitleStyle = 18;
+  string inlineType = 7;
+  int64 mid = 8;
+  OgvClipInfo ogvClipInfo = 11;
+  int32 ogvInlineExp = 14;
+  SearchInlineData ogvInline = 10;
+  int64 play = 9;
+  SaleInfo saleInfo = 17;
+  string score = 13;
+  string title = 1;
+  WatchButton watchButton = 12;
+}

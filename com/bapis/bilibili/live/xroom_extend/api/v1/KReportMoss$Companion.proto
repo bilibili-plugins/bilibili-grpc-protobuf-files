@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xroom_extend.api.v1;
+
+message KReportMoss$Companion {
+}

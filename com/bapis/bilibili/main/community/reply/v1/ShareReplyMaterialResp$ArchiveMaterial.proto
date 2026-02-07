@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareReplyMaterialResp$ArchiveMaterial {
+  string cover = 2;
+  int64 duration = 6;
+  string title = 1;
+  string upIcon = 4;
+  string upName = 3;
+  int64 videos = 5;
+}

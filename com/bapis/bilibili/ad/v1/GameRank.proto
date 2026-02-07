@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message GameRank {
+  string bkgDayColor = 4;
+  string bkgNightColor = 3;
+  string fontDayColor = 6;
+  string fontNightColor = 5;
+  string iconUrl = 1;
+  string nightIconUrl = 2;
+  string rankContent = 7;
+  string rankLink = 8;
+}

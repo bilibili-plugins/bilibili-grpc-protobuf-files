@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message AdInfo {
+  string adcode = 2;
+  string cityCode = 3;
+  Gps gps = 5;
+  string name = 4;
+  string nationCode = 1;
+}

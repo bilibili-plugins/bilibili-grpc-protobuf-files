@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PointMaterial {
+  int32 materialSource = 2;
+  string url = 1;
+}

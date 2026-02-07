@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynCourBatch {
+  int64 avid = 13;
+  VideoBadge badge = 6;
+  bool canPlay = 8;
+  int64 cid = 14;
+  string cover = 2;
+  int64 duration = 16;
+  int64 epid = 15;
+  bool isPreview = 9;
+  string playIcon = 7;
+  int64 seasonId = 17;
+  string title = 1;
+  string uri = 3;
+}

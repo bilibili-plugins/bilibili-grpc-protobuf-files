@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message MultiView {
+  int64 avid = 4;
+  string buttonMaterial = 1;
+  int64 cid = 3;
+  int64 epId = 2;
+}

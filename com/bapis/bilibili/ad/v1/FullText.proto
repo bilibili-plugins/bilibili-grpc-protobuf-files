@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message FullText {
+  string iconForNight = 2;
+  string icon = 1;
+  string jumpUri = 3;
+  string prefix = 4;
+  string text = 5;
+}

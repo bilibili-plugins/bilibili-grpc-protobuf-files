@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchTab {
+  repeated Data items = 1;
+  int32 selectedOrder = 3;
+  int32 selectedType = 2;
+}

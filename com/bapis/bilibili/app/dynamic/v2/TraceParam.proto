@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TraceParam {
+  int64 moduleId = 2;
+  int64 moduleType = 1;
+}

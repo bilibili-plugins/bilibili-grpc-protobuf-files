@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateContent {
+  repeated Data contents = 1;
+  string title = 2;
+}

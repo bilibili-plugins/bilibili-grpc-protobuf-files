@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast$FaceEffectV2 {
+  int64 id = 1;
+  int64 type = 2;
+}

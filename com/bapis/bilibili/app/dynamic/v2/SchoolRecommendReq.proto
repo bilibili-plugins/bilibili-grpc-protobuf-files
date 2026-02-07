@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SchoolRecommendReq {
+  int32 fromType = 3;
+  float lat = 1;
+  float lng = 2;
+}

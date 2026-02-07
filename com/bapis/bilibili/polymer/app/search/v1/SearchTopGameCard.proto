@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchTopGameCard {
+  int32 array = 3;
+  string backgroundImage = 4;
+  int32 buttonType = 5;
+  CardLayout cardLayout = 20;
+  string cover = 2;
+  int64 gameBaseId = 7;
+  string gameIcon = 6;
+  int32 gameStatus = 8;
+  SearchInlineData inlineLive = 19;
+  string inlineType = 9;
+  string noticeContent = 11;
+  string noticeName = 12;
+  float rating = 13;
+  ReasonStyle recTag = 21;
+  string score = 14;
+  repeated Data tabInfo = 15;
+  string tags = 16;
+  string title = 1;
+  TopGameUI topGameUi = 10;
+  SearchInlineData ugcInline = 17;
+  string videoCoverImage = 18;
+}

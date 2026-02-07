@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.archive.v1;
+
+message Author {
+  string face = 3;
+  int64 mid = 1;
+  string name = 2;
+}

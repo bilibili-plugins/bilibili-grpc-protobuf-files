@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PkInfo {
+  bool audienceOpen = 9;
+  InvitePkResp invitePkResp = 7;
+  repeated Data members = 2;
+  int64 millTimestamp = 4;
+  pkBasic pkBasic = 1;
+  repeated Data pkGroup = 5;
+  PkMatchInfo pkMatchInfo = 6;
+  PkPlay pkPlay = 8;
+  int64 timestamp = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KMdlDynDrawTagType$MDL_DRAW_TAG_COMMON$1 {
+}

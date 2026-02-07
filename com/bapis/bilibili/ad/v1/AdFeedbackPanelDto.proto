@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdFeedbackPanelDto {
+  string closeRecTips = 5;
+  repeated Data feedbackPanelDetail = 2;
+  string openRecTips = 4;
+  string panelTypeText = 1;
+  string toast = 3;
+}

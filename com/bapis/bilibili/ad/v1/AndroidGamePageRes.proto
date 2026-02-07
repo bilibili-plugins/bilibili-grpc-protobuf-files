@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AndroidGamePageRes {
+  string backgroundColor = 14;
+  Module10 module10 = 9;
+  Module11 module11 = 10;
+  Module12 module12 = 11;
+  Module13 module13 = 12;
+  Module14 module14 = 15;
+  Module1 module1 = 1;
+  Module3 module3 = 2;
+  Module4 module4 = 3;
+  Module5 module5 = 4;
+  Module6 module6 = 5;
+  Module7 module7 = 6;
+  Module8 module8 = 7;
+  Module9 module9 = 8;
+  repeated Data moduleSeq = 13;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message TabExtraDto {
+  int32 appstoreDelayTime = 14;
+  int32 appstorePriority = 10;
+  string appstoreUrl = 13;
+  string avContent = 15;
+  repeated Data downloadWhitelist = 5;
+  bool enableDownloadDialog = 12;
+  int32 enableStoreDirectLaunch = 2;
+  int32 landingpageDownloadStyle = 9;
+  repeated Data openWhitelist = 8;
+  int32 salesType = 4;
+  string specialIndustryTips = 7;
+  bool specialIndustry = 6;
+  int32 storeCallupCard = 3;
+  string tabUrl = 1;
+  bool useAdWebV2 = 11;
+}

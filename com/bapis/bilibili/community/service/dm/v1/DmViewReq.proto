@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmViewReq {
+  string contextExt = 6;
+  string curLanguage = 7;
+  int32 curProductionType = 8;
+  int32 isHardBoot = 5;
+  int64 oid = 2;
+  int64 pid = 1;
+  string spmid = 4;
+  int32 type = 3;
+}

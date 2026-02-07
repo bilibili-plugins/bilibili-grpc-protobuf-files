@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message GetTotalUnreadRsp {
+  int64 customUnread = 4;
+  MsgFeedUnread msgFeedUnread = 2;
+  SessionUnread sessionUnread = 1;
+  SysMsgInterfaceLastMsg sysMsgInterfaceLastMsg = 3;
+  TotalUnreadNew totalUnreadNew = 6;
+  int32 totalUnread = 5;
+}

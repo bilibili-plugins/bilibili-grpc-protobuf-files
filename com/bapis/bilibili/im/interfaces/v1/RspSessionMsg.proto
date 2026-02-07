@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspSessionMsg {
+  repeated Data eInfos = 5;
+  int32 hasMore = 2;
+  int64 maxSeqno = 4;
+  repeated Data messages = 1;
+  int64 minSeqno = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message LiveOrder {
+  string business = 7;
+  int64 followCount = 5;
+  bool isFollow = 4;
+  int64 livePlanStartTime = 3;
+  ReserveCalendarInfo reserveCalendarInfo = 6;
+  int64 sid = 1;
+  string text = 2;
+}

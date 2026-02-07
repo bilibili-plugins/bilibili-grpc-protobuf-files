@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message PubModuleReq {
+  int64 cardNum = 3;
+  repeated Data dynIds = 2;
+  int64 userOriginalState = 1;
+}

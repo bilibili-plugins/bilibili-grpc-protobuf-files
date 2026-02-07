@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Tag {
+  int32 hated = 6;
+  int64 hates = 4;
+  int64 id = 1;
+  int32 liked = 5;
+  int64 likes = 3;
+  string name = 2;
+  string tagType = 8;
+  string uri = 7;
+}

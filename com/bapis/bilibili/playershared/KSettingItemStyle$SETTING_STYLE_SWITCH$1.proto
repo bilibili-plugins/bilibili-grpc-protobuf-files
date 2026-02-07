@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KSettingItemStyle$SETTING_STYLE_SWITCH$1 {
+}

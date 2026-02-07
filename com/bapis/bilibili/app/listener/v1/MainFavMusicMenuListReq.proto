@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MainFavMusicMenuListReq {
+  string offset = 2;
+  int32 tabType = 1;
+}

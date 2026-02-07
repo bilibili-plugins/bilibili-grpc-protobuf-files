@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractJoinEvent {
+  UniversalBizExtra bizExtra = 2;
+  repeated Data channelUsers = 5;
+  UniversalInteractJoinEvent$Config config = 1;
+  bool reconnect = 6;
+  UniversalInteractStreamControl streamControl = 4;
+  string traceId = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CreationSortType {
+  bool isChosen = 3;
+  string sortName = 1;
+  string sortType = 2;
+}

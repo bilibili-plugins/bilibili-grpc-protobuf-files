@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.interfaces.api.grpc.v1;
+
+message ViewHistory {
+  int64 anchorUid = 2;
+  int64 areaId = 11;
+  string areaName = 12;
+  string cover = 7;
+  string device = 15;
+  string face = 4;
+  bool followStatus = 13;
+  int64 kid = 1;
+  string link = 16;
+  int64 livingStatus = 8;
+  int64 parentAreaId = 9;
+  string parentAreaName = 10;
+  int64 roomId = 5;
+  string title = 6;
+  string uname = 3;
+  int64 viewTime = 14;
+}

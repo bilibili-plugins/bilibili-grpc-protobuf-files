@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ShareInfo {
+  int64 aid = 1;
+  string bvid = 2;
+  string cover = 5;
+  int64 mid = 6;
+  string name = 7;
+  string subtitle = 4;
+  string title = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message TranslateButton {
+  repeated Data buttonMetas = 2;
+  string buttonStatus = 1;
+}

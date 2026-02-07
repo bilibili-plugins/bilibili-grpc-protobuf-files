@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvStudyRecordInfo {
+  PugvStudyRecordModel pugvStudyRecordModel = 1;
+}

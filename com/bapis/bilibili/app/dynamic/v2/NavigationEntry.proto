@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message NavigationEntry {
+  NavigationEntryBasicInfo basicInfo = 2;
+  int32 navigationType = 1;
+}

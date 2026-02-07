@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ReactionListReply {
+  bool hasMore = 4;
+  string offset = 3;
+  repeated Data reactionList = 2;
+  string title = 1;
+}

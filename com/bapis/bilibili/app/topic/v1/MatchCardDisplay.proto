@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message MatchCardDisplay {
+  string liveLink = 5;
+  int32 state = 7;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+  Texts texts = 6;
+  string uri = 4;
+}

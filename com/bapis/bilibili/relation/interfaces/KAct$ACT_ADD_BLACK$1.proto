@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.relation.interfaces;
+
+message KAct$ACT_ADD_BLACK$1 {
+}

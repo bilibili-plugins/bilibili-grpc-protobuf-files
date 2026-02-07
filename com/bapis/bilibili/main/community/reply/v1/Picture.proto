@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Picture {
+  double imgHeight = 3;
+  double imgSize = 4;
+  string imgSrc = 1;
+  double imgWidth = 2;
+  PictureBadge pictureBadge = 7;
+  bool playGifThumbnail = 6;
+  string topRightIcon = 5;
+}

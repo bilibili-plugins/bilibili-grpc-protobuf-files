@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ExtendReply {
+  string noLoadCommentHintText = 6;
+  bool noLoadComment = 5;
+  repeated Data params = 2;
+  int64 replyBizId = 4;
+  int64 replyBizType = 3;
+  string uri = 1;
+}

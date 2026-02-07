@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavFolderCreateReq {
+  string desc = 2;
+  int32 folderType = 4;
+  string name = 1;
+  int32 public = 3;
+}

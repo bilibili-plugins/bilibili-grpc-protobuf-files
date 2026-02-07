@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.community.govern.v1;
+
+message AntiHarassmentInfo {
+  int64 expireTime = 3;
+  int32 followTimeLimitSecond = 2;
+  int32 limit = 1;
+}

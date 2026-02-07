@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.push;
+
+message UpStreamMessage {
+  int64 bid = 7;
+  string extra = 3;
+  int64 job = 5;
+  string msgSource = 6;
+  string taskid = 1;
+  int64 timestamp = 4;
+  int32 type = 2;
+}

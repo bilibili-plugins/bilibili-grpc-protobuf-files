@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.dynamic.v1;
+
+message ShareInfo {
+  string imgUrl = 6;
+  string linkUrl = 7;
+  int64 oid = 3;
+  string outLinkUrl = 9;
+  string shareId = 1;
+  string shareOrigin = 2;
+  bool share = 8;
+  string subTitle = 5;
+  string title = 4;
+}

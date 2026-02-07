@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message QuestionCard$Question {
+  bool mustRight = 3;
+  repeated Data options = 4;
+  int64 qid = 1;
+  string title = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchNoResultSuggestWordCard {
+  CardLayout cardLayout = 4;
+  string content = 6;
+  string cover = 2;
+  string prefix = 5;
+  string suffix = 7;
+  string title = 1;
+}

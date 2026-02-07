@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Nav {
+  string name = 1;
+  int32 pages = 3;
+  int32 showMore = 5;
+  int32 total = 2;
+  int32 type = 4;
+}

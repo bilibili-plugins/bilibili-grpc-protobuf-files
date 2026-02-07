@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message GhostMsg {
+  MsgId associatedMsgId = 3;
+  MsgId msgId = 1;
+  int32 msgType = 2;
+  int64 timestamp = 4;
+}

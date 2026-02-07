@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PlayViewBusinessInfo {
+  bool bp = 2;
+  BrandReport brandReport = 23;
+  repeated Data clipInfo = 6;
+  ContinuePlayInfo continuePlayInfo = 5;
+  Dimension dimension = 9;
+  int32 drmTechType = 12;
+  repeated Data epPublicityVideoList = 21;
+  int32 epWholeDuration = 8;
+  EpisodeAdvertisementInfo episodeAdvertisementInfo = 19;
+  EpisodeInfo episodeInfo = 18;
+  MapFieldLite expMap = 11;
+  int32 inlineType = 7;
+  bool isDrm = 14;
+  bool isLivePre = 17;
+  bool isPreview = 1;
+  int32 limitActionType = 13;
+  string marlinToken = 3;
+  string playbackSpeedColor = 4;
+  MapFieldLite qualityExtMap = 10;
+  RecordInfo recordInfo = 15;
+  UserStatus userStatus = 20;
+  int32 vipStatus = 16;
+  int64 watchTimeLength = 22;
+}

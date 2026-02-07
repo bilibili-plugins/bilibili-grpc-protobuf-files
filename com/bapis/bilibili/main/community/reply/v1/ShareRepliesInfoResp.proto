@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareRepliesInfoResp {
+  ShareRepliesInfoResp$ShareExtra extra = 9;
+  string fromPic = 4;
+  string fromTitle = 2;
+  string fromUp = 3;
+  repeated Data infos = 1;
+  string sloganPic = 6;
+  string sloganText = 7;
+  ShareReplyTopic topic = 8;
+  string url = 5;
+}

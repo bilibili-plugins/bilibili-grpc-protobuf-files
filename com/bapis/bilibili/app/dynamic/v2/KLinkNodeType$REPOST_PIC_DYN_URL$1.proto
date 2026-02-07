@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KLinkNodeType$REPOST_PIC_DYN_URL$1 {
+}

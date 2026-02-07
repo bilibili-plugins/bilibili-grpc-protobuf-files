@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message CardUI {
+  string maskColorValue = 1;
+  string maskOpacity = 2;
+  string moduleColor = 3;
+}

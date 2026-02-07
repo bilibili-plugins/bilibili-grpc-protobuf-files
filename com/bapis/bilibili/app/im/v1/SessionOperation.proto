@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionOperation {
+  OperationContent clearUnread = 4;
+  OperationContent delete = 3;
+  OperationContent pin = 1;
+  OperationContent unblock = 5;
+  OperationContent unpin = 2;
+}

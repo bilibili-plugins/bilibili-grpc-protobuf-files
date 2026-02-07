@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonSection {
+  repeated Data coursewares = 4;
+  repeated Data episodes = 5;
+  int64 sectionId = 1;
+  string title = 2;
+  int32 type = 3;
+}

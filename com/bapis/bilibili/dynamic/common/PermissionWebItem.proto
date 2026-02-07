@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message PermissionWebItem {
+  bool allowable = 3;
+  string desc = 2;
+  repeated Data features = 4;
+  string title = 1;
+}

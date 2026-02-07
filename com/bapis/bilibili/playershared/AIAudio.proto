@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message AIAudio {
+  repeated Data aiAudioItems = 2;
+  string aiCloseToast = 4;
+  string aiOpenToast = 3;
+  Badge badge = 5;
+  string defaultTitle = 6;
+  string listDesc = 8;
+  string listTitle = 7;
+  bool supportAiAudio = 1;
+}

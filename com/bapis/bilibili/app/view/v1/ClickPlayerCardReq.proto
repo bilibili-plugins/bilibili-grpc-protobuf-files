@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ClickPlayerCardReq {
+  int64 action = 4;
+  int64 aid = 2;
+  int64 cid = 3;
+  int64 id = 1;
+  string spmid = 5;
+}

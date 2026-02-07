@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeGameItem {
+  string appId = 1;
+  string gameHeader = 5;
+  string gameName = 3;
+  string gamePicUrl = 2;
+  string gameTime = 4;
+}

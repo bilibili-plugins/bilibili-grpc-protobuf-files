@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message ButtonInfo {
+  string actionType = 7;
+  BadgeInfo badgeInfo = 8;
+  string bgColorNight = 5;
+  string bgColor = 4;
+  GradientColor bgGradientColor = 14;
+  int64 jumpType = 18;
+  string leftStrikethroughText = 10;
+  string link = 6;
+  MapFieldLite orderReportParams = 15;
+  string pcLink = 17;
+  Report report = 9;
+  string simpleBgColorNight = 13;
+  string simpleBgColor = 12;
+  TextInfo simpleTextInfo = 11;
+  TaskParam taskParam = 16;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

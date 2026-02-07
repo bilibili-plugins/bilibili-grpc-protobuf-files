@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOgvClusterCard {
+  int32 inlineTitleStyle = 4;
+  OgvClusterCardRelate relate = 3;
+  Item singleCard = 2;
+  string title = 1;
+}

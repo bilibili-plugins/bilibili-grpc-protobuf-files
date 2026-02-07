@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CreationItemAction {
+  string actionName = 2;
+  int32 actionType = 3;
+  ThreePointDefaultToast confirmationToast = 6;
+  string icon = 1;
+  string jumpUrl = 4;
+  int64 remainEditTimes = 5;
+  ThreePointVisibilityChange visibilityChange = 7;
+}

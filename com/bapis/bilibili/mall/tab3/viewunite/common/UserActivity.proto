@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message UserActivity {
+  int32 checkinToday = 3;
+  int64 lastCheckinDate = 2;
+  string portrait = 6;
+  int32 userDayCount = 4;
+  int32 userState = 1;
+  int32 userViewTime = 5;
+}

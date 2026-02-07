@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.play_gateway;
+
+message GetMasterPlayQualityResp {
+  repeated Data behaviors = 1;
+  repeated Data qoes = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreePoint {
+  repeated Data dislikeReasons = 1;
+  repeated Data feedbacks = 2;
+  int32 watchLater = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message RoleAudioProto {
+  repeated Data audioMaterialList = 4;
+  string roleAvatar = 3;
+  int64 roleId = 1;
+  string roleName = 2;
+}

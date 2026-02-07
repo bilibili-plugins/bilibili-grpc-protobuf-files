@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PayTip {
+  int32 angleStyle = 17;
+  string bgDayColor = 7;
+  string bgLineColor = 9;
+  string bgNightColor = 8;
+  string bgNightLineColor = 10;
+  repeated Data button = 14;
+  string giantScreenImg = 20;
+  string icon = 3;
+  string img = 6;
+  MapFieldLite orderReportParams = 19;
+  int32 reportType = 18;
+  Report report = 16;
+  int32 showType = 5;
+  string textColor = 11;
+  string textNightColor = 12;
+  string title = 1;
+  int32 type = 4;
+  int32 urlOpenType = 15;
+  string url = 2;
+  int64 viewStartTime = 13;
+}

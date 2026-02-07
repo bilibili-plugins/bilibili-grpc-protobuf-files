@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ListenerConfig {
+  repeated Data guideBar = 2;
+  int64 jumpStyle = 1;
+}

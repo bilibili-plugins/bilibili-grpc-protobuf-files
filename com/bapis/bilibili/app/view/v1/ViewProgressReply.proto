@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ViewProgressReply {
+  VideoShot arcShot = 3;
+  repeated Data buzzwordPeriods = 7;
+  Chronos chronos = 2;
+  PointMaterial pointMaterial = 5;
+  bool pointPermanent = 6;
+  repeated Data points = 4;
+  VideoGuide videoGuide = 1;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message UgcSeasons {
+  UgcSeasonActivity activity = 10;
+  string cover = 3;
+  int64 epCount = 8;
+  SeasonHead head = 7;
+  int64 id = 1;
+  repeated Data seasonAbility = 11;
+  string seasonTitle = 12;
+  int32 seasonType = 9;
+  repeated Data section = 5;
+  string supernatantTitle = 4;
+  string title = 2;
+  string unionTitle = 6;
+}

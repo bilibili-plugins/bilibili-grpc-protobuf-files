@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayURLResp {
+  PlayItem item = 1;
+  string message = 3;
+  int32 playable = 2;
+  MapFieldLite playerInfo = 4;
+}

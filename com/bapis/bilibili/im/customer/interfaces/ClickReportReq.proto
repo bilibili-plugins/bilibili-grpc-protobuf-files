@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message ClickReportReq {
+  string id = 1;
+  int64 shopFatherId = 3;
+  int64 shopId = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.chronos.v1;
+
+message ObtainChronosPackageV2Req {
+  string bizId = 3;
+  string businessAppKey = 4;
+  string engineVersion = 2;
+  string serviceKey = 1;
+}

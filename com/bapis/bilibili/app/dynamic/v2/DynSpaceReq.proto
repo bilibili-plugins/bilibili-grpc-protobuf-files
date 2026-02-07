@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynSpaceReq {
+  string from = 6;
+  string historyOffset = 2;
+  int64 hostUid = 1;
+  int32 localTime = 4;
+  int64 page = 5;
+  PlayerArgs playerArgs = 3;
+}

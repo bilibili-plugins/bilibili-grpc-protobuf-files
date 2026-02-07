@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.common;
+
+message ColorConfig {
+  ColorSpec day = 2;
+  bool isDarkModeAware = 1;
+  ColorSpec night = 3;
+}

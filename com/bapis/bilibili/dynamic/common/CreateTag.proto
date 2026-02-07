@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateTag {
+  BottomBusiness diversion = 3;
+  ExtLbs lbs = 1;
+  BottomBusiness sdkGame = 2;
+}

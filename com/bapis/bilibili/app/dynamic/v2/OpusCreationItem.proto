@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCreationItem {
+  string bottomText = 6;
+  MdlDynDrawItem coverPic = 2;
+  VideoBadge coverTopRightBadge = 3;
+  Extend extend = 9;
+  ColoredText hintText = 5;
+  int32 opusType = 1;
+  repeated Data stats = 7;
+  Paragraph textParagraph = 4;
+  repeated Data tpList = 8;
+  CoverIconWithText visibilityStatus = 10;
+}

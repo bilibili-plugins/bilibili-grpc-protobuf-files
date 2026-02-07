@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchPlayListCard {
+  repeated Data avItems = 2;
+  BottomButton bottomButton = 4;
+  Feedback feedback = 3;
+  SearchInlineData inlineData = 5;
+  int32 isHideTitle = 8;
+  string title = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RefreshPage {
+  int32 refreshIcon = 2;
+  float refreshShow = 4;
+  string refreshText = 3;
+  int32 refreshable = 1;
+}

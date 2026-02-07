@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message UgcSection$a {
+}

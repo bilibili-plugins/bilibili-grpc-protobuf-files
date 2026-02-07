@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message StoryArchive {
+  int64 aid = 2;
+  string cover = 1;
+  Dimension dimension = 4;
+  string uri = 3;
+}

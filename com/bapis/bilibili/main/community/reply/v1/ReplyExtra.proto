@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyExtra {
+  bool disableFilterTag = 9;
+  bool disableUnderline = 7;
+  bool disableWeSearch = 8;
+  int64 epId = 3;
+  string fromSpmid = 6;
+  bool isActivityMode = 10;
+  bool isStory = 4;
+  int64 seasonId = 1;
+  int64 seasonType = 2;
+  string spmid = 5;
+  string trackId = 11;
+}

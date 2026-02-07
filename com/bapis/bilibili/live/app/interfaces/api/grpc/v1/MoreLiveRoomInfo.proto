@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.interfaces.api.grpc.v1;
+
+message MoreLiveRoomInfo {
+  string areaName = 8;
+  string face = 10;
+  string icon = 7;
+  string link = 9;
+  string roomCover = 3;
+  int64 roomId = 1;
+  string roomTitle = 4;
+  int32 roomType = 5;
+  string textSmall = 6;
+  string uname = 2;
+}

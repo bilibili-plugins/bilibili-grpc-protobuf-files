@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicActivity {
+  int64 activityId = 1;
+  string activityName = 2;
+  string iconUrl = 4;
+  string jumpUrl = 3;
+}

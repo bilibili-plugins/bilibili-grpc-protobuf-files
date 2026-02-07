@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message CellFluid {
+  string topBaseColor = 1;
+  string topSplitColor = 2;
+  string topTextColor = 3;
+}

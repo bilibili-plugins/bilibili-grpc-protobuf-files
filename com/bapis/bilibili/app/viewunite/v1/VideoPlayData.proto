@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message VideoPlayData {
+  int64 aid = 3;
+  int64 cid = 5;
+  Dimension dimension = 2;
+  int64 epId = 4;
+  string url = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message BubbleModuleColoredTip {
+  bool isSvgaPrefixIcon = 2;
+  string prefixIcon = 1;
+  Color textColor = 4;
+  string text = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playeronline.v1;
+
+message PremiereInfoReply {
+  int64 interaction = 3;
+  int64 participant = 2;
+  string premiereOverText = 1;
+}

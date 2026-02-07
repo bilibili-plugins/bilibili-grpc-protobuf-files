@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynVideoPersonalReq {
+  int32 fnval = 8;
+  int32 fnver = 7;
+  int32 forceHost = 9;
+  int32 fourk = 10;
+  int64 hostUid = 2;
+  int32 isPreload = 5;
+  string offset = 3;
+  int32 page = 4;
+  int32 qn = 6;
+  int32 teenagersMode = 1;
+}

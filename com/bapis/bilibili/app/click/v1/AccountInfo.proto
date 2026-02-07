@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.click.v1;
+
+message AccountInfo {
+  int64 mid = 1;
+}

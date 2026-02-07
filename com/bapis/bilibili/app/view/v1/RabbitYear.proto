@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RabbitYear {
+  DmSummon dmSummon = 2;
+  HalfScreen halfScreen = 3;
+  PlayerAutomate playerAutomate = 1;
+  SpecialDm specialDm = 4;
+}

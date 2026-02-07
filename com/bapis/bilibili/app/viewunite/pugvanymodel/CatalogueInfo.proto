@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message CatalogueInfo {
+  CatalogueLiveInfo catalogueLiveInfo = 2;
+  string catalogueUpdateText = 3;
+  repeated Data catalogues = 1;
+}

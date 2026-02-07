@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message UpperInfos {
+  int64 arcCountLastHalfYear = 2;
+  int64 fansCount = 1;
+  int64 firstUpDates = 3;
+  int64 totalPlayCount = 4;
+}

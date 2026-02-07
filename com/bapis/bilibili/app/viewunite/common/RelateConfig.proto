@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateConfig {
+  bool canLoadMore = 4;
+  CoverDimension dimension = 5;
+  Pagination pagination = 3;
+  int64 validShowM = 1;
+  int64 validShowN = 2;
+}

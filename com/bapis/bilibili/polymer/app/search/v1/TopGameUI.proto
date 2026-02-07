@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message TopGameUI {
+  string backgroundImage = 1;
+  string coverDefaultColor = 2;
+  string gaussianBlurValue = 3;
+  string maskColorValue = 4;
+  string maskOpacity = 5;
+  string moduleColor = 6;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RcmdCampusBrief {
+  string campusBadge = 4;
+  int64 campusId = 1;
+  string campusName = 2;
+  string url = 5;
+}

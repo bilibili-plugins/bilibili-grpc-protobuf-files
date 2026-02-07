@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message JoinTribeeByInviteCodeReq {
+  string inviteCode = 1;
+  int32 scene = 3;
+  int64 tribeeId = 2;
+}

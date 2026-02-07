@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchBannerCard {
+  string cover = 2;
+  string jumpUrl = 3;
+  string title = 1;
+}

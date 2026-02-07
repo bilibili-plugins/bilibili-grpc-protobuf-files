@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.coldstart.v1;
+
+message HttpStatus {
+  int32 code = 1;
+  string message = 2;
+}

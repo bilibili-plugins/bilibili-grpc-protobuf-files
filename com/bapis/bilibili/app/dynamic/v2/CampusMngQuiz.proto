@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngQuiz {
+  string addLabel = 3;
+  CampusLabel moreLabel = 2;
+  int64 quizCount = 5;
+  string submitLabel = 4;
+  string title = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message SubtitlePosition {
+  int32 purpose = 5;
+  double xMax = 3;
+  double xMin = 1;
+  double yMax = 4;
+  double yMin = 2;
+}

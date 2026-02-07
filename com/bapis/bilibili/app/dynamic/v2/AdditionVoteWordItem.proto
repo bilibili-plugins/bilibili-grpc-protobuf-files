@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionVoteWordItem {
+  bool isMaxOption = 6;
+  bool isVote = 3;
+  int32 optIdx = 1;
+  double persent = 5;
+  string title = 2;
+  int32 total = 4;
+}

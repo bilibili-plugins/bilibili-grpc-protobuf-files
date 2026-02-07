@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.ticket.v1;
+
+message GetTicketResponse$Context {
+  string vVoucher = 1;
+}

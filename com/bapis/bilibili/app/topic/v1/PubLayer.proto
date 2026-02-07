@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message PubLayer {
+  ButtonMeta buttonMeta = 3;
+  bool closePubLayerEntry = 4;
+  bool isHalfScreen = 6;
+  string jumpLink = 2;
+  int32 showType = 1;
+  string userAvatar = 5;
+}

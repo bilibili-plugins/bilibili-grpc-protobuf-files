@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message IconButton {
+  string iconHead = 2;
+  string iconTail = 3;
+  string jumpUri = 4;
+  int32 routerAction = 5;
+  string text = 1;
+}

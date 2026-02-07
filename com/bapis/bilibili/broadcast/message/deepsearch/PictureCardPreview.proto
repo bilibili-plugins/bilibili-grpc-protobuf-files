@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message PictureCardPreview {
+  CardItem card = 6;
+  string jumpIcon = 4;
+  string jumpUrlText = 3;
+  string jumpUrl = 5;
+  int64 startTime = 2;
+  string title = 1;
+}

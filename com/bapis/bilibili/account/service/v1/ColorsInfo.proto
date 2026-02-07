@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.service.v1;
+
+message ColorsInfo {
+  repeated Data colorIds = 1;
+  repeated Data color = 2;
+}

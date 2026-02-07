@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message ViewInfo {
+  Animation animation = 12;
+  CouponInfo couponInfo = 3;
+  repeated Data demandNoPayEpids = 4;
+  Dialog dialog = 1;
+  EndPage endPage = 5;
+  MapFieldLite expConfig = 6;
+  MapFieldLite extDialog = 11;
+  MapFieldLite extToast = 13;
+  ExtraData extraData = 14;
+  HighDefinitionTrialInfo highDefinitionTrialInfo = 10;
+  PayTip payTip = 9;
+  PopWin popWin = 7;
+  Toast toast = 2;
+  PromptBar tryWatchPromptBar = 8;
+}

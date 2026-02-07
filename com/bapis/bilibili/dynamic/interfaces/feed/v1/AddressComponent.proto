@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message AddressComponent {
+  string city = 3;
+  string country = 1;
+  string district = 4;
+  string province = 2;
+  string streetNum = 7;
+  string street = 6;
+  string town = 5;
+}

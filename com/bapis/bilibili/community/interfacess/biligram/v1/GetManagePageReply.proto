@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message GetManagePageReply {
+  DialogButton offline = 4;
+  DialogButton online = 3;
+  int32 status = 2;
+  int64 upMid = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message SendMsgReq {
+  SendMsgExt ext = 3;
+  Msg msg = 1;
+  int64 skillGroupId = 2;
+}

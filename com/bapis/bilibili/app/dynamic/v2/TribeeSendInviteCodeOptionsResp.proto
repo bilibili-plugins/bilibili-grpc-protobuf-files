@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSendInviteCodeOptionsResp {
+  string confirmBtnText = 5;
+  string inviteMdlTitle = 3;
+  repeated Data inviteTypeItems = 4;
+  string selectMdlTitle = 1;
+  repeated Data tribeeList = 2;
+}

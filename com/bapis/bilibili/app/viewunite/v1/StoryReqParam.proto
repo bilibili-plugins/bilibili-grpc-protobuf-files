@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message StoryReqParam {
+  MapFieldLite businessInfo = 5;
+  int64 displayId = 2;
+  MapFieldLite extraContent = 3;
+  bool refresh = 4;
+  string trackId = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynSearchReq {
+  string keyword = 1;
+  int32 localTime = 3;
+  int32 page = 2;
+  PlayerArgs playerArgs = 4;
+}

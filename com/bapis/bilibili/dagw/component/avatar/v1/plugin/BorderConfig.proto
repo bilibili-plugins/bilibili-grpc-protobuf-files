@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message BorderConfig {
+  double borderWidth = 2;
+  ColorConfig color = 1;
+  double ratio = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message EmoteItem {
+  string emoteSize = 3;
+  string emoteUrl = 2;
+  string rawText = 1;
+}

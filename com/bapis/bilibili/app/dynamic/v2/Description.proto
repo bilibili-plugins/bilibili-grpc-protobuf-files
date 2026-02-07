@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Description {
+  EmojiSizeSpec emojiSizeSpec = 12;
+  int32 emojiSize = 11;
+  int32 emojiType = 4;
+  string goodsType = 5;
+  ModuleDescGoods goods = 9;
+  string iconName = 7;
+  string iconUrl = 6;
+  string origText = 10;
+  string rid = 8;
+  string text = 1;
+  int32 type = 2;
+  string uri = 3;
+}

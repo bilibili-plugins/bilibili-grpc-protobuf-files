@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicTopCard {
+  int64 endTime = 10;
+  int64 startTime = 9;
+  int32 type = 1;
+}

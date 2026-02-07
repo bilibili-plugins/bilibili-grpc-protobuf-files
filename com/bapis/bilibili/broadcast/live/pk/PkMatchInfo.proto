@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PkMatchInfo {
+  int64 matchEndTime = 3;
+  int64 matchMaxTime = 2;
+  int64 matchStatus = 1;
+}

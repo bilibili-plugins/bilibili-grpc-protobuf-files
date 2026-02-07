@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message StoryItem {
+  string aiMsg = 3;
+  int64 id = 1;
+  repeated Data prompts = 5;
+  bool selected = 4;
+  string showName = 2;
+}

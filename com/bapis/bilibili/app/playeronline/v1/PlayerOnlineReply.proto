@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playeronline.v1;
+
+message PlayerOnlineReply {
+  bool bottomShow = 3;
+  bool sdmShow = 4;
+  string sdmText = 5;
+  int64 secNext = 2;
+  string totalNumberText = 7;
+  int64 totalNumber = 6;
+  string totalText = 1;
+}

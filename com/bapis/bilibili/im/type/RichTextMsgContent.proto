@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message RichTextMsgContent {
+  repeated Data paragraphs = 1;
+}

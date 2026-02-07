@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Interaction {
+  int64 graphVersion = 2;
+  Node historyNode = 1;
+  int64 mark = 4;
+  string msg = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractStreamControl {
+  UniversalInteractStreamControl$UserStreamControlItem audioControl = 1;
+  UniversalInteractStreamControl$PubSubControl pubSubControl = 3;
+  UniversalInteractStreamControl$UserStreamControlItem videoControl = 2;
+}

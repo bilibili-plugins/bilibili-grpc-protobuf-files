@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KEmoteClickAction$EMOTE_CLICK_POPUP_PREVIEW$1 {
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Paragraph$ListFormat$OrderStyle {
+  BgStyle bgStyle = 7;
+  bool bold = 1;
+  Colors colors = 6;
+  string fontLevel = 5;
+  bool italic = 2;
+  bool strikethrough = 3;
+  bool underline = 4;
+}

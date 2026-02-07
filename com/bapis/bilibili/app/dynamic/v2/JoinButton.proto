@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message JoinButton {
+  ToastDialog joinCandidate = 2;
+  ToastDialog joinNotCandidate = 3;
+  ToastDialog joinOutsider = 4;
+  int32 permType = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.im;
+
+message ReqServerNotify {
+  repeated Data commandMsgs = 4;
+  Msg instantMsg = 2;
+  int64 lastestSeqno = 1;
+  NotifyInfo notifyInfo = 3;
+}

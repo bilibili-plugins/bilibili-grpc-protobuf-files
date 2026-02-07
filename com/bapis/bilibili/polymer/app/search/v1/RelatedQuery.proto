@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message RelatedQuery {
+  string iconNight = 6;
+  int64 iconType = 4;
+  string icon = 5;
+  string query = 1;
+  string recommendReason = 3;
+  string url = 2;
+}

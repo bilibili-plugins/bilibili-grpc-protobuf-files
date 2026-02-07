@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message SeasonHead {
+  StatInfo danmaku = 4;
+  string intro = 2;
+  string title = 1;
+  StatInfo vt = 3;
+}

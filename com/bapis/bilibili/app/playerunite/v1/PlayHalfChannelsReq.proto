@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.v1;
+
+message PlayHalfChannelsReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  MapFieldLite extraContent = 3;
+  string fromScene = 4;
+  int32 resourceType = 5;
+}

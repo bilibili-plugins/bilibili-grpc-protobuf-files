@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Garb$FanNumColorFormat {
+  repeated Data colors = 3;
+  string endPoint = 2;
+  repeated Data gradients = 4;
+  string startPoint = 1;
+}

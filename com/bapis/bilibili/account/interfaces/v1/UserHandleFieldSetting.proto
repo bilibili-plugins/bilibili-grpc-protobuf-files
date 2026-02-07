@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.interfaces.v1;
+
+message UserHandleFieldSetting {
+  string bindTelUrl = 6;
+  string confirmMessage = 4;
+  bool editable = 2;
+  int64 maxLength = 7;
+  string ruleMessage = 3;
+  string submittedMessage = 5;
+  bool visible = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareChannel {
+  string oid = 2;
+  repeated Data shareChannels = 4;
+  string shareOrigin = 1;
+  string sid = 3;
+}

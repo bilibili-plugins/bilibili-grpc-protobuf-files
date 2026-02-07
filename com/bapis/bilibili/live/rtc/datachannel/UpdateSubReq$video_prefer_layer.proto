@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message UpdateSubReq$video_prefer_layer {
+  int32 videoIndex = 1;
+}

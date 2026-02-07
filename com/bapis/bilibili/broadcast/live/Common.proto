@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live;
+
+message Common {
+  string cmd = 3;
+  int64 dmScore = 4;
+  int32 format = 5;
+  int64 messageId = 1;
+  int64 sort = 6;
+  int64 timestamp = 2;
+}

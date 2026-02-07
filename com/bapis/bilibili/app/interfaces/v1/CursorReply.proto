@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CursorReply {
+  Cursor cursor = 3;
+  bool hasMore = 4;
+  repeated Data items = 1;
+  repeated Data tab = 2;
+}

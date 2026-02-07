@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostOpus2TribeeOptionsResp$RenderParams {
+  int64 defaultTribeeId = 5;
+  string defaultTribeeName = 4;
+  string faceUrl = 1;
+  bool hasTitle = 3;
+  string nickname = 2;
+  int64 remainCnt = 6;
+  int64 totalCnt = 7;
+}

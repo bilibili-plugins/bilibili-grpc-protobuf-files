@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleAuthor {
+  UserInfo author = 3;
+  DecorateCard decorateCard = 4;
+  int64 id = 1;
+  string ptimeLabelText = 2;
+}

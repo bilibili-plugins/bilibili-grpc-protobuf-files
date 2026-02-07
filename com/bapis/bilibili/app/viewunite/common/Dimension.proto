@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Dimension {
+  int64 height = 2;
+  int64 rotate = 3;
+  int64 width = 1;
+}

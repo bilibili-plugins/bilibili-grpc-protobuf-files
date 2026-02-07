@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message ResponseUrl {
+  string ahead = 4;
+  repeated Data backupUrl = 7;
+  int64 length = 2;
+  string md5 = 8;
+  int32 order = 1;
+  int64 size = 3;
+  string url = 6;
+  string vhead = 5;
+}

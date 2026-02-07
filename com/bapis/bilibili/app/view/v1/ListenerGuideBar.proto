@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ListenerGuideBar {
+  int64 backgroundTime = 6;
+  string btnText = 4;
+  string icon = 2;
+  int64 showStrategy = 1;
+  int64 showTime = 5;
+  string text = 3;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message GroupRelation {
+  string fansMedalName = 10;
+  string groupCover = 5;
+  int64 groupId = 1;
+  int32 groupLevel = 4;
+  string groupName = 6;
+  string groupNotice = 7;
+  int32 groupType = 3;
+  int32 memberRole = 9;
+  int64 ownerUid = 2;
+  int64 roomId = 11;
+  int32 status = 8;
+}

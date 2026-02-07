@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Order {
+  string buttonSelectedTitle = 4;
+  string buttonTitle = 3;
+  string intro = 10;
+  int32 orderType = 7;
+  int64 seasonStatDanmaku = 6;
+  StatInfo seasonStatViewVt = 11;
+  int64 seasonStatView = 5;
+  bool status = 1;
+  string title = 2;
+}

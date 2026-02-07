@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message KQuickLinkItemType$QUICK_LINK_ITEM_TYPE_AT {
+}

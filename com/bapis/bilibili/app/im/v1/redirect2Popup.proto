@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message redirect2Popup {
+  string subtitle = 2;
+  string title = 1;
+  string url = 3;
+}

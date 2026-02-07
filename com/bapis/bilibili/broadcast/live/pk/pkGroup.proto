@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message pkGroup {
+  int64 groupId = 1;
+  int64 isWinner = 4;
+  string votesText = 3;
+  int64 votes = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message OurCityClickReportReq {
+  int64 cityId = 2;
+  string dynamicId = 1;
+  double lat = 3;
+  double lng = 4;
+}

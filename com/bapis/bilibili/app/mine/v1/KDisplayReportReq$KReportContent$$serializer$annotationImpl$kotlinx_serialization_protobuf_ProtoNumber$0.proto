@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message KDisplayReportReq$KReportContent$$serializer$annotationImpl$kotlinx_serialization_protobuf_ProtoNumber$0 {
+}

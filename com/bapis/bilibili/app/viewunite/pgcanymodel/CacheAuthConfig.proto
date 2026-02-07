@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message CacheAuthConfig {
+  CacheDialog dialog = 1;
+}

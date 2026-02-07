@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynOurCityModuleCover {
+  repeated Data badge = 8;
+  repeated Data covers = 1;
+  int32 style = 2;
+}

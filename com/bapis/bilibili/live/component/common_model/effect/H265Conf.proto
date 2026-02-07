@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.effect;
+
+message H265Conf {
+  FileConfItem horizontalMp4 = 1;
+  FileConfItem verticalMp4 = 2;
+}

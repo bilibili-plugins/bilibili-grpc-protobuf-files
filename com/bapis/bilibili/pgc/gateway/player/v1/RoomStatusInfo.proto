@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message RoomStatusInfo {
+  int64 hiddenStatus = 6;
+  int64 hiddenTime = 7;
+  int64 liveMark = 3;
+  int64 liveScreenType = 2;
+  int64 liveStatus = 1;
+  int64 liveType = 8;
+  int64 lockStatus = 4;
+  int64 lockTime = 5;
+  int64 roomShield = 9;
+}

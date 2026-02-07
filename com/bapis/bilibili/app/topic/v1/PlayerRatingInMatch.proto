@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message PlayerRatingInMatch {
+  string hotRemark = 3;
+  string jumpUri = 5;
+  int64 matchId = 7;
+  string playerFace = 1;
+  int64 playerId = 6;
+  string playerName = 2;
+  string rating = 4;
+}

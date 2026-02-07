@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Paragraph$ParagraphBaseStyle {
+  Colors fontColor = 3;
+  double fontSize = 1;
+  int32 fontWeight = 2;
+}

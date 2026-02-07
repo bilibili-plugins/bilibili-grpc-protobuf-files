@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message SubTitleWithStat {
+  repeated Data icon = 1;
+  string text = 2;
+}

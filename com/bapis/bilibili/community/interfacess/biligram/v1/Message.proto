@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message Message {
+  int64 id = 1;
+  repeated Data items = 4;
+  int64 order = 6;
+  int32 status = 3;
+  int64 timestamp = 2;
+  int32 type = 5;
+}

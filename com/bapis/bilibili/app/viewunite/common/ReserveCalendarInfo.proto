@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ReserveCalendarInfo {
+  string businessId = 5;
+  string description = 4;
+  int64 endTs = 3;
+  int64 startTs = 2;
+  string title = 1;
+}

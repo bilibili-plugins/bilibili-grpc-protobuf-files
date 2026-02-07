@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message LargeCoverV4 {
+  Base base = 1;
+  string bvid = 11;
+  int32 canPlay = 6;
+  string coverBadge = 5;
+  string playNumber = 10;
+  string shareSubtitle = 9;
+  string shortLink = 8;
+  string subParam = 12;
+  Up up = 7;
+}

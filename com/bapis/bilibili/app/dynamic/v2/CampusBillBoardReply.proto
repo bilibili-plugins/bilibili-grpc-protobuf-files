@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusBillBoardReply {
+  int32 bindNotice = 8;
+  int64 buildTime = 4;
+  int64 campusId = 10;
+  string campusName = 3;
+  string helpUri = 2;
+  repeated Data list = 6;
+  CampusFeatureProgress openProgress = 11;
+  string shareUri = 7;
+  string title = 1;
+  string updateToast = 9;
+  string versionCode = 5;
+}

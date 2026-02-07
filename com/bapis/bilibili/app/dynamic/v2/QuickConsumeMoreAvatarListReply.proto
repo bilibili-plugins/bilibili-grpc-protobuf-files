@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message QuickConsumeMoreAvatarListReply {
+  bool hasMore = 2;
+  string offset = 1;
+  repeated Data upList = 3;
+}

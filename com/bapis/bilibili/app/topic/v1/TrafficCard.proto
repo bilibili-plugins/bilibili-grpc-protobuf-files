@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TrafficCard {
+  string basePic = 4;
+  string benefitPoint = 5;
+  string cardDesc = 6;
+  string iconUrl = 3;
+  string jumpTitle = 7;
+  string jumpUrl = 2;
+  string name = 1;
+}

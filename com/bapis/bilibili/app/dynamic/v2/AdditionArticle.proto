@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionArticle {
+  string cardType = 6;
+  MdlDynDrawItem cover = 2;
+  string descTextLeft = 3;
+  string descTextRight = 4;
+  string title = 1;
+  string uri = 5;
+}

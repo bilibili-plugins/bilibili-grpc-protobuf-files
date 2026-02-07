@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message ResponseMessage {
+  int32 code = 2;
+  string message = 3;
+  int64 requestId = 1;
+}

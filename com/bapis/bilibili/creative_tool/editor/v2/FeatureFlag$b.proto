@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.creative_tool.editor.v2;
+
+message FeatureFlag$b {
+}

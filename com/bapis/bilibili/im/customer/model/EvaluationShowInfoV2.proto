@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message EvaluationShowInfoV2 {
+  EvaluationCard evaluationCard = 1;
+  EvaluationData evaluationData = 2;
+  string interruptToast = 3;
+}

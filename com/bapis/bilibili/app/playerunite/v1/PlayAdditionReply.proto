@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.v1;
+
+message PlayAdditionReply {
+  TranslationIntro translationIntro = 2;
+  UgcViewInfoMaterial ugcViewInfoMaterial = 1;
+}

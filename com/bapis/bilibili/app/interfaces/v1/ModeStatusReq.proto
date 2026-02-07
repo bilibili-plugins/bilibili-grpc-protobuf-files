@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message ModeStatusReq {
+  string deviceToken = 1;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message VideoEpisode {
+  int64 aid = 4;
+  bool canPlay = 11;
+  bool canSwitch = 10;
+  int64 cid = 5;
+  repeated Data coursewares = 1;
+  EpisodeDimension dimension = 19;
+  int64 duration = 9;
+  int64 episodeId = 17;
+  EpisodeLabel episodeLabel = 13;
+  EpisodeHistory history = 15;
+  int64 index = 2;
+  string playWaySubtitle = 7;
+  int32 playWay = 16;
+  EpisodeSelectionLabel selectionLabel = 14;
+  string shareLink = 18;
+  bool showLockIcon = 12;
+  int32 status = 3;
+  string subtitle = 8;
+  string title = 6;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayInfo {
+  int32 code = 11;
+  int64 expireTime = 13;
+  int32 fnval = 7;
+  int32 fnver = 6;
+  string format = 2;
+  repeated Data formats = 8;
+  int64 length = 10;
+  string message = 12;
+  int32 qnType = 3;
+  int32 qn = 1;
+  int32 videoCodecid = 9;
+  VolumeInfo volume = 14;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaCard {
+  Button butFirst = 5;
+  Supernatant butSecond = 6;
+  string cover = 1;
+  string curTitle = 2;
+  string label = 4;
+  Scores scores = 7;
+  string style = 3;
+}

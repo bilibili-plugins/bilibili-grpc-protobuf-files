@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleLikeUser {
+  string displayText = 2;
+  repeated Data likeUsers = 1;
+}

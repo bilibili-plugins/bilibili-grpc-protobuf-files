@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message SendGiftBroadcast {
+  SendGiftBroadcast$BlindGift blindGift = 9;
+  string face = 3;
+  repeated Data giftList = 10;
+  GroupMedalBrief groupMedal = 14;
+  int64 guardLevel = 5;
+  SendGiftBroadcast$MedalInfo medalInfo = 8;
+  string nameColor = 4;
+  SendGiftBroadcast$SendMaster sendMaster = 7;
+  UserInfo senderUinfo = 15;
+  int64 svgaBlock = 6;
+  bool switch = 11;
+  int64 test = 12;
+  int64 uid = 1;
+  string uname = 2;
+  SendGiftBroadcast$WealthInfo wealthInfo = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message ArcInfo {
+  int64 durationSec = 2;
+  int64 progressSec = 3;
+  RecentRecommendMetaInfo recMeta = 1;
+}

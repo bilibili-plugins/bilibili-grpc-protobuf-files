@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message PostPanel {
+  int64 bizId = 4;
+  int32 bizType = 5;
+  CheckBox checkBox = 8;
+  ClickButton clickButton = 6;
+  int64 end = 2;
+  int64 priority = 3;
+  int64 start = 1;
+  TextInput textInput = 7;
+  Toast toast = 9;
+}

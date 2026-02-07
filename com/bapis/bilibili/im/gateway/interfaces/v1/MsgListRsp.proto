@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MsgListRsp {
+  Cursor cursor = 1;
+  repeated Data filters = 4;
+  int64 lastViewAt = 3;
+  repeated Data limit = 6;
+  repeated Data msgCards = 2;
+  repeated Data topCards = 5;
+}

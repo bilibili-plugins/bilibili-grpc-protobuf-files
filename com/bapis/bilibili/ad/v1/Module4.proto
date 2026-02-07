@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module4 {
+  bool display = 1;
+  int32 giftIconNum = 4;
+  repeated Data giftInfoIds = 6;
+  string giftName = 3;
+  int32 giftNum = 2;
+  repeated Data iconUrls = 5;
+}

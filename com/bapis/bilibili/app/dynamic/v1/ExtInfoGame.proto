@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ExtInfoGame {
+  string icon = 3;
+  string title = 1;
+  string uri = 2;
+}

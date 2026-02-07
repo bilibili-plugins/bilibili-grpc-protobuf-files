@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.click.v1;
+
+message PlayerStatus {
+  bool isBuffering = 4;
+  float playbackRate = 1;
+  int64 progress = 2;
+  int32 state = 3;
+}

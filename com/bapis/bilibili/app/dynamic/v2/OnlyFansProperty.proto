@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OnlyFansProperty {
+  bool allowDownload = 3;
+  string embedCashierLink = 4;
+  bool hasPrivilege = 1;
+  bool isOnlyFans = 2;
+}

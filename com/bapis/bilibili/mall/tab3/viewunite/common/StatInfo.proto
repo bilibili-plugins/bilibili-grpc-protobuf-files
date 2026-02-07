@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message StatInfo {
+  string icon = 4;
+  string pureText = 3;
+  string text = 2;
+  int64 value = 1;
+}

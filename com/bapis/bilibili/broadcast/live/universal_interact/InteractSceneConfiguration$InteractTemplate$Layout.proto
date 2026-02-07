@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message InteractSceneConfiguration$InteractTemplate$Layout {
+  string layoutId = 1;
+  int64 maxUsers = 3;
+  string videoSize = 2;
+}

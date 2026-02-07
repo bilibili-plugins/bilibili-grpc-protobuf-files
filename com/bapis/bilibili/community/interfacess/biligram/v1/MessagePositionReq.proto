@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message MessagePositionReq {
+  string next = 3;
+  int64 topicId = 2;
+  int64 upMid = 1;
+}

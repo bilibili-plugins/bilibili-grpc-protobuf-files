@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message UserSailing {
+  UserCardBG cardBgWithFocus = 3;
+  UserCardBG cardBg = 2;
+  UserPendant pendant = 1;
+}

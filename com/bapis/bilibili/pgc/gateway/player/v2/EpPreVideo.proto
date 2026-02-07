@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message EpPreVideo {
+  int64 aid = 1;
+  int64 cid = 2;
+}

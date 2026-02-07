@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message StudyRecordConfig {
+  EndingPageConfig endingPageConfig = 3;
+  bool recordEnable = 1;
+  int32 studyType = 2;
+}

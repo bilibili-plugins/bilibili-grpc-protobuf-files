@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message GetSessDetailReq {
+  int64 groupId = 2;
+  repeated Data shop = 1;
+}

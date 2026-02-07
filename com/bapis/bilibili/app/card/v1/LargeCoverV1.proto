@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message LargeCoverV1 {
+  Avatar avatar = 3;
+  Base base = 1;
+  ReasonStyle bottomRcmdReasonStyle = 14;
+  string bottomRcmdReason = 9;
+  int32 canPlay = 12;
+  string coverBadge = 7;
+  string coverGif = 2;
+  string coverRightText = 21;
+  string desc = 10;
+  ReasonStyle leftCoverBadgeStyle = 16;
+  LikeButton likeButton = 19;
+  int32 officialIcon = 11;
+  ReasonStyle rcmdReasonStyleV2 = 15;
+  ReasonStyle rightCoverBadgeStyle = 17;
+  int32 titleSingleLine = 20;
+  ReasonStyle topRcmdReasonStyle = 13;
+  string topRcmdReason = 8;
+}

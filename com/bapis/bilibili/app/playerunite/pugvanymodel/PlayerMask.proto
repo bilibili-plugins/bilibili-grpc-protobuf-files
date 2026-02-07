@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message PlayerMask {
+  string prefix = 2;
+  string suffix = 3;
+  string title = 1;
+}

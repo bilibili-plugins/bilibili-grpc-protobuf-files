@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicDetailsAllReply {
+  DetailsTopInfo detailsTopInfo = 1;
+  FunctionalCard functionalCard = 4;
+  PubLayer pubLayer = 5;
+  TimeLineResource timeLineResource = 6;
+  TopicActivities topicActivities = 2;
+  repeated Data topicCardList = 3;
+  TopicOnline topicOnline = 8;
+  TopicServerConfig topicServerConfig = 7;
+  repeated Data topicTopCards = 9;
+}

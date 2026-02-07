@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MedialistItem {
+  string cover = 3;
+  int64 duration = 4;
+  PlayItem item = 1;
+  string message = 9;
+  int32 parts = 5;
+  int64 statReply = 11;
+  string statViewVtText = 13;
+  int64 statView = 10;
+  int32 state = 8;
+  string title = 2;
+  int64 upMid = 6;
+  string upName = 7;
+  bool useStatViewVt = 12;
+}

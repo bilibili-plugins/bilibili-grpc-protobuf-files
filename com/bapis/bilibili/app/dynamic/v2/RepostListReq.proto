@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostListReq {
+  int64 dynType = 2;
+  string dynamicId = 1;
+  string from = 5;
+  string offset = 4;
+  int32 repostType = 6;
+  int64 rid = 3;
+}

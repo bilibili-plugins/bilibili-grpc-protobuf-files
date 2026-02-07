@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleCopyright {
+  string leftText = 1;
+  string rightText = 2;
+}

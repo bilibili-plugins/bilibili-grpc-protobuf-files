@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message EpDownload {
+  bool disableDownload = 1;
+  string disableToast = 2;
+}

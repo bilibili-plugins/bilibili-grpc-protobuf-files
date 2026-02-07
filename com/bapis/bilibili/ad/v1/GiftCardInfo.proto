@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message GiftCardInfo {
+  string desc = 1;
+  repeated Data iconUrls = 2;
+}

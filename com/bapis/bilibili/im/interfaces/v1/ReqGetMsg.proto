@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqGetMsg {
+  repeated Data msgDetail = 3;
+  int32 sessionType = 2;
+  int64 talkerId = 1;
+}

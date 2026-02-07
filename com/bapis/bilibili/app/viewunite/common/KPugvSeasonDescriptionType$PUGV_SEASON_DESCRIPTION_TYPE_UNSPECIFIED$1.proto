@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message KPugvSeasonDescriptionType$PUGV_SEASON_DESCRIPTION_TYPE_UNSPECIFIED$1 {
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message SubscribeCardReq {
+  CosmoBusiness business = 1;
+}

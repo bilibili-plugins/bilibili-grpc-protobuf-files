@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message IosGamePageRes {
+  string desc = 5;
+  AdButtonDto gameButton = 6;
+  double grade = 7;
+  repeated Data imageUrl = 4;
+  string logo = 1;
+  string name = 2;
+  string rankName = 9;
+  string rankNum = 8;
+  string subTitile = 3;
+}

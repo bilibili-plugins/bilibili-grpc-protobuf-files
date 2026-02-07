@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message KEvaluateType$NEW_USER_EVALUATE_CUSTOM_SESSION$1 {
+}

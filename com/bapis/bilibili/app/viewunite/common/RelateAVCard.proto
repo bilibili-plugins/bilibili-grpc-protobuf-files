@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateAVCard {
+  int64 cid = 2;
+  Dimension dimension = 3;
+  string durationText = 8;
+  int64 duration = 1;
+  string jumpUrl = 5;
+  BadgeInfo rcmdReason = 7;
+  bool showRcmdStyle = 9;
+  bool showUpName = 6;
+  Stat stat = 4;
+}

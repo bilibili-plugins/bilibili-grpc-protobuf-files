@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionListReply {
+  repeated Data contents = 2;
+  RegionContent shortcut = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.account.fission.v1;
+
+message PrivacyReply {
+  string message = 1;
+}

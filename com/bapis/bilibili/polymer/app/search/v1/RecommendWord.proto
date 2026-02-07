@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message RecommendWord {
+  string fromSource = 4;
+  string param = 1;
+  string title = 3;
+  string type = 2;
+}

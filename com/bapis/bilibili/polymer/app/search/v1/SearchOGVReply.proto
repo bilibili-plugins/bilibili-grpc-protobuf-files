@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOGVReply {
+  MapFieldLite annotation = 7;
+  repeated Data extraWordList = 1;
+  repeated Data items = 3;
+  int32 needOrder = 2;
+  int64 page = 6;
+  PaginationReply pagination = 5;
+  string query = 8;
+  repeated Data relationItems = 4;
+  string trackid = 9;
+}

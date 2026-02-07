@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoWatermark {
+  int32 position = 3;
+  int32 state = 1;
+  int32 type = 2;
+}

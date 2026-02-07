@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message KDynVisibilityStatus$DYN_VISIBILITY_SELF_SEEN_ONLY$1 {
+}

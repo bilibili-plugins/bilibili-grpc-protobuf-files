@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KToastType$OGV_VIDEO_START_TOAST$1 {
+}

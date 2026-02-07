@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateAttachCard {
+  CreateCommercialCard commercial = 3;
+  CreateCommonAttachCard commonCard = 2;
+  CreateGoodsCard goods = 1;
+}

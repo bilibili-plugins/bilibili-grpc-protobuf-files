@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message BusinessInfo {
+  bool bp = 2;
+  bool isPreview = 1;
+  string marlinToken = 3;
+}

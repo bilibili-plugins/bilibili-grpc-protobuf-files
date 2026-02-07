@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ChatInfoReply {
+  string backgroundImg = 6;
+  BehaviorAlertToast behaviorAlertToast = 10;
+  BizInfo bizInfo = 7;
+  ChatHintMessages chatHintMessages = 11;
+  InputBox inputBox = 4;
+  NavButton navButton = 3;
+  string sessionHandle = 12;
+  string sessionName = 1;
+  SessionTag sessionTag = 2;
+  ChatStickyModule stickyModule = 8;
+  repeated Data talkerInfos = 5;
+  MapFieldLite traceParams = 9;
+}

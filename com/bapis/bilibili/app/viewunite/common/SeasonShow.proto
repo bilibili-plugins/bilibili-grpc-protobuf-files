@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message SeasonShow {
+  string buttonText = 1;
+  string checkinPrompt = 5;
+  string checkinText = 4;
+  string joinText = 2;
+  string ruleText = 3;
+}

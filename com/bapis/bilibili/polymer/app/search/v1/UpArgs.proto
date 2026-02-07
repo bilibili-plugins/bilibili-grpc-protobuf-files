@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message UpArgs {
+  int32 selected = 4;
+  string upFace = 3;
+  int64 upId = 1;
+  string upName = 2;
+}

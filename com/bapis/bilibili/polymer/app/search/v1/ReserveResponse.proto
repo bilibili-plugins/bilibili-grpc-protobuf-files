@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ReserveResponse {
+  int64 isFollow = 3;
+  SearchReserveInfo reserveInfo = 2;
+  int64 state = 4;
+  string toast = 1;
+}

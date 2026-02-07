@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.creative_tool.editor.v2;
+
+message Metadata {
+  int32 audioTracks = 13;
+  int64 draftId = 20;
+  string draftKey = 21;
+  int32 duration = 1;
+  int32 localMaterialCount = 22;
+  int32 picCount = 2;
+  string sdkType = 23;
+  int32 storyId = 19;
+  int32 videoCount = 3;
+  int32 videoTracks = 12;
+}

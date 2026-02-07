@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message MessageItem {
+  MessageItemAddition addition = 6;
+  MessageItemAuthor author = 2;
+  MessageItemContent content = 4;
+  MessageItemNotice notice = 3;
+  MessageItemPicture picture = 5;
+  int32 type = 1;
+}

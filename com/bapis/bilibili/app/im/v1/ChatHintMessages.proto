@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ChatHintMessages {
+  ChatHintMessages$PushInfoMessage pushInfoMessage = 1;
+  ChatHintMessages$PushSettingChangedMessage pushSettingChangedMessage = 2;
+}

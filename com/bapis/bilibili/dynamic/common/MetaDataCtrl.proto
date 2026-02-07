@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message MetaDataCtrl {
+  string build = 2;
+  string buvid = 4;
+  int32 coldStart = 10;
+  string device = 5;
+  string fromSpmid = 6;
+  string from = 7;
+  string ip = 13;
+  string mobiApp = 3;
+  int32 network = 12;
+  string platform = 1;
+  int32 teenagerMode = 9;
+  string traceId = 8;
+  string version = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message ClickButtonV2 {
+  bool exposureOnce = 7;
+  int32 exposureType = 8;
+  repeated Data landscapeTextFocus = 4;
+  repeated Data landscapeText = 2;
+  repeated Data portraitTextFocus = 3;
+  repeated Data portraitText = 1;
+  int32 renderType = 5;
+  bool textInputPost = 6;
+}

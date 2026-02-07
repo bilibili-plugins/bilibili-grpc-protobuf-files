@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.cert.v1;
+
+message FieldCertPopRecordReq {
+  int64 avid = 1;
+}

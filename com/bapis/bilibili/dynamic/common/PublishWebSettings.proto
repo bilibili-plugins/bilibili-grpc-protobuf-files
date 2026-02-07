@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message PublishWebSettings {
+  int32 maxAtCount = 3;
+  int64 maxContentLengthOnlyfans = 7;
+  int32 maxContentLength = 2;
+  int32 maxDraftCount = 4;
+  int64 maxPicCountType = 5;
+  int64 maxTitleLength = 6;
+  int32 maxUploadSize = 1;
+}

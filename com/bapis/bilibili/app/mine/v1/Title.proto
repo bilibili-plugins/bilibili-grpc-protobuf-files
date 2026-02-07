@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message Title {
+  string main = 1;
+  string sub = 2;
+}

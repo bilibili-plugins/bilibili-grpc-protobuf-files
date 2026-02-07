@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.popular.v1;
+
+message EntranceShow {
+  Bubble bubble = 5;
+  int64 entranceId = 6;
+  int32 entranceType = 8;
+  string icon = 1;
+  string moduleId = 3;
+  string title = 2;
+  string topPhoto = 7;
+  string uri = 4;
+}

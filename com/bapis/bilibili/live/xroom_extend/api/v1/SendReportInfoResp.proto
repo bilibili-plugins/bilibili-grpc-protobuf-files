@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xroom_extend.api.v1;
+
+message SendReportInfoResp {
+  int32 reportStatus = 1;
+  string toast = 2;
+}

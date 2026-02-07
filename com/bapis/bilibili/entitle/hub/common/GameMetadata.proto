@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message GameMetadata {
+  string appId = 1;
+  string headerUrl = 5;
+  string iconUrl = 3;
+  string name = 2;
+  int32 playtimeForever = 4;
+}

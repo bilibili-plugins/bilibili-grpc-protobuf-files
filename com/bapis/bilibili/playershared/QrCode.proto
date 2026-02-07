@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message QrCode {
+  string linkDesc = 2;
+  string link = 1;
+}

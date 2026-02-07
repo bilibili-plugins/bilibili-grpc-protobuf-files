@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message DoubleOpusItem {
+  int64 coverCount = 3;
+  string cover = 4;
+  int64 id = 2;
+  int64 imgH = 9;
+  int64 imgW = 8;
+  string jumpUrl = 7;
+  int64 mid = 5;
+  string title = 10;
+  int32 type = 1;
+  string uname = 6;
+}

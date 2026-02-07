@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message UserStatus {
+  int32 followStatus = 3;
+  int32 follow = 2;
+  int32 pay = 4;
+  int32 show = 1;
+  int32 sponsor = 5;
+  int32 vipFrozen = 7;
+  int32 vip = 6;
+  WatchProgress watchProgress = 8;
+}

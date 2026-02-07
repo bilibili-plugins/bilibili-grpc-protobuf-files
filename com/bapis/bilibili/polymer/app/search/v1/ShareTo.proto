@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ShareTo {
+  bool copy = 3;
+  bool dynamic = 1;
+  bool facebook = 10;
+  bool im = 2;
+  bool line = 11;
+  bool messenger = 12;
+  bool more = 4;
+  bool qq = 8;
+  bool qzone = 9;
+  bool twitter = 14;
+  bool wechatMonment = 7;
+  bool wechat = 5;
+  bool weibo = 6;
+  bool whatsApp = 13;
+}

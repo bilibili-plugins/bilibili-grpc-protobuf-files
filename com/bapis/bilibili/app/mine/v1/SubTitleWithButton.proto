@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message SubTitleWithButton {
+  Color backgroundColor = 3;
+  string icon = 1;
+  Color textColor = 5;
+  string text = 4;
+  string url = 2;
+}

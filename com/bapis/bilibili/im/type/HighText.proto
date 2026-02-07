@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message HighText {
+  int32 action = 4;
+  int32 index = 3;
+  string title = 1;
+  string url = 2;
+}

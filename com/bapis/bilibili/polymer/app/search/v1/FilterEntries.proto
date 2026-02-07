@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message FilterEntries {
+  string areaForNeuron = 5;
+  string filterType = 4;
+  bool singleSelect = 6;
+  string subtitle = 3;
+  string title = 1;
+  repeated Data values = 2;
+}

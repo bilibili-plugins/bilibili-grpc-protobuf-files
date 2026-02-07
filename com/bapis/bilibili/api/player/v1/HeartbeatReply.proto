@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.player.v1;
+
+message HeartbeatReply {
+  int64 ts = 1;
+}

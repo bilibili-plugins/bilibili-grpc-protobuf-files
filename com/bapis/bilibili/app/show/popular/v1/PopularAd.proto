@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.popular.v1;
+
+message PopularAd {
+  string extra = 1;
+}

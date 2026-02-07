@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message Business {
+  int64 businessId = 1;
+  string businessName = 2;
+  int32 select = 3;
+}

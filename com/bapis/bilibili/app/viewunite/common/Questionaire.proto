@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Questionaire {
+  int64 qid = 1;
+  repeated Data qoptions = 6;
+  int64 qshowtime = 3;
+  int64 qshowtype = 2;
+  string qtype = 4;
+  string title = 5;
+}

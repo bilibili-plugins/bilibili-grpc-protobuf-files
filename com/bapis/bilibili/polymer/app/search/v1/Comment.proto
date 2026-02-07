@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Comment {
+  string content = 4;
+  string face = 1;
+  int64 id = 9;
+  int64 like = 5;
+  int64 mid = 2;
+  string name = 3;
+  int64 row = 6;
+  string upUri = 7;
+  string uri = 8;
+}

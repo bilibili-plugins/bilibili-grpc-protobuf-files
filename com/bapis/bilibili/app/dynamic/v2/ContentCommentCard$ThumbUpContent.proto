@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ContentCommentCard$ThumbUpContent {
+  int64 count = 1;
+  bool isThumbup = 3;
+  bool isUpThumbup = 4;
+  string text = 2;
+}

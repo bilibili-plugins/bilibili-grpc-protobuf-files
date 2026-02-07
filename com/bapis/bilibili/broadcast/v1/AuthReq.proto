@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message AuthReq {
+  string connId = 2;
+  string guid = 1;
+  int64 lastMsgId = 3;
+}

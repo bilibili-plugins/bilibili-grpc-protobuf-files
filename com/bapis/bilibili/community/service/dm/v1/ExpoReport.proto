@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message ExpoReport {
+  repeated Data durations = 3;
+  int32 maxSize = 4;
+  double playerSample = 2;
+  bool shouldReportAtEnd = 1;
+}

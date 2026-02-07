@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ChannelMixedItem {
+  Badge2 badge = 9;
+  string cover = 4;
+  string goto = 5;
+  int64 id = 1;
+  string param = 6;
+  string title = 8;
+  string uri = 7;
+}

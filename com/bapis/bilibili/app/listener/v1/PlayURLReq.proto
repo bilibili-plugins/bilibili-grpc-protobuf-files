@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayURLReq {
+  PlayItem item = 1;
+  PlayerArgs playerArgs = 2;
+}

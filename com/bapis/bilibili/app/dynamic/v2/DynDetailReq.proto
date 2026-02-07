@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynDetailReq {
+  AdParam adParam = 5;
+  Config config = 12;
+  int64 dynType = 3;
+  string dynamicId = 2;
+  string from = 6;
+  int32 localTime = 10;
+  string pattern = 11;
+  PlayerArgs playerArgs = 7;
+  int64 rid = 4;
+  string shareId = 8;
+  int32 shareMode = 9;
+  int64 uid = 1;
+}

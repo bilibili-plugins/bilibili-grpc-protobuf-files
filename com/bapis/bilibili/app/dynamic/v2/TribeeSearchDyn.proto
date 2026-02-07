@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchDyn {
+  TribeeDyn dyn = 1;
+  string rawTitle = 2;
+}

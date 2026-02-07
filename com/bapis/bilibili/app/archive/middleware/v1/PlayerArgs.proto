@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.archive.middleware.v1;
+
+message PlayerArgs {
+  int64 clientAttr = 7;
+  MapFieldLite extraContent = 8;
+  int64 fnval = 3;
+  int64 fnver = 2;
+  int64 forceHost = 4;
+  int32 qnPolicy = 6;
+  int64 qn = 1;
+  int64 voiceBalance = 5;
+}

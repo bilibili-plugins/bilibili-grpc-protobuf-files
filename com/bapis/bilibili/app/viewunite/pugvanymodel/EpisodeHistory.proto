@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message EpisodeHistory {
+  string fullWatchedText = 4;
+  string lastPlayText = 2;
+  bool lastPlay = 1;
+  int64 maxProgress = 3;
+}

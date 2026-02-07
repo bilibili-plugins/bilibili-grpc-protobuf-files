@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ResponseUrl {
+  repeated Data backupUrl = 5;
+  int64 length = 2;
+  string md5 = 6;
+  int32 order = 1;
+  int32 quality = 7;
+  int64 size = 3;
+  string url = 4;
+}

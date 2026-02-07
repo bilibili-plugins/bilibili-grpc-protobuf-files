@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message CommonInfo {
+  string prefixTitle = 3;
+  string prefix = 2;
+  string title = 1;
+}

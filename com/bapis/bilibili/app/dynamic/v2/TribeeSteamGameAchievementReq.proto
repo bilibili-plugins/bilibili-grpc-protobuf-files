@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamGameAchievementReq {
+  string appId = 2;
+  int64 mid = 1;
+}

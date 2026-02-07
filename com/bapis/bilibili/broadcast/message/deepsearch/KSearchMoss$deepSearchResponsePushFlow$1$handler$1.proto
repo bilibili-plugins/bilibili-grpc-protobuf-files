@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message KSearchMoss$deepSearchResponsePushFlow$1$handler$1 {
+}

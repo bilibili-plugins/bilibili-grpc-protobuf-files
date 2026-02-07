@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DanmakuElem {
+  string action = 10;
+  string animation = 22;
+  int32 attr = 13;
+  int32 color = 5;
+  int32 colorful = 24;
+  string content = 7;
+  int64 ctime = 8;
+  int32 dmFrom = 27;
+  string extra = 23;
+  int32 fontsize = 4;
+  string idStr = 12;
+  int64 id = 1;
+  int64 likeCount = 15;
+  string midHash = 6;
+  int32 mode = 3;
+  int64 oid = 26;
+  int32 pool = 11;
+  int32 progress = 2;
+  int32 type = 25;
+  int32 weight = 9;
+}

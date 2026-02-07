@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoVote {
+  int32 topForReply = 3;
+  int64 voteId = 1;
+  string voteTitle = 2;
+}

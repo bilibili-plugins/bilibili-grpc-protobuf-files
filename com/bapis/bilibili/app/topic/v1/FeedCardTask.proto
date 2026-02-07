@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message FeedCardTask {
+  string buttonText = 4;
+  string cover = 3;
+  string jumpUrl = 5;
+  string subTitle = 2;
+  string title = 1;
+}

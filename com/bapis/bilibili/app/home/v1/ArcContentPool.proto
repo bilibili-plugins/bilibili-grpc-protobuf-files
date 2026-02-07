@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message ArcContentPool {
+  repeated Data backupArcs = 2;
+  repeated Data showArcs = 1;
+}

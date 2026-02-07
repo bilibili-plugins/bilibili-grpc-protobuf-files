@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message CalendarDate {
+  repeated Data cardList = 3;
+  int64 itemDate = 1;
+  int32 pointType = 2;
+}

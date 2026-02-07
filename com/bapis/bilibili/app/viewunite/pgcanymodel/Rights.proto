@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message Rights {
+  int32 allowBpRank = 12;
+  int32 allowBp = 7;
+  int32 allowDownload = 1;
+  int32 allowReview = 2;
+  int32 areaLimit = 8;
+  int32 banAreaShow = 10;
+  int32 canWatch = 3;
+  string copyrightName = 6;
+  string copyright = 5;
+  int32 forbidPre = 14;
+  int32 isCoverShow = 4;
+  int32 isPreview = 9;
+  int32 newAllowDownload = 16;
+  int32 onlyVipDownload = 15;
+  string resource = 13;
+  int32 watchPlatform = 11;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusTop {
+  repeated Data banner = 6;
+  string bottomLeftText = 16;
+  string campusBackground = 11;
+  string campusBadge = 10;
+  int64 campusId = 1;
+  string campusIntro = 14;
+  string campusMotto = 12;
+  string campusNameLink = 15;
+  string campusName = 2;
+  CampusLabel inviteLabel = 7;
+  CampusLabel mngEntry = 13;
+  CampusNoticeInfo notice = 8;
+  CampusLabel switchLabel = 4;
+  repeated Data tabs = 3;
+  string title = 5;
+  TopicSquareInfo topicSquare = 9;
+}

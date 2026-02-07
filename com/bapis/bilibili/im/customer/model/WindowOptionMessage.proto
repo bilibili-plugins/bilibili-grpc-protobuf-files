@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message WindowOptionMessage {
+  string icon = 1;
+  bool isNewTicket = 6;
+  string jumpUrl = 3;
+  string name = 2;
+  string newTicketJumpUrl = 7;
+  string subTitle = 5;
+  string title = 4;
+}

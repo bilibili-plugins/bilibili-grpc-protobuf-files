@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message ImageGroup$VisualEffect {
+  string colorTheme = 2;
+  string medalImage = 1;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LinkNode {
+  Any bizData = 11;
+  string bizId = 7;
+  GoodsItem goodsItem = 9;
+  string iconSuffix = 4;
+  string icon = 3;
+  ClickBubble linkClickBubble = 13;
+  MdlDynDraw linkPics = 12;
+  int32 linkTypeEnum = 6;
+  string linkType = 5;
+  string link = 2;
+  NoteVideoTS noteVideoTs = 10;
+  Colors richBgColor = 17;
+  repeated Data showRich = 15;
+  WordNode showText = 1;
+  int32 showType = 14;
+  int64 timestamp = 8;
+  VideoTs videoTs = 16;
+}

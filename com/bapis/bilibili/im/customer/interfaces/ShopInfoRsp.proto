@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message ShopInfoRsp {
+  string face = 2;
+  string name = 1;
+}

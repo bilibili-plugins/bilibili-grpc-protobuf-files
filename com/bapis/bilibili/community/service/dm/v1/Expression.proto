@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message Expression {
+  repeated Data keyword = 1;
+  repeated Data period = 3;
+  string url = 2;
+}

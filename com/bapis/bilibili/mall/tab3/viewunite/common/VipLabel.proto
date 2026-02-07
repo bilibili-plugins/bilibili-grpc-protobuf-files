@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message VipLabel {
+  string labelTheme = 3;
+  string path = 1;
+  string text = 2;
+}

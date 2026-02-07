@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSendInviteCodeOptionsResp$TribeeSelectItem {
+  int64 codeCount = 5;
+  string faceUrl = 4;
+  int64 id = 1;
+  string subTitle = 3;
+  string tipsSend = 6;
+  string tipsUsed = 7;
+  string title = 2;
+}

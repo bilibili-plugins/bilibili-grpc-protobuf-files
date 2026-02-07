@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmPlayerConfigReq {
+  PlayerDanmakuAiRecommendedLevelV2 aiRecommendedLevelV2 = 20;
+  PlayerDanmakuAiRecommendedLevel aiRecommendedLevel = 6;
+  PlayerDanmakuAiRecommendedSwitch aiRecommendedSwitch = 5;
+  PlayerDanmakuBlockbottom blockbottom = 9;
+  PlayerDanmakuBlockcolorful blockcolorful = 10;
+  PlayerDanmakuBlockrepeat blockrepeat = 11;
+  PlayerDanmakuBlockscroll blockscroll = 8;
+  PlayerDanmakuBlockspecial blockspecial = 12;
+  PlayerDanmakuBlocktopBottom blocktopBottom = 22;
+  PlayerDanmakuBlocktop blocktop = 7;
+  PlayerDanmakuDensity density = 24;
+  PlayerDanmakuDomainV2 domainV2 = 23;
+  PlayerDanmakuDomain domain = 15;
+  PlayerDanmakuEnableHerdDm enableHerdDm = 21;
+  PlayerDanmakuEnableblocklist enableblocklist = 17;
+  InlinePlayerDanmakuSwitch inlinePlayerDanmakuSwitch = 18;
+  PlayerDanmakuOpacity opacity = 13;
+  PlayerDanmakuPeopleProof peopleProof = 26;
+  PlayerDanmakuScalingfactor scalingfactor = 14;
+  PlayerDanmakuSeniorModeSwitch seniorModeSwitch = 19;
+  PlayerDanmakuSpeed speed = 16;
+  PlayerDanmakuSubtitleProof subtitleProof = 25;
+  PlayerDanmakuSwitchSave switchSave = 3;
+  PlayerDanmakuSwitch switch = 2;
+  int64 ts = 1;
+  PlayerDanmakuUseDefaultConfig useDefaultConfig = 4;
+}

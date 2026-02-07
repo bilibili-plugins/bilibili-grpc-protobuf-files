@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message Mask {
+  Avatar avatar = 1;
+  Button button = 2;
+}

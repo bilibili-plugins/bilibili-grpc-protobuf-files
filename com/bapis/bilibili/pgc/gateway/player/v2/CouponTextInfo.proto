@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message CouponTextInfo {
+  string positivePreview = 1;
+  string section = 2;
+}

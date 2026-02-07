@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message ViewHerdDmElem {
+  int32 endProgress = 6;
+  int32 herdEndCnt = 3;
+  string herdMsg = 1;
+  int32 herdStartCnt = 2;
+  string regexRule = 4;
+  int32 startProgress = 5;
+}

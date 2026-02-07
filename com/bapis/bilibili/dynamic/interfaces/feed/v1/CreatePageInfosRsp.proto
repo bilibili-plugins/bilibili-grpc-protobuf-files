@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreatePageInfosRsp {
+  CreatePageCommercialInfo commercial = 2;
+  repeated Data goods = 3;
+  CreatePageTopicInfo topic = 1;
+}

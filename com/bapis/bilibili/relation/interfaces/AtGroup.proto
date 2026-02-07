@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.relation.interfaces;
+
+message AtGroup {
+  string groupName = 2;
+  int32 groupType = 1;
+  repeated Data items = 3;
+}

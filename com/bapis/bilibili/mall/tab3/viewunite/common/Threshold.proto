@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Threshold {
+  int32 bp = 1;
+  string daysText = 3;
+  int32 days = 2;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message DetailsTopInfo {
+  bool hasCreateJurisdiction = 4;
+  string headBgImgUrl = 15;
+  string headImgBackcolor = 7;
+  string headImgUrl = 6;
+  string icon = 14;
+  int32 missionPageShowType = 9;
+  string missionText = 11;
+  string missionUrl = 10;
+  OperationContent operationContent = 5;
+  string statsDesc = 3;
+  string symbol = 13;
+  TopicInfo topicInfo = 1;
+  TopicSet topicSet = 12;
+  User user = 2;
+  int32 wordColor = 8;
+}

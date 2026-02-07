@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SearchChannel {
+  repeated Data channels = 3;
+  SearchTopicButton moreButton = 2;
+  string title = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message OpusAttachments {
+  int32 isAigc = 2;
+  Tribee tribee = 1;
+}

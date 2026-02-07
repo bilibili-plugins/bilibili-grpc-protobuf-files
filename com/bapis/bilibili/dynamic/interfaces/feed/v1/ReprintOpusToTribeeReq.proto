@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ReprintOpusToTribeeReq {
+  int64 categoryId = 4;
+  UserCreateMeta meta = 1;
+  bool needMarkSource = 6;
+  bool needRepost = 5;
+  int64 opusId = 2;
+  string repostText = 7;
+  string title = 8;
+  int64 tribeeId = 3;
+}

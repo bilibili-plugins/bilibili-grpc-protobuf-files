@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonPrimarySellPoint {
+  string detail = 2;
+  string title = 1;
+}

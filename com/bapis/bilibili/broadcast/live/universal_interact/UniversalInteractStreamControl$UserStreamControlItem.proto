@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractStreamControl$UserStreamControlItem {
+  int32 muteLocalMode = 1;
+  repeated Data muteRemoteUids = 2;
+  int64 operatorUid = 5;
+  repeated Data receiveUids = 3;
+  int64 version = 4;
+}

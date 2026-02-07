@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message WordNode$UnderlineStyle {
+  Colors underlineColor = 2;
+  double underlineWidth = 1;
+}

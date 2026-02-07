@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message UserMsgReq {
+  int32 bizId = 1;
+  bool last = 3;
+  bytes payload = 2;
+  repeated Data receivers = 4;
+}

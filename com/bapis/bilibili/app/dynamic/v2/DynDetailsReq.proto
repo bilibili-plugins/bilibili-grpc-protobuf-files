@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynDetailsReq {
+  Config config = 5;
+  string dynamicIds = 1;
+  int32 localTime = 3;
+  PlayerArgs playerArgs = 4;
+  PlayurlParam playurlParam = 2;
+}

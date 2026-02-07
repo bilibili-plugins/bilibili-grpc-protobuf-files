@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module13 {
+  string androidPkgName = 9;
+  string authority = 4;
+  string customerService = 2;
+  string developerName = 6;
+  string gameVersion = 8;
+  int64 pkgSize = 1;
+  string privacy = 5;
+  string updateTime = 7;
+  string website = 3;
+}

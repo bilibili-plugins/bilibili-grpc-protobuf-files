@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message PlayViewReq {
+  int64 cid = 2;
+  int32 download = 6;
+  int64 epId = 1;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 7;
+  bool fourk = 8;
+  string fromSpmid = 10;
+  bool isPreview = 13;
+  int32 preferCodecType = 12;
+  int64 qn = 3;
+  int64 roomId = 14;
+  string spmid = 9;
+  int32 teenagersMode = 11;
+}

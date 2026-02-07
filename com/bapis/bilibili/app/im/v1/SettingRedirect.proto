@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SettingRedirect {
+  string selectedSummary = 5;
+  string subtitle = 4;
+  string title = 3;
+}

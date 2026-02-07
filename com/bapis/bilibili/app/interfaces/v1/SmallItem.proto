@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SmallItem {
+  string coverImageUri = 2;
+  int64 coverLeftIcon1 = 6;
+  int64 coverLeftIcon2 = 8;
+  string coverLeftText1 = 5;
+  string coverLeftText2 = 7;
+  string coverRightText = 4;
+  int64 mid = 10;
+  int64 param = 9;
+  string title = 1;
+  string uri = 3;
+}

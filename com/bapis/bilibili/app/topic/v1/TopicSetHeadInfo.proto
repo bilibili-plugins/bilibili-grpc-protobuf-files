@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicSetHeadInfo {
+  string headImgUrl = 3;
+  string iconUrl = 6;
+  bool isFav = 7;
+  bool isFirstTime = 8;
+  string missionText = 5;
+  string missionUrl = 4;
+  string recordText = 9;
+  string topicCntText = 2;
+  TopicSet topicSet = 1;
+}

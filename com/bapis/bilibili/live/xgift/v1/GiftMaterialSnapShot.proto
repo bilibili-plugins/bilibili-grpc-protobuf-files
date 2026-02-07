@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message GiftMaterialSnapShot {
+  int64 effectId = 3;
+  int64 hasImagedGift = 4;
+  string imgBasic = 1;
+  string webp = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateActivity {
+  int32 action = 4;
+  int64 activityId = 1;
+  int32 activityState = 2;
+  int32 isNewActivity = 3;
+}

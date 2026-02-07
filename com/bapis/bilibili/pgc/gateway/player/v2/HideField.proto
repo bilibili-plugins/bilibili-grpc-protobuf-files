@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message HideField {
+  bool fragmentDisable = 1;
+  int32 vipStatus = 2;
+}

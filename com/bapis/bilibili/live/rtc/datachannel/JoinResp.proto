@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message JoinResp {
+  int32 callId = 2;
+  BAPILiveRTCUserProto$CodecCapability encodeCapability = 3;
+  repeated Data users = 1;
+}

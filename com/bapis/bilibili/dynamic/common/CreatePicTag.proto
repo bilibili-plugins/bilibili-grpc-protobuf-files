@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreatePicTag {
+  int64 itemId = 1;
+  string jumpUrl = 10;
+  int64 mid = 3;
+  int64 orientation = 11;
+  string poi = 14;
+  string schemaUrl = 9;
+  int64 sourceType = 7;
+  string textString = 5;
+  string text = 4;
+  int64 tid = 2;
+  int64 type = 6;
+  string url = 8;
+  int64 x = 12;
+  int64 y = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CursorV2Req {
+  string business = 2;
+  Cursor cursor = 1;
+  bool isLocal = 5;
+  PlayerArgs playerArgs = 4;
+  PlayerPreloadParams playerPreload = 3;
+}

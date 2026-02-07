@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message DisplayReportReq$ReportContent {
+  string extra = 3;
+  int32 pos = 2;
+  int64 times = 1;
+}

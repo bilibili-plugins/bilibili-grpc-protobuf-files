@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareArticleModule {
+  int64 articleId = 1;
+  repeated Data images = 3;
+  string stats = 5;
+  Paragraph summary = 4;
+  Paragraph title = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PlayerRelatesReq {
+  int64 aid = 1;
+  string bvid = 2;
+  string fromSpmid = 5;
+  string fromTrackId = 8;
+  string from = 3;
+  PlayerArgs playerArgs = 6;
+  string sessionId = 7;
+  string spmid = 4;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message ShareGuide {
+  repeated Data activeExps = 8;
+  int32 countA = 3;
+  int32 countB = 5;
+  int32 duration = 2;
+  string emphasizedText = 7;
+  bool hitA = 1;
+  bool hitB = 4;
+  string text = 6;
+}

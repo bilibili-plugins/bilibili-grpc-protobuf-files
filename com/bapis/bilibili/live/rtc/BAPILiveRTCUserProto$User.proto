@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCUserProto$User {
+  BAPILiveRTCUserProto$CodecCapability decodeCapability = 6;
+  string platform = 4;
+  BAPILiveRTCUserProto$Stream pubStream = 3;
+  int32 role = 2;
+  string sdkVersion = 5;
+  int64 uid = 1;
+}

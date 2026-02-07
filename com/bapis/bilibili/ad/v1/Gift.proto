@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Gift {
+  string icon = 1;
+  string nightIcon = 2;
+  string text = 3;
+  string url = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message MsgBuildDepInfoReq$MsgBuildReq {
+  repeated Data msgIds = 1;
+  repeated Data seqNos = 2;
+}

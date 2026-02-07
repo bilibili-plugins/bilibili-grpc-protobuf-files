@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchArticleCard {
+  string author = 7;
+  string badge = 15;
+  CardLayout cardLayout = 17;
+  string cover = 2;
+  string desc = 12;
+  Feedback feedback = 16;
+  int64 id = 9;
+  repeated Data imageUrls = 6;
+  int32 like = 4;
+  int64 mid = 10;
+  string name = 11;
+  int32 play = 3;
+  string pubTime = 14;
+  int32 reply = 5;
+  int32 templateId = 8;
+  string title = 1;
+  int32 view = 13;
+}

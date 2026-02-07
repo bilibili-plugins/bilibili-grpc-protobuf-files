@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message EpInlineVideo {
+  int64 aid = 2;
+  int64 cid = 3;
+  int64 materialNo = 1;
+}

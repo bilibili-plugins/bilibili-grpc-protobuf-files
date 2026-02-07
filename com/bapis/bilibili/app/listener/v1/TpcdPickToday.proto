@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message TpcdPickToday {
+  DetailItem item = 1;
+  string pic = 3;
+  int64 pickCardId = 5;
+  int64 pickId = 4;
+  string text = 2;
+}

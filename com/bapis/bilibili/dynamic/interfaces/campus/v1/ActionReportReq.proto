@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.campus.v1;
+
+message ActionReportReq {
+  int32 action = 2;
+  int64 campusId = 3;
+  string identity = 1;
+}

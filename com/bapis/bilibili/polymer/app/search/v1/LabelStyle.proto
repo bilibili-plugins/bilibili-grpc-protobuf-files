@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message LabelStyle {
+  string bgColorNight = 5;
+  string bgColor = 4;
+  string borderColorNight = 7;
+  string borderColor = 6;
+  string iconNight = 9;
+  string icon = 8;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

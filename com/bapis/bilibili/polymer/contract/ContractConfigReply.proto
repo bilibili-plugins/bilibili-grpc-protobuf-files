@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.contract;
+
+message ContractConfigReply {
+  ContractCard contractCard = 3;
+  int32 isFollowDisplay = 1;
+  int32 isTripleDisplay = 2;
+}

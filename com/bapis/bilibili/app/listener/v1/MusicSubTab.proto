@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MusicSubTab {
+  string name = 1;
+  int32 tabType = 2;
+  int64 total = 3;
+}

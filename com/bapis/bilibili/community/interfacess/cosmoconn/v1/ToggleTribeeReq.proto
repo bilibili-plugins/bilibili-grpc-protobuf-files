@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message ToggleTribeeReq {
+  int32 action = 2;
+  int64 tribeeId = 1;
+}

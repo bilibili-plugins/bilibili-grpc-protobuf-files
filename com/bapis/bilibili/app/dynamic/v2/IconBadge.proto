@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message IconBadge {
+  string iconBgUrl = 1;
+  string text = 2;
+}

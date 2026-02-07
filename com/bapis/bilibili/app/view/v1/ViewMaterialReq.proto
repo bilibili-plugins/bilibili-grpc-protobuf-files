@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ViewMaterialReq {
+  int64 aid = 1;
+  string bvid = 2;
+  int64 cid = 3;
+}

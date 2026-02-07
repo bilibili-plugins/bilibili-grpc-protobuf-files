@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaVideoReply {
+  bool hasMore = 2;
+  repeated Data list = 3;
+  string offset = 1;
+}

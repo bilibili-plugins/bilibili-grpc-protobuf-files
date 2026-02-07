@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeCategory {
+  int64 id = 1;
+  bool isCurrent = 3;
+  string name = 2;
+  CategoryTip tip = 5;
+  int32 type = 4;
+}

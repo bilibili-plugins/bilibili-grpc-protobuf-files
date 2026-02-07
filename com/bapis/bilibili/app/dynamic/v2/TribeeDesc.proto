@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeDesc {
+  Color bgColor = 5;
+  string faceUrl = 4;
+  int64 id = 1;
+  string jumpUri = 6;
+  string subTitle = 3;
+  string title = 2;
+}

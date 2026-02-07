@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeDyn {
+  repeated Data categories = 8;
+  int64 dynId = 1;
+  string jumpUri = 2;
+  string leftText = 4;
+  DynReplyIcon replyIcon = 9;
+  string rightText = 5;
+  repeated Data titleTags = 6;
+  string title = 3;
+  string viewStat = 7;
+}

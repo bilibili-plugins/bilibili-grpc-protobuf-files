@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.gaia.gw;
+
+message FetchPublicKeyReply {
+  int64 deadline = 3;
+  string publicKey = 2;
+  string version = 1;
+}

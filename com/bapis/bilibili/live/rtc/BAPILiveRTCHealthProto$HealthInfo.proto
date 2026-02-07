@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCHealthProto$HealthInfo {
+  BAPILiveRTCHealthProto$Bandwidth bandwidth = 5;
+  BAPILiveRTCHealthProto$Cpu cpu = 2;
+  BAPILiveRTCHealthProto$Disk disk = 4;
+  BAPILiveRTCHealthProto$ServiceQuality dnLink = 7;
+  BAPILiveRTCHealthProto$Memory memory = 3;
+  bool networkAvailable = 9;
+  string nodeName = 1;
+  bool offline = 8;
+  BAPILiveRTCHealthProto$TransportBandwidth transbandwidth = 10;
+  BAPILiveRTCHealthProto$ServiceQuality upLink = 6;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.playerunite.v1;
+
+message PlayViewUniteReq {
+  string bvid = 5;
+  MapFieldLite extraContent = 4;
+  string fromSpmid = 3;
+  string spmid = 2;
+  VideoVod vod = 1;
+}

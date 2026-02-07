@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message InteractionItem {
+  int64 commentMid = 6;
+  repeated Data desc = 2;
+  string dynamicId = 4;
+  MapFieldLite extendClickParam = 12;
+  repeated Data faces = 7;
+  int32 iconType = 1;
+  string icon = 9;
+  InteractionStat stat = 8;
+  repeated Data tailDesc = 11;
+  string tailIcon = 10;
+  string uri = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message FeedFilterReq {
+  AdParam adParam = 5;
+  int32 coldStart = 6;
+  int32 localTime = 3;
+  string offset = 1;
+  int64 page = 7;
+  PlayerArgs playerArgs = 4;
+  string tab = 2;
+}

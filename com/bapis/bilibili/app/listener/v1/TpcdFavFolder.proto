@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message TpcdFavFolder {
+  int64 fid = 4;
+  int32 folderType = 5;
+  DetailItem item = 1;
+  string pic = 3;
+  string text = 2;
+}

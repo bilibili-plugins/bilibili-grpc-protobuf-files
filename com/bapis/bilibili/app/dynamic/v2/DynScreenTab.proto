@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynScreenTab {
+  bool defaultTab = 3;
+  string name = 2;
+  bool strategyShowOnEntrance = 4;
+  bool strategyShowOnPullUp = 6;
+  bool strategyShowOnRefresh = 5;
+  string title = 1;
+}

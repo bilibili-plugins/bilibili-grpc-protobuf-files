@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.service;
+
+message UserCardMultiReq {
+  Device device = 2;
+  int64 mid = 3;
+  repeated Data mids = 1;
+}

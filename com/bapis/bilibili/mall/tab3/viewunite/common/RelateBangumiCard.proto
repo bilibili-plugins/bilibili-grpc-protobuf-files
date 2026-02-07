@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message RelateBangumiCard {
+  BadgeInfo badgeInfo = 7;
+  string gotoType = 8;
+  NewEp newEp = 3;
+  Rating rating = 5;
+  string rcmdReason = 6;
+  MapFieldLite report = 9;
+  int32 seasonId = 1;
+  int32 seasonType = 2;
+  Stat stat = 4;
+}

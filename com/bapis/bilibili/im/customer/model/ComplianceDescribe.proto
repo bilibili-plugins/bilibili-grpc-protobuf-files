@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message ComplianceDescribe {
+  bool isLink = 2;
+  string link = 3;
+  string text = 1;
+}

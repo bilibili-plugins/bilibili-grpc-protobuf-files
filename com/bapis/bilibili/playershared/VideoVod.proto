@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message VideoVod {
+  int64 aid = 1;
+  int64 cid = 2;
+  int64 clientAttr = 14;
+  string curLanguage = 15;
+  int32 curProductionType = 16;
+  int32 download = 6;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 7;
+  bool fourk = 8;
+  bool isNeedTrial = 11;
+  int32 preferCodecType = 9;
+  int32 qnPolicy = 12;
+  int64 qn = 3;
+  int64 softFnval = 13;
+  int64 voiceBalance = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareDynamicAttachModule {
+  int32 attachType = 1;
+  string coverImg = 2;
+  string title = 3;
+  string url = 4;
+}

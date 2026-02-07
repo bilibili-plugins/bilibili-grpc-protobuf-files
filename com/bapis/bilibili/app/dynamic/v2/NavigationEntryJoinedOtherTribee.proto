@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message NavigationEntryJoinedOtherTribee {
+  string lessText = 2;
+  string moreText = 1;
+  repeated Data tribeeList = 3;
+}

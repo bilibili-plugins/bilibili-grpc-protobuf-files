@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ArgueBar {
+  string bgColorNight = 5;
+  string bgColor = 1;
+  string iconColorNight = 7;
+  string iconColor = 3;
+  string msg = 4;
+  string textColorNight = 6;
+  string textColor = 2;
+}

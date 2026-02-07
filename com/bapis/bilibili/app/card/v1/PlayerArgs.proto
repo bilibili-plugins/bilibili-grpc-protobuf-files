@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message PlayerArgs {
+  int64 aid = 2;
+  int64 cid = 3;
+  int64 duration = 10;
+  int64 epId = 7;
+  int32 isLive = 1;
+  int32 isPreview = 8;
+  int64 roomId = 5;
+  int64 seasonId = 11;
+  int32 subType = 4;
+  string type = 9;
+}

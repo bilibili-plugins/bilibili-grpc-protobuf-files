@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonRecommend {
+  repeated Data contents = 2;
+  PugvSeasonRecommendMore moreInfo = 3;
+  PugvSeasonNav nav = 1;
+  int32 showStyle = 4;
+}

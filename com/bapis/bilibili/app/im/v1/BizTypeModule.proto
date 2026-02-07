@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message BizTypeModule {
+  string leftIcon = 1;
+  string leftText = 2;
+  string rightText = 3;
+}

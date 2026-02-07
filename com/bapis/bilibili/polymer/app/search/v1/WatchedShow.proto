@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message WatchedShow {
+  string iconLocation = 6;
+  string iconWeb = 7;
+  string icon = 5;
+  int64 num = 2;
+  bool switch = 1;
+  string textLarge = 4;
+  string textSmall = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message SearchEggReply {
+  int32 code = 1;
+  SearchEggInfos result = 3;
+  string seid = 2;
+}

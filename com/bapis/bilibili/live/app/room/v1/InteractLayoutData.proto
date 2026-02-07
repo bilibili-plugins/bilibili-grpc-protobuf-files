@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractLayoutData {
+  int32 bestAreaShowPos = 6;
+  repeated Data cells = 4;
+  LayoutCell defaultCell = 3;
+  int32 height = 2;
+  RtcResolution rtcResolutionSimulcast = 7;
+  RtcResolution rtcResolution = 5;
+  int32 width = 1;
+}

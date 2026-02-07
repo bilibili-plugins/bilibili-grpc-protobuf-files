@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCHealthProto$Bandwidth {
+  int64 rxRate = 2;
+  int64 txRate = 1;
+}

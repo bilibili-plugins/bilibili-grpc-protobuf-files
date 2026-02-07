@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message LayoutCell {
+  int32 canZoom = 12;
+  int32 defaultOpen = 7;
+  double height = 4;
+  int32 mobileAvatarSize = 9;
+  int32 mobileFontSize = 8;
+  int32 pcWebAvatarSize = 11;
+  int32 pcWebFontSize = 10;
+  string positionText = 14;
+  int64 position = 6;
+  int32 videoIndex = 13;
+  double width = 3;
+  double x = 1;
+  double y = 2;
+  int32 zIndex = 5;
+}

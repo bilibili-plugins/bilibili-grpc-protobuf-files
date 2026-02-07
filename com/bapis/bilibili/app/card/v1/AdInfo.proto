@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message AdInfo {
+  string adCb = 5;
+  int32 cardIndex = 13;
+  int32 cardType = 3;
+  string clientIp = 14;
+  int64 cmMark = 10;
+  int32 contentFastAccess = 18;
+  CreativeContent creativeContent = 4;
+  int64 creativeId = 1;
+  int32 creativeStyle = 16;
+  int32 creativeType = 2;
+  bytes extra = 15;
+  int32 index = 11;
+  bool isAdLoc = 12;
+  bool isAd = 9;
+  int64 natureAd = 17;
+  string requestId = 8;
+  int64 resource = 6;
+  int32 source = 7;
+}

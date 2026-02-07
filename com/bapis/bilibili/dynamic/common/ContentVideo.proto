@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ContentVideo {
+  int64 cid = 3;
+  int64 epid = 4;
+  int64 playFromTime = 2;
+  int32 videoType = 1;
+}

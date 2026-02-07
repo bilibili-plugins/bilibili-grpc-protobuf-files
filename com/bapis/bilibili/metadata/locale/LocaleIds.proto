@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.locale;
+
+message LocaleIds {
+  string language = 1;
+  string region = 3;
+  string script = 2;
+}

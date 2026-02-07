@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message UserInfo {
+  string face = 4;
+  int64 mid = 1;
+  string name = 2;
+  int32 rank = 6;
+  string sex = 3;
+  string sign = 5;
+}

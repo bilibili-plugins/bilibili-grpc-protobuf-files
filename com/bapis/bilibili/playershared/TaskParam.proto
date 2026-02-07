@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message TaskParam {
+  int64 activityId = 2;
+  string taskType = 1;
+  int64 tipsId = 3;
+}

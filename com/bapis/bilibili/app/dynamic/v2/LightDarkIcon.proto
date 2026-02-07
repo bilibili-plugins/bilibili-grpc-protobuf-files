@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LightDarkIcon {
+  string darkMode = 2;
+  string lightMode = 1;
+}

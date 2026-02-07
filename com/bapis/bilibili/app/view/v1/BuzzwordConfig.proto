@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message BuzzwordConfig {
+  int64 buzzwordId = 8;
+  int64 end = 5;
+  bool followControl = 6;
+  int64 id = 7;
+  string name = 1;
+  string picture = 10;
+  int32 schemaType = 9;
+  string schema = 2;
+  int32 source = 3;
+  int64 start = 4;
+}

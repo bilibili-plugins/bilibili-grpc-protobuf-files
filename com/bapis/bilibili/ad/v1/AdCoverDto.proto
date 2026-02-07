@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdCoverDto {
+  int32 imageHeight = 5;
+  int32 imageWidth = 6;
+  string jumpUrl = 3;
+  int32 loop = 2;
+  string nightUrl = 7;
+  repeated Data reportUrls = 4;
+  string url = 1;
+}

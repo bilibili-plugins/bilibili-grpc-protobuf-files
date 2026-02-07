@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaDetailReply {
+  Cast cast = 1;
+  Overview overview = 3;
+  Staff staff = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message UserCardBG {
+  UserFanShow fan = 5;
+  int64 id = 1;
+  ImageGroup imageGroup = 7;
+  string image = 3;
+  string jumpUrl = 4;
+  string name = 2;
+  string type = 6;
+}

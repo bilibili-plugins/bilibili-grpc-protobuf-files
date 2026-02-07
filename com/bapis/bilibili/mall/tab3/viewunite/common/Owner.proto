@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Owner {
+  string arcCount = 5;
+  repeated Data assists = 16;
+  int32 attentionRelation = 7;
+  int32 attention = 6;
+  AvatarItem avatar = 1;
+  string face = 11;
+  int64 fansNum = 15;
+  string fans = 4;
+  Live live = 14;
+  int64 mid = 12;
+  OfficialVerify officialVerify = 13;
+  string pubLocation = 8;
+  string titleUrl = 10;
+  string title = 3;
+  string url = 2;
+  Vip vip = 9;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.ugcanymodel;
+
+message PremiereReserve {
+  int64 count = 2;
+  bool isFollow = 3;
+  int64 reserveId = 1;
+}

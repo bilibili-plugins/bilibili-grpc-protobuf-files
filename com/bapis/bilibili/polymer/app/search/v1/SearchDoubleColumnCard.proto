@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchDoubleColumnCard {
+  int32 aspectRatio = 18;
+  string author = 7;
+  string cover = 2;
+  int32 danmaku = 6;
+  string desc = 8;
+  string duration = 9;
+  string face = 14;
+  Feedback feedback = 13;
+  int32 iconType = 17;
+  int64 mid = 10;
+  int32 play = 5;
+  int64 ptime = 15;
+  Share share = 4;
+  repeated Data threePoint = 3;
+  string title = 1;
+  string viewContent = 16;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message GoodsItem {
+  int64 actId = 11;
+  int64 actMid = 12;
+  string brief = 3;
+  string iconName = 7;
+  string iconUrl = 8;
+  string img = 4;
+  int64 itemsId = 1;
+  string jumpLinkDesc = 10;
+  string jumpLink = 9;
+  string name = 2;
+  string priceStr = 6;
+  float price = 5;
+}

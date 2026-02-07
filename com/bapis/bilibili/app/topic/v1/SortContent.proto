@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message SortContent {
+  int64 sortBy = 1;
+  string sortName = 2;
+}

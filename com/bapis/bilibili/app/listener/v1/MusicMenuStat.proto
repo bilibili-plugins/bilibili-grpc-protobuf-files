@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MusicMenuStat {
+  int64 play = 1;
+  int64 reply = 2;
+}

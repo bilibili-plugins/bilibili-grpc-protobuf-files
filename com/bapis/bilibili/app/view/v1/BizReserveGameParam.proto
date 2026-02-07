@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message BizReserveGameParam {
+  int64 gameId = 1;
+}

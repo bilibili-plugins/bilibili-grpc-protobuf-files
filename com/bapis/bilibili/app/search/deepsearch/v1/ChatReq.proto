@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message ChatReq {
+  int32 chatType = 1;
+  string query = 2;
+  string retryQueryId = 4;
+  string sessionId = 3;
+}

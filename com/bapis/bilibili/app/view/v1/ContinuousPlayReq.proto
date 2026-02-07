@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ContinuousPlayReq {
+  int64 aid = 1;
+  int32 autoplay = 6;
+  int64 deviceType = 8;
+  int64 displayId = 10;
+  string fromSpmid = 5;
+  string from = 2;
+  PlayerArgs playerArgs = 7;
+  string sessionId = 9;
+  string spmid = 4;
+  string trackid = 3;
+}

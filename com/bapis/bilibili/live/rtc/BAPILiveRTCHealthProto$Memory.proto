@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCHealthProto$Memory {
+  int64 free = 2;
+  float usage = 1;
+}

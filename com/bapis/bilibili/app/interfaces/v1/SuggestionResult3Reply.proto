@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SuggestionResult3Reply {
+  string expStr = 3;
+  repeated Data list = 2;
+  string trackid = 1;
+}

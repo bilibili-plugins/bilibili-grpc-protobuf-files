@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message EpisodeNew {
+  repeated Data badges = 5;
+  string cover = 8;
+  int32 isNew = 4;
+  string label = 9;
+  string param = 3;
+  int32 position = 7;
+  string title = 1;
+  int32 type = 6;
+  string uri = 2;
+}

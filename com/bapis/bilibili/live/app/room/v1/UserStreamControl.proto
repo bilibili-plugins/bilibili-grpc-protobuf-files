@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message UserStreamControl {
+  UserStreamControl$UserStreamControlItem audioControl = 1;
+  UserStreamControl$PubSubControl pubSubControl = 3;
+  UserStreamControl$UserStreamControlItem videoControl = 2;
+}

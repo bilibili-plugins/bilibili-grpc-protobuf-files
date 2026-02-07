@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ThreePoint {
+  string alternateIcon = 5;
+  string alternateTitle = 4;
+  string icon = 2;
+  string title = 3;
+  string type = 1;
+}

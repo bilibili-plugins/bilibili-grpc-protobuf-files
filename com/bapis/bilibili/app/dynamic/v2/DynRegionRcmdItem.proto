@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynRegionRcmdItem {
+  repeated Data items = 3;
+  int64 rid = 1;
+  string title = 2;
+}

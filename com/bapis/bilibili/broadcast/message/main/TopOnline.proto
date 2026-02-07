@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message TopOnline {
+  Animate animate = 5;
+  string icon = 2;
+  int64 interval = 8;
+  string name = 7;
+  RedDot redDot = 6;
+  int32 type = 1;
+  string uniqueId = 4;
+  string uri = 3;
+}

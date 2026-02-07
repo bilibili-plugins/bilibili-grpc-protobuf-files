@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2 {
+  MemberV2$Basic basic = 1;
+  MemberV2$Contractor contractor = 8;
+  MemberV2$Garb garb = 4;
+  MemberV2$Medal medal = 5;
+  MemberV2$Nft nft = 6;
+  MemberV2$Official official = 2;
+  MemberV2$Senior senior = 7;
+  UserSailing userSailing = 9;
+  MemberV2$Vip vip = 3;
+}

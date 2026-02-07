@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ThreePointV4 {
+  SharePlane sharePlane = 1;
+  WatchLater watchLater = 2;
+}

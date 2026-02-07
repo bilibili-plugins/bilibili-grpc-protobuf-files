@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavFolderDetailReq {
+  int64 favMid = 3;
+  int64 fid = 1;
+  int32 folderType = 2;
+  FavItem lastItem = 4;
+  bool needFolderInfo = 6;
+  int32 pageSize = 5;
+}

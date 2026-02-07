@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TimeLineResource {
+  int64 endTime = 6;
+  bool hasMore = 4;
+  int64 startTime = 5;
+  repeated Data timeLineEvents = 3;
+  int64 timeLineId = 1;
+  string timeLineTitle = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyInAppPushPayload$Subject {
+  int64 oid = 2;
+  int64 type = 1;
+  int64 upMid = 3;
+}

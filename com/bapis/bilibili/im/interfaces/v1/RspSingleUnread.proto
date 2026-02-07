@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspSingleUnread {
+  int64 bizMsgFollowUnread = 7;
+  int64 bizMsgUnfollowUnread = 6;
+  int32 dustbinPushMsg = 4;
+  int64 dustbinUnread = 5;
+  int64 followUnread = 2;
+  int32 unfollowPushMsg = 3;
+  int64 unfollowUnread = 1;
+}

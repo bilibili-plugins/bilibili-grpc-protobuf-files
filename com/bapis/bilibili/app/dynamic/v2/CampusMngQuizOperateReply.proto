@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngQuizOperateReply {
+  int64 quizTotal = 3;
+  repeated Data quiz = 2;
+  string toast = 1;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message TalkerInfo {
+  int64 customerId = 4;
+  string customerSessionId = 6;
+  int64 machineSessionId = 5;
+  string name = 8;
+  string picUrl = 9;
+  int64 shopFatherId = 2;
+  string shopHomepage = 11;
+  int64 shopId = 3;
+  repeated Data tags = 10;
+  int32 type = 1;
+  int64 uid = 7;
+}

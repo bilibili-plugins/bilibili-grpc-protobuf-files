@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ThreePointV2 {
+  int64 id = 5;
+  repeated Data reasons = 3;
+  string subtitle = 2;
+  string title = 1;
+  string type = 4;
+}

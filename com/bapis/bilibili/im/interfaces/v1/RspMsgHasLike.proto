@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspMsgHasLike {
+  MapFieldLite states = 1;
+}

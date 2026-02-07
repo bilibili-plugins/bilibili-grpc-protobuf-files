@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message LikeButton {
+  int64 aid = 1;
+  int32 count = 2;
+  LikeButtonResource disLikeNightResource = 10;
+  LikeButtonResource disLikeResource = 8;
+  string eventV2 = 6;
+  string event = 4;
+  LikeButtonResource likeNightResource = 9;
+  LikeButtonResource likeResource = 7;
+  int32 selected = 5;
+  bool showCount = 3;
+}

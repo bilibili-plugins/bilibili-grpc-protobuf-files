@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message BrandADArc {
+  int64 aid = 3;
+  string author = 7;
+  string cover = 10;
+  string duration = 6;
+  string goto = 2;
+  string param = 1;
+  int64 play = 4;
+  int64 reply = 5;
+  string title = 8;
+  string uri = 9;
+}

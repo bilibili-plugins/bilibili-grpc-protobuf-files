@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.growth.v1;
+
+message ReportAttributionReq {
+  AdDeviceInfo adDeviceInfo = 6;
+  string attributionData = 4;
+  int64 clickTime = 1;
+  int64 downloadTime = 2;
+  int64 installTime = 3;
+  string referrerEx = 5;
+}

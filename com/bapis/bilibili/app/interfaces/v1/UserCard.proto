@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message UserCard {
+  int64 mid = 4;
+  string userFace = 2;
+  string userName = 1;
+  string userUrl = 3;
+}

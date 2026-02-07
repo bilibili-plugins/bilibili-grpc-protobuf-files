@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Paragraph$IndentFormat {
+  double firstLineIndent = 1;
+  double indent = 2;
+}

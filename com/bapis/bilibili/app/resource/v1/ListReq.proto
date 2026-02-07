@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message ListReq {
+  int32 arch = 7;
+  int32 env = 4;
+  int64 listVersion = 8;
+  int32 lite = 9;
+  string moduleName = 2;
+  string poolName = 1;
+  string region = 13;
+  int32 scale = 6;
+  bool supportPeak = 12;
+  int64 supportType = 10;
+  bool supportUnzipPassword = 11;
+  int32 sysVer = 5;
+  bool unusedManualFilter = 14;
+  repeated Data versionList = 3;
+}

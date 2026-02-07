@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicInfo {
+  string backcolor = 10;
+  int64 categories = 22;
+  MapFieldLite categoryMap = 23;
+  int32 createSource = 13;
+  string description = 12;
+  int64 discuss = 5;
+  int64 dynamics = 7;
+  int64 fav = 6;
+  string fixedTopicIcon = 21;
+  int64 id = 1;
+  bool isBusiness = 25;
+  bool isFav = 11;
+  bool isLike = 18;
+  string jumpUrl = 9;
+  int64 like = 16;
+  string name = 2;
+  string sharePic = 14;
+  string shareUrl = 17;
+  int64 share = 15;
+  bool showInteractData = 26;
+  int32 state = 8;
+  string statsDesc = 20;
+  repeated Data topicCategories = 24;
+  int32 type = 19;
+  int64 uid = 3;
+  int64 view = 4;
+}

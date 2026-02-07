@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message SessionsRsp {
+  int32 hasMore = 2;
+  repeated Data sessionList = 1;
+}

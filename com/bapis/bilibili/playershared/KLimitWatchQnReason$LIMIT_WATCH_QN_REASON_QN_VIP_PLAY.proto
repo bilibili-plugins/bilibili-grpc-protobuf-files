@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KLimitWatchQnReason$LIMIT_WATCH_QN_REASON_QN_VIP_PLAY {
+}

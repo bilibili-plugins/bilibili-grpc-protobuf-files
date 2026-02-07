@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message StoryReq {
+  int64 aid = 1;
+  string bvid = 2;
+  string fromSpmid = 9;
+  string from = 7;
+  PlayerArgs playerArgs = 3;
+  int64 pull = 6;
+  string spmid = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message AiInfo {
+  AiEntry aiEntry = 3;
+  AiCardInfo cardInfo = 1;
+  ImInfo imInfo = 2;
+  Story story = 4;
+}

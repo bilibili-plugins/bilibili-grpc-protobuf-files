@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message SessionInfo {
+  int64 ackSeqno = 4;
+  int64 ackTs = 5;
+  ComplianceModel compliance = 16;
+  bool doNotDisturb = 12;
+  bool isHideEdit = 17;
+  string jumpUrl = 11;
+  Msg lastMsg = 2;
+  int64 maxSeqno = 7;
+  int64 sessionTs = 6;
+  string settingPageSchema = 13;
+  string settingPageUrl = 14;
+  int32 status = 8;
+  string tagIcon = 9;
+  string tagName = 15;
+  TalkerInfo talkerInfo = 1;
+  int32 topSet = 10;
+  UnreadInfo unreadInfo = 3;
+}

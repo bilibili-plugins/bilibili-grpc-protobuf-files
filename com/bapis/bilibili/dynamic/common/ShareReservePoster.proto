@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareReservePoster {
+  double height = 3;
+  string url = 1;
+  double width = 2;
+}

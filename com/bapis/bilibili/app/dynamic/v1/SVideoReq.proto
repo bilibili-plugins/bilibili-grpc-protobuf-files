@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoReq {
+  int32 fnval = 6;
+  int32 fnver = 5;
+  int64 focusAid = 12;
+  int32 forceHost = 7;
+  int32 fourk = 8;
+  string fromSpmid = 10;
+  string offset = 3;
+  int64 oid = 1;
+  PlayerArgs playerArgs = 13;
+  PlayerPreloadParams playerPreload = 11;
+  int32 qn = 4;
+  string spmid = 9;
+  int32 type = 2;
+}

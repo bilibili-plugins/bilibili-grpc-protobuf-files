@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message CloudConf {
+  int32 confType = 2;
+  ConfValue confValue = 4;
+  FieldValue fieldValue = 3;
+  bool show = 1;
+}

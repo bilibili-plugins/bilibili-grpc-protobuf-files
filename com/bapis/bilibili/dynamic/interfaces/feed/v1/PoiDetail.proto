@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message PoiDetail {
+  AdInfoDetail adInfo = 9;
+  string address = 4;
+  PoiId ancestors = 10;
+  double distance = 7;
+  LbsLocation location = 1;
+  string poi = 3;
+  string showDistance = 8;
+  string showTitle = 6;
+  string title = 5;
+  int32 type = 2;
+}

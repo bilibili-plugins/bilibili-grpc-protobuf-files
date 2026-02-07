@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message GoodsItem {
+  string adMark = 13;
+  string appName = 14;
+  string brief = 7;
+  string cmCachePassthrough = 16;
+  string cover = 1;
+  int32 goodsItemType = 18;
+  int64 itemId = 9;
+  string jumpDesc = 5;
+  int32 jumpType = 15;
+  string jumpUrl = 4;
+  repeated Data openWhiteList = 11;
+  string priceSuffix = 17;
+  string price = 8;
+  string schemaPackageName = 2;
+  string schemaUrl = 10;
+  int32 sourceType = 3;
+  string title = 6;
+  bool userWebV2 = 12;
+}

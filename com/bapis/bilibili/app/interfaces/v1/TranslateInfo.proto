@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message TranslateInfo {
+  string translatedTitle = 2;
+  int32 translationStatus = 1;
+}

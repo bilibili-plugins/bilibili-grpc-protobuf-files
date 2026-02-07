@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PushAdditionalMsgModule {
+  string avatar = 1;
+  Paragraph content = 2;
+  string refIcon = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynMixUpListViewMoreReply {
+  int32 defaultSortType = 5;
+  repeated Data items = 1;
+  string searchDefaultText = 2;
+  bool showMoreSortTypes = 4;
+  repeated Data sortTypes = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.community.govern.v1;
+
+message LoadAntiHarassmentSettingsRsp {
+  bool antiHarassmentRet = 1;
+  AntiHarassmentSetting antiHarassmentSetting = 2;
+  int32 showWindow = 3;
+}

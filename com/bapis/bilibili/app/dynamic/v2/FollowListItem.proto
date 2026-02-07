@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message FollowListItem {
+  string cover = 3;
+  NewEP newEp = 5;
+  int64 pos = 7;
+  int64 seasonId = 1;
+  string subTitle = 6;
+  string title = 2;
+  string url = 4;
+}

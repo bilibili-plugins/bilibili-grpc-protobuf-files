@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalBizExtra {
+  string bizExtraData = 3;
+  InteractSceneConfiguration interactSceneConfiguration = 2;
+  int32 interactScene = 1;
+  int64 source = 4;
+}

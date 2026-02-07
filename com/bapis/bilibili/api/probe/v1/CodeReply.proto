@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message CodeReply {
+  int64 code = 3;
+  string id1 = 2;
+  string id = 1;
+  string messageS = 4;
+}

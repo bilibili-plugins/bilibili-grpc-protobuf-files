@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonCombineItem {
+  MapFieldLite report = 4;
+  int64 seasonId = 2;
+  bool selected = 3;
+  string title = 1;
+}

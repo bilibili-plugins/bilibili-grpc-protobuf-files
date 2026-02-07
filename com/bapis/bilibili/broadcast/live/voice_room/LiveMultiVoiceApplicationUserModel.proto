@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.voice_room;
+
+message LiveMultiVoiceApplicationUserModel {
+  int64 anchorUID = 6;
+  string channel = 11;
+  int64 count = 1;
+  int64 event = 9;
+  int64 operateUID = 7;
+  int32 role = 4;
+  int64 roomId = 3;
+  string toast = 10;
+  string traceId = 12;
+  int64 uID = 2;
+  int64 wantPosition = 8;
+}

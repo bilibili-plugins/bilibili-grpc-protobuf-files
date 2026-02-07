@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Member$NftInteraction$Region {
+  string icon = 2;
+  int32 showStatus = 3;
+  int32 type = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayHistoryDelReq {
+  repeated Data items = 1;
+  bool truncate = 2;
+}

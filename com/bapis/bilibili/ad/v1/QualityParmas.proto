@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message QualityParmas {
+  string firstLine = 1;
+  double grade = 3;
+  int32 qualityType = 5;
+  string rankIcon = 4;
+  string secondLine = 2;
+}

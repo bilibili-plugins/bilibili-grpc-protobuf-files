@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message RcmdOneItem {
+  Base base = 1;
+  SmallCoverRcmdItem item = 3;
+  ReasonStyle topRcmdReasonStyle = 2;
+}

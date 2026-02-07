@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.multi_conn;
+
+message ScoreEvent {
+  string bizSessionId = 6;
+  repeated Data data = 1;
+  int64 invokingTime = 2;
+  string layout = 4;
+  int64 roomStatus = 5;
+  int64 version = 3;
+}

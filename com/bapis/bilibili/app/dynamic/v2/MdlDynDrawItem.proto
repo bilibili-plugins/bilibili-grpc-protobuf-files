@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynDrawItem {
+  MdlDynDrawBadge badge = 10;
+  CommentSource commentSource = 12;
+  int64 height = 3;
+  bool isFromComment = 11;
+  bool isLivePhoto = 7;
+  double liveVideoSize = 9;
+  string liveVideoUrl = 8;
+  float size = 4;
+  string srcDark = 6;
+  string src = 1;
+  repeated Data tags = 5;
+  int64 width = 2;
+}

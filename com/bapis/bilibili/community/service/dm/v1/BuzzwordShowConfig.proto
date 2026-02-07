@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message BuzzwordShowConfig {
+  int64 buzzwordId = 5;
+  int64 id = 4;
+  string name = 1;
+  int32 schemaType = 6;
+  string schema = 2;
+  int32 source = 3;
+}

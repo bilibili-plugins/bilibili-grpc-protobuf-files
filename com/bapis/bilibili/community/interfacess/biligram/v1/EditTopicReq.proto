@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message EditTopicReq {
+  int64 categoryId = 3;
+  int64 id = 1;
+  string name = 2;
+}

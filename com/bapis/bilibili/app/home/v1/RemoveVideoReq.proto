@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message RemoveVideoReq {
+  int64 id = 2;
+  int32 moduleType = 1;
+  int32 recReasonEnum = 3;
+}

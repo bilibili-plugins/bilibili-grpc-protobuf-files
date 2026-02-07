@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message UserCreateMeta {
+  MetaDataCtrl appMeta = 1;
+  LbsLoc loc = 2;
+  int32 repostMode = 3;
+}

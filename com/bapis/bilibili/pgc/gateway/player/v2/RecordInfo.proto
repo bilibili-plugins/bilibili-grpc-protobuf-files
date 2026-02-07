@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message RecordInfo {
+  string recordIcon = 2;
+  string record = 1;
+}

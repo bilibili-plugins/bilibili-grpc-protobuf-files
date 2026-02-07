@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateCard {
+  CardBasicInfo basicInfo = 12;
+  Any cmStock = 11;
+  int32 relateCardType = 1;
+  RelateThreePoint threePoint = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message LaunchedActivityItem {
+  int64 activityId = 1;
+  string activityName = 2;
+  int32 activityState = 3;
+}

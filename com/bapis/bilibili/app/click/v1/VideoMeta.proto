@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.click.v1;
+
+message VideoMeta {
+  int64 aid = 1;
+  int64 cid = 2;
+}

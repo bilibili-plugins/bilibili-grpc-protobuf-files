@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Page {
+  int64 nextPage = 4;
+  int32 pn = 1;
+  int32 ps = 2;
+  int64 total = 3;
+}

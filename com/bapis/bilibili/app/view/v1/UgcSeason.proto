@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message UgcSeason {
+  UgcSeasonActivity activity = 21;
+  string cover = 3;
+  string descRight = 12;
+  int64 epCount = 13;
+  int64 epNum = 16;
+  GoodsInfo goodsInfo = 18;
+  int64 id = 1;
+  string intro = 4;
+  string labelBgColor = 9;
+  string labelBgNightColor = 11;
+  string labelTextColor = 8;
+  string labelTextNew = 20;
+  string labelTextNightColor = 10;
+  string labelText = 7;
+  ButtonStyle payButton = 19;
+  repeated Data seasonAbility = 22;
+  bool seasonPay = 17;
+  int32 seasonType = 14;
+  repeated Data sections = 5;
+  bool showContinualButton = 15;
+  UgcSeasonStatV2 statV2 = 23;
+  UgcSeasonStat stat = 6;
+  string title = 2;
+}

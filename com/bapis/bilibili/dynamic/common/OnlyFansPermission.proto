@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message OnlyFansPermission {
+  OnlyFansDndSetting dndSetting = 7;
+  string icon = 4;
+  repeated Data options = 6;
+  int32 permission = 1;
+  string subtitle = 3;
+  string title = 2;
+  string toast = 5;
+}

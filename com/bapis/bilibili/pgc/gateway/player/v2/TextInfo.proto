@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message TextInfo {
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

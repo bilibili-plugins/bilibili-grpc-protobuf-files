@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareReplyMaterialResp$ArticleMaterial {
+  string cover = 4;
+  string message = 2;
+  string titleV2 = 3;
+  string title = 1;
+}

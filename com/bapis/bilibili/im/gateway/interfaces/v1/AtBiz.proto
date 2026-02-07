@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message AtBiz {
+  repeated Data atDetails = 6;
+  bool hideReplyButton = 7;
+  int64 rootId = 2;
+  string sourceContent = 5;
+  int64 sourceId = 3;
+  int64 subjectId = 1;
+  int64 targetId = 4;
+}

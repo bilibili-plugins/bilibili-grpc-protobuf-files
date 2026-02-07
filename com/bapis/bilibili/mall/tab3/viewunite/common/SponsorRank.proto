@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message SponsorRank {
+  string face = 4;
+  string msg = 2;
+  int64 uid = 1;
+  string uname = 3;
+  Vip vip = 5;
+}

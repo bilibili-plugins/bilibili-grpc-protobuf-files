@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message TagInfo$a {
+}

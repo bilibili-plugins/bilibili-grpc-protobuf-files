@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.vote.v1;
+
+message VoteOptionInfo {
+  string btnStr = 5;
+  int32 cnt = 4;
+  string imgUrl = 3;
+  string optDesc = 2;
+  int32 optIdx = 1;
+  string title = 6;
+}

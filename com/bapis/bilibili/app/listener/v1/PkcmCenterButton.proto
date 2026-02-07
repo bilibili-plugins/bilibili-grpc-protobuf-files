@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PkcmCenterButton {
+  string iconHead = 1;
+  string iconTail = 2;
+  string title = 3;
+  string uri = 4;
+}

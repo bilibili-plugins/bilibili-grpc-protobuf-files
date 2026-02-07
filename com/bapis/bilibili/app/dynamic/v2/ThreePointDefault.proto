@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointDefault {
+  string icon = 1;
+  string id = 4;
+  string title = 2;
+  ThreePointDefaultToast toast = 5;
+  string uri = 3;
+}

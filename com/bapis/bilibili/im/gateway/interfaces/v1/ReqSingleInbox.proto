@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ReqSingleInbox {
+  int64 beginSeqno = 2;
+  int64 endSeqno = 3;
+  int32 size = 4;
+  int64 talkerUid = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message TimeLimited {
+  int64 endTs = 2;
+  int64 startTs = 1;
+}

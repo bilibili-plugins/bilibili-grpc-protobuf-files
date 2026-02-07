@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LikeUser {
+  int64 uid = 1;
+  string uname = 2;
+  string uri = 3;
+}

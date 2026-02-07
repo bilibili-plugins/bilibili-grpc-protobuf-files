@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspSessions {
+  bool antiDisturbCleaning = 3;
+  int32 hasMore = 2;
+  int32 isAddressListEmpty = 4;
+  repeated Data sessionList = 1;
+  bool showLevel = 6;
+  MapFieldLite systemMsg = 5;
+}

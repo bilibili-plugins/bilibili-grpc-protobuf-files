@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCollectionDetailResp {
+  BasicUserInfoV2 authorInfo = 10;
+  ButtonWithSubTitle bottomButton = 11;
+  string collectionCover = 3;
+  string collectionId = 2;
+  string collectionIntro = 7;
+  string collectionTitle = 4;
+  string collectionType = 1;
+  repeated Data itemList = 8;
+  string subTitlePart1 = 5;
+  string subTitlePart2 = 6;
+  SubscribeButton subscribeBtn = 12;
+  int64 totalCnt = 9;
+}

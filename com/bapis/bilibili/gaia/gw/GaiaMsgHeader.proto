@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.gaia.gw;
+
+message GaiaMsgHeader {
+  int32 encodeType = 1;
+  bytes encodedAesKey = 3;
+  int32 payloadType = 2;
+  int64 ts = 4;
+}

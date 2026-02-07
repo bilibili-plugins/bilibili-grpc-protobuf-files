@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message EpisodeAdvertisementInfo {
+  int64 aid = 1;
+  int64 cid = 7;
+  int32 followVideoBntFlag = 4;
+  int32 follow = 9;
+  string link = 3;
+  string nextVideoLink = 6;
+  string nextVideoTitle = 5;
+  int32 seasonId = 8;
+  string title = 2;
+}

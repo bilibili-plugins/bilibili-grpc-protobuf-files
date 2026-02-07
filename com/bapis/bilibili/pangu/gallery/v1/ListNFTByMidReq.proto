@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message ListNFTByMidReq {
+  int64 anchorId = 4;
+  string bizType = 3;
+  string category = 2;
+  int64 mid = 1;
+  int64 pageSize = 5;
+}

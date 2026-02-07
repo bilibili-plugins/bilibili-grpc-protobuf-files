@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message NotifyPopReply {
+  int64 mid = 1;
+  NotifyPop notify = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Nft {
+  int32 face = 1;
+  MemberV2$Nft$Interaction interaction = 2;
+}

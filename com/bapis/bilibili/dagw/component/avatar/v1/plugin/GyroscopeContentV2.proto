@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message GyroscopeContentV2 {
+  string fileUrl = 1;
+  repeated Data physicalOrientation = 3;
+  float scale = 2;
+}

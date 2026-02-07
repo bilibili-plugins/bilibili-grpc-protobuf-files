@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message KSettingJumpType$SETTING_JUMP_TYPE_OPEN_URL_BY_OUTER_BROWSER {
+}

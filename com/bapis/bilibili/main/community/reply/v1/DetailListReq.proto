@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message DetailListReq {
+  string adExtra = 10;
+  CursorReq cursor = 5;
+  string extra = 9;
+  int32 mode = 7;
+  bool needSubjectTitle = 11;
+  int64 oid = 1;
+  FeedPagination pagination = 8;
+  int64 root = 3;
+  int64 rpid = 4;
+  int32 scene = 6;
+  int64 type = 2;
+}

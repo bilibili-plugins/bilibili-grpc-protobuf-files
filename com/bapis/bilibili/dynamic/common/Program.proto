@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Program {
+  string cover = 3;
+  string desc = 2;
+  string icon = 5;
+  string jumpText = 7;
+  string programText = 6;
+  string targetUrl = 4;
+  string title = 1;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ActivityGuidanceBar {
+  string action = 4;
+  ButtonWidget button = 10;
+  string closeType = 6;
+  ImagesWidget images = 7;
+  bool login = 2;
+  MapFieldLite report = 11;
+  string showTime = 3;
+  TextWidget subTitle = 9;
+  TextWidget title = 8;
+  string url = 5;
+  string winId = 1;
+}

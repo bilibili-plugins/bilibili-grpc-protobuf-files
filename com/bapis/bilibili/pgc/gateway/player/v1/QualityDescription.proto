@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message QualityDescription {
+  string desc = 2;
+  int32 qn = 1;
+}

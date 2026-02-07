@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message MaterialRes {
+  string bgColor = 6;
+  string bgPic = 7;
+  string icon = 2;
+  int64 id = 1;
+  int32 jumpType = 8;
+  string name = 5;
+  int32 typ = 4;
+  string url = 3;
+}

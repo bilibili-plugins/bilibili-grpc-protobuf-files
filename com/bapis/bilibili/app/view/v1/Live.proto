@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Live {
+  string endpageUri = 4;
+  int64 mid = 1;
+  int64 roomid = 2;
+  string uri = 3;
+}

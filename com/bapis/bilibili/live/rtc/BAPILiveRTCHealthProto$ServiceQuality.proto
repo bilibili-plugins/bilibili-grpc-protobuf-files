@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCHealthProto$ServiceQuality {
+  int32 scoreAverage = 2;
+  int64 streamNum = 1;
+  float zeroScoreRatio = 3;
+}

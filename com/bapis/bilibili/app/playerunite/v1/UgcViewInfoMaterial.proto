@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.v1;
+
+message UgcViewInfoMaterial {
+  int32 btnJumpType = 4;
+  string btnText = 2;
+  string btnUrl = 3;
+  string descText = 5;
+  string descUrl = 6;
+  string title = 1;
+  MapFieldLite track = 7;
+}

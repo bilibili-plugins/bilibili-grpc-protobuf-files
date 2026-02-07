@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Audio {
+  string coverUrl = 2;
+  string entrance = 7;
+  int64 playCount = 4;
+  int64 replyCount = 5;
+  int64 songAttr = 8;
+  int64 songId = 3;
+  string title = 1;
+  int64 upperId = 6;
+}

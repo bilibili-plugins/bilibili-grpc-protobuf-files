@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Honor {
+  string bgColorNight = 8;
+  string bgColor = 7;
+  int32 honorJumpType = 12;
+  string iconNight = 2;
+  string icon = 1;
+  MapFieldLite report = 13;
+  string textColorNight = 6;
+  string textColor = 5;
+  string textExtra = 4;
+  string text = 3;
+  int32 type = 11;
+  string urlText = 10;
+  string url = 9;
+}

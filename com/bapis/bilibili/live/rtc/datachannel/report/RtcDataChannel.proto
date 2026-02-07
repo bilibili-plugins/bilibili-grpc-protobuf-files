@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcDataChannel {
+  int64 bytesReceived = 6;
+  int64 bytesSent = 5;
+  string id = 1;
+  string label = 2;
+  int32 messagesReceived = 8;
+  int32 messagesSent = 7;
+  string protocol = 4;
+  string state = 3;
+}

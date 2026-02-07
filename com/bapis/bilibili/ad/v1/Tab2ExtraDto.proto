@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Tab2ExtraDto {
+  string abtest = 30;
+  string adCb = 25;
+  AdBusinessMarkDto adTagStyle = 23;
+  AndroidGamePageRes androidGamePageRes = 21;
+  int32 appstoreDelayTime = 18;
+  int32 appstorePriority = 16;
+  string appstoreUrl = 17;
+  int32 autoAnimateTimeMs = 6;
+  string avContent = 27;
+  AdButtonDto button = 5;
+  string coverUrl = 1;
+  string desc = 3;
+  int32 downloadUrlType = 31;
+  int64 downloadWhitelistDuration = 29;
+  int32 downloadWhitelistMode = 28;
+  repeated Data downloadWhitelist = 9;
+  int32 enableAutoCallup = 32;
+  bool enableClick = 7;
+  bool enableOpenapkDialog = 35;
+  bool enableStoreDirectLaunch = 12;
+  string externalLinkWarning = 33;
+  AdFeedbackPanelDto feedbackPanel = 24;
+  IosGamePageRes iosGamePageRes = 22;
+  int32 landingpageDownloadStyle = 15;
+  repeated Data openWhitelist = 10;
+  int32 pageCoverType = 19;
+  int32 pagePullType = 20;
+  string panelUrl = 8;
+  int32 salesType = 13;
+  string storeDplinkXiaomi = 34;
+  string title = 2;
+  int32 underPlayerFullScreen = 38;
+  int32 upperLandingpageInteractionStyle = 37;
+  int32 upperLandingpageStyle = 36;
+  int32 urlType = 26;
+  bool useAdWebV2 = 11;
+}

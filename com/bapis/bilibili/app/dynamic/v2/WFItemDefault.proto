@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message WFItemDefault {
+  MapFieldLite annotations = 8;
+  string cover = 2;
+  RcmdReason rcmdReason = 7;
+  string title = 1;
+  string uri = 6;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ListCreationResp {
+  repeated Data classifications = 1;
+  repeated Data creationList = 4;
+  PaginationReply nextPage = 3;
+  repeated Data sortTypes = 2;
+}

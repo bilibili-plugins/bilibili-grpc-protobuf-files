@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CodeParagraph {
+  string content = 2;
+  string lang = 1;
+}

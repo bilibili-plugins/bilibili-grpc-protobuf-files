@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message Base {
+  AdInfo adInfo = 12;
+  Args args = 9;
+  string cardGoto = 2;
+  string cardType = 1;
+  string cover = 5;
+  Button descButton = 17;
+  string fromType = 14;
+  string goto = 3;
+  int64 idx = 11;
+  Mask mask = 13;
+  string param = 4;
+  PlayerArgs playerArgs = 10;
+  repeated Data threePointV2 = 15;
+  repeated Data threePointV3 = 16;
+  ThreePointV4 threePointV4 = 18;
+  ThreePoint threePoint = 8;
+  string title = 6;
+  string trackId = 20;
+  string translatedTitle = 21;
+  UpArgs upArgs = 19;
+  string uri = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message Animate {
+  string icon = 1;
+  string json = 2;
+  int32 loop = 4;
+  string svg = 3;
+}

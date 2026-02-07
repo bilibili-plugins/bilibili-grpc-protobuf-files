@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngSubmitReq {
+  int64 campusId = 1;
+  repeated Data modifiedItems = 2;
+}

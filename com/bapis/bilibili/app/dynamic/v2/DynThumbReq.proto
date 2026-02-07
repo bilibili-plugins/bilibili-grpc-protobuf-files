@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynThumbReq {
+  string dynId = 2;
+  int64 dynType = 3;
+  string rid = 4;
+  int32 type = 5;
+  int64 uid = 1;
+}

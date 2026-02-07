@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message TribeeManageGetAllCategoriesRsp {
+  repeated Data categories = 1;
+}

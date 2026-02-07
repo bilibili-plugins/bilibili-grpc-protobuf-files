@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayArcConf {
+  ArcConf backgroundPlayConf = 1;
+  ArcConf castConf = 3;
+  ArcConf coinConf = 12;
+  ArcConf colorFilterConf = 30;
+  ArcConf definitionConf = 19;
+  ArcConf dislikeConf = 11;
+  ArcConf dolbyConf = 28;
+  ArcConf editDmConf = 22;
+  ArcConf elecConf = 13;
+  ArcConf feedbackConf = 4;
+  ArcConf flipConf = 2;
+  ArcConf innerDmConf = 26;
+  ArcConf likeConf = 10;
+  ArcConf lockScreenConf = 16;
+  ArcConf lossLessConf = 31;
+  ArcConf nextConf = 21;
+  ArcConf outerDmConf = 25;
+  ArcConf panoramaConf = 27;
+  ArcConf playbackModeConf = 8;
+  ArcConf playbackRateConf = 6;
+  ArcConf playbackSpeedConf = 18;
+  ArcConf recommendConf = 17;
+  ArcConf scaleModeConf = 9;
+  ArcConf screenRecordingConf = 29;
+  ArcConf screenShotConf = 15;
+  ArcConf selectionsConf = 20;
+  ArcConf shakeConf = 24;
+  ArcConf shareConf = 14;
+  ArcConf smallWindowConf = 23;
+  ArcConf subtitleConf = 5;
+  ArcConf systemRecordConf = 32;
+  ArcConf timeUpConf = 7;
+}

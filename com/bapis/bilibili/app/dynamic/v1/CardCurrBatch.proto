@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message CardCurrBatch {
+  VideoBadge badge = 6;
+  string cover = 2;
+  string title = 1;
+  string uri = 3;
+}

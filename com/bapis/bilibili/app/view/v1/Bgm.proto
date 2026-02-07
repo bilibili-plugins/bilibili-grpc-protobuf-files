@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Bgm {
+  string author = 4;
+  string cover = 6;
+  string jumpUrl = 5;
+  int64 mid = 2;
+  int64 sid = 1;
+  string title = 3;
+}

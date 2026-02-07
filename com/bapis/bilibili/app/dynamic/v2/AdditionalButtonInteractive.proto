@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionalButtonInteractive {
+  string cancel = 3;
+  string confirm = 2;
+  string desc = 4;
+  string popups = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Vip {
+  int32 accessStatus = 4;
+  int64 dueDate = 2;
+  string dueRemark = 3;
+  VipLabel label = 8;
+  int32 themeType = 7;
+  int32 type = 1;
+  string vipStatusWarn = 6;
+  int32 vipStatus = 5;
+}

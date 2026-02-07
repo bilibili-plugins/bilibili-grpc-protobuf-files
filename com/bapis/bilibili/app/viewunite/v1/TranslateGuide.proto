@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message TranslateGuide {
+  string aiTranslationContent = 4;
+  string aiTranslationTitle = 3;
+  string cancelButtonText = 5;
+  string confirmButtonText = 6;
+  bool guideSwitch = 1;
+  bool isInWhite = 2;
+}

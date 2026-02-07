@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message User {
+  string face = 3;
+  int64 follower = 4;
+  string interactDesc = 8;
+  int64 isAttention = 5;
+  int64 isFollow = 7;
+  int64 isInterrelation = 6;
+  int64 mid = 1;
+  string name = 2;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message PlayerArgs {
+  int64 aid = 2;
+  int64 cid = 3;
+  int32 contentMode = 16;
+  int32 duration = 10;
+  int64 epId = 7;
+  bool hidePlayButton = 15;
+  int32 isLive = 1;
+  int32 isPreview = 8;
+  int32 manualPlay = 14;
+  int32 reportHistory = 17;
+  int32 reportRequiredPlayDuration = 12;
+  int32 reportRequiredTime = 13;
+  int64 roomId = 5;
+  int64 seasonId = 11;
+  int32 subType = 4;
+  string type = 9;
+}

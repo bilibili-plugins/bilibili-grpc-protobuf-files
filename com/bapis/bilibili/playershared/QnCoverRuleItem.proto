@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message QnCoverRuleItem {
+  int64 solutionQn = 3;
+  string solutionType = 2;
+  int64 targetQn = 1;
+}

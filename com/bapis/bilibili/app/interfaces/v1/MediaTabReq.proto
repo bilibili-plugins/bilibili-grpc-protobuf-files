@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaTabReq {
+  MapFieldLite args = 5;
+  int64 bizId = 1;
+  int64 bizType = 2;
+  string source = 3;
+  string spmid = 4;
+}

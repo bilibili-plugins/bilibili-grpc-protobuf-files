@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.popular.v1;
+
+message PopularReply {
+  Config config = 2;
+  repeated Data items = 1;
+  string ver = 3;
+}

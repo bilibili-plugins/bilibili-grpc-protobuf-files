@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message PlayListReqParam {
+  int64 bizId = 2;
+  bool firstPage = 5;
+  int64 mediaId = 1;
+  int64 offset = 6;
+  bool pageDirection = 4;
+  int64 sortDesc = 7;
+  int64 sortField = 8;
+  int64 type = 3;
+}

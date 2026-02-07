@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicListItem {
+  string extension = 11;
+  string headIconUrl = 8;
+  string iconTitle = 2;
+  string icon = 1;
+  int64 pos = 6;
+  int64 position = 12;
+  string serverInfo = 7;
+  string tailIconUrl = 10;
+  int64 topicId = 3;
+  string topicName = 4;
+  int64 upMid = 9;
+  string url = 5;
+}

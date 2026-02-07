@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateCheckResp {
+  UpPermission permission = 2;
+  PlusRedDot plusRedDot = 5;
+  PublishSetting setting = 1;
+  ShareChannel shareInfo = 3;
+  PublishYellowBar yellowBar = 4;
+}

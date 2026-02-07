@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionUgc {
+  string cardType = 9;
+  string cover = 3;
+  string duration = 7;
+  string headText = 1;
+  bool lineFeed = 8;
+  string title = 2;
+  string uri = 6;
+}

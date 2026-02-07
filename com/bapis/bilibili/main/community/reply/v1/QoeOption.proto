@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message QoeOption {
+  repeated Data desc = 4;
+  string imgUrl = 3;
+  float score = 2;
+  string title = 1;
+}

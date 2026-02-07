@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message JoinTribeeByInviteCodeRsp {
+  int32 permType = 3;
+  int32 result = 1;
+  ToastDialog toastDialog = 2;
+}

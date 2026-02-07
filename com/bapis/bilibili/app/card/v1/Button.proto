@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message Button {
+  string eventV2 = 7;
+  string event = 4;
+  string param = 2;
+  Relation relation = 8;
+  int32 selected = 5;
+  string text = 1;
+  int32 type = 6;
+  string uri = 3;
+}

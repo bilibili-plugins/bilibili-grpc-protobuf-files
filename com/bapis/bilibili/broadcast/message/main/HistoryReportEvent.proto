@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message HistoryReportEvent {
+  int64 aid = 1;
+  int64 cid = 3;
+  int64 deviceTs = 17;
+  string device = 13;
+  int32 dt = 7;
+  int64 duration = 11;
+  int64 epid = 4;
+  string platform = 12;
+  int64 playTime = 14;
+  int64 progress = 10;
+  int64 realtime = 8;
+  string scene = 18;
+  int64 sid = 5;
+  string source = 9;
+  int64 startTs = 16;
+  string statistics = 15;
+  int32 subType = 6;
+  int32 type = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.gaia.gw;
+
+message GaiaEncryptMsgReq {
+  bytes encryptPayload = 2;
+  GaiaMsgHeader header = 1;
+}

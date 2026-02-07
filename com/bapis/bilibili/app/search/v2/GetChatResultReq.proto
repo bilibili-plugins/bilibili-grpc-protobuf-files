@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.v2;
+
+message GetChatResultReq {
+  string fromSource = 3;
+  string query = 1;
+  string sessionId = 2;
+  string trackId = 4;
+}

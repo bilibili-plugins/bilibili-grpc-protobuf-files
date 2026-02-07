@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TipsCard {
+  string confirmTextJumpUrl = 6;
+  string confirmText = 5;
+  string descShare = 7;
+  string desc = 4;
+  string picUrl = 2;
+  string title = 3;
+  int32 type = 1;
+}

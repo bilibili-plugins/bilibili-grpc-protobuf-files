@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message ErrorMessage {
+  int64 code = 1;
+  string message = 3;
+  string reason = 2;
+}

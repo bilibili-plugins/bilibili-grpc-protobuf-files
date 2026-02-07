@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message HalfScreen {
+  int64 dailyMax = 1;
+  string url = 2;
+}

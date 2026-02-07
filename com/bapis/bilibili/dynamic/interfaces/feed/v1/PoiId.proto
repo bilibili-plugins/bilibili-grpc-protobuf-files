@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message PoiId {
+  string poi = 1;
+  int32 type = 2;
+}

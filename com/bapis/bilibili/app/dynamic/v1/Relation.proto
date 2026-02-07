@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message Relation {
+  int32 isFollow = 2;
+  int32 isFollowed = 3;
+  int32 status = 1;
+  string title = 4;
+}

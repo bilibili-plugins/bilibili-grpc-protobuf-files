@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ReplyStyle {
+  string badgeText = 2;
+  int64 badgeType = 3;
+  string badgeUrl = 1;
+}

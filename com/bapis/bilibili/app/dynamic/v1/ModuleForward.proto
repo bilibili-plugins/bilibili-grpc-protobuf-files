@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message ModuleForward {
+  string cardType = 1;
+  repeated Data modules = 2;
+}

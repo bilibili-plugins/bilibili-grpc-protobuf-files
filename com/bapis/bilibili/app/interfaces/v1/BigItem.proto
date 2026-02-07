@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message BigItem {
+  int32 canPlay = 15;
+  string coverImageUri = 2;
+  int64 coverLeftIcon1 = 6;
+  int64 coverLeftIcon2 = 8;
+  string coverLeftText1 = 5;
+  string coverLeftText2 = 7;
+  string coverRightText = 4;
+  InlineProgressBar inlineProgressBar = 14;
+  bool isFav = 17;
+  LikeButton likeButton = 10;
+  int64 param = 11;
+  PlayerArgs playerArgs = 16;
+  SharePlane sharePlane = 12;
+  PanelMeta threePointMeta = 13;
+  string title = 1;
+  string uri = 3;
+  UserCard userCard = 9;
+}

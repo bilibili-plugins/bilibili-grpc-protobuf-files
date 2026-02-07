@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ContactsReq {
+  PaginationParams paginationParams = 2;
+  int32 tab = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ViewProgressReq {
+  int64 aid = 1;
+  ChronosParam chronosParam = 4;
+  int64 cid = 2;
+  MapFieldLite extraContent = 9;
+  FragmentParam fragmentParam = 6;
+  string fromScene = 7;
+  int32 playCtrl = 8;
+  int32 type = 5;
+  int64 upMid = 3;
+}

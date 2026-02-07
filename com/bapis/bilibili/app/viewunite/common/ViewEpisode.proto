@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ViewEpisode {
+  int64 aid = 8;
+  int32 archiveAttr = 25;
+  BadgeInfo badgeInfo = 4;
+  int32 badgeType = 3;
+  string badge = 2;
+  string bmid = 28;
+  string bottomRightBadge = 45;
+  string bvid = 24;
+  int64 cid = 14;
+  string cover = 7;
+  string dialogType = 35;
+  Dimension dimension = 21;
+  int32 duration = 5;
+  int64 epId = 1;
+  int32 epIndex = 31;
+  string from = 15;
+  Interaction interaction = 23;
+  bool isSubView = 38;
+  bool isViewHide = 39;
+  string jumpLink = 40;
+  string linkType = 27;
+  string link = 26;
+  string longTitle = 12;
+  string movieTitle = 10;
+  repeated Data multiViewEps = 37;
+  int64 pubTime = 29;
+  int32 pv = 30;
+  string releaseDate = 20;
+  MapFieldLite report = 42;
+  Rights rights = 22;
+  int32 sectionIndex = 32;
+  int32 sectionType = 43;
+  string shareCopy = 17;
+  string shareUrl = 16;
+  string shortLink = 18;
+  string showTitle = 44;
+  Stat statForUnity = 41;
+  int32 status = 6;
+  string subtitle = 11;
+  string title = 9;
+  string toastTitle = 13;
+  string toastType = 36;
+  Staff upInfo = 34;
+  repeated Data upInfos = 33;
+  string vid = 19;
+}

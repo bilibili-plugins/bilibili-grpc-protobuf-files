@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message UserInfo {
+  AvatarItem avatar = 16;
+  int32 faceNftNew = 13;
+  int32 faceNft = 12;
+  string face = 3;
+  string handle = 18;
+  int32 isSeniorMember = 15;
+  int32 level = 10;
+  LiveInfo live = 6;
+  int64 mid = 1;
+  NameRender nameRender = 17;
+  string name = 2;
+  Nameplate nameplate = 9;
+  NFTInfo nftInfo = 14;
+  OfficialVerify official = 4;
+  UserPendant pendant = 8;
+  string sign = 11;
+  string uri = 7;
+  VipInfo vip = 5;
+}

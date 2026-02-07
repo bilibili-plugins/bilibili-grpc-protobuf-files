@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcCandidatePair {
+  float availableIncomingBitrate = 7;
+  float availableOutgoingBitrate = 6;
+  int64 bytesDiscardedOnSend = 8;
+  int64 bytesReceived = 9;
+  int64 bytesSent = 10;
+  int64 consentRequestsSent = 11;
+  float currentRoundTripTime = 12;
+  string id = 1;
+  RtcLocalCandidate localCandidate = 4;
+  bool nominated = 13;
+  int64 packetsDiscardedOnSend = 14;
+  int64 packetsReceived = 15;
+  int64 packetsSent = 16;
+  int64 priority = 3;
+  RtcRemoteCandidate remoteCandidate = 5;
+  int64 requestsReceived = 17;
+  int64 requestsSent = 18;
+  int64 responsesReceived = 19;
+  int64 responsesSent = 20;
+  string state = 2;
+  float totalRoundTripTime = 21;
+  bool writable = 22;
+}

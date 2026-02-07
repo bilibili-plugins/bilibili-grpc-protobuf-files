@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message GetEditDynInfoWebReq {
+  string dynId = 1;
+  MetaDataCtrl meta = 3;
+  int32 scene = 2;
+}

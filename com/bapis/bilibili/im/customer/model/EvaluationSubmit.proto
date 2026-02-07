@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message EvaluationSubmit {
+  string buttonTitle = 1;
+  string notSelectSatisfactionToast = 3;
+  string notSelectSolvedSatisfactionToast = 4;
+  string notSelectSolvedToast = 2;
+  string submittedToast = 5;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareDynamicForwardModule {
+  int64 id = 2;
+  Paragraph paragraph = 1;
+}

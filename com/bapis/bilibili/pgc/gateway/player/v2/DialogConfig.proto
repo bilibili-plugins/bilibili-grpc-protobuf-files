@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message DialogConfig {
+  bool isBackgroundTranslucentEnable = 5;
+  bool isForceHalfscreenEnable = 4;
+  bool isNestedScrollEnable = 3;
+  bool isOrientationEnable = 2;
+  bool isShowCover = 1;
+}

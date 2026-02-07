@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message SourceContentDto {
+  AdDto adContent = 9;
+  Int32Value cardIndex = 7;
+  string clientIp = 6;
+  int32 index = 8;
+  bool isAdLoc = 4;
+  string requestId = 1;
+  int32 resourceId = 3;
+  Int32Value serverType = 5;
+  int32 sourceId = 2;
+}

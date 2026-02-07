@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UpTool {
+  BadgeInfo badge = 5;
+  string icon = 3;
+  string text = 2;
+  int32 type = 1;
+  string url = 4;
+}

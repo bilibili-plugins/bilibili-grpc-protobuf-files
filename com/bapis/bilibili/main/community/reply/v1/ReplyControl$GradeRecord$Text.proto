@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyControl$GradeRecord$Text {
+  string raw = 1;
+  TextStyle style = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ComprehensiveToast {
+  ButtonInfo button = 2;
+  string icon = 3;
+  Report report = 5;
+  TextInfo toastText = 4;
+  int32 type = 1;
+}

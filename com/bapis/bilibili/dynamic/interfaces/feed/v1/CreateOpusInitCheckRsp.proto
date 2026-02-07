@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreateOpusInitCheckRsp {
+  OpusInitConfig config = 3;
+  OpusCollection opusCollection = 5;
+  UpPermission permission = 2;
+  OpusPublishTopTips topTips = 1;
+  OpusInitVerify verify = 4;
+}

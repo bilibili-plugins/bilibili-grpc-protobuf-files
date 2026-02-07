@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionAv {
+  int64 aid = 7;
+  string cover43 = 9;
+  string coverDmText = 3;
+  string coverViewText = 2;
+  string cover = 1;
+  string jumpUrl = 5;
+  string title = 8;
+  string upName = 6;
+}

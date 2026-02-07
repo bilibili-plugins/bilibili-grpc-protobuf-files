@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message PlayerDanmakuBlockrepeat {
+  bool value = 1;
+}

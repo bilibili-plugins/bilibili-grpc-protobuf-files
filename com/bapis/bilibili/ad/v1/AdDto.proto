@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdDto {
+  string adCb = 2;
+  int32 cardType = 7;
+  int32 cmMark = 4;
+  CreativeDto creativeContent = 10;
+  int64 creativeId = 1;
+  int32 creativeStyle = 8;
+  int32 creativeType = 6;
+  AdContentExtraDto extra = 3;
+  bool isAd = 9;
+  int64 topViewId = 5;
+}

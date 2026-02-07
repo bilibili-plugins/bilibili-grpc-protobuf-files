@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeBindAccountNormal {
+  TribeeSteamHomeGame games = 4;
+  TribeeSteamHomeShareConfig shareConfig = 5;
+  TribeeSteamHomeAchievement steamAchievement = 3;
+  TribeeSteamHomeData steamData = 2;
+  HeadTips syncTips = 7;
+  ThreeDot threeDot = 6;
+  TribeeSteamHomeUserInfo userInfo = 1;
+}

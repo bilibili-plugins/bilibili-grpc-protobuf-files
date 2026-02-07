@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message RiskCtrl {
+  int32 policy = 2;
+  int64 roomId = 1;
+}

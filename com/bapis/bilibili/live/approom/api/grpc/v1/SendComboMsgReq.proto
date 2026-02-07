@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.approom.api.grpc.v1;
+
+message SendComboMsgReq {
+  string msg = 2;
+  string rnd = 3;
+  int64 roomId = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message LiveCardInfo {
+  string cover = 2;
+  string jumpUrl = 4;
+  LiveInfo liveInfo = 5;
+  string title = 1;
+  string view = 3;
+}

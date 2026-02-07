@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message StreamInfo {
+  int64 attribute = 10;
+  int32 canWatchQnReason = 20;
+  string description = 3;
+  string displayDesc = 12;
+  int32 errCode = 4;
+  int64 extendAttribute = 19;
+  string format = 2;
+  bool hasPreview = 18;
+  bool intact = 8;
+  int32 limitWatchReason = 21;
+  StreamLimit limit = 5;
+  bool needLogin = 7;
+  bool needVip = 6;
+  string newDescription = 11;
+  bool noRexcode = 9;
+  int32 quality = 1;
+  MapFieldLite reportParams = 22;
+  Scheme scheme = 16;
+  string subtitle = 15;
+  string superscript = 13;
+  bool supportDrm = 17;
+  bool vipFree = 14;
+}

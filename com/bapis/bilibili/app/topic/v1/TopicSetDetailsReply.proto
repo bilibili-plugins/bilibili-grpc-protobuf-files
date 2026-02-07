@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicSetDetailsReply {
+  bool hasMore = 3;
+  string offset = 4;
+  TopicSetSortCfg sortCfg = 5;
+  repeated Data topicInfo = 2;
+  TopicSetHeadInfo topicSetHeadInfo = 1;
+}

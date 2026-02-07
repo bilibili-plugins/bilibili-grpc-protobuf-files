@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoModuleAuthor {
+  string face = 3;
+  int32 isAttention = 5;
+  int64 mid = 1;
+  string name = 2;
+  string pubDesc = 4;
+  string uri = 6;
+}

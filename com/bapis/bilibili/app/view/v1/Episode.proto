@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Episode {
+  int64 aid = 2;
+  string authorDesc = 11;
+  Author author = 10;
+  BadgeStyle badgeStyle = 12;
+  string bvid = 9;
+  int64 cid = 3;
+  string coverRightText = 6;
+  string cover = 5;
+  EpDownload download = 21;
+  int64 duration = 20;
+  bool episodePay = 14;
+  string firstFrame = 16;
+  bool freeWatch = 15;
+  int64 id = 1;
+  bool needPay = 13;
+  Page page = 7;
+  repeated Data pages = 18;
+  double progressPercent = 19;
+  ArchiveStat statV2 = 17;
+  Stat stat = 8;
+  string title = 4;
+}

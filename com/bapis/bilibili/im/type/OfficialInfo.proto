@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message OfficialInfo {
+  string desc = 3;
+  int32 role = 1;
+  string title = 2;
+  int32 type = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynOurCityItem {
+  string cardType = 1;
+  string debugInfo = 6;
+  int64 dynId = 2;
+  repeated Data modules = 4;
+  int64 rid = 5;
+  string uri = 3;
+}

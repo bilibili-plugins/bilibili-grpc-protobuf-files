@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message UpViewMaterial {
+  string dataCenterInfo = 2;
+  InteractArea likeInfo = 1;
+  TabModule tabModule = 3;
+}

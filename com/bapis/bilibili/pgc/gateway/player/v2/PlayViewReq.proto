@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PlayViewReq {
+  int64 cid = 2;
+  DataControl dataControl = 21;
+  int32 download = 6;
+  int64 epId = 1;
+  MapFieldLite extraContent = 23;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 7;
+  bool fourk = 8;
+  string fromSpmid = 10;
+  int32 inlineScene = 17;
+  bool isCloseDrm = 22;
+  bool isNeedViewInfo = 15;
+  bool isPreview = 13;
+  int64 materialNo = 18;
+  int32 preferCodecType = 12;
+  int64 qn = 3;
+  int64 roomId = 14;
+  SceneControl sceneControl = 16;
+  int64 seasonId = 20;
+  int32 securityLevel = 19;
+  string spmid = 9;
+  int32 teenagersMode = 11;
+}

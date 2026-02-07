@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message HeartbeatResp {
+  int32 opType = 1;
+  string targetHostname = 2;
+  string targetIp = 3;
+  int64 targetPort = 4;
+  int64 targetTtl = 5;
+}

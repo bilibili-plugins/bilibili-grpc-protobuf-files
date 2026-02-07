@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message SectionData {
+  EpBgInfo bgInfo = 15;
+  int32 canOrdDesc = 4;
+  repeated Data episodeIds = 6;
+  repeated Data episodes = 7;
+  int32 id = 1;
+  Style moduleStyle = 9;
+  string moreBottomDesc = 10;
+  Button moreLeft = 12;
+  string more = 5;
+  MapFieldLite report = 14;
+  repeated Data seasons = 11;
+  int32 sectionId = 2;
+  string splitText = 8;
+  string title = 3;
+  int32 type = 13;
+}

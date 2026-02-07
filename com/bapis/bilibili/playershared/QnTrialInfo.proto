@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message QnTrialInfo {
+  Toast disableToast = 10;
+  Toast endToast = 6;
+  Button qualityOpenTipBtn = 8;
+  int32 remainingTimes = 2;
+  Toast startToast = 5;
+  int32 start = 3;
+  int32 timeLength = 4;
+  bool trialAble = 1;
+  int32 trialQualityType = 9;
+  string uuid = 11;
+}

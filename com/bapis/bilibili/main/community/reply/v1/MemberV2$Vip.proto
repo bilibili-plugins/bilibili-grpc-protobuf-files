@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Vip {
+  int32 avatarSubscript = 6;
+  string labelPath = 4;
+  string labelText = 7;
+  string nicknameColor = 5;
+  int64 status = 2;
+  int64 themeType = 3;
+  int64 type = 1;
+  string vipLabelTheme = 8;
+}

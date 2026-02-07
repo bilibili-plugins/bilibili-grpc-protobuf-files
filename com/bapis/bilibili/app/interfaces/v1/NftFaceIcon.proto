@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message NftFaceIcon {
+  string icon = 2;
+  int32 regionType = 1;
+  int32 showStatus = 3;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message BadgeInfo {
+  string bgColorNight = 3;
+  string bgColor = 2;
+  GradientColor bgGradientColor = 5;
+  string img = 6;
+  string textColor = 4;
+  string text = 1;
+}

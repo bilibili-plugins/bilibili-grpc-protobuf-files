@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SendMessageReq {
+  string canalToken = 3;
+  EntityMsg entityMsg = 2;
+  SessionId id = 1;
+}

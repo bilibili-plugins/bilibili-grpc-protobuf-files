@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ViewProgressReply {
+  VideoShot arcShot = 3;
+  Chronos chronos = 2;
+  DmResource dm = 4;
+  FragmentRes fragmentRes = 5;
+  VideoGuide videoGuide = 1;
+}

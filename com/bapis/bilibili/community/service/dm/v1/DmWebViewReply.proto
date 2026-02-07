@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmWebViewReply {
+  repeated Data activityMeta = 14;
+  bool checkBox = 7;
+  repeated Data commandDms = 9;
+  int64 count = 8;
+  DMRestrict dmRestrict = 19;
+  DmSegConfig dmSge = 4;
+  repeated Data expressions = 12;
+  DanmakuFlagConfig flag = 5;
+  repeated Data maskWalls = 18;
+  DanmuWebPlayerConfig playerConfig = 10;
+  repeated Data postPanel = 13;
+  QoeInfo qoe = 17;
+  repeated Data reportFilterContent = 11;
+  repeated Data specialDms = 6;
+  int32 state = 1;
+  repeated Data subViews = 16;
+  VideoSubtitle subtitle = 20;
+  string textSide = 3;
+  string text = 2;
+}

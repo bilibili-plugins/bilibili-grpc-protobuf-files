@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message GeoCoderReq {
+  string from = 3;
+  double lat = 1;
+  double lng = 2;
+}

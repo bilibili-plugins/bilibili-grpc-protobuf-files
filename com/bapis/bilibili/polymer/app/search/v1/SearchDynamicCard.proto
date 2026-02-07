@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchDynamicCard {
+  string badge = 8;
+  CardLayout cardLayout = 10;
+  int32 coverCount = 3;
+  string cover = 2;
+  repeated Data covers = 4;
+  repeated Data dyTopic = 7;
+  Feedback feedback = 9;
+  Stat stat = 6;
+  string title = 1;
+  Upper upper = 5;
+}

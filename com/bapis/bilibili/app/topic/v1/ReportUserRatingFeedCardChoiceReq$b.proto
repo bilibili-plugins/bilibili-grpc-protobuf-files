@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message ReportUserRatingFeedCardChoiceReq$b {
+}

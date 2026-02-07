@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message DmLiveSwitchReload {
+  bool reload = 1;
+}

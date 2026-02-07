@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Colors {
+  string biliTheme = 3;
+  string color = 1;
+  string darkColor = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message LikeAnimation {
+  string likeAnimation = 3;
+  string likeIcon = 1;
+  string likedIcon = 2;
+}

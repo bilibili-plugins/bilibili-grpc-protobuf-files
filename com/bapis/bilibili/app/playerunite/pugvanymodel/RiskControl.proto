@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message RiskControl {
+  string actionDesc = 4;
+  string buvid = 6;
+  bool needSendSms = 1;
+  string riskMessage = 3;
+  string sendSmsUrl = 5;
+  string title = 2;
+}

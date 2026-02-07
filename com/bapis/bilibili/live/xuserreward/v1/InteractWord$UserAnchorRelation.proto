@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xuserreward.v1;
+
+message InteractWord$UserAnchorRelation {
+  string tailGuideText = 2;
+  string tailIcon = 1;
+  int64 tailType = 3;
+}

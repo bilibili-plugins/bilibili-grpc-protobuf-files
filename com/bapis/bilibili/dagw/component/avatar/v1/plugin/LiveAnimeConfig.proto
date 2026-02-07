@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message LiveAnimeConfig {
+  repeated Data borderConfig = 4;
+  LiveTextConfig config = 2;
+  bool isLive = 1;
+  repeated Data items = 3;
+}

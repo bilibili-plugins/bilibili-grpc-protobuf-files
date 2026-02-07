@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeDynAllResp {
+  TribeeBaseInfo baseInfo = 1;
+  TribeeCategoryInfo category = 5;
+  TribeeContent content = 4;
+  TribeeInteraction interaction = 2;
+  TribeeNavigation navigation = 3;
+  TribeeSortInfo sortInfo = 6;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message VideoGuide {
+  repeated Data attention = 1;
+  repeated Data cardsSecond = 6;
+  repeated Data commandDms = 2;
+  ContractCard contractCard = 5;
+  repeated Data operationCardNew = 4;
+  repeated Data operationCard = 3;
+}

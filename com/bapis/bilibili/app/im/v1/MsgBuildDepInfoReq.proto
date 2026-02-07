@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message MsgBuildDepInfoReq {
+  MsgBuildDepInfoReq$FetchMsgReq fetchMessage = 4;
+  int64 mid = 2;
+  int32 mode = 1;
+  MsgBuildDepInfoReq$MsgBuildReq msgBuild = 5;
+  int64 vmid = 3;
+}

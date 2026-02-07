@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message FreyaConfig {
+  string desc = 1;
+  int32 fullScreenNumber = 6;
+  bool isAlwaysShow = 4;
+  int32 issuedCnt = 3;
+  int32 screenNumber = 5;
+  int32 type = 2;
+}

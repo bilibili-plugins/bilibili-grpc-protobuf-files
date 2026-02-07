@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message JoinReq {
+  bool autoSubscribe = 2;
+  string token = 3;
+  BAPILiveRTCUserProto$User user = 1;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.voice_room;
+
+message LiveMultiVoiceInvitaionEvent {
+  int32 businessType = 3;
+  int32 cdn = 6;
+  string chId = 4;
+  string channelInfo = 5;
+  repeated Data existUids = 14;
+  int64 initiator = 1;
+  string innerExtra = 12;
+  int64 interactId = 7;
+  int64 invitedUid = 2;
+  int64 linkId = 8;
+  int32 operateType = 11;
+  string operationUname = 13;
+  string toast = 10;
+  string traceId = 15;
+  int64 ts = 9;
+}

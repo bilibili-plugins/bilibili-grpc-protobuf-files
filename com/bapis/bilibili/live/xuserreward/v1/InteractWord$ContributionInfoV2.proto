@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xuserreward.v1;
+
+message InteractWord$ContributionInfoV2 {
+  int64 grade = 1;
+  string rankType = 2;
+  string text = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LikeListReply {
+  bool hasMore = 2;
+  repeated Data list = 1;
+  int64 totalCount = 3;
+}

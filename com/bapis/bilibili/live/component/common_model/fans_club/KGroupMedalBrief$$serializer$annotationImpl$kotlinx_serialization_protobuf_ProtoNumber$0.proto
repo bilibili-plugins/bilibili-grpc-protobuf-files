@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.fans_club;
+
+message KGroupMedalBrief$$serializer$annotationImpl$kotlinx_serialization_protobuf_ProtoNumber$0 {
+}

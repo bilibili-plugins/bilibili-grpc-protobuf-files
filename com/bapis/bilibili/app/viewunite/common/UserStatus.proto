@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UserStatus {
+  int32 follow = 2;
+  int32 show = 1;
+}

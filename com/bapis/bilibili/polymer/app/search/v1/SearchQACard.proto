@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchQACard {
+  bool autoExpand = 10;
+  string backgroundLight = 4;
+  string backgroundNight = 5;
+  Colors betaTextColor = 7;
+  string betaText = 6;
+  Disclaimer disclaimer = 8;
+  Feedback feedback = 12;
+  repeated Data loadingIconLight = 2;
+  repeated Data loadingIconNight = 3;
+  ChatResult result = 11;
+  string sessionId = 1;
+  string title = 9;
+}

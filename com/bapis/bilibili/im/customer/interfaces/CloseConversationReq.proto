@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message CloseConversationReq {
+  int64 customSessionId = 3;
+  int32 msgSource = 5;
+  int64 shopFatherId = 2;
+  int64 shopId = 1;
+  int32 situation = 6;
+  int32 source = 4;
+}

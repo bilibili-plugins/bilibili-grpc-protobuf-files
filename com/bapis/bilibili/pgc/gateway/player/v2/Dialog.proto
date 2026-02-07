@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message Dialog {
+  ButtonInfo bottomDesc = 10;
+  repeated Data bottomDisplay = 14;
+  repeated Data button = 9;
+  int64 code = 1;
+  DialogConfig config = 5;
+  int32 countDownSec = 12;
+  ImageInfo halfImage = 17;
+  int32 hideButtonOnHalf = 18;
+  ImageInfo image = 8;
+  string linkDesc = 19;
+  string link = 16;
+  string msg = 2;
+  repeated Data playList = 15;
+  Report report = 11;
+  TextInfo rightBottomDesc = 13;
+  string styleType = 4;
+  TextInfo subtitle = 7;
+  TextInfo title = 6;
+  string type = 3;
+}

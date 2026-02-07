@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LbsPoiDetail {
+  string address = 5;
+  repeated Data basePic = 3;
+  repeated Data cover = 4;
+  string poi = 1;
+  string title = 6;
+  int64 type = 2;
+}

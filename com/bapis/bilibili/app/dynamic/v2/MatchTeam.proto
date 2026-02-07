@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MatchTeam {
+  string color = 4;
+  string cover = 3;
+  int64 id = 1;
+  string name = 2;
+  string nightColor = 5;
+}

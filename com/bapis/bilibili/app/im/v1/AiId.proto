@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message AiId {
+  int64 talkerUid = 3;
+  int32 type = 1;
+  int64 uid = 2;
+}

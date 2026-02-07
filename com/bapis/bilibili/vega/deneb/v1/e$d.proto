@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vega.deneb.v1;
+
+message e$d {
+}

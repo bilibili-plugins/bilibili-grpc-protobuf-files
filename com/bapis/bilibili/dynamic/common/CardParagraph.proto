@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CardParagraph {
+  LinkNode card = 1;
+  string defaultText = 2;
+}

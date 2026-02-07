@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message QuickLinkBubble {
+  string avatar = 2;
+  string content = 4;
+  int64 mid = 1;
+  int32 msgType = 6;
+  string nickName = 3;
+  int32 quickLinkItem = 5;
+}

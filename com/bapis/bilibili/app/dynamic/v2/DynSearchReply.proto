@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynSearchReply {
+  SearchChannel channelInfo = 1;
+  SearchInfo searchInfo = 3;
+  SearchTopic searchTopic = 2;
+}

@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MainListReply {
+  Activity activity = 9;
+  ReplyInfo adminTop = 5;
+  MapFieldLite callbacks = 16;
+  CM cm = 11;
+  string contextFeature = 25;
+  CursorReply cursor = 1;
+  Effects effects = 12;
+  ESportsGradeCard esportsGradeCard = 24;
+  Lottery lottery = 8;
+  repeated Data mixedCards = 27;
+  string modeText = 19;
+  int32 mode = 18;
+  Notice notice = 7;
+  OperationV2 operationV2 = 17;
+  Operation operation = 13;
+  string paginationEndText = 26;
+  FeedPaginationReply paginationReply = 20;
+  QoeInfo qoe = 15;
+  repeated Data replies = 2;
+  string reportParams = 22;
+  string sessionId = 21;
+  SubjectControl subjectControl = 3;
+  repeated Data subjectTopCards = 28;
+  repeated Data topReplies = 14;
+  UpSelection upSelection = 10;
+  ReplyInfo upTop = 4;
+  VoteCard voteCard = 23;
+  ReplyInfo voteTop = 6;
+}

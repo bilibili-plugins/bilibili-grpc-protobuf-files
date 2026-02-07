@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.home;
+
+message MidHomeConfig {
+  repeated Data androidMineSelectionOptionItemsId = 3;
+  repeated Data iOSMineSelectionOptionItemsId = 4;
+  Int64Value recentPageTab = 2;
+  Int64Value topLeftGoto = 1;
+}

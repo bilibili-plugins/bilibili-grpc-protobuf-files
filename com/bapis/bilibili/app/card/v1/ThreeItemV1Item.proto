@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreeItemV1Item {
+  string badge = 6;
+  Base base = 1;
+  int32 coverLeftIcon = 3;
+  string coverLeftText = 2;
+}

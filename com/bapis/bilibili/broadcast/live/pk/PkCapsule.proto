@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message PkCapsule {
+  string animationText = 4;
+  int32 capsuleType = 1;
+  int64 endTime = 2;
+  string text = 3;
+  string toast = 6;
+  string url = 5;
+}

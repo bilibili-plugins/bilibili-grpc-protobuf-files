@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message LatestHistoryReq {
+  string business = 1;
+  PlayerPreloadParams playerPreload = 2;
+}

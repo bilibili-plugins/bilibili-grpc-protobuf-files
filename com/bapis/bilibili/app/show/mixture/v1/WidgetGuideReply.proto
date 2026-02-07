@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message WidgetGuideReply {
+  int32 code = 1;
+  GuideItem guideItem = 2;
+  GuideTip tip = 3;
+}

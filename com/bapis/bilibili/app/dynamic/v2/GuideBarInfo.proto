@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message GuideBarInfo {
+  string desc = 4;
+  int32 jumpPage = 5;
+  int32 jumpPosition = 6;
+  int32 page = 2;
+  int32 position = 3;
+  int32 show = 1;
+}

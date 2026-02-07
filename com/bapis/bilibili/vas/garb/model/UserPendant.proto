@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message UserPendant {
+  int64 id = 1;
+  string imageEnhanceFrame = 7;
+  string imageEnhance = 6;
+  string image = 3;
+  string jumpUrl = 4;
+  string name = 2;
+  string type = 5;
+}

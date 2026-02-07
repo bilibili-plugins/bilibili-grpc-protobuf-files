@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PinSessionReply {
+  int64 code = 2;
+  string message = 3;
+  int64 sequenceNumber = 1;
+}

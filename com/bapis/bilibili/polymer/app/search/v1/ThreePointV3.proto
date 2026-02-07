@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ThreePointV3 {
+  int32 defaultId = 11;
+  string icon = 8;
+  int64 id = 6;
+  repeated Data reasons = 4;
+  string selectedIcon = 9;
+  string selectedTitle = 2;
+  int32 selected = 7;
+  string subtitle = 3;
+  string title = 1;
+  string type = 5;
+  string url = 10;
+}

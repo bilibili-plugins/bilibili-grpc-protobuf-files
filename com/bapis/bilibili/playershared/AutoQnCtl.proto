@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message AutoQnCtl {
+  int64 loginFull = 3;
+  int64 loginHalf = 1;
+  int64 mobileLoginFull = 5;
+  int64 mobileNologinFull = 6;
+  int64 nologinFull = 4;
+  int64 nologinHalf = 2;
+  MapFieldLite sceneQnRange = 7;
+}

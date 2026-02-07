@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message UserStreamControl$ExplicitSubMode {
+  int32 subMode = 2;
+  int64 uid = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message BasicInfoReply {
+  string agreementUrl = 2;
+  string customerServiceUrl = 1;
+  repeated Data links = 4;
+  string privacyUrl = 3;
+}

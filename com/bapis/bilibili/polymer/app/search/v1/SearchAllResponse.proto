@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchAllResponse {
+  int64 allDoubleColumn = 19;
+  MapFieldLite annotation = 13;
+  DisplayOption appDisplayOption = 12;
+  EasterEgg easterEgg = 5;
+  string expStr = 6;
+  repeated Data extraWordList = 7;
+  int32 isNewUser = 20;
+  repeated Data item = 4;
+  string keyword = 1;
+  repeated Data nav = 3;
+  int64 newSearchExpNum = 10;
+  string orgExtraWord = 8;
+  int64 page = 14;
+  PaginationReply pagination = 11;
+  double realExposureRatio = 15;
+  SearchFilter searchFilter = 21;
+  int64 selectBarType = 9;
+  string trackid = 2;
+}

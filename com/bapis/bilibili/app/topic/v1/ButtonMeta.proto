@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message ButtonMeta {
+  string icon = 2;
+  string text = 1;
+}

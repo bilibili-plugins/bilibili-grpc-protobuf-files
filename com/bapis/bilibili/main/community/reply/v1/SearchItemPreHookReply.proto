@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message SearchItemPreHookReply {
+  string backgroundText = 2;
+  repeated Data orderedType = 3;
+  string placeholderText = 1;
+}

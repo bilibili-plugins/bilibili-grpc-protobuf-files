@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MusicMenuAuthor {
+  string avatar = 3;
+  int64 mid = 1;
+  string name = 2;
+}

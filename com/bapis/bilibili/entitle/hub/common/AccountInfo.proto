@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message AccountInfo {
+  string accountId = 1;
+  int64 accountValue = 6;
+  string avatarUrl = 4;
+  string backgroundUrl = 9;
+  int64 gameCount = 8;
+  bool isPublic = 10;
+  string personaName = 2;
+  string profileUrl = 3;
+  int64 timeCreated = 5;
+  int32 totalPlaytime = 7;
+}

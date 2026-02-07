@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message VideoCardBase {
+  int64 aid = 6;
+  string cover = 1;
+  string jumpLink = 5;
+  int64 play = 4;
+  string title = 2;
+  string upName = 3;
+}

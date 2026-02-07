@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message MerchandiseTitle {
+  string dayColor = 2;
+  int64 fontSize = 4;
+  string nightColor = 3;
+  int32 textDecoration = 5;
+  string title = 1;
+}

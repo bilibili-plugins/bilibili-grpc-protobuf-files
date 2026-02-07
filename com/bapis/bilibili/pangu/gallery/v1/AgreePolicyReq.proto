@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message AgreePolicyReq {
+  int32 policyType = 1;
+  string version = 2;
+}

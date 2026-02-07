@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusRcmdTop {
+  bool auditBeforeOpen = 18;
+  string auditMessage = 19;
+  RcmdTopButton button = 6;
+  int64 campusId = 1;
+  string campusName = 2;
+  string desc = 4;
+  CampusLabel inviteLabel = 11;
+  int64 maxReserve = 14;
+  CampusLabel mngLabel = 16;
+  CampusLabel noticeLabel = 8;
+  CampusHomeRcmdTopic rcmdTopic = 17;
+  CampusLabel reserveLabel = 12;
+  int64 reserveNumber = 13;
+  CampusLabel schoolLabel = 15;
+  CampusLabel switchLabel = 7;
+  string title = 3;
+  int32 type = 5;
+}

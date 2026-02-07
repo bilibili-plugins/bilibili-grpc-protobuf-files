@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.im;
+
+message q {
+}

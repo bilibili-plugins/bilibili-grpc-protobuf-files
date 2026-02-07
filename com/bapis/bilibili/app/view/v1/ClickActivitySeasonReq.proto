@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ClickActivitySeasonReq {
+  int64 action = 5;
+  int32 orderType = 1;
+  string spmid = 2;
+}

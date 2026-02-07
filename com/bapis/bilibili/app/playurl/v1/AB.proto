@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message AB {
+  Glance glance = 1;
+  int32 group = 2;
+}

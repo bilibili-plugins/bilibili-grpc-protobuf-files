@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message SubscribeReq {
+  CosmoBusiness business = 1;
+  Button button = 3;
+  string uniqueId = 2;
+}

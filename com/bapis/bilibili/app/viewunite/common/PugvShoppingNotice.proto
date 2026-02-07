@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvShoppingNotice {
+  repeated Data contents = 2;
+  string link = 3;
+  PugvSeasonNav nav = 1;
+}

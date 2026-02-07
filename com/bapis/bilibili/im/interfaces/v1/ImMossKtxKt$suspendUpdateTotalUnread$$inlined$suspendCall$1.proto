@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ImMossKtxKt$suspendUpdateTotalUnread$$inlined$suspendCall$1 {
+}

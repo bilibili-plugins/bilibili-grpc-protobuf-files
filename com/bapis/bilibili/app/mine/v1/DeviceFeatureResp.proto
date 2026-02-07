@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.mine.v1;
+
+message DeviceFeatureResp {
+  string actionData = 1;
+}

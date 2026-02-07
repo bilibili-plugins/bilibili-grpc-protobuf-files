@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchVideoCard {
+  string authorPrefix = 29;
+  string author = 10;
+  repeated Data badgesV2 = 19;
+  repeated Data badges = 13;
+  CardBusinessBadge cardBusinessBadge = 7;
+  CardLayout cardLayout = 28;
+  LabelStyle chargingLabel = 27;
+  ReasonStyle coverBadge = 31;
+  string cover = 2;
+  int32 danmaku = 9;
+  string desc = 11;
+  string duration = 12;
+  string face = 22;
+  Feedback feedback = 20;
+  FoldingTimeLine foldingTimeLine = 26;
+  FullTextResult fullText = 17;
+  repeated Data highlightTags = 30;
+  int32 iconType = 25;
+  int64 mid = 14;
+  repeated Data newRecTagsV2 = 18;
+  repeated Data newRecTags = 4;
+  int32 play = 8;
+  int64 ptime = 23;
+  repeated Data qualityTags = 35;
+  RcmdReason rcmdReason = 3;
+  Share share = 6;
+  ShortOGVInfo shortOgvInfo = 32;
+  repeated Data threePoint = 5;
+  TimeLine timeLine = 21;
+  string title = 1;
+  string translatedTitle = 34;
+  int64 translationStatus = 33;
+  string viewContent = 24;
+}

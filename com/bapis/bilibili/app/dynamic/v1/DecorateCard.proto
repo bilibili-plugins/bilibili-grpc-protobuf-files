@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DecorateCard {
+  string cardUrl = 2;
+  DecoCardFan fan = 4;
+  int64 id = 1;
+  string jumpUrl = 3;
+}

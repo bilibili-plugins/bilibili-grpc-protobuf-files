@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ThreePoint2 {
+  repeated Data dislikeReasons = 1;
+  repeated Data feedbacks = 2;
+  int32 watchLater = 3;
+}

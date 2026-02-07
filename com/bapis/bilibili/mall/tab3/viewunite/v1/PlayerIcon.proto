@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message PlayerIcon {
+  IconData dragData = 8;
+  string dragLeftPng = 5;
+  string dragRightPng = 7;
+  string hash1 = 2;
+  string hash2 = 4;
+  string middlePng = 6;
+  IconData nodragData = 9;
+  string url1 = 1;
+  string url2 = 3;
+}

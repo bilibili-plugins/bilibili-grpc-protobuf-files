@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PlayDubbingInfo {
+  AudioMaterialProto backgroundAudio = 1;
+  string guideText = 3;
+  repeated Data roleAudioList = 2;
+}

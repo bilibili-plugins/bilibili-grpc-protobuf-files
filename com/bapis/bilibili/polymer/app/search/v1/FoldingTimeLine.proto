@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message FoldingTimeLine {
+  int32 color = 4;
+  int64 endSecond = 7;
+  int32 hangStyleSinal = 10;
+  int32 hasImgUrl = 11;
+  string iconNight = 13;
+  string icon = 1;
+  int32 initPosition = 8;
+  repeated Data items = 12;
+  string leftTitle = 2;
+  string rightTitle = 3;
+  int32 segment = 5;
+  int64 startSecond = 6;
+  int32 type = 9;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message EditTopicReply {
+  int64 categoryId = 4;
+  int64 id = 1;
+  string name = 2;
+  int32 status = 3;
+}

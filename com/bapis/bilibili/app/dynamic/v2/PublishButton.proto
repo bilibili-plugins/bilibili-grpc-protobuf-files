@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message PublishButton {
+  string iconUrl = 2;
+  string jumpUri = 3;
+  int32 permType = 1;
+  ToastDialog publishAbnormal = 5;
+  ToastDialog publishBanned = 8;
+  ToastDialog publishCandidate = 6;
+  ToastDialog publishJoin = 4;
+  ToastDialog publishNotCandidate = 7;
+  ToastDialog publishOutsider = 9;
+}

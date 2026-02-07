@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreatePic {
+  int32 aiGenPic = 8;
+  double imgHeight = 3;
+  double imgSize = 4;
+  string imgSrc = 1;
+  repeated Data imgTags = 5;
+  double imgWidth = 2;
+  double liveVideoSize = 7;
+  string liveVideoSrc = 6;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message ContractCard {
+  int64 displayAccuracy = 2;
+  int64 displayDuration = 3;
+  float displayProgress = 1;
+  int64 followDisplayEndDuration = 9;
+  int32 isFollowDisplay = 7;
+  int32 isInteractDisplay = 11;
+  int32 isPlayDisplay = 10;
+  int32 pageType = 5;
+  bool playDisplaySwitch = 12;
+  int32 showMode = 4;
+  ContractText text = 8;
+  UpperInfos upper = 6;
+}

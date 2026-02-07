@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Comment {
+  string commentNo = 5;
+  string content = 7;
+  int64 gameBaseId = 1;
+  int32 grade = 6;
+  int32 upCount = 8;
+  string userFace = 3;
+  int32 userLevel = 4;
+  string userName = 2;
+}

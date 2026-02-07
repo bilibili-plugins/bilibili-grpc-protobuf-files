@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AdShareInfoDto {
+  string imageUrl = 3;
+  string subtitle = 2;
+  string title = 1;
+}

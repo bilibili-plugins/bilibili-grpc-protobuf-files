@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavFolderDetailResp {
+  FavFolder folderInfo = 4;
+  repeated Data list = 3;
+  bool reachEnd = 2;
+  int32 total = 1;
+}

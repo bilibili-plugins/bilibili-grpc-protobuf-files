@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.pgc.gateway.vega.v1;
+
+message MessageAckReq {
+  string origin = 3;
+  string reqId = 2;
+  string targetPath = 4;
+  string vegaId = 1;
+}

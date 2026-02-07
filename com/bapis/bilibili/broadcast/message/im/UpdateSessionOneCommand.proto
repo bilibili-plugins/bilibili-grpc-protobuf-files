@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.im;
+
+message UpdateSessionOneCommand {
+  SessionId sessionId = 1;
+}

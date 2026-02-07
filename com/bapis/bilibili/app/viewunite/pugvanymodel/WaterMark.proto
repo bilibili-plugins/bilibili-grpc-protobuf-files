@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message WaterMark {
+  bool showWatermark = 1;
+  int64 watermarkInterval = 2;
+}

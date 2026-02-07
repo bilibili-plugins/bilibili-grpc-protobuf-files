@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message BannerInfo {
+  string imageUrl = 1;
+  string link = 2;
+  string title = 3;
+}

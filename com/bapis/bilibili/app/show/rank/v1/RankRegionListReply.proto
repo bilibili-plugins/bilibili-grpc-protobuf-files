@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.rank.v1;
+
+message RankRegionListReply {
+  repeated Data regions = 1;
+}

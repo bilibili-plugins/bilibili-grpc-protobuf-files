@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message ViewInfo {
+  MapFieldLite dialogMap = 1;
+  ExpSwitch expSwitch = 5;
+  FullPromptBar fullPromptBar = 6;
+  PayWallOnshowAction payWallOnshowAction = 4;
+  PromptBar promptBar = 2;
+  ResidentBar residentBar = 7;
+  repeated Data toasts = 3;
+}

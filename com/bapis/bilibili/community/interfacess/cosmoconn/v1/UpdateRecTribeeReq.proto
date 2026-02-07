@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message UpdateRecTribeeReq {
+  bool disableRec = 2;
+  int64 tribeeId = 1;
+}

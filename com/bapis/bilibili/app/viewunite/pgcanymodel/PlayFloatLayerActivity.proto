@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message PlayFloatLayerActivity {
+  int32 adBadgeType = 4;
+  BadgeInfo badge = 8;
+  int32 id = 1;
+  string link = 5;
+  string picAnimaUrl = 7;
+  string picUrl = 6;
+  int64 showRateTime = 9;
+  string title = 2;
+  int32 type = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.common;
+
+message SizeSpec {
+  double height = 2;
+  double width = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message ResponseDataUrl {
+  int32 ptag = 3;
+  int32 streamType = 2;
+  string url = 1;
+}

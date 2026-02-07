@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.pegasus;
+
+message PegasusDeviceConfig {
+  PegasusAutoPlay autoPlay = 3;
+  PegasusColumnValue column = 1;
+  FeedModeValue mode = 2;
+}

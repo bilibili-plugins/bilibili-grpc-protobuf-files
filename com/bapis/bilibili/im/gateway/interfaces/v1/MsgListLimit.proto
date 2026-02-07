@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MsgListLimit {
+  string desc = 2;
+  bool limit = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.search;
+
+message SearchAutoPlay {
+  BoolValue affectedByServerSide = 2;
+  Int64Value value = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message WatchItemExpose {
+  string bizId = 2;
+  int32 bizType = 1;
+  int32 exposeFrom = 3;
+}

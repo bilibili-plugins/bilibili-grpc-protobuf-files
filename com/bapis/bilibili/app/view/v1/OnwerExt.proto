@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message OnwerExt {
+  string arcCount = 6;
+  repeated Data assists = 4;
+  int64 fans = 5;
+  Live live = 2;
+  NameRender nameRender = 8;
+  NftFaceIcon nftFaceIcon = 7;
+  OfficialVerify officialVerify = 1;
+  Vip vip = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message UserCheckReq {
+  int64 mid = 1;
+  int32 policyType = 2;
+}

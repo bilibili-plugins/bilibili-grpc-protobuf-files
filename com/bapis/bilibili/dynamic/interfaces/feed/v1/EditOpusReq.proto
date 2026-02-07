@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message EditOpusReq {
+  int64 cvid = 10;
+  CreateBaseDraft draft = 7;
+  int64 dynId = 1;
+  UserCreateMeta meta = 2;
+  CreateOption option = 5;
+  Opus opus = 3;
+  int32 scene = 4;
+  CreateTopic topic = 6;
+  TribeeArg tribeeArg = 9;
+  string uploadId = 8;
+}

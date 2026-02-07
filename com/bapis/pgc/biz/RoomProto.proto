@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.pgc.biz;
+
+message RoomProto {
+  repeated Data roomId = 1;
+}

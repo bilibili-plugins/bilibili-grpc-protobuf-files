@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Arc {
+  int64 aid = 1;
+  string bvid = 5;
+  int64 cid = 2;
+  int32 copyright = 6;
+  string cover = 8;
+  int64 duration = 3;
+  Rights right = 7;
+  Stat stat = 4;
+  int32 state = 11;
+  string title = 10;
+  int64 typeId = 9;
+}

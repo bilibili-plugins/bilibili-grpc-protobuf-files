@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchSpecialGuideCard {
+  string cover = 2;
+  string desc = 4;
+  string phone = 3;
+  string title = 1;
+}

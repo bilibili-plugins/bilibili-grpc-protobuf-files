@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynServerDetailsReq {
+  int64 build = 7;
+  string buvid = 6;
+  string device = 5;
+  repeated Data dynamicIds = 1;
+  bool isMaster = 10;
+  int32 localTime = 2;
+  int64 mid = 8;
+  string mobiApp = 4;
+  string platform = 9;
+  PlayerArgs playerArgs = 3;
+  repeated Data topDynamicIds = 11;
+}

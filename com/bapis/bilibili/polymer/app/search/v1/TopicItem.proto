@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message TopicItem {
+  int32 contentType = 9;
+  string goto = 3;
+  int64 id = 7;
+  string linktype = 4;
+  string param = 2;
+  int32 position = 5;
+  string publishText = 11;
+  string title = 8;
+  string trackid = 6;
+  string upName = 10;
+  string uri = 1;
+}

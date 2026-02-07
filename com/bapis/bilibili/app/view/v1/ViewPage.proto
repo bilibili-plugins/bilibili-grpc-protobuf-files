@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ViewPage {
+  Audio audio = 2;
+  DM dm = 3;
+  string downloadSubtitle = 5;
+  string downloadTitle = 4;
+  Page page = 1;
+}

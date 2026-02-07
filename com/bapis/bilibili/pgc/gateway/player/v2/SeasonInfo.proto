@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message SeasonInfo {
+  string cover = 4;
+  int32 mode = 7;
+  Rights rights = 6;
+  int32 seasonId = 1;
+  int32 seasonStatus = 3;
+  int32 seasonType = 2;
+  string title = 5;
+}

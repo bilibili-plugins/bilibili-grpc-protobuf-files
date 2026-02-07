@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionLiveRoom {
+  VideoBadge badge = 3;
+  string cardType = 7;
+  string cover = 2;
+  string descTextLower = 5;
+  CoverIconWithText descTextUpper = 4;
+  string title = 1;
+  string uri = 6;
+}

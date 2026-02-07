@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractConnect {
+  int32 audioPlayMode = 4;
+  int64 connectTimeout = 6;
+  int32 defaultPubStatus = 2;
+  int32 defaultSubMode = 3;
+  int32 interactConnectType = 1;
+  int32 videoPlayMode = 5;
+}

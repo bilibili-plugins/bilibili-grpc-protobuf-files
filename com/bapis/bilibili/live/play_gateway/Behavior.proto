@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.play_gateway;
+
+message Behavior {
+  int32 playStyle = 2;
+  int64 qn = 1;
+}

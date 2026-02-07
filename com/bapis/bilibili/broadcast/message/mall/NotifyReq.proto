@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.mall;
+
+message NotifyReq {
+  string content = 3;
+  string jumpUrl = 4;
+  int32 msgType = 2;
+  int64 roomId = 1;
+}

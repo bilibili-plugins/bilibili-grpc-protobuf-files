@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message MentionReq {
+  repeated Data cards = 1;
+  string tabName = 2;
+}

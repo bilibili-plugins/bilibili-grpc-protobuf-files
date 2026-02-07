@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message WeightDislike {
+  string feedBackBizValue = 3;
+  string feedBackType = 1;
+  string title = 2;
+}

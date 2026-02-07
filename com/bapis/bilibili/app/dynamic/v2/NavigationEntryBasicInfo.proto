@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message NavigationEntryBasicInfo {
+  string icon = 1;
+  string jumpUri = 3;
+  string rightIcon = 4;
+  string subtitle = 5;
+  string title = 2;
+}

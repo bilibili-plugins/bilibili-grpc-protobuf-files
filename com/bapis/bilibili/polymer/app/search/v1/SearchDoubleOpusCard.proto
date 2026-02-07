@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchDoubleOpusCard {
+  repeated Data item = 2;
+  string title = 1;
+  WatchButton watchButton = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Sketch {
+  int64 bizId = 4;
+  int64 bizType = 5;
+  string coverUrl = 6;
+  string descText = 2;
+  string targetUrl = 7;
+  string text = 3;
+  string title = 1;
+}

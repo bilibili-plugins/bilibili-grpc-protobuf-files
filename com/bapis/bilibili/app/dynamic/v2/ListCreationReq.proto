@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ListCreationReq {
+  int32 localTime = 2;
+  Pagination pagination = 3;
+  SelectedClassificationAndSortType preference = 1;
+}

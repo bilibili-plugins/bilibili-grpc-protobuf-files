@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareTarget {
+  AvatarItem avatar = 1;
+  string name = 2;
+  SessionId sessionId = 3;
+}

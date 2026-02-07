@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message KMsgSummaryPrefixType$MSG_SUMMARY_PREFIX_TYPE_GROUP_BLOCKED {
+}

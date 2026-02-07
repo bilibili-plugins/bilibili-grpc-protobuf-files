@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.common;
+
+message KWHRatio$W_H_RATIO_16_9$1 {
+}

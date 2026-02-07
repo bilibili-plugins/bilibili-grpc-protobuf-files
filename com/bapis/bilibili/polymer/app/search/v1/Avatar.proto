@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Avatar {
+  string cover = 1;
+  string eventV2 = 3;
+  string event = 2;
+  int32 faceNftNew = 7;
+  NftFaceIcon nftFaceIcon = 8;
+  string text = 4;
+  int64 upId = 5;
+  string uri = 6;
+}

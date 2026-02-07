@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xgift.v1;
+
+message EasterEggBenefit {
+  int64 effectNumAudience = 4;
+  int64 effectNum = 3;
+  string materialMd5 = 2;
+  string materialUrl = 1;
+  string unlockText = 5;
+  string webMaterialMd5 = 7;
+  string webMaterialUrl = 6;
+}

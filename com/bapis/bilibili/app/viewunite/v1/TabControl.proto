@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message TabControl {
+  float disableAlpha = 4;
+  string disableClickTip = 3;
+  bool disable = 2;
+  bool limit = 1;
+}

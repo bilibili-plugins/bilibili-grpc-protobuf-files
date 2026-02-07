@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Form {
+  repeated Data options = 2;
+  int32 type = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Interaction {
+  int64 epId = 1;
+  int64 graphVersion = 3;
+  HistoryNode historyNode = 2;
+  bool isInteraction = 5;
+  string msg = 4;
+}

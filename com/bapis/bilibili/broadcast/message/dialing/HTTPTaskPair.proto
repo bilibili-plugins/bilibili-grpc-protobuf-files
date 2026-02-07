@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.dialing;
+
+message HTTPTaskPair {
+  string direction = 5;
+  string fromPeer = 1;
+  string localIP = 4;
+  repeated Data remotedAddrs = 3;
+  repeated Data toPeers = 2;
+}

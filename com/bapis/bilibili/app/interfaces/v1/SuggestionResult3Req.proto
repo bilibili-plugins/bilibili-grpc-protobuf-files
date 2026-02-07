@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SuggestionResult3Req {
+  int32 highlight = 2;
+  string keyword = 1;
+  int32 teenagersMode = 3;
+  string userAct = 4;
+}

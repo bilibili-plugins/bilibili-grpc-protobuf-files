@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqSendMsg {
+  string cookie2 = 3;
+  string cookie = 2;
+  string devId = 5;
+  int32 errorCode = 4;
+  Msg msg = 1;
+}

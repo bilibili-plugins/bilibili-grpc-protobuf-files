@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavItemAuthor {
+  int64 mid = 1;
+  string name = 2;
+}

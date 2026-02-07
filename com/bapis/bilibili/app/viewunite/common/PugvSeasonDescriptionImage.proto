@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonDescriptionImage {
+  double foldRatio = 3;
+  bool folded = 2;
+  repeated Data images = 1;
+}

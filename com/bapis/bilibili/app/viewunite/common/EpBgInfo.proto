@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message EpBgInfo {
+  BgInfo floatLayer = 1;
+  BgInfo noFloatLayer = 2;
+}

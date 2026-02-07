@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleFold {
+  string foldIds = 3;
+  int32 foldType = 1;
+  repeated Data foldUsers = 4;
+  string text = 2;
+  TopicMergedResource topicMergedResource = 5;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusHomePagesReq {
+  int64 campusId = 1;
+  string campusName = 2;
+  double lat = 3;
+  double lng = 4;
+  int32 pageType = 6;
+  PlayerArgs playerArgs = 5;
+}

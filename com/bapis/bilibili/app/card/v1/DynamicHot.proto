@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message DynamicHot {
+  Base base = 1;
+  string coverRightText = 8;
+  repeated Data covers = 7;
+  string desc1 = 3;
+  string desc2 = 4;
+  string moreText = 6;
+  string moreUri = 5;
+  string topLeftTitle = 2;
+  ReasonStyle topRcmdReasonStyle = 9;
+}

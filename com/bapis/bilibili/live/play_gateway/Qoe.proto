@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.play_gateway;
+
+message Qoe {
+  string qoe = 1;
+}

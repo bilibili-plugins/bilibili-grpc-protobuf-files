@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message ClickReq {
+  int32 action = 2;
+  int64 sid = 1;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message DetailsRelationItem {
+  ReasonStyle coverBadgeStyleV2 = 11;
+  ReasonStyle coverBadgeStyle = 4;
+  string coverLeftTextV2 = 10;
+  string coverLeftText = 3;
+  string cover = 2;
+  string goto = 6;
+  int32 iconType = 13;
+  string modulePos = 5;
+  string param = 7;
+  int32 position = 9;
+  string title = 1;
+  string uri = 8;
+  string viewContent = 12;
+}

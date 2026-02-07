@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message Embedded {
+  bool boolVal = 1;
+  double doubleVal = 5;
+  float floatVal = 4;
+  int32 int32Val = 2;
+  int64 int64Val = 3;
+  MapFieldLite mapErrorVal = 14;
+  MapFieldLite mapStringVal = 13;
+  repeated Data repeatedBoolVal = 7;
+  repeated Data repeatedDoubleVal = 11;
+  repeated Data repeatedFloatVal = 10;
+  repeated Data repeatedInt32Val = 8;
+  repeated Data repeatedInt64Val = 9;
+  repeated Data repeatedStringVal = 12;
+  string stringVal = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message PreEvaluateRsp {
+  EvaluationShowInfoV2 rspV2 = 2;
+  EvaluationShowInfo rsp = 1;
+}

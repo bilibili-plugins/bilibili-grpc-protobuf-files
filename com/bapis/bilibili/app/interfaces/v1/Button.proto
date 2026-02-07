@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message Button {
+  int32 butType = 5;
+  int32 followState = 6;
+  string hasTitle = 7;
+  int64 icon = 4;
+  string id = 3;
+  string link = 2;
+  string title = 1;
+}

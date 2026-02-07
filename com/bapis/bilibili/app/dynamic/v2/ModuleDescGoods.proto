@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleDescGoods {
+  string adMark = 7;
+  string appName = 10;
+  int64 itemId = 4;
+  int32 jumpType = 9;
+  string jumpUrl = 2;
+  repeated Data openWhiteList = 5;
+  string schemaPackageName = 8;
+  string schemaUrl = 3;
+  int32 sourceType = 1;
+  bool userWebV2 = 6;
+}

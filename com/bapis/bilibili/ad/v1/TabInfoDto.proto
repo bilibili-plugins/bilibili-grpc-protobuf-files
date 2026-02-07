@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message TabInfoDto {
+  Any extra = 2;
+  string tabName = 1;
+  int32 tabVersion = 3;
+}

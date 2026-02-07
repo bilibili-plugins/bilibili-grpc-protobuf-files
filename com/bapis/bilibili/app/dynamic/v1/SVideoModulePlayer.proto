@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoModulePlayer {
+  int64 aid = 4;
+  int64 cid = 5;
+  string cover = 2;
+  Dimension dimension = 7;
+  int64 duration = 6;
+  string title = 1;
+  string uri = 3;
+}

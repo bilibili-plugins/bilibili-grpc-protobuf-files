@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleAd {
+  int32 adContentType = 3;
+  ModuleAuthor moduleAuthor = 2;
+  Any sourceContent = 1;
+}

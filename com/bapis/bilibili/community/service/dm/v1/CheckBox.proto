@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message CheckBox {
+  bool defaultValue = 3;
+  bool show = 4;
+  string text = 1;
+  int32 type = 2;
+}

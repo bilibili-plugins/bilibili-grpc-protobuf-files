@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicSquareReq {
+  int64 campusId = 1;
+  int32 fromType = 2;
+}

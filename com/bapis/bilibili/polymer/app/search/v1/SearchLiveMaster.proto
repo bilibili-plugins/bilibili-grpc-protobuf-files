@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchLiveMaster {
+  int64 attentions = 7;
+  AvatarItem avatarInfo = 23;
+  ReasonStyle badge = 27;
+  string cateName = 21;
+  string cateParentName = 20;
+  string cover = 3;
+  bool faceNftNew = 9;
+  GloryInfo gloryInfo = 15;
+  int32 isAtten = 14;
+  int32 levelColor = 13;
+  int32 level = 12;
+  string liveLink = 22;
+  int32 liveStatus = 19;
+  int64 mid = 17;
+  string name = 2;
+  string nftDamrk = 10;
+  int32 online = 18;
+  int64 roomid = 16;
+  repeated Data threePoint = 24;
+  string title = 1;
+  string translatedTitle = 26;
+  int64 translationStatus = 25;
+  string ucover = 6;
+  string uri = 4;
+  string verifyDesc = 11;
+  int32 verifyType = 8;
+  WatchedShow watchedShow = 5;
+}

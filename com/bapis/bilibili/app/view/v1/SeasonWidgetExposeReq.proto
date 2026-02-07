@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message SeasonWidgetExposeReq {
+  int64 activityId = 4;
+  int64 aid = 5;
+  int64 cid = 6;
+  int64 mid = 1;
+  int64 scene = 7;
+  int64 seasonId = 3;
+  int32 type = 2;
+}

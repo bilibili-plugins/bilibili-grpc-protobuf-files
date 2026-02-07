@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynShareChargingQA {
+  ImageSet backgroundImg = 1;
+  IconButton jumpButton = 4;
+  ImageSet leftIconImg = 2;
+  CommonShareCardInfo shareCardMetaInfo = 6;
+  string titlePrefixBold = 7;
+  string title = 3;
+  string uri = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ReqNewSessions {
+  int64 beginTs = 1;
+  int32 lessonsMode = 4;
+  repeated Data sids = 6;
+  int32 size = 2;
+  int32 teenagerMode = 3;
+}

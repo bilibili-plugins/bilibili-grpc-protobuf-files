@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MainFavMusicMenuListResp {
+  bool hasMore = 3;
+  repeated Data menuList = 2;
+  string offset = 4;
+  int32 tabType = 1;
+}

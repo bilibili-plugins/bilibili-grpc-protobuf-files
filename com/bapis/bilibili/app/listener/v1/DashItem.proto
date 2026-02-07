@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message DashItem {
+  repeated Data backupUrl = 3;
+  int32 bandwidth = 4;
+  string baseUrl = 2;
+  int32 codecid = 13;
+  string codecs = 6;
+  int32 id = 1;
+  string md5 = 14;
+  string mimeType = 5;
+  DashSegmentBase segmentBase = 12;
+  int64 size = 15;
+}

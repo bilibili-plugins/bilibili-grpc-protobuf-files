@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractStreamControl$ExplicitSubMode {
+  int32 subMode = 2;
+  int64 uid = 1;
+}

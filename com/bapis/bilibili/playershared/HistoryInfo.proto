@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message HistoryInfo {
+  int64 lastPlayAid = 5;
+  int64 lastPlayCid = 2;
+  int64 progress = 1;
+  Toast toastWithoutTime = 4;
+  Toast toast = 3;
+}

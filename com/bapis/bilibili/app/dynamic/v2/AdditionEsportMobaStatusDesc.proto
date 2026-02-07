@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionEsportMobaStatusDesc {
+  string color = 2;
+  string nightColor = 3;
+  string title = 1;
+}

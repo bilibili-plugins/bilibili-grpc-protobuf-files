@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig {
+  string childText = 3;
+  bool disabled = 1;
+  SubjectDescriptionReply$InputConfig$EditorIconConfig editorIconConfig = 5;
+  SubjectDescriptionReply$InputConfig$FunctionButtonGroup funcButtons = 7;
+  string giveUpText = 4;
+  SubjectDescriptionReply$InputConfig$GradePanel gradePanel = 6;
+  string rootText = 2;
+}

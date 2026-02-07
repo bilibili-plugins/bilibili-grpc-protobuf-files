@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message WindowOptionEvaluation {
+  string icon = 1;
+  int64 imStat = 5;
+  bool isNewEva = 6;
+  string jumpUrl = 3;
+  string name = 2;
+  string newEvaJumpUrl = 7;
+  string title = 4;
+}

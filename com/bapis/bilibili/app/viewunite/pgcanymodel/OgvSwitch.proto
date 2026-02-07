@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message OgvSwitch {
+  int32 enableShowVtInfo = 4;
+  int32 followGuide = 6;
+  int32 hideEpVvVtDm = 5;
+  int32 hidePostReview = 7;
+  int32 mergePositionSectionForCinema = 2;
+  int32 mergePreviewSection = 3;
+  int32 reduceShortTitleSpacing = 1;
+}

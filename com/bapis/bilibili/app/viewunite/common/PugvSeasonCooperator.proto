@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonCooperator {
+  string avatar = 2;
+  bool followed = 7;
+  bool isOwner = 4;
+  int64 mid = 1;
+  string nickname = 3;
+  string role = 5;
+  string userLink = 6;
+}

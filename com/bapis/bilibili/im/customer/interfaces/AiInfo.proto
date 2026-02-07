@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message AiInfo {
+  string name = 1;
+  string picUrl = 2;
+  repeated Data tags = 3;
+}

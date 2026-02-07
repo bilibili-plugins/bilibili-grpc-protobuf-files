@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message TagInfo {
+  string bgColorNight = 5;
+  string bgColor = 4;
+  string borderColorNight = 7;
+  string borderColor = 6;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+  string type = 8;
+}

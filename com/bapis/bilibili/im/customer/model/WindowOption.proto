@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message WindowOption {
+  int32 action = 4;
+  string clickReportId = 7;
+  WindowOptionEvaluationExtra evaluationExtra = 9;
+  bool isClickReport = 6;
+  WindowOptionMessageExtra messageExtra = 8;
+  repeated Data tags = 5;
+  string title = 2;
+  int32 urlType = 1;
+  string url = 3;
+}

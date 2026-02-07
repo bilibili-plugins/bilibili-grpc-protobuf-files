@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message GuideTip {
+  string image = 1;
+  int64 style = 5;
+  string subtitle = 2;
+  string title = 3;
+  repeated Data upItems = 4;
+}

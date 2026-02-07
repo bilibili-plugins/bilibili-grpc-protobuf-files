@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message RerankCardInfo {
+  string cardGoto = 3;
+  int32 displayId = 1;
+  int32 displayPos = 2;
+  string param = 4;
+  MapFieldLite playerArgs = 5;
+}

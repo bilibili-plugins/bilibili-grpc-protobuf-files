@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message Emote {
+  string gifUrl = 7;
+  int64 id = 5;
+  string jumpTitle = 4;
+  string jumpUrl = 3;
+  int64 packageId = 6;
+  int64 size = 1;
+  string text = 8;
+  string url = 2;
+  string webpUrl = 9;
+}

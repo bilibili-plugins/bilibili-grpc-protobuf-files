@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.interfaces.api.grpc.v1;
+
+message GetMoreLiveRoomsReq {
+  int64 fnval = 5;
+  Pagination idolPagination = 2;
+  int64 roomId = 1;
+  Pagination roomsPagination = 3;
+  int64 uid = 4;
+}

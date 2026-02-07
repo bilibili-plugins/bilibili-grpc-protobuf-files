@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message RcmdOffset {
+  string fromTrackid = 5;
+  int64 id = 2;
+  int32 page = 3;
+  int64 rcmdFrom = 1;
+  string sessionId = 4;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleStat {
+  int64 favorite = 10;
+  bool isFavorite = 11;
+  LikeInfo likeInfo = 4;
+  int64 like = 2;
+  string noCommentText = 8;
+  bool noComment = 5;
+  string noForwardText = 9;
+  bool noForward = 6;
+  string noLikeText = 13;
+  bool noLike = 12;
+  string replyUrl = 7;
+  int64 reply = 3;
+  int64 repost = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ThreePointDynCoin {
+  string coinBusiness = 3;
+  int64 coinNum = 2;
+  bool hadCoin = 1;
+  int64 oid = 4;
+}

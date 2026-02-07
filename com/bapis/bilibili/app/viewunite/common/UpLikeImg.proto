@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UpLikeImg {
+  string content = 3;
+  string preImg = 1;
+  string sucImg = 2;
+  int64 type = 4;
+}

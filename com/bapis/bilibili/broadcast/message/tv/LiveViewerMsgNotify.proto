@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message LiveViewerMsgNotify {
+  int64 roomId = 1;
+  string viewerMsg = 2;
+}

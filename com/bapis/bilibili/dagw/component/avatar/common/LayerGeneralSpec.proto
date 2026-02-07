@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.common;
+
+message LayerGeneralSpec {
+  PositionSpec posSpec = 1;
+  BasicRenderSpec renderSpec = 3;
+  SizeSpec sizeSpec = 2;
+}

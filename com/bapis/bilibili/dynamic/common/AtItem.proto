@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message AtItem {
+  string face = 3;
+  int32 fans = 4;
+  string name = 2;
+  int32 officialVerifyType = 5;
+  int64 uid = 1;
+}

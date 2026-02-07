@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message ResidentBar {
+  string bgImage = 6;
+  ButtonInfo button = 3;
+  string icon = 1;
+  string link = 4;
+  TextInfo questionText = 2;
+  Report report = 5;
+}

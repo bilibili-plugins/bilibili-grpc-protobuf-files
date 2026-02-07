@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PageOption {
+  int32 direction = 2;
+  PlayItem lastItem = 3;
+  int32 pageSize = 1;
+}

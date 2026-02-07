@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DraftMeta {
+  int64 articleId = 1;
+  string bannerUrl = 6;
+  Category category = 2;
+  string content = 4;
+  string dynamicIntro = 11;
+  string editUrl = 21;
+  int64 editable = 23;
+  repeated Data imageUrls = 9;
+  int64 isNewEditor = 22;
+  repeated Data list = 13;
+  int64 mediaId = 15;
+  int64 mtime = 20;
+  Opus opus = 24;
+  repeated Data originImageUrls = 12;
+  int64 original = 17;
+  int64 privatePub = 19;
+  int64 reprint = 8;
+  int64 spoiler = 16;
+  string summary = 5;
+  repeated Data tags = 10;
+  int64 templateId = 7;
+  string title = 3;
+  TopVideoInfo topVideoInfo = 18;
+  int64 type = 14;
+}

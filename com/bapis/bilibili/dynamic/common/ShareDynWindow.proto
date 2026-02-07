@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ShareDynWindow {
+  DynamicItem dynItem = 3;
+  string mainTitle = 1;
+  string subTitle = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message ToView {
+  ArcContentPool arcContentPool = 2;
+  ModuleInfo moduleInfo = 1;
+}

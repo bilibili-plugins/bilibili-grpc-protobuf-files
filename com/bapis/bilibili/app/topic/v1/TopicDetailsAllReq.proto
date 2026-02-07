@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicDetailsAllReq {
+  MapFieldLite extra = 11;
+  string fromSpmid = 10;
+  bool isTopDynamic = 12;
+  int32 localTime = 5;
+  int32 needRefresh = 7;
+  string offset = 3;
+  int32 pageSize = 4;
+  PlayerArgs playerArgs = 6;
+  int64 sortBy = 2;
+  string source = 8;
+  int32 topicDetailsExtMode = 9;
+  int64 topicId = 1;
+}

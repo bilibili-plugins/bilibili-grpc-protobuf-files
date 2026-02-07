@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.pgc.gateway.vega.v1;
+
+message FrameOption {
+  string ackOrigin = 6;
+  bool isAck = 4;
+  int64 mid = 7;
+  string reqId = 2;
+  int64 sequence = 3;
+  Status status = 5;
+  int64 vegaId = 1;
+}

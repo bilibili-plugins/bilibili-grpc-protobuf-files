@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message PlayurlParam {
+  int32 fnval = 3;
+  int32 fnver = 2;
+  int32 forceHost = 4;
+  int32 fourk = 5;
+  int32 qn = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlayDASH {
+  repeated Data audio = 3;
+  int32 duration = 1;
+  float minBufferTime = 2;
+}

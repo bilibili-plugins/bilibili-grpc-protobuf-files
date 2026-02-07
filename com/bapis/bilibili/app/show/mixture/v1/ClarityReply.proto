@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message ClarityReply {
+  bool isPlayStory = 1;
+  bool isSetPlayQn = 2;
+  int64 lastPlayQnValue = 3;
+}

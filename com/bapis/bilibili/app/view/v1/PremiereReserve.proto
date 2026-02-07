@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PremiereReserve {
+  int64 count = 2;
+  bool isFollow = 3;
+  int64 reserveId = 1;
+}

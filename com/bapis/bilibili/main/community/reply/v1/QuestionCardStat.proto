@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message QuestionCardStat {
+  int64 rightCnt = 1;
+  int64 rightMidCnt = 2;
+  int64 submitMidCnt = 3;
+}

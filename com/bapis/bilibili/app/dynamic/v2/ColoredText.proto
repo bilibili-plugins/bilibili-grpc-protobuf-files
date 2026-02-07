@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ColoredText {
+  Colors color = 2;
+  string text = 1;
+}

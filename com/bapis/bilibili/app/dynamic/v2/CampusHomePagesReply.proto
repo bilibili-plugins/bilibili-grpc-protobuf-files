@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusHomePagesReply {
+  CampusTop campusTop = 2;
+  int32 pageType = 3;
+  CampusRcmdTop top = 1;
+}

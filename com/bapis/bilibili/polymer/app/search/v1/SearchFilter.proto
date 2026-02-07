@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchFilter {
+  repeated Data filterEntries = 1;
+  int64 filterStyle = 2;
+}

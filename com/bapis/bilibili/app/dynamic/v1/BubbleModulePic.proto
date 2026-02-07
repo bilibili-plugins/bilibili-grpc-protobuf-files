@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message BubbleModulePic {
+  string picDay = 1;
+  int64 picHeight = 4;
+  string picNight = 2;
+  int64 picWidth = 3;
+  int64 roundedCornerRadius = 6;
+  bool roundedCorner = 5;
+}

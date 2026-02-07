@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusCollectionDetailReq {
+  string collectionId = 2;
+  string collectionType = 1;
+  int32 localTime = 6;
+  string selectedOidType = 4;
+  string selectedOid = 5;
+  string selectedOpusId = 3;
+}

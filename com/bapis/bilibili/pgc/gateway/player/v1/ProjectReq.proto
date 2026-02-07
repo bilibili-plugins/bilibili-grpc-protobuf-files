@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message ProjectReq {
+  int64 aid = 14;
+  int64 cid = 2;
+  int32 deviceType = 12;
+  int32 download = 6;
+  string dyeid = 18;
+  int64 epId = 1;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 7;
+  bool fourk = 8;
+  string fromSpmid = 10;
+  int32 protocol = 11;
+  int64 qn = 3;
+  string remoteIp = 16;
+  string remotePort = 17;
+  string sku = 15;
+  string spmid = 9;
+  bool useNewProjectCode = 13;
+}

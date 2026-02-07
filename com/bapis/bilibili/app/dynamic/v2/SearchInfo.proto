@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SearchInfo {
+  bool hasMore = 5;
+  repeated Data list = 2;
+  string title = 1;
+  int64 total = 4;
+  string trackId = 3;
+  string version = 6;
+}

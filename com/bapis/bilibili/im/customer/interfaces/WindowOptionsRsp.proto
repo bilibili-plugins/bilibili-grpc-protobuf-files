@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message WindowOptionsRsp {
+  WindowOptionEvaluation evaluation = 3;
+  WindowOptionGoods goods = 1;
+  WindowOptionHistory history = 5;
+  WindowOptionMessage message = 4;
+  WindowOptionOrder order = 2;
+}

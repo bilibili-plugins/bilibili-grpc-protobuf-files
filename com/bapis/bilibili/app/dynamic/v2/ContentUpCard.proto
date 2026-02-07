@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ContentUpCard {
+  string cardType = 5;
+  string desc = 4;
+  string follower = 2;
+  bool isRemoveAccount = 6;
+  string like = 3;
+  BasicUserInfoV2 user = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchUPRecommend {
+  int32 cardStyle = 2;
+  int64 id = 1;
+  repeated Data items = 6;
+  string moreText = 4;
+  string moreUrl = 3;
+  int32 showFollowButton = 5;
+  string title = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message InlineProgressBar {
+  string iconDragHash = 2;
+  string iconDrag = 1;
+  string iconStopHash = 4;
+  string iconStop = 3;
+}

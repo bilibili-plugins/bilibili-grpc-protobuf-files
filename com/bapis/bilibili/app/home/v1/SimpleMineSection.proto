@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message SimpleMineSection {
+  string id = 1;
+  repeated Data items = 3;
+  string name = 2;
+}

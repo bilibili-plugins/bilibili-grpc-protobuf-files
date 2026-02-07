@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message CommonMsgCard {
+  string bizType = 12;
+  int64 businessId = 6;
+  int64 counts = 10;
+  string coverImage = 7;
+  string coverText = 8;
+  int64 id = 1;
+  bool isUnread = 13;
+  int64 itemId = 3;
+  int64 msgTime = 4;
+  string nativeUri = 9;
+  int64 originId = 5;
+  RichTextContent richTextContent = 11;
+  repeated Data users = 2;
+}

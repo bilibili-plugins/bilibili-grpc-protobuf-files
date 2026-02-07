@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.v1;
+
+message ListReply {
+  string env = 1;
+  Host host = 4;
+  int64 listVersion = 3;
+  repeated Data pools = 2;
+}

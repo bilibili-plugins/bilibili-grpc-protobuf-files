@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PremiereText {
+  string guidanceEntry = 9;
+  string guidancePulldown = 8;
+  string introIconNight = 10;
+  string introIcon = 7;
+  string introTitle = 6;
+  string onlineIconDark = 5;
+  string onlineIcon = 4;
+  string onlineText = 3;
+  string subtitle = 2;
+  string title = 1;
+}

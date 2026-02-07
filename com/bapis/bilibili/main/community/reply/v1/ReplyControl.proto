@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ReplyControl {
+  int64 action = 1;
+  string bizScene = 24;
+  bool blocked = 9;
+  repeated Data cardLabels = 19;
+  string chargedDesc = 31;
+  string cmRecommendComponent = 29;
+  string contextFeature = 35;
+  string contractDesc = 22;
+  ReplyControl$EasterEggLabel easterEggLabel = 34;
+  bool foldPictures = 26;
+  bool followed = 8;
+  bool following = 7;
+  ReplyControl$GradeRecord gradeRecord = 32;
+  bool hasFoldedReply = 10;
+  bool hideNoteIcon = 28;
+  ReplyControl$InsertEffect insertEffect = 36;
+  bool invisible = 16;
+  bool isAdminTop = 13;
+  bool isAssist = 5;
+  bool isContractor = 17;
+  bool isFoldedReply = 11;
+  bool isNoteV2 = 27;
+  bool isNote = 18;
+  bool isUpTop = 12;
+  bool isVoteTop = 14;
+  string labelText = 6;
+  string location = 25;
+  int64 maxLine = 15;
+  string presetReplyText = 33;
+  bool showFollowBtn = 4;
+  string subReplyEntryText = 20;
+  string subReplyTitleText = 21;
+  bool supportShare = 38;
+  string timeDesc = 23;
+  int32 translationSwitch = 37;
+  bool upLike = 2;
+  bool upReply = 3;
+  ReplyControl$VoteOption voteOption = 30;
+}

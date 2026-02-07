@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message GptMsgContent {
+  RichTextMsgContent content = 1;
+  string gptBindQuery = 5;
+  int64 gptSessionId = 4;
+  string sessionClosedLine = 6;
+  bool showChange = 3;
+  bool showLike = 2;
+  int64 subType = 8;
+  int64 voiceTime = 9;
+  string voiceUrl = 7;
+}

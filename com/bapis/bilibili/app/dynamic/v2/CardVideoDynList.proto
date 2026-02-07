@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CardVideoDynList {
+  bool hasMore = 5;
+  string historyOffset = 3;
+  repeated Data list = 1;
+  string updateBaseline = 4;
+  int64 updateNum = 2;
+}

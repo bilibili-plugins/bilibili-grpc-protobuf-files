@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractSceneConfig {
+  InteractConnect interactConnect = 4;
+  int64 interactMaxUsers = 5;
+  InteractMode interactMode = 3;
+  string interactSceneId = 1;
+  InteractTemplate interactTemplate = 2;
+}

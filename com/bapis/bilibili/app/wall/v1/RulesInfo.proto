@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.wall.v1;
+
+message RulesInfo {
+  repeated Data rulesInfo = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message OgvGradeCard {
+  string buttonText = 3;
+  string gotoUrl = 4;
+  string reportParam = 5;
+  string subTitle = 2;
+  string title = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSteamHomeShareConfig {
+  string dynamicTitle = 2;
+  string jumpUrl = 4;
+  string logoUrl = 5;
+  string messageTitle = 1;
+  string text = 3;
+}

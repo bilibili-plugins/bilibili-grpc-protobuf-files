@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreePointV4 {
+  SharePlane sharePlane = 1;
+  TranslateButton translateButton = 3;
+  WatchLater watchLater = 2;
+}

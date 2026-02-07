@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message MsgId {
+  int64 msgKey = 1;
+  int64 sequenceNumber = 2;
+  int64 subSequenceNumber = 3;
+}

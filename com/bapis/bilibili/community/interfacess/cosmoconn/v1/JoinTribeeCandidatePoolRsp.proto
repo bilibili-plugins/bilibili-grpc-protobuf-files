@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message JoinTribeeCandidatePoolRsp {
+  int32 permType = 2;
+  string toast = 1;
+}

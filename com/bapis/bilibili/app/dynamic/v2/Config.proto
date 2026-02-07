@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Config {
+  int64 detailViewBits = 2;
+  MapFieldLite extraRouterKvs = 3;
+  bool storyVerticalExp = 1;
+}

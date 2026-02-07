@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message TextNode {
+  EmoteNode emote = 3;
+  FormulaNode formula = 5;
+  LinkNode link = 4;
+  int32 nodeType = 1;
+  WordNode word = 2;
+}

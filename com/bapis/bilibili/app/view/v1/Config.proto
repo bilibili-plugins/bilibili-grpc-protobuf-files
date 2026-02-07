@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Config {
+  string abtestSmallWindow = 8;
+  bool arcLandscapeStory = 22;
+  bool arcPlayStory = 19;
+  bool autoSwindow = 6;
+  bool dmTreasureBoxControl = 27;
+  int32 endPageFull = 5;
+  int32 endPageHalf = 4;
+  bool isAbsoluteTime = 10;
+  string landscapeIcon = 23;
+  bool landscapeStory = 21;
+  repeated Data listenerConf = 13;
+  int32 localPlay = 17;
+  bool newSwindow = 11;
+  bool playStory = 18;
+  bool popupInfo = 7;
+  int32 recThreePointStyle = 9;
+  int32 relateGifExp = 3;
+  bool relatesBiserial = 12;
+  bool relatesFeedPopup = 15;
+  string relatesFeedStyle = 14;
+  bool relatesHasNext = 16;
+  int32 relatesStyle = 2;
+  string relatesTitle = 1;
+  bool showListenButton = 24;
+  string storyIcon = 20;
+  int64 validShowM = 25;
+  int64 validShowN = 26;
+}

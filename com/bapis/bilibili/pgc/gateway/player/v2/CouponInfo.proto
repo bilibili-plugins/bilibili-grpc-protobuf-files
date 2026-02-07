@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message CouponInfo {
+  PopWin popWin = 2;
+  CouponToast toast = 1;
+}

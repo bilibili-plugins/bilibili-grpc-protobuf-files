@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message CommandDm {
+  string command = 5;
+  string content = 6;
+  string ctime = 9;
+  string extra = 11;
+  string idStr = 12;
+  int64 id = 1;
+  int64 mid = 3;
+  string mtime = 10;
+  int64 oid = 2;
+  int32 progress = 8;
+  int32 state = 7;
+  int32 type = 4;
+}

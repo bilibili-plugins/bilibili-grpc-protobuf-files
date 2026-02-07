@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.gaia.gw;
+
+message DeviceAppList {
+  string source = 1;
+  repeated Data systemAppList = 2;
+  repeated Data userAppList = 3;
+}

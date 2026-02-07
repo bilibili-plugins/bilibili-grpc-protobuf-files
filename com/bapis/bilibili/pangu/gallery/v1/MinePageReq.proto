@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message MinePageReq {
+  int64 uid = 1;
+}

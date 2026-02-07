@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message GetLastPolicyReply {
+  string detailJump = 2;
+  string shortDesc = 1;
+  string version = 3;
+}

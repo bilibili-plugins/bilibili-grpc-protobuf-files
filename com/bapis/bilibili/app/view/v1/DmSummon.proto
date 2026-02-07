@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message DmSummon {
+  string errMsg = 3;
+  string longContent = 4;
+  string shortContent = 5;
+  repeated Data title = 1;
+  string url = 2;
+}

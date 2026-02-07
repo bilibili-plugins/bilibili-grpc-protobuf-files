@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynOurCityReply {
+  int32 cityId = 7;
+  string cityName = 8;
+  int32 hasMore = 2;
+  repeated Data list = 5;
+  string offset = 1;
+  int32 style = 3;
+  string topButtonLabel = 6;
+  string topLabel = 4;
+}

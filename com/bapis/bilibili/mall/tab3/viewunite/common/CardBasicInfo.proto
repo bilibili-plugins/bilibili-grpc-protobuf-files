@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message CardBasicInfo {
+  Owner author = 11;
+  string coverGif = 10;
+  string cover = 3;
+  string desc = 2;
+  string fromSourceId = 8;
+  int64 fromSourceType = 7;
+  string fromSpmidSuffix = 14;
+  string from = 13;
+  int64 id = 12;
+  int64 materialId = 9;
+  string reportFlowData = 15;
+  string title = 1;
+  string trackId = 5;
+  string uniqueId = 6;
+  string uri = 4;
+}

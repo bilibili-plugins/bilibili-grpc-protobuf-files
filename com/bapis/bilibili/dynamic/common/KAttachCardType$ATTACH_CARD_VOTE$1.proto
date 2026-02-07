@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KAttachCardType$ATTACH_CARD_VOTE$1 {
+}

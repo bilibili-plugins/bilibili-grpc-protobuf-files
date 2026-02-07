@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message Tab {
+  Any adTabInfo = 11;
+  string background = 1;
+  int64 id = 10;
+  int64 oid = 3;
+  int32 otype = 2;
+  string pic = 9;
+  int32 style = 5;
+  string textColorSelected = 8;
+  string textColor = 7;
+  string text = 6;
+  string uri = 4;
+}

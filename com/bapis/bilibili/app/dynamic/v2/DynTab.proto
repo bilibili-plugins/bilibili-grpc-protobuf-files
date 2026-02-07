@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynTab {
+  string anchor = 10;
+  DynTab backUp = 13;
+  string bubble = 3;
+  int64 cityId = 5;
+  bool defaultTab = 8;
+  string internalTest = 11;
+  int32 isPopup = 6;
+  string jumpHomePop = 14;
+  Popup popup = 7;
+  int32 redPoint = 4;
+  string subTitle = 9;
+  string title = 1;
+  int32 type = 12;
+  string uri = 2;
+}

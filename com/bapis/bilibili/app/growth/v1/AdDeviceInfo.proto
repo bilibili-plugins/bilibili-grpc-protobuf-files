@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.growth.v1;
+
+message AdDeviceInfo {
+  string androidIdMd5 = 4;
+  string androidId = 3;
+  string imeiMd5 = 6;
+  string imei = 5;
+  string oaidMd5 = 2;
+  string oaid = 1;
+}

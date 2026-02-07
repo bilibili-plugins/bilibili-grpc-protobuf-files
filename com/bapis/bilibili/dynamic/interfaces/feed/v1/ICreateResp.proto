@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ICreateResp {
+  int64 dynId = 1;
+  int64 dynRid = 3;
+  int64 dynType = 2;
+}

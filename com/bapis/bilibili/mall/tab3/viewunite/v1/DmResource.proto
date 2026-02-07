@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message DmResource {
+  AttentionCard attention = 2;
+  repeated Data cards = 3;
+  repeated Data commandDms = 1;
+}

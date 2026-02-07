@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOgvCard {
+  string bgCover = 5;
+  string coverUri = 7;
+  string cover = 4;
+  string specialBgColor = 6;
+  string subTitle1 = 2;
+  string subTitle2 = 3;
+  string title = 1;
+}

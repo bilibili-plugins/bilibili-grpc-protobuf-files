@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message UpdateReserveStartTimeReq {
+  int64 newLivePlanStartTime = 2;
+  int64 sid = 1;
+  int64 type = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.probe.v1;
+
+message ProbeReply {
+  string content = 1;
+  int64 timestamp = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message ViewUgcAny {
+  AiExtra aiExtra = 8;
+  Dislike dislike = 2;
+  ElecRank elecRank = 6;
+  Experiment experiment = 9;
+  repeated Data pages = 5;
+  PremiereResource premiere = 1;
+  string shareSubtitle = 4;
+  string shortLink = 3;
+  UgcSeasonConf ugcSeasonConf = 7;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message y5 {
+}

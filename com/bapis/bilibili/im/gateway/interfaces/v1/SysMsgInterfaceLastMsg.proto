@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message SysMsgInterfaceLastMsg {
+  int64 id = 4;
+  string time = 3;
+  string title = 2;
+  int32 unread = 1;
+}

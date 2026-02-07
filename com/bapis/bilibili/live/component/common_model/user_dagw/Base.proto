@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.user_dagw;
+
+message Base {
+  string face = 2;
+  bool isMystery = 4;
+  string nameColorStr = 8;
+  int32 nameColor = 3;
+  string name = 1;
+  OfficialInfo officialInfo = 7;
+  AccountInfo originInfo = 6;
+  RiskCtrlInfo riskCtrlInfo = 5;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqGetSessions {
+  int64 aiUid = 11;
+  int64 beginTs = 1;
+  int64 endTs = 2;
+  int32 groupFold = 6;
+  int32 lessonsMode = 9;
+  int32 sessionType = 4;
+  repeated Data sids = 10;
+  int32 size = 3;
+  int32 sortRule = 7;
+  int32 teenagerMode = 8;
+  int32 unfollowFold = 5;
+}

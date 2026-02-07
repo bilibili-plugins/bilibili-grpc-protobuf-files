@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message VolumeInfo {
+  double measuredI = 1;
+  double measuredLra = 2;
+  double measuredThreshold = 4;
+  double measuredTp = 3;
+  MapFieldLite multiSceneArgs = 8;
+  double targetI = 6;
+  double targetOffset = 5;
+  double targetTp = 7;
+}

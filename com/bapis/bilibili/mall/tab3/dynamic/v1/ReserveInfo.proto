@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.dynamic.v1;
+
+message ReserveInfo {
+  string avatar = 10;
+  string desc = 12;
+  int64 isFollow = 11;
+  int64 livePlanStartTime = 13;
+  string liveRoomUrl = 16;
+  string liveTimeCapsule = 5;
+  string liveTimeFloat = 6;
+  int32 lotteryType = 7;
+  string prizeInfoText = 17;
+  UpActReserveRelationPrizeInfo prizeInfo = 8;
+  int64 roomId = 18;
+  int64 sid = 1;
+  MapFieldLite stateMap = 15;
+  int32 state = 14;
+  string title = 2;
+  string totalStr = 4;
+  int64 total = 3;
+  string upNameStr = 9;
+}

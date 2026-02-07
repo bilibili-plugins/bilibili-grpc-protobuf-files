@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmMaskWall {
+  int32 bizType = 5;
+  int32 contentType = 4;
+  string content = 3;
+  repeated Data contents = 6;
+  int64 end = 2;
+  int64 start = 1;
+}

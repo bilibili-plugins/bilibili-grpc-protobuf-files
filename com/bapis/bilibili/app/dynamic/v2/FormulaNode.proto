@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message FormulaNode {
+  ImgInlineCfg imageSpec = 2;
+  string imgUrl = 4;
+  WordNode latexContent = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message KReqGetMsg$$serializer$annotationImpl$kotlinx_serialization_protobuf_ProtoPacked$0 {
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.pegasus;
+
+message PegasusAutoPlay {
+  BoolValue doubleAffectedByServerSide = 4;
+  Int64Value double = 2;
+  BoolValue singleAffectedByServerSide = 3;
+  Int64Value single = 1;
+}

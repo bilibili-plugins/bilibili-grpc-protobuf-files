@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchGiantCard {
+  string content = 1;
+  string face = 7;
+  Feedback feedback = 10;
+  repeated Data imageUrls = 5;
+  int32 like = 3;
+  int64 mid = 6;
+  string name = 8;
+  string pubTime = 9;
+  int32 reply = 4;
+  int32 view = 2;
+}

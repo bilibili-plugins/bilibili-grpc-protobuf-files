@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Rights {
+  bool download = 3;
+  bool isChargingPay = 4;
+  bool noReprint = 2;
+  bool onlyVipDownload = 1;
+}

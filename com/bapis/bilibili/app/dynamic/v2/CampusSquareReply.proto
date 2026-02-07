@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusSquareReply {
+  CampusLabel button = 3;
+  repeated Data list = 2;
+  string title = 1;
+}

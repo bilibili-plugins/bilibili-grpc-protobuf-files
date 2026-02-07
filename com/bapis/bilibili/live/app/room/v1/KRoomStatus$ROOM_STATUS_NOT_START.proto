@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message KRoomStatus$ROOM_STATUS_NOT_START {
+}

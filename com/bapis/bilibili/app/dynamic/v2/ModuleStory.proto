@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleStory {
+  string cover = 6;
+  int64 foldState = 4;
+  repeated Data items = 2;
+  string publishText = 7;
+  bool showPublishEntrance = 3;
+  string title = 1;
+  string uri = 5;
+}

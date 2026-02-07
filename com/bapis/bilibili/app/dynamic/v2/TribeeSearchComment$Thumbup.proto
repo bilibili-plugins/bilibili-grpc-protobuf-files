@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchComment$Thumbup {
+  int64 count = 1;
+  bool isThumbup = 3;
+  string text = 2;
+}

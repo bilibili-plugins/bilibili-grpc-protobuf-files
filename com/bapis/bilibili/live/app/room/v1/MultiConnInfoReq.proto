@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message MultiConnInfoReq {
+  int64 anchorUid = 2;
+  string bizSessionId = 3;
+  int64 roomId = 1;
+}

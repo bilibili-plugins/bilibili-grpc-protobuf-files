@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message UpdateSingleReplyNotificationConfigReq {
+  int64 oid = 3;
+  int32 pushSwitch = 4;
+  int64 rpid = 1;
+  int64 type = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreatePageTopicInfo {
+  string hint = 3;
+  int64 topicId = 1;
+  string topicName = 2;
+}

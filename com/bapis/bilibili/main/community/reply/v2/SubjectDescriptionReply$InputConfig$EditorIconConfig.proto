@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$InputConfig$EditorIconConfig {
+  int32 cmBizHelperIconState = 8;
+  int32 elecIconState = 7;
+  int32 goodsIconState = 5;
+  int32 insertContentIconState = 6;
+  int32 noteIconState = 4;
+  int32 screenshotIconState = 1;
+  int32 uploadPictureIconState = 2;
+  int32 voteIconState = 3;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message OgvTitle {
+  BadgeInfo badgeInfo = 2;
+  TitleDeliveryButton channelRedirectEntryButton = 7;
+  int32 followVideoIsReserveLive = 4;
+  int32 isShowBtnAnimation = 3;
+  int64 reserveId = 5;
+  TitleDeliveryButton titleDeliveryButton = 6;
+  string titleImgNight = 9;
+  string titleImg = 8;
+  string title = 1;
+  int32 webpDynamicPicTitleCycleNum = 10;
+}

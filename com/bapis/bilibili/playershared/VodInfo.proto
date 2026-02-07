@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message VodInfo {
+  AIAudio aiAudio = 11;
+  string curLanguage = 13;
+  int32 curProductionType = 15;
+  repeated Data dashAudio = 6;
+  DolbyItem dolby = 7;
+  string format = 2;
+  LossLessItem lossLessItem = 9;
+  QnPanel qnPanel = 12;
+  int32 quality = 1;
+  MapFieldLite solution = 14;
+  repeated Data streamList = 5;
+  bool supportProject = 10;
+  int64 timelength = 3;
+  int32 videoCodecid = 4;
+  VolumeInfo volume = 8;
+}

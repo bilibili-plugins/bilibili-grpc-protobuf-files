@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DanmakuFlagConfig {
+  int32 recFlag = 1;
+  int32 recSwitch = 3;
+  string recText = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message SortOption {
+  bool isSwitching = 3;
+  int32 order = 1;
+  int32 sortField = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pagination;
+
+message PaginationReply {
+  string next = 1;
+  string prev = 2;
+}

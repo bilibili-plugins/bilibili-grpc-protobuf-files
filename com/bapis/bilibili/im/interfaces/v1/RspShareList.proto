@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message RspShareList {
+  int32 isAddressListEmpty = 2;
+  repeated Data sessionList = 1;
+}

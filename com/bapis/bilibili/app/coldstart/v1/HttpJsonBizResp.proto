@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.coldstart.v1;
+
+message HttpJsonBizResp {
+  string data = 1;
+}

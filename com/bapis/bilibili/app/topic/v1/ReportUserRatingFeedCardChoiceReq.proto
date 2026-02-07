@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message ReportUserRatingFeedCardChoiceReq {
+  int32 optionType = 2;
+  int64 topicId = 1;
+}

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.component.common_model.effect;
+
+message EffectConfigItem {
+  repeated Data bindGiftIds = 11;
+  H265Conf h265Conf = 21;
+  int64 horizontalMp4Crc32 = 16;
+  int64 horizontalMp4FileSize = 19;
+  string horizontalMp4Md5 = 13;
+  string horizontalMp4 = 7;
+  string horizontalSvga = 3;
+  int64 id = 9;
+  repeated Data planPlatform = 10;
+  int64 type = 1;
+  int64 verticalMp4Crc32 = 17;
+  int64 verticalMp4FileSize = 20;
+  string verticalMp4Md5 = 14;
+  string verticalMp4 = 8;
+  string verticalSvga = 4;
+  int64 webMp4Crc32 = 15;
+  int64 webMp4FileSize = 18;
+  string webMp4Json = 6;
+  string webMp4Md5 = 12;
+  string webMp4 = 5;
+  string webSvga = 2;
+}

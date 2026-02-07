@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Paragraph$ParagraphFormat {
+  int32 align = 1;
+  string combineHash = 4;
+  int32 headingType = 5;
+  Paragraph$IndentFormat indent = 3;
+  repeated Data listFormat = 2;
+}

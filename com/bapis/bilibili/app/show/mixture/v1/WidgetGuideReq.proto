@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message WidgetGuideReq {
+  int64 aid = 6;
+  string fromSpmid = 1;
+  int32 guideStyleVersion = 4;
+  int32 guideType = 2;
+  bool skipUpdate = 5;
+  int64 upMid = 3;
+}

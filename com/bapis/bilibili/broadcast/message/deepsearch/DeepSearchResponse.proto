@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message DeepSearchResponse {
+  string chatSummary = 6;
+  int32 code = 1;
+  DeepSearchContent deepContent = 5;
+  string queryId = 3;
+  string sessionId = 2;
+  int32 status = 4;
+  int64 timestamp = 7;
+}

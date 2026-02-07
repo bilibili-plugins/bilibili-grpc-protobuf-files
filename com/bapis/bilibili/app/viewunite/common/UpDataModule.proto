@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UpDataModule {
+  repeated Data extTabs = 1;
+  int32 height = 4;
+  int32 idx = 2;
+  string protocolUrl = 3;
+}

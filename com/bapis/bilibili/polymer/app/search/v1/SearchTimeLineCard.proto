@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchTimeLineCard {
+  int64 endTime = 6;
+  bool hasMore = 4;
+  int64 startTime = 5;
+  repeated Data timeLineEvents = 3;
+  int64 timeLineId = 1;
+  string timeLineTitle = 2;
+  WatchButton watchButton = 7;
+}

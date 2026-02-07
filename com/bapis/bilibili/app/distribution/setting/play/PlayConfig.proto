@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.play;
+
+message PlayConfig {
+  Int64Value colorFilter = 11;
+  BoolValue enableDanmakuInteraction = 4;
+  BoolValue enableDanmakuMonospaced = 8;
+  BoolValue enableEditSubtitle = 9;
+  BoolValue enableGravityRotateScreen = 7;
+  BoolValue enablePlayurlHTTPS = 3;
+  BoolValue enableSubtitle = 10;
+  BoolValue landscapeAutoStory = 13;
+  Int64Value playerCodecModeKey = 6;
+  BoolValue shouldAutoFullScreen = 2;
+  BoolValue shouldAutoPlay = 1;
+  BoolValue shouldAutoStory = 12;
+  Int64Value smallScreenStatus = 5;
+  Int64Value volumeBalanceMode = 15;
+  BoolValue volumeBalance = 14;
+}

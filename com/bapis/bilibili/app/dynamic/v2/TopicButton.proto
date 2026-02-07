@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicButton {
+  string icon = 1;
+  string jumpUri = 3;
+  bool redDot = 4;
+  string title = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message MessageToastRsp {
+  string content = 1;
+  string title = 2;
+  int32 toastType = 3;
+}

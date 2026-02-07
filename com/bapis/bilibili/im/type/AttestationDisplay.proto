@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message AttestationDisplay {
+  CommonInfo commonInfo = 2;
+  string desc = 5;
+  string icon = 4;
+  SpliceInfo spliceInfo = 3;
+  int32 type = 1;
+}

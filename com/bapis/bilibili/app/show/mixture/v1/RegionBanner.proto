@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionBanner {
+  string cover = 5;
+  int64 id = 6;
+  int64 index = 4;
+  string subTitle = 2;
+  string title = 1;
+  string url = 3;
+}

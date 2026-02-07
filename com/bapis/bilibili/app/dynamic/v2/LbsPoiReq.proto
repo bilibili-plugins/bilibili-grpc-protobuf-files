@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LbsPoiReq {
+  int32 localTime = 5;
+  string offset = 3;
+  PlayerArgs playerArgs = 6;
+  string poi = 1;
+  int32 refreshType = 4;
+  int64 type = 2;
+}

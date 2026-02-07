@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavFolderAction {
+  int32 action = 3;
+  int64 fid = 1;
+  int32 folderType = 2;
+}

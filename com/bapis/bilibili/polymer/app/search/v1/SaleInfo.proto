@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SaleInfo {
+  PurchaseButton button = 6;
+  string desc = 5;
+  string iconNight = 2;
+  string icon = 1;
+  ReasonStyle label = 4;
+  string tipsId = 9;
+  string title = 3;
+  string vipStatus = 7;
+  string vipType = 8;
+}

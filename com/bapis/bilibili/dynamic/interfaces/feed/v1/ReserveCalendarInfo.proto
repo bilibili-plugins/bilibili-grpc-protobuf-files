@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ReserveCalendarInfo {
+  string bussinessId = 5;
+  string description = 4;
+  int64 endTs = 3;
+  int64 startTs = 2;
+  string title = 1;
+  string url = 6;
+}

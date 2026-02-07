@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message DataControl {
+  bool needWatchProgress = 1;
+}

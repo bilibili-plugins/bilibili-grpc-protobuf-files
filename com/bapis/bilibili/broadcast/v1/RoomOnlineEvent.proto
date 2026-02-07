@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message RoomOnlineEvent {
+  int32 allOnline = 2;
+  int32 online = 1;
+}

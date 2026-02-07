@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchCommentCard {
+  AvatarItem avatarInfo = 1;
+  string badge = 12;
+  string content = 5;
+  string iconNight = 14;
+  string icon = 13;
+  int64 like = 6;
+  int64 mid = 2;
+  string name = 3;
+  string prefix = 8;
+  string pubTime = 4;
+  string replyText = 7;
+  int64 row = 10;
+  string title = 9;
+  string upUri = 11;
+}

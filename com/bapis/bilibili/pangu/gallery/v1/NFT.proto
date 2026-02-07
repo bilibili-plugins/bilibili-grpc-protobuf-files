@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message NFT {
+  string detailUrl = 6;
+  Display display = 5;
+  string issuer = 4;
+  int64 itemId = 8;
+  string itemName = 2;
+  string nftId = 1;
+  int32 nftStatus = 7;
+  string serialNumber = 3;
+}

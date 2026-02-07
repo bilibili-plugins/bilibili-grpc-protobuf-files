@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message HeadClickAreaRow {
+  repeated Data rects = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message AnswerQuestionResp {
+  string bottomText = 4;
+  AnswerQuestionResp$MemberPassedPopup memberPassedPopup = 3;
+  bool memberPassed = 2;
+  bool passed = 1;
+  QuestionCardStat stat = 5;
+}

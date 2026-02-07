@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeriesItem {
+  string content = 4;
+  bool gray = 3;
+  string label = 5;
+  int64 seasonId = 1;
+  bool selected = 2;
+  int32 state = 6;
+}

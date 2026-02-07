@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1.plugin;
+
+message PhysicalOrientationV2 {
+  repeated Data angle = 2;
+  repeated Data animations = 3;
+  string type = 1;
+}

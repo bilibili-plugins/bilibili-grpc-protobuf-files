@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message FeedCardUserRating$UserRatingOption {
+  string icon = 1;
+  string text = 2;
+  int32 type = 3;
+}

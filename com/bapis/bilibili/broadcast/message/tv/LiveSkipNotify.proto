@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message LiveSkipNotify {
+  int64 liveId = 1;
+}

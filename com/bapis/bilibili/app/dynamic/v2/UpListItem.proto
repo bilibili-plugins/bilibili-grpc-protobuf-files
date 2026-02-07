@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message UpListItem {
+  UserItemStyle displayStyleDay = 7;
+  UserItemStyle displayStyleNight = 8;
+  string face = 2;
+  string handle = 21;
+  bool hasUpdate = 1;
+  bool isRecall = 13;
+  string liveCover = 16;
+  string liveRcmdReason = 15;
+  int32 liveState = 10;
+  string name = 3;
+  string personalExtra = 17;
+  int64 pos = 5;
+  bool separator = 11;
+  int64 styleId = 9;
+  repeated Data textBadge = 20;
+  string trackId = 19;
+  int64 uid = 4;
+  string updateIconType = 18;
+  IconBadge updateIcon = 14;
+  string uri = 12;
+  int32 userItemType = 6;
+}

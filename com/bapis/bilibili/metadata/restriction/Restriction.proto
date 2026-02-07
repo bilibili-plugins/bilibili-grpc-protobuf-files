@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.restriction;
+
+message Restriction {
+  bool basicMode = 6;
+  bool disableRcmd = 5;
+  bool lessonsMode = 2;
+  int32 mode = 3;
+  bool overseasTeenagersMode = 8;
+  bool review = 4;
+  int32 teenagersAge = 7;
+  bool teenagersMode = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message LaunchedActivity {
+  repeated Data activities = 2;
+  string moduleTitle = 1;
+  ShowMoreLaunchedActivity showMore = 3;
+}

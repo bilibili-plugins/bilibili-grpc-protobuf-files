@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ContentOpusCard {
+  string authorName = 5;
+  string badge = 11;
+  OnlyFansBlock block = 16;
+  ContentOpusCard$CardBadge cardBadge = 15;
+  string cardType = 12;
+  string content = 3;
+  bool isOnlyFans = 14;
+  string jumpUrl = 4;
+  string linkShowText = 13;
+  int64 opusId = 1;
+  repeated Data pics = 10;
+  string publishText = 6;
+  string reply = 9;
+  string title = 2;
+  string view = 7;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution;
+
+message Int32Value {
+  int32 defaultValue = 3;
+  string exp = 4;
+  int64 lastModified = 2;
+  int32 value = 1;
+}

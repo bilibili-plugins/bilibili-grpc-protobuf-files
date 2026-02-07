@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message MsgSummary {
+  bool isGroupOwner = 4;
+  string prefixText = 3;
+  int32 prefixType = 2;
+  string rawMsg = 1;
+}

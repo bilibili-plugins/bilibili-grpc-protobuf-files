@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message MessagesReply {
+  Input input = 7;
+  repeated Data message = 4;
+  FeedPaginationReply page = 5;
+  int64 permission = 3;
+  Button setting = 6;
+  string title = 1;
+  int64 upMid = 2;
+}

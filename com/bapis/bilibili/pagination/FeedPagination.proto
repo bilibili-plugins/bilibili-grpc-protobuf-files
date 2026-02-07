@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pagination;
+
+message FeedPagination {
+  bool isRefresh = 3;
+  string offset = 2;
+  int32 pageSize = 1;
+}

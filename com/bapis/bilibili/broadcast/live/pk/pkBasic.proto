@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message pkBasic {
+  string bizSessionId = 2;
+  int64 endTime = 9;
+  int64 initId = 3;
+  int64 initUid = 4;
+  string mainPage = 14;
+  int64 mutiPkType = 15;
+  int64 pkId = 1;
+  int64 punishEndTime = 10;
+  string punishText = 12;
+  MapFieldLite satelliteInfo = 18;
+  int64 seasonId = 16;
+  int64 sprintDuration = 11;
+  int64 startTime = 8;
+  string statusMsg = 17;
+  int64 status = 5;
+  int64 subType = 7;
+  string templateId = 13;
+  int64 type = 6;
+}

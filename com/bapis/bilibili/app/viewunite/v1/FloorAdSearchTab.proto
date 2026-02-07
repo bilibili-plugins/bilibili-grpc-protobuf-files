@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message FloorAdSearchTab {
+  string butTitle = 2;
+  string butUrl = 3;
+  string title = 1;
+}

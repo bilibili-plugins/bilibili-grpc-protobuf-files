@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message Vip {
+  int32 isVip = 5;
+  VipLabel label = 4;
+  int32 themeType = 3;
+  int32 type = 1;
+  int32 vipStatus = 2;
+}

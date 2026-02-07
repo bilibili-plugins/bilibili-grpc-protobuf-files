@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionIcon {
+  string img = 1;
+  int64 rid = 5;
+  string title = 2;
+  int64 uniqueId = 4;
+  string url = 3;
+}

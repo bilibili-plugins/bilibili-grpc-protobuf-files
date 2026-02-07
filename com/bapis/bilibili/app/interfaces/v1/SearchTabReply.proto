@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message SearchTabReply {
+  int64 focus = 1;
+  repeated Data tabs = 2;
+}

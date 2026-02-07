@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostOpus2TribeeOptionsReq {
+  int64 defaultTribeeId = 1;
+  int64 opusId = 2;
+}

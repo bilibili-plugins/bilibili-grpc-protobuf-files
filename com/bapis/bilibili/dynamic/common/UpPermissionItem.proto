@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message UpPermissionItem {
+  int64 hasRedDot = 8;
+  string icon = 5;
+  string jumpUrl = 6;
+  int32 permission = 2;
+  string subtitle = 4;
+  string title = 3;
+  string toast = 7;
+  int32 type = 1;
+}

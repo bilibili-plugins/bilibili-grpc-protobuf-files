@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Paragraph$ListFormat {
+  int32 level = 1;
+  repeated Data orderStyle = 4;
+  int32 order = 2;
+  string theme = 3;
+}

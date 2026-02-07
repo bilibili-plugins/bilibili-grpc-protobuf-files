@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message SubReq {
+  bool pauseSend = 3;
+  repeated Data subUsers = 2;
+}

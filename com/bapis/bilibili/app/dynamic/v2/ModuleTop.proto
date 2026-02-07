@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleTop {
+  MdlDynArchive archive = 2;
+  ModuleAuthor author = 3;
+  bool hiddenNavBar = 4;
+  ModuleAuthorForSubscribe subscribeAuthor = 5;
+  repeated Data tpList = 1;
+}

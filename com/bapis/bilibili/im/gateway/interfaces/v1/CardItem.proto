@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message CardItem {
+  int64 businessId = 4;
+  string coverDesc = 8;
+  string coverImage = 9;
+  string coverText = 10;
+  string coverTitle = 7;
+  int64 id = 1;
+  int64 itemId = 2;
+  string nativeUri = 11;
+  int64 originId = 3;
+}

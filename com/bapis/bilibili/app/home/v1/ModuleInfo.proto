@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message ModuleInfo {
+  More more = 1;
+  int64 pos = 3;
+  string title = 2;
+}

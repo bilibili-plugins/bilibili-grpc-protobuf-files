@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionMainReply {
+  repeated Data extraInfo = 8;
+  FilterConfig filterConfig = 4;
+  repeated Data outsideItem = 7;
+  PaginationParams paginationParams = 1;
+  QuickLinkConfig quickLinkConfig = 3;
+  repeated Data sessions = 5;
+  repeated Data threeDotItems = 6;
+  UpdateSessionParams updateSessionParams = 2;
+}

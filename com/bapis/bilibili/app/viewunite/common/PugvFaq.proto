@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvFaq {
+  repeated Data contents = 2;
+  PugvSeasonNav nav = 1;
+}

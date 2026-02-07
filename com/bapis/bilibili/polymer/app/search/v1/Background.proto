@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Background {
+  string bgPicUrl = 2;
+  string fgPicUrl = 3;
+  int32 show = 1;
+}

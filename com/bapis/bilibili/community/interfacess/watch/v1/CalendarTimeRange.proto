@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.watch.v1;
+
+message CalendarTimeRange {
+  int64 beginDate = 1;
+  int64 endDate = 2;
+}

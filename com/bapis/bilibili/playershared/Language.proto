@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message Language {
+  Badge badge = 5;
+  string bubbleText = 9;
+  string closeToast = 4;
+  string defaultTitle = 6;
+  repeated Data items = 2;
+  string listDesc = 8;
+  string listTitle = 7;
+  string openToast = 3;
+  bool support = 1;
+}

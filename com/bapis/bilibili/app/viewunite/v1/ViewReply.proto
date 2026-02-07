@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ViewReply {
+  Arc arc = 2;
+  CM cm = 7;
+  ECodeConfig ecodeConfig = 9;
+  int32 ecode = 8;
+  Owner owner = 4;
+  MapFieldLite report = 10;
+  ReqUser reqUser = 3;
+  Any supplement = 6;
+  Tab tab = 5;
+  ViewBase viewBase = 1;
+}

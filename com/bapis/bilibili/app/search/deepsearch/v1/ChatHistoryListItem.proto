@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message ChatHistoryListItem {
+  int64 newChatTime = 3;
+  string sessionId = 1;
+  string title = 2;
+}

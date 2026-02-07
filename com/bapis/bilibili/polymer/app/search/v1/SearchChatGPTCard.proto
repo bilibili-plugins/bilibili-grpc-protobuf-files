@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchChatGPTCard {
+  bool autoExpand = 9;
+  string backgroundLight = 4;
+  string backgroundNight = 5;
+  Colors betaTextColor = 11;
+  string betaText = 6;
+  Disclaimer disclaimer = 7;
+  Feedback feedback = 10;
+  repeated Data loadingIconLight = 2;
+  repeated Data loadingIconNight = 3;
+  string sessionId = 1;
+  string title = 8;
+}

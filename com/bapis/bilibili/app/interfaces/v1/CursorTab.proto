@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message CursorTab {
+  string business = 1;
+  bool focus = 4;
+  string name = 2;
+  string router = 3;
+}

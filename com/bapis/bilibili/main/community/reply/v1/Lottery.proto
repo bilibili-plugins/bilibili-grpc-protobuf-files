@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Lottery {
+  Content content = 8;
+  int64 ctime = 7;
+  int64 lotteryId = 1;
+  int64 lotteryMid = 3;
+  int64 lotteryStatus = 2;
+  int64 lotteryTime = 4;
+  Member member = 9;
+  int64 oid = 5;
+  ReplyControl replyControl = 10;
+  int64 type = 6;
+}

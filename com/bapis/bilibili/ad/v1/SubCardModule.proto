@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message SubCardModule {
+  string adImgTag = 23;
+  string amountNumber = 5;
+  string avatar = 6;
+  AdButtonDto button = 8;
+  string callupUrl = 21;
+  repeated Data chooseButtonList = 18;
+  repeated Data commentList = 15;
+  int64 componentId = 19;
+  string desc = 3;
+  string extraImg = 17;
+  ForwardReply forwardReply = 25;
+  FullText fullText = 24;
+  GiftCardInfo giftCardInfo = 16;
+  string goodsPrice = 14;
+  string icon = 2;
+  string jumpUrl = 22;
+  string nightIcon = 27;
+  string oriPrice = 29;
+  int64 popDelayTime = 20;
+  string priceDesc = 28;
+  string priceSymbol = 13;
+  repeated Data qualityInfos = 10;
+  string rankStars = 4;
+  string starRating = 11;
+  string subDesc = 12;
+  string subcardType = 1;
+  repeated Data tagInfos = 9;
+  string title = 7;
+  WxProgramInfo wxProgramInfo = 26;
+}

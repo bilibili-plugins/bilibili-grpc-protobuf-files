@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message KRecentRecReasonEnum$RECENT_REC_REASON_LOOK_BACK_MORE$1 {
+}

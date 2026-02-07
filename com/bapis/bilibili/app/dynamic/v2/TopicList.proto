@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicList {
+  TopicButton actButton = 3;
+  int32 expStyle = 7;
+  DynamicItem hintMessage = 9;
+  TopicButton moreButton = 4;
+  string serverInfo = 5;
+  string subTitle = 6;
+  string titleIcon = 8;
+  string title = 1;
+  repeated Data topicListItem = 2;
+}

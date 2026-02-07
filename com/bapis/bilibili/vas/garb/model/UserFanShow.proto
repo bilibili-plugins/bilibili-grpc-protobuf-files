@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message UserFanShow {
+  FanNumColorFormat colorFormat = 7;
+  string color = 3;
+  int64 isFan = 1;
+  string name = 4;
+  string numDesc = 5;
+  string numPrefix = 6;
+  int64 number = 2;
+}

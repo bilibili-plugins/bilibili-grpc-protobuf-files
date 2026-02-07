@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message BKArchive {
+  int32 copyright = 10;
+  string cover = 3;
+  string desc = 4;
+  string displayedOid = 9;
+  int64 duration = 5;
+  int64 oid = 1;
+  int64 publish = 8;
+  int32 rid = 6;
+  BKArcRights rights = 11;
+  string rname = 7;
+  string title = 2;
+}

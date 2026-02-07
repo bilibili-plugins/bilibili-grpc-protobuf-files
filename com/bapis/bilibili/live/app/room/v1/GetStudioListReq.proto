@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message GetStudioListReq {
+  int64 roomId = 1;
+}

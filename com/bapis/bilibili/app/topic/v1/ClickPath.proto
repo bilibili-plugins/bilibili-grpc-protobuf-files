@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message ClickPath {
+  string path = 2;
+  int32 type = 1;
+  string underlying = 3;
+  string wxProId = 5;
+  string wxProName = 4;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message FragmentVideoInfo {
+  Dimension dimension = 4;
+  FragmentInfo fragmentInfo = 1;
+  PlayArcConf playArcConf = 3;
+  bool playableStatus = 7;
+  int64 timelength = 5;
+  int32 videoType = 6;
+  VodInfo vodInfo = 2;
+}

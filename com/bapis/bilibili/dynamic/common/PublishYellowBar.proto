@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message PublishYellowBar {
+  string icon = 3;
+  string text = 1;
+  string url = 2;
+}

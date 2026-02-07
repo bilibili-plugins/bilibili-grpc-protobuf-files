@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayURLReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  int32 download = 6;
+  int32 fnval = 5;
+  int32 fnver = 4;
+  int32 forceHost = 7;
+  bool fourk = 8;
+  string fromSpmid = 10;
+  int64 qn = 3;
+  string spmid = 9;
+}

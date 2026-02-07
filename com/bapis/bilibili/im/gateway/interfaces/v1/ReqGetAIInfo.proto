@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message ReqGetAIInfo {
+  int64 aiUid = 1;
+  int64 guestId = 3;
+  int64 uid = 2;
+}

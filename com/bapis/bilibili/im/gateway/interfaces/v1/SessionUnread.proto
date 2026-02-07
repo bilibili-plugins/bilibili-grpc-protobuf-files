@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message SessionUnread {
+  int32 accountUnread = 13;
+  int32 bizMsgFollowUnread = 7;
+  int32 bizMsgUnfollowUnread = 6;
+  int32 customUnread = 9;
+  int32 dustbinPushMsg = 4;
+  int32 dustbinUnread = 5;
+  int32 followUnread = 2;
+  int32 huahuoUnread = 8;
+  bool strangerPushMsg = 12;
+  int32 strangerUnread = 11;
+  int32 systemUnread = 10;
+  int32 unfollowPushMsg = 3;
+  int32 unfollowUnread = 1;
+}

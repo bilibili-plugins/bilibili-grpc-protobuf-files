@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.govern.v1;
+
+message QoeResult {
+  string optionCustomFeedback = 4;
+  repeated Data optionDescs = 3;
+  float optionScore = 1;
+  string optionTitle = 2;
+}

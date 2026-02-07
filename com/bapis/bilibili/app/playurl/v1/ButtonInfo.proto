@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ButtonInfo {
+  int32 actionType = 7;
+  BadgeInfo badge = 12;
+  string bgColorNight = 5;
+  string bgColor = 4;
+  GradientColor bgGradientColor = 11;
+  string frameColor = 9;
+  string icon = 10;
+  string link = 6;
+  Report report = 8;
+  string textColorNight = 3;
+  string textColor = 2;
+  string text = 1;
+}

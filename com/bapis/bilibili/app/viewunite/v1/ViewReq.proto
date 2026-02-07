@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message ViewReq {
+  string adExtra = 13;
+  int64 aid = 1;
+  string bizExtra = 12;
+  string bvid = 2;
+  MapFieldLite extraContent = 9;
+  string fromScene = 14;
+  string fromSpmid = 5;
+  string from = 3;
+  int32 playCtrl = 15;
+  string playMode = 10;
+  PlayerArgs playerArgs = 7;
+  Relate relate = 11;
+  string sessionId = 6;
+  string spmid = 4;
+  string trackId = 8;
+}

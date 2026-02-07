@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeExtInfo {
+  int64 categoryId = 1;
+  string categoryName = 2;
+  string categoryUri = 3;
+}

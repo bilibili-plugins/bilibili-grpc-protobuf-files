@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel.report;
+
+message RtcAudioReceiverInfo {
+  double audioLevel = 2;
+  int64 bytesReceived = 3;
+  int64 concealedSamples = 4;
+  int64 concealmentEvents = 5;
+  int64 delayedPacketOutageSamples = 23;
+  double estimatedPlayoutTimestamp = 7;
+  int64 fecPacketsDiscarded = 8;
+  int64 fecPacketsReceived = 9;
+  int64 headerBytesReceived = 10;
+  int64 insertedSamplesForDeceleration = 11;
+  int32 interruptionCount = 24;
+  double jitterBufferDelay = 13;
+  int64 jitterBufferEmittedCount = 14;
+  int64 jitterBufferFlushes = 26;
+  double jitterBufferTargetDelay = 27;
+  double jitter = 12;
+  double lastPacketReceivedTimestamp = 15;
+  bool mute = 30;
+  int64 packetsDiscarded = 16;
+  int64 packetsLost = 17;
+  int64 packetsReceived = 18;
+  double relativePacketArrivalDelay = 28;
+  int64 removedSamplesForAcceleration = 19;
+  int64 silentConcealedSamples = 6;
+  int32 ssrc = 1;
+  int32 streamId = 29;
+  double totalAudioEnergy = 20;
+  double totalInterruptionDuration = 25;
+  double totalSamplesDuration = 21;
+  int64 totalSamplesReceived = 22;
+  string trackId = 31;
+  int64 uid = 32;
+}

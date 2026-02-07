@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleAdditional {
+  bool needWriteCalender = 11;
+  int64 rid = 7;
+  int32 type = 1;
+}

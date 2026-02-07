@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message EmoteNode {
+  bool allowAnimated = 6;
+  int32 clickAction = 7;
+  string emoteUrlDark = 10;
+  string emoteUrl = 2;
+  EmoteSize emoteWidth = 3;
+  ImgInlineCfg inlineImgCfg = 5;
+  bool isAvatar = 11;
+  bool isInlineImg = 4;
+  string previewNameJumpUri = 9;
+  string previewName = 8;
+  WordNode rawText = 1;
+}

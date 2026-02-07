@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusMngQuizDetail {
+  string auditMessage = 6;
+  int32 auditStatus = 5;
+  string correctAnswer = 3;
+  string question = 2;
+  int64 quizId = 1;
+  repeated Data wrongAnswerList = 4;
+}

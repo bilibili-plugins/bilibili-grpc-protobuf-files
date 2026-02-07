@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ArticleSearchItem {
+  repeated Data covers = 3;
+  string title = 1;
+  string upNickname = 2;
+}

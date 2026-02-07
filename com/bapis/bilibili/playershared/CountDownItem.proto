@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message CountDownItem {
+  int64 foldCountdown = 1;
+  TextInfo subtitle = 3;
+  TextInfo title = 2;
+}

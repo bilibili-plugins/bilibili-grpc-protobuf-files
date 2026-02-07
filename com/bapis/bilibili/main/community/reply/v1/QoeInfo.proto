@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message QoeInfo {
+  int64 displayRank = 7;
+  string feedbackTitle = 5;
+  Form form = 8;
+  int64 id = 1;
+  repeated Data scoreItems = 6;
+  int32 style = 3;
+  string title = 4;
+  int32 type = 2;
+}

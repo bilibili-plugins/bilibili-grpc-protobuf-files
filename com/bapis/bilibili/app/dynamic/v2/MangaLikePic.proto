@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MangaLikePic {
+  int64 height = 3;
+  ProtectedStaticResource pic = 1;
+  int64 width = 2;
+}

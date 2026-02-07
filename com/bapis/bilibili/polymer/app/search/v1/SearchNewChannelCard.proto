@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchNewChannelCard {
+  CardLayout cardLayout = 10;
+  ChannelLabel channelButton = 7;
+  ChannelLabel channelLabel1 = 5;
+  ChannelLabel channelLabel2 = 6;
+  string cover = 2;
+  string designType = 8;
+  int64 id = 3;
+  repeated Data items = 9;
+  string title = 1;
+  string typeIcon = 4;
+}

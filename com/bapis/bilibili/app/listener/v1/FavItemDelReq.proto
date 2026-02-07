@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavItemDelReq {
+  int64 fid = 1;
+  int32 folderType = 2;
+  bool isFastDelFav = 5;
+}

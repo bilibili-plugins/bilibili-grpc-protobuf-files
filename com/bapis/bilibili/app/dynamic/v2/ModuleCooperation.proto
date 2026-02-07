@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleCooperation {
+  string floatTitle = 5;
+  IconButton moreBtn = 3;
+  string oid = 1;
+  repeated Data tpList = 4;
+  repeated Data upList = 2;
+}

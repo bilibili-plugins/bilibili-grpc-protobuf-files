@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message GetEditDynInfoWebRsp {
+  CreateAttachCard attachCard = 3;
+  CreatePageCommercialInfo commercial = 4;
+  string editAlertMsg = 6;
+  int64 onlyFans = 5;
+  Opus opus = 11;
+  string origDynIdStr = 8;
+  PermissionsWeb permissions = 2;
+  string preDynIdStr = 9;
+  int64 remainEditTimes = 7;
+  PublishWebSettings settings = 1;
+  repeated Data tribeeCategories = 12;
+  TribeePublishConfig tribeeSetting = 10;
+}

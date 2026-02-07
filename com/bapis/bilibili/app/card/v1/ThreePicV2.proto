@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message ThreePicV2 {
+  Avatar avatar = 15;
+  string badge = 12;
+  Base base = 1;
+  string coverRightBackgroundColor = 11;
+  int32 coverRightIcon = 10;
+  string coverRightText = 9;
+  string desc = 14;
+  string leftCover = 2;
+  ReasonStyle rcmdReasonStyle = 16;
+  string rcmdReason = 13;
+}

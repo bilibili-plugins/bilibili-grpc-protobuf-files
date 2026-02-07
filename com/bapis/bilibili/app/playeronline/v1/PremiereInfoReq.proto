@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playeronline.v1;
+
+message PremiereInfoReq {
+  int64 aid = 1;
+}

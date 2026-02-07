@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v2;
+
+message SubjectDescriptionReply$EmoteConfig {
+  bool jumpEmoteDisabled = 1;
+  repeated Data suggestEmotes = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CommonShareCardInfo {
+  int64 bizId = 3;
+  int64 bizType = 2;
+  int64 sketchId = 1;
+}

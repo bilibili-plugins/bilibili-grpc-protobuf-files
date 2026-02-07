@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message PlayAbilityExtConf {
+  bool allowCloseSubtitle = 1;
+  CastTips castTips = 3;
+  FreyaConfig freyaConfig = 2;
+}

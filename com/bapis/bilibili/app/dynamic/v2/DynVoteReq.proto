@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynVoteReq {
+  string dynamicId = 4;
+  bool share = 5;
+  int32 status = 3;
+  int64 voteId = 1;
+  repeated Data votes = 2;
+}

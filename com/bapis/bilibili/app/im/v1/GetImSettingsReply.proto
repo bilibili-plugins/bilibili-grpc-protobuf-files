@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message GetImSettingsReply {
+  string pageTitle = 1;
+  MapFieldLite settings = 2;
+}

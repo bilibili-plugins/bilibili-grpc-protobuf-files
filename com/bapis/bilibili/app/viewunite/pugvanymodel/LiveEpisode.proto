@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message LiveEpisode {
+  bool beSubscriptionPrebook = 6;
+  int64 episodeId = 1;
+  EpisodeLabel episodeLabel = 12;
+  int64 index = 7;
+  bool jump = 3;
+  int64 liveTeacherMid = 4;
+  string playWaySubtitle = 9;
+  EpisodeSelectionLabel selectionLabel = 13;
+  bool showLockIcon = 11;
+  bool showSubscriptionPrebookButton = 5;
+  int32 status = 2;
+  string subtitle = 10;
+  string title = 8;
+}

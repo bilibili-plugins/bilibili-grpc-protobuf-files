@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeBaseInfo {
+  bool isJoined = 2;
+  bool isNewCodePopup = 3;
+  bool isNewCodeRedDot = 4;
+  string newCodePopupText = 5;
+  TribeeSearchBar searchBar = 6;
+  TribeeDesc tribeeInfo = 1;
+}

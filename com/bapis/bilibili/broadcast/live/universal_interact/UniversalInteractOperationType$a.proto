@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractOperationType$a {
+}

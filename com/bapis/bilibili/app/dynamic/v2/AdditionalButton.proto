@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message AdditionalButton {
+  AdditionalButtonStyle check = 5;
+  int32 clickType = 7;
+  AdditionalButtonStyle jumpStyle = 2;
+  string jumpUrl = 3;
+  int32 status = 6;
+  int32 type = 1;
+  AdditionalButtonStyle uncheck = 4;
+}

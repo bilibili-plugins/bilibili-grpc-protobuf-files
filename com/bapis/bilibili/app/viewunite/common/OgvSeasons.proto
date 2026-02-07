@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message OgvSeasons {
+  repeated Data serialSeason = 2;
+  int32 style = 3;
+  string title = 1;
+}

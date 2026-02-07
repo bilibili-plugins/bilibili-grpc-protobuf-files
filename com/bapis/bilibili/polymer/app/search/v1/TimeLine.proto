@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message TimeLine {
+  int32 color = 3;
+  int64 endSecond = 6;
+  string icon = 1;
+  int32 initPosition = 7;
+  repeated Data items = 9;
+  int32 segment = 4;
+  int64 startSecond = 5;
+  string title = 2;
+  int32 type = 8;
+}

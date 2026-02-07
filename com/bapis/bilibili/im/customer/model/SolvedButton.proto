@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message SolvedButton {
+  string title = 2;
+  int32 value = 1;
+}

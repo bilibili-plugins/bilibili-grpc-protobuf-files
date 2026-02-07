@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleAuthorForward {
+  string faceUrl = 6;
+  string ptimeLabelText = 4;
+  Relation relation = 7;
+  bool showFollow = 5;
+  repeated Data title = 1;
+  repeated Data tpList = 8;
+  int64 uid = 3;
+  string url = 2;
+}

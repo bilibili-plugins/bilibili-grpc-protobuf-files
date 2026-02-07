@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message OGVShare {
+  int64 aid = 1;
+  int64 cid = 2;
+  int64 epid = 5;
+  int64 seasonId = 3;
+  int64 seasonType = 4;
+  string shareId = 6;
+  string shareOrigin = 7;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message OnePicV3 {
+  string badge = 7;
+  Base base = 1;
+  string coverRightBackgroundColor = 6;
+  int32 coverRightIcon = 5;
+  string coverRightText = 4;
+  ReasonStyle rcmdReasonStyle = 8;
+}

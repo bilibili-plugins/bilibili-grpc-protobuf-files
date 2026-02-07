@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SettingSwitch {
+  SwitchConfirmDialog offDialog = 5;
+  SwitchConfirmDialog onDialog = 4;
+  string subtitle = 3;
+  bool switchOn = 1;
+  string title = 2;
+}

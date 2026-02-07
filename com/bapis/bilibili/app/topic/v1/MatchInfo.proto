@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message MatchInfo {
+  MatchTeamInfo away = 5;
+  MatchTeamInfo home = 4;
+  int64 id = 1;
+  MatchCardDisplay matchButton = 8;
+  MatchCardDisplay matchLabel = 6;
+  string matchStage = 3;
+  MatchCardDisplay matchTime = 7;
+  int32 status = 2;
+}

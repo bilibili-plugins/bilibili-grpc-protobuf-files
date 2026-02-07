@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AndroidTag {
+  string text = 1;
+  int32 type = 2;
+}

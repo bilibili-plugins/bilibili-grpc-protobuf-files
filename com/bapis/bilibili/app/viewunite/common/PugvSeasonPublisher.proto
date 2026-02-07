@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonPublisher {
+  repeated Data cooperators = 3;
+  PugvSeasonNav nav = 1;
+  string publisherDesc = 2;
+  PugvSeasonPublisherSkuContent skuContent = 4;
+}

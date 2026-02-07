@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PlayListSeason {
+  string cover = 4;
+  string link = 5;
+  MapFieldLite report = 7;
+  string score = 6;
+  int32 seasonId = 1;
+  string subtitle = 3;
+  string title = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pgcanymodel;
+
+message PGCAnyModel {
+  PlayViewBusinessInfo business = 3;
+  Event event = 4;
+  PlayAbilityExtConf playExtConf = 6;
+  PlayExtInfo playExtInfo = 7;
+  ViewInfo viewInfo = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusFeedbackReq {
+  int32 fromType = 3;
+  int32 from = 2;
+  repeated Data infos = 1;
+}

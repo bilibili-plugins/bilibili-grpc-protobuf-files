@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusRcmdFeedReply {
+  GuideBarInfo guideBar = 3;
+  bool hasMore = 4;
+  repeated Data list = 1;
+  string toast = 2;
+  bool update = 5;
+}

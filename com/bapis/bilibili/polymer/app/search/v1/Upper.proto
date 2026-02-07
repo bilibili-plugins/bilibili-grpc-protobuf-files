@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message Upper {
+  string cover = 3;
+  int64 mid = 1;
+  string ptimeText = 4;
+  string title = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message OgvClusterCardRelate {
+  repeated Data extraWordList = 2;
+  repeated Data items = 5;
+  int32 moreSearchType = 7;
+  string moreUrl = 6;
+  int32 needOrder = 3;
+  int64 showLines = 4;
+  string title = 1;
+}

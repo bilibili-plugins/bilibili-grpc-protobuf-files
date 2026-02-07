@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message Story {
+  repeated Data items = 2;
+  string tip = 1;
+}

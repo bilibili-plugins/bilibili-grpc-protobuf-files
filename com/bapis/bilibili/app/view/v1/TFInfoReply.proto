@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message TFInfoReply {
+  TFPanelCustomized tfPanelCustomized = 3;
+  TFToast tfToast = 2;
+  int64 tipsId = 1;
+  bool userFlagNew = 4;
+}

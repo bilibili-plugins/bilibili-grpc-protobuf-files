@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message DmHerdView {
+  int32 displayHerdDmNum = 1;
+  repeated Data herdDms = 2;
+}

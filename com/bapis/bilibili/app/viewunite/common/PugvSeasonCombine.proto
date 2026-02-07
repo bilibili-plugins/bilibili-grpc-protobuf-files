@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvSeasonCombine {
+  int32 combineId = 1;
+  repeated Data items = 3;
+  string title = 2;
+}

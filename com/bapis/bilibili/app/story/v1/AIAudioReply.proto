@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message AIAudioReply {
+  repeated Data aiAudioItems = 2;
+  string aiCloseToast = 4;
+  string aiOpenToast = 3;
+  Language language = 5;
+  bool supportAiAudio = 1;
+}

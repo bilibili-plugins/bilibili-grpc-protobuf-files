@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message UpdateCodecReq {
+  BAPILiveRTCUserProto$CodecCapability decodeCapability = 1;
+}

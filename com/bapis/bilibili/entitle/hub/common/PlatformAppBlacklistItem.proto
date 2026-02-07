@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message PlatformAppBlacklistItem {
+  string appId = 2;
+  bool isActive = 4;
+  string operator = 5;
+  int32 platform = 1;
+  string reason = 3;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message NotifyPop {
+  int32 expire = 7;
+  int64 id = 1;
+  string img = 3;
+  repeated Data notifyBtnList = 8;
+  int32 style = 2;
+  string textBottom = 6;
+  string textTop = 5;
+  int32 textType = 4;
+}

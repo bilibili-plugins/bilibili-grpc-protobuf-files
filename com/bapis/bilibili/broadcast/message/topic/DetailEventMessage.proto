@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.topic;
+
+message DetailEventMessage {
+  repeated Data pubData = 2;
+  int32 type = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSendInviteCodeOptionsReq {
+  int64 targetUid = 2;
+  int64 tribeeId = 1;
+}

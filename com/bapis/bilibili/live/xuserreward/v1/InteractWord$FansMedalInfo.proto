@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xuserreward.v1;
+
+message InteractWord$FansMedalInfo {
+  int64 anchorRoomid = 12;
+  int64 guardLevel = 9;
+  int64 iconId = 11;
+  int64 isLighted = 8;
+  int64 medalColorBorder = 7;
+  int64 medalColorEnd = 6;
+  int64 medalColorStart = 5;
+  int64 medalColor = 4;
+  int64 medalLevel = 2;
+  string medalName = 3;
+  int64 score = 13;
+  string special = 10;
+  int64 targetId = 1;
+}

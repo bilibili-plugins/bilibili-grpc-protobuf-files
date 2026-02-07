@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CoverIconWithText {
+  bool iconChecked = 3;
+  int32 icon = 1;
+  string text = 2;
+}

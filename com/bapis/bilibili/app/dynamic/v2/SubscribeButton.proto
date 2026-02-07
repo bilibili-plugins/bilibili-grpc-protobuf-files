@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message SubscribeButton {
+  bool isSubscribed = 2;
+  ButtonWithSubscribeParam notSubscribedStyle = 4;
+  ButtonWithSubscribeParam subscribedStyle = 3;
+  string subscriptionIdentifier = 1;
+}

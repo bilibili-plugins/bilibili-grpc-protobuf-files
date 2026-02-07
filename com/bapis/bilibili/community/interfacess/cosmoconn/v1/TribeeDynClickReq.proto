@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.cosmoconn.v1;
+
+message TribeeDynClickReq {
+  string dynIdStr = 3;
+  int64 dynId = 2;
+  int64 tribeeId = 1;
+}

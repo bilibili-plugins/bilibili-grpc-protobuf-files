@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message SeasonCoupon {
+  double amount = 5;
+  int32 couponType = 8;
+  string discountAmount = 12;
+  string expireMinute = 10;
+  string expireTime = 4;
+  bool isFrequenter = 19;
+  int64 receiveExpireTime = 13;
+  string sceneBackgroundImg = 16;
+  string sceneBenefitImg = 17;
+  bool sceneCountdown = 18;
+  string sceneMark = 15;
+  string shortTitle = 9;
+  string showAmount = 6;
+  string startTime = 3;
+  int32 status = 7;
+  string title = 2;
+  string token = 1;
+  int64 useExpireTime = 14;
+  string useScope = 11;
+}

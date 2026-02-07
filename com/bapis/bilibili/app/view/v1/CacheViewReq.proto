@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message CacheViewReq {
+  string adExtra = 5;
+  int64 aid = 1;
+  string bvid = 2;
+  string fromSpmid = 7;
+  string from = 3;
+  string spmid = 6;
+  string trackid = 4;
+}

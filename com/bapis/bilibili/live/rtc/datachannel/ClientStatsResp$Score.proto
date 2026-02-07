@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message ClientStatsResp$Score {
+  int32 downScore = 2;
+  int32 serverDownScore = 4;
+  int32 serverUpScore = 3;
+  int32 upScore = 1;
+}

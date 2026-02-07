@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionListUpdateReq {
+  int32 filterType = 4;
+  int32 pageType = 3;
+  RestrictedMode restrictedMode = 1;
+  UpdateSessionParams updateParams = 2;
+}

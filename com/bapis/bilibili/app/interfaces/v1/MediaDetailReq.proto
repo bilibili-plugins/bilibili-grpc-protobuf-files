@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message MediaDetailReq {
+  int64 bizId = 1;
+  int64 bizType = 2;
+}

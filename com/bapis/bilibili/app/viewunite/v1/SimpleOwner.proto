@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message SimpleOwner {
+  int32 attentionRelation = 1;
+}

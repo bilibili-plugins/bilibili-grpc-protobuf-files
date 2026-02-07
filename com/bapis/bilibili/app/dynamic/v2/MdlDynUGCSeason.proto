@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynUGCSeason {
+  int64 avid = 11;
+  repeated Data badge = 16;
+  bool canPlay = 9;
+  int64 cid = 12;
+  string cover = 2;
+  Dimension dimension = 13;
+  int64 duration = 14;
+  int64 id = 7;
+  string inlineURL = 8;
+  string jumpUrl = 15;
+  string playIcon = 10;
+  string title = 1;
+  string uri = 3;
+}

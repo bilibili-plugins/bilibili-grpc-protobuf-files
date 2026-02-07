@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ReserveInfo {
+  int64 bgColor = 8;
+  string iconNight = 6;
+  string icon = 5;
+  int64 isFollow = 3;
+  string oid = 4;
+  int64 sid = 1;
+  int64 state = 7;
+  string title = 2;
+}

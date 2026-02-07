@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSendInviteCodeOptionsResp$InviteTypeItem {
+  TribeeSendInviteCodeOptionsResp$NoticeCardPreview noticePreview = 3;
+  repeated Data sendCountOptions = 5;
+  string sendCountTitle = 4;
+  string text = 2;
+  int32 type = 1;
+}

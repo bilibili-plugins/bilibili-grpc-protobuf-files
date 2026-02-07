@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message GameInfo {
+  string gameDesc = 3;
+  string gameLogo = 1;
+  string gameName = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchOlympicWikiCard {
+  CardBusinessBadge cardBusinessBadge = 3;
+  string cover = 2;
+  string inlineType = 5;
+  SearchInlineData liveRoomInline = 7;
+  repeated Data navigation = 9;
+  PediaCover pediaCover = 8;
+  NavigationButton readMore = 4;
+  string title = 1;
+  SearchInlineData ugcInline = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message InteractionStat {
+  int64 forward = 2;
+  int64 like = 1;
+}

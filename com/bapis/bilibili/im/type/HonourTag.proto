@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message HonourTag {
+  string icon = 7;
+  string link = 2;
+  string name = 1;
+  int32 priorityLevel = 6;
+  repeated Data scene = 5;
+  int32 type = 4;
+  string webLink = 3;
+  int32 year = 8;
+}

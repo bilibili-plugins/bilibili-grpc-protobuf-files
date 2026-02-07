@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message OnlyFansDndSetting {
+  string popBtnText = 5;
+  string popDesc = 3;
+  string popPicture = 4;
+  string popTitle = 2;
+  string title = 1;
+}

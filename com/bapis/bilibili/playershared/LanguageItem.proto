@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message LanguageItem {
+  string buttonTitle = 3;
+  string lang = 1;
+  int32 productionType = 7;
+  string subtitleLang = 4;
+  string title = 2;
+  bool videoDetext = 5;
+  bool videoMouthShapeChange = 6;
+}

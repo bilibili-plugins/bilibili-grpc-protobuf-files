@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message LargeCoverInline {
+  Base base = 1;
+  int32 canPlay = 13;
+  string coverLeftDesc = 10;
+  bool disableDanmu = 12;
+  string durationText = 14;
+  string extraUri = 7;
+  bool hideDanmuSwitch = 11;
+  InlineProgressBar inlineProgressBar = 8;
+  RelationData relationData = 15;
+  RightTopLiveBadge rightTopLiveBadge = 6;
+  TopicThreePoint topicThreePoint = 9;
+}

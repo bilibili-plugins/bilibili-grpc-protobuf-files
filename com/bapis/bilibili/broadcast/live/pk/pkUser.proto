@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.pk;
+
+message pkUser {
+  repeated Data assistInfo = 9;
+  repeated Data capsules = 20;
+  int64 dateStreak = 14;
+  string face = 4;
+  int64 golds = 13;
+  int64 groupId = 12;
+  int64 isFollow = 10;
+  bool isLatestStreak = 17;
+  int64 isWinner = 11;
+  repeated Data pkCards = 19;
+  int64 pkMultipleStatus = 15;
+  string power = 16;
+  int64 rank = 7;
+  int64 roomId = 2;
+  int64 status = 8;
+  int64 uid = 1;
+  string uname = 3;
+  string votesText = 6;
+  int64 votes = 5;
+}

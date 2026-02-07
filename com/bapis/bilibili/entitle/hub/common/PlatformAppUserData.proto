@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.entitle.hub.common;
+
+message PlatformAppUserData {
+  int32 achievedAchievements = 3;
+  int32 playtimeForever = 1;
+  repeated Data userAchievements = 4;
+}

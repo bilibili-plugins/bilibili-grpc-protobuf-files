@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message subTFPanel {
+  string mainLabel = 5;
+  string operator = 6;
+  string rightBtnImg = 1;
+  string rightBtnLink = 4;
+  string rightBtnTextColor = 3;
+  string rightBtnText = 2;
+}

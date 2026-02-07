@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.tv;
+
+message AccountNotify {
+  string biz = 1;
+  string data = 2;
+}

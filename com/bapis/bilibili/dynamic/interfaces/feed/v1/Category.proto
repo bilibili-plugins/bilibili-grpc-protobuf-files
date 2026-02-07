@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message Category {
+  string bannerUrl = 6;
+  repeated Data children = 5;
+  int64 id = 1;
+  string name = 3;
+  int64 parentId = 2;
+  int64 position = 4;
+}

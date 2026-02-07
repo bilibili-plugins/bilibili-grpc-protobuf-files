@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.v1;
+
+message TargetPath {
+  repeated Data targetPaths = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message OgvIntroduction {
+  string followers = 1;
+  StatInfo playData = 3;
+  string scoreColor = 4;
+  string scoreNightColor = 5;
+  string score = 2;
+  string textColor = 6;
+  string textNightColor = 7;
+}

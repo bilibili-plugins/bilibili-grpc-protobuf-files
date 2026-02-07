@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message MemberV2$Medal {
+  int64 colorBorder = 5;
+  int64 colorEnd = 4;
+  int64 colorLevel = 7;
+  int64 colorName = 6;
+  int64 colorStart = 3;
+  string firstIcon = 9;
+  int64 guardLevel = 8;
+  int64 levelBgColor = 11;
+  int64 level = 2;
+  string name = 1;
+  string secondIcon = 10;
+}

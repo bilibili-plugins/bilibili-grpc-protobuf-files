@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message ShareReplyInfo {
+  string achievementText = 5;
+  Content content = 2;
+  string labelUrl = 6;
+  Member member = 1;
+  string subTitle = 4;
+  string title = 3;
+}

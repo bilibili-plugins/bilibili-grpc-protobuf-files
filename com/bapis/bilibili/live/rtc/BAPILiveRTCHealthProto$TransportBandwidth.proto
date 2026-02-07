@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCHealthProto$TransportBandwidth {
+  float lanRxByterate = 6;
+  float lanTxByterate = 5;
+  float totalRxByterate = 2;
+  float totalTxByterate = 1;
+  float wanRxByterate = 4;
+  float wanTxByterate = 3;
+}

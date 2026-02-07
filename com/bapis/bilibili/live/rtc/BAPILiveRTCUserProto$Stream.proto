@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCUserProto$Stream {
+  bool audioMuted = 3;
+  bool hasAudio = 2;
+  bool hasVideo = 1;
+  int32 temporalCount = 6;
+  int32 videoCount = 5;
+  bool videoMuted = 4;
+}

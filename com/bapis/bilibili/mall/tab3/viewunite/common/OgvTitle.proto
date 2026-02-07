@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message OgvTitle {
+  BadgeInfo badgeInfo = 2;
+  int32 followVideoIsReserveLive = 4;
+  int32 isShowBtnAnimation = 3;
+  int64 reserveId = 5;
+  TitleDeliveryButton titleDeliveryButton = 6;
+  string title = 1;
+}

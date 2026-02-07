@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.gateway.interfaces.v1;
+
+message DanmuCard {
+  CommonMsgCard danmuMsg = 1;
+}

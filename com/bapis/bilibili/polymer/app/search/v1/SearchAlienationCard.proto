@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchAlienationCard {
+  CardUI cardUi = 5;
+  CountdownInfo countdownInfo = 6;
+  int64 coverPicHeight = 3;
+  int32 coverType = 1;
+  string cover = 2;
+  string foldTitle = 7;
+  string jumpUrl = 4;
+}

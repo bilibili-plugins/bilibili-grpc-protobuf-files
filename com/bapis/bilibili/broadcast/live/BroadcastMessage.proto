@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live;
+
+message BroadcastMessage {
+  Any bizBody = 2;
+  Common common = 3;
+  string targetPath = 1;
+}

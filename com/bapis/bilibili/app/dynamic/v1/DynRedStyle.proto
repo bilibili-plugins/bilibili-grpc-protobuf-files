@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message DynRedStyle {
+  int32 bgType = 1;
+  CornerInfo cornerInfo = 7;
+  string cornerMark = 4;
+  int32 cornerType = 2;
+  int32 displayTime = 3;
+  int32 type = 6;
+  DynRedStyleUp up = 5;
+}

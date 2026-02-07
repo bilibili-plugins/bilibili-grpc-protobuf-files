@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.api.ticket.v1;
+
+message GenWebTicketResponse$Nav {
+  string img = 1;
+  string sub = 2;
+}

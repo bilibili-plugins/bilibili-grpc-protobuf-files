@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message PastWorksItem {
+  int64 avid = 1;
+  string cover = 2;
+  string timeStr = 4;
+  string title = 3;
+  string url = 9;
+}

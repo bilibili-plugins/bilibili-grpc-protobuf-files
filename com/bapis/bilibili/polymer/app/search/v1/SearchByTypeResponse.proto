@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SearchByTypeResponse {
+  MapFieldLite annotation = 8;
+  string expStr = 3;
+  repeated Data items = 6;
+  string keyword = 4;
+  int64 page = 10;
+  int32 pages = 2;
+  PaginationReply pagination = 7;
+  double realExposureRatio = 9;
+  int32 resultIsRecommend = 5;
+  SearchFilter searchFilter = 11;
+  string trackid = 1;
+}

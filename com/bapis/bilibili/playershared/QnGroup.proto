@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message QnGroup {
+  int32 groupType = 7;
+  bool needLogin = 2;
+  bool needVip = 1;
+  repeated Data streamInfos = 6;
+  string titleImgSelected = 5;
+  string titleImg = 4;
+  bool vipFree = 3;
+}

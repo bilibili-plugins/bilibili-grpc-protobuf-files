@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message UserCheckReply {
+  int32 gt14 = 2;
+  int32 policyStatus = 1;
+}

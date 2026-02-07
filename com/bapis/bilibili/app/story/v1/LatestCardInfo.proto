@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.story.v1;
+
+message LatestCardInfo {
+  string cardGoto = 2;
+  string id = 3;
+  int32 vt = 1;
+}

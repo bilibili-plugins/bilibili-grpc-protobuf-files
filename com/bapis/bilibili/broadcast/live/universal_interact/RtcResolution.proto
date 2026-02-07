@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message RtcResolution {
+  int64 bigBitrateWeight = 10;
+  int64 bigMaxFps = 12;
+  int64 codeRateInit = 5;
+  int64 codeRateMax = 7;
+  int64 codeRateMin = 6;
+  int32 horizontalHeight = 4;
+  int32 horizontalWidth = 3;
+  double scaleDownRatio = 8;
+  bool smallBitrateActive = 13;
+  int64 smallBitrateWeight = 9;
+  int64 smallMaxFps = 11;
+  int32 verticalHeight = 2;
+  int32 verticalWidth = 1;
+}

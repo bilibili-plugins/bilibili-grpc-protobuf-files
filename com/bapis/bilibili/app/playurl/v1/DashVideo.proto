@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message DashVideo {
+  int32 audioId = 7;
+  repeated Data backupUrl = 2;
+  int32 bandwidth = 3;
+  string baseUrl = 1;
+  string bilidrmUri = 13;
+  int32 codecid = 4;
+  string frameRate = 9;
+  int32 height = 11;
+  string md5 = 5;
+  bool noRexcode = 8;
+  int64 size = 6;
+  string widevinePssh = 12;
+  int32 width = 10;
+}

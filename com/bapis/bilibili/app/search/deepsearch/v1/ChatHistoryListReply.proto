@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.search.deepsearch.v1;
+
+message ChatHistoryListReply {
+  repeated Data items = 1;
+  string nextCursor = 2;
+}

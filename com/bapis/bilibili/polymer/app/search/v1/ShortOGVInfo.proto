@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message ShortOGVInfo {
+  string appId = 1;
+  int64 episodeId = 3;
+  int64 seasonId = 2;
+}

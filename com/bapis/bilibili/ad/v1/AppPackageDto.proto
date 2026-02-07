@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message AppPackageDto {
+  string apkName = 3;
+  string authName = 10;
+  string authUrl = 9;
+  string biliUrl = 5;
+  string devName = 8;
+  string displayName = 2;
+  string icon = 7;
+  string md5 = 6;
+  string privacyName = 13;
+  string privacyUrl = 14;
+  int64 size = 1;
+  string updateTime = 12;
+  string url = 4;
+  string version = 11;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusItem {
+  Extend extend = 5;
+  repeated Data modules = 4;
+  int64 oid = 3;
+  int64 opusId = 1;
+  int32 opusType = 2;
+}

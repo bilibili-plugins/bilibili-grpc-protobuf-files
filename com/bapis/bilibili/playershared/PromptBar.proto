@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message PromptBar {
+  repeated Data benefitInfos = 12;
+  GradientColor bgGradientColor = 5;
+  string bgImage = 4;
+  repeated Data button = 6;
+  int64 endTime = 13;
+  GradientColor fullScreenBgGradientColor = 9;
+  string fullScreenIpIcon = 8;
+  int32 promptBarStyle = 11;
+  int32 promptBarType = 10;
+  Report report = 7;
+  int32 showOnPaywall = 14;
+  string subTitleIcon = 3;
+  TextInfo subTitle = 2;
+  TextInfo title = 1;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message Topic {
+  string headIcon = 5;
+  int64 id = 1;
+  bool isTemplate = 9;
+  string name = 2;
+  string route = 10;
+  int32 status = 3;
+  string tailString = 7;
+  int32 tailType = 6;
+  Button tail = 8;
+  string unreadCount = 4;
+}

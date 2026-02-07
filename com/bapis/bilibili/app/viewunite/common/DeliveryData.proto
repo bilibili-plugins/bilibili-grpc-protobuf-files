@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message DeliveryData {
+  int32 id = 8;
+  Style moduleStyle = 2;
+  string more = 3;
+  MapFieldLite report = 9;
+  string title = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Tab {
+  TabControl danmakuEntrance = 3;
+  string tabBgPad = 4;
+  string tabBg = 2;
+  repeated Data tabModule = 1;
+}

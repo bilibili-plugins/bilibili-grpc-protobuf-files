@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynDrawTagItem {
+  int64 itemId = 7;
+  int64 mid = 8;
+  int32 orientation = 5;
+  string poi = 10;
+  string schemaUrl = 11;
+  int32 source = 6;
+  string text = 2;
+  int64 tid = 9;
+  string url = 1;
+  int64 x = 3;
+  int64 y = 4;
+}

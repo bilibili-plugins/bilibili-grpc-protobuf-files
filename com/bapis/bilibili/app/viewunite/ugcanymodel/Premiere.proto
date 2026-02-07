@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message Premiere {
+  int32 premiereState = 1;
+  int64 roomId = 4;
+  int64 serviceTime = 3;
+  int64 startTime = 2;
+}

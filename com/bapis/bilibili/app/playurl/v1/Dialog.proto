@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message Dialog {
+  repeated Data bottomDisplay = 6;
+  repeated Data button = 5;
+  Report report = 2;
+  int32 styleType = 1;
+  TextInfo subtitle = 4;
+  TextInfo title = 3;
+}

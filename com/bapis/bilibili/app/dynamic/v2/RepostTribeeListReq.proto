@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message RepostTribeeListReq {
+  int64 defaultTribeeId = 2;
+  Pagination page = 1;
+}

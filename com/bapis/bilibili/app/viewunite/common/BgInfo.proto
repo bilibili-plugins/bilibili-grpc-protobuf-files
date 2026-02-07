@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message BgInfo {
+  string darkLongBg = 4;
+  string darkShortBg = 2;
+  string lightLongBg = 3;
+  string lightShortBg = 1;
+}

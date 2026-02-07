@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message GetUserCosmoStateRsp {
+  string business = 1;
+  int64 cardSendMid = 2;
+  int32 cosmoState = 3;
+  int32 opType = 4;
+  string text = 5;
+}

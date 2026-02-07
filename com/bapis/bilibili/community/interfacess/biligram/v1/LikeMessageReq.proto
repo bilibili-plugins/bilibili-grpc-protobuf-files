@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message LikeMessageReq {
+  int32 action = 3;
+  int64 messageId = 2;
+  int64 topicId = 1;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message Pic {
+  int32 aiGenPic = 11;
+  string comment = 5;
+  double height = 3;
+  bool isLive = 6;
+  double liveVideoSize = 7;
+  string liveVideoUrl = 10;
+  double originVideoSize = 8;
+  string originVideoUrl = 9;
+  double size = 4;
+  string url = 1;
+  double width = 2;
+}

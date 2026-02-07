@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.resource.privacy.v1;
+
+message SetPrivacyConfigRequest {
+  int32 privacyConfigType = 1;
+  int32 state = 2;
+}

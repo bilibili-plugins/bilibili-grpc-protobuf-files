@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.home.v1;
+
+message RecentRecommendMetaInfo {
+  int64 addTimeSec = 10;
+  string addTime = 4;
+  Badge badge = 6;
+  string cover = 2;
+  int64 id = 1;
+  int32 recReasonEnum = 8;
+  int32 recType = 7;
+  string subTitle = 9;
+  string title = 3;
+  string url = 5;
+}

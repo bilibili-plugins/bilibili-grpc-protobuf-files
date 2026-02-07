@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message AddDynamicReportReq {
+  int64 accusedUid = 1;
+  string dynamicId = 2;
+  string reasonDesc = 4;
+  int64 reasonType = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vas.garb.model;
+
+message ImageGroup$CardGame {
+  int64 gradeLevel = 2;
+  bool isTopLevel = 3;
+  string numberQualifier = 1;
+}

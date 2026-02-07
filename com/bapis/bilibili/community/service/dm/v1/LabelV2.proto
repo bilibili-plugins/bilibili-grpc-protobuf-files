@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message LabelV2 {
+  repeated Data content = 2;
+  bool exposureOnce = 3;
+  int32 exposureType = 4;
+  string title = 1;
+}

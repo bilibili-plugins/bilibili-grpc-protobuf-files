@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SelectItem {
+  int32 itemType = 1;
+  bool selected = 3;
+  string text = 2;
+}

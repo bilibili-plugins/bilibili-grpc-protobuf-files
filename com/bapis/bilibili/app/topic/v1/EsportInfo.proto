@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message EsportInfo {
+  int64 endTime = 4;
+  int64 id = 1;
+  repeated Data items = 2;
+  PlayerRatingInMatch playerRating = 5;
+  int64 startTime = 3;
+}

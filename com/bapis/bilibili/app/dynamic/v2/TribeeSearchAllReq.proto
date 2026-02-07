@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TribeeSearchAllReq {
+  string keyWord = 1;
+  bool needMeta = 6;
+  int32 order = 4;
+  Pagination page = 5;
+  int64 tribeeId = 2;
+  int32 type = 3;
+}

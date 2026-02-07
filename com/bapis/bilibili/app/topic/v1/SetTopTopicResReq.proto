@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message SetTopTopicResReq {
+  int64 dynamicId = 2;
+  int32 optType = 3;
+  int64 topicId = 1;
+  int32 type = 4;
+}

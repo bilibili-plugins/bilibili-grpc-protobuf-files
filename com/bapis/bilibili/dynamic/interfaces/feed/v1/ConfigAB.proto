@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ConfigAB {
+  int32 entry = 1;
+  int64 value = 2;
+}

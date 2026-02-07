@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.vega.deneb.v1;
+
+message MessagePullsReq {
+  int64 endSeqId = 2;
+  int32 pn = 3;
+  int32 ps = 4;
+  int64 startSeqId = 1;
+}

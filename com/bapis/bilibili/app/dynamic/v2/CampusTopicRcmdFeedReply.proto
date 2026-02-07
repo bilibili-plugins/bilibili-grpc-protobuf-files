@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusTopicRcmdFeedReply {
+  bool hasMore = 3;
+  IconButton joinDiscuss = 5;
+  repeated Data list = 1;
+  string offset = 4;
+  string toast = 2;
+}

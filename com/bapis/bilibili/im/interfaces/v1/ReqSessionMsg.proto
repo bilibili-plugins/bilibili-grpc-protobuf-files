@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqSessionMsg {
+  int64 aiUid = 9;
+  int64 beginSeqno = 4;
+  string canalToken = 8;
+  string devId = 7;
+  int64 endSeqno = 3;
+  bool needAiMsg = 10;
+  int32 order = 6;
+  int32 sessionType = 2;
+  int32 size = 5;
+  int64 talkerId = 1;
+}

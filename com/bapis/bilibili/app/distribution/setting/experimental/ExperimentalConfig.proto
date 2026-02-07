@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.distribution.setting.experimental;
+
+message ExperimentalConfig {
+  repeated Data exps = 2;
+  StringValue flag = 1;
+}

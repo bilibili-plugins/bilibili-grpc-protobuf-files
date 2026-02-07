@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message BubbleV2 {
+  int32 bubbleType = 3;
+  bool exposureOnce = 4;
+  int32 exposureType = 5;
+  string text = 1;
+  string url = 2;
+}

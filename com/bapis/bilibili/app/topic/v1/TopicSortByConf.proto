@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicSortByConf {
+  repeated Data allSortBy = 2;
+  int64 defaultSortBy = 1;
+  int64 showSortBy = 3;
+}

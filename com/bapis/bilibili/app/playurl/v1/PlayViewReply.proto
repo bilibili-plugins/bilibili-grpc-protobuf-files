@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message PlayViewReply {
+  AB ab = 7;
+  PlayArc arc = 10;
+  Chronos chronos = 4;
+  Event event = 6;
+  PlayArcConf playArc = 5;
+  PlayAbilityConf playConf = 2;
+  PlayLimit playLimit = 8;
+  UpgradeLimit upgradeLimit = 3;
+  VideoInfo videoInfo = 1;
+  ViewInfo viewInfo = 9;
+}

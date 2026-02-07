@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ActivityEntrance {
+  string activityCover = 1;
+  string activityLink = 5;
+  string activitySubtitle = 4;
+  string activityTitle = 2;
+  int32 activityType = 6;
+  MapFieldLite orderReportParams = 11;
+  MapFieldLite report = 10;
+  int32 reserveId = 7;
+  int32 status = 8;
+  repeated Data upperList = 9;
+  string wordTag = 3;
+}

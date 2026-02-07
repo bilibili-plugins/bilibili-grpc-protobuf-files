@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractMode {
+  int64 applyTimeout = 4;
+  int32 interactModeType = 1;
+  int64 inviteTimeout = 3;
+  repeated Data joinTypes = 2;
+  int32 positionMode = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message SceneControl {
+  bool favPlaylist = 1;
+  bool isNeedTrial = 5;
+  bool pip = 3;
+  bool smallWindow = 2;
+  bool wasHeInline = 4;
+}

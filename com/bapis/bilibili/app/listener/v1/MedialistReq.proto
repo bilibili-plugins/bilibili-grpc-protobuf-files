@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message MedialistReq {
+  int64 bizId = 2;
+  int64 listType = 1;
+  string offset = 3;
+}

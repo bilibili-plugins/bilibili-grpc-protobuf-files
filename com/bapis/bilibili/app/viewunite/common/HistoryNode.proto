@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message HistoryNode {
+  int64 cid = 3;
+  int64 nodeId = 1;
+  string title = 2;
+}

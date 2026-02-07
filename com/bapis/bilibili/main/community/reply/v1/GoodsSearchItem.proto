@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message GoodsSearchItem {
+  int64 id = 1;
+  string img = 5;
+  string income = 4;
+  string label = 6;
+  string name = 2;
+  string price = 3;
+}

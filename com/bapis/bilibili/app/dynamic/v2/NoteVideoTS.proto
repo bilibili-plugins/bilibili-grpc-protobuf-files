@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message NoteVideoTS {
+  int64 cidCount = 6;
+  int64 cid = 1;
+  string desc = 10;
+  int64 epid = 9;
+  int64 index = 4;
+  string key = 7;
+  int64 oidType = 2;
+  int64 seconds = 5;
+  int64 status = 3;
+  string title = 8;
+}

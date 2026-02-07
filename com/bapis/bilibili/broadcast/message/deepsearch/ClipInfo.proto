@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message ClipInfo {
+  string icon = 1;
+  string title = 2;
+  string url = 3;
+}

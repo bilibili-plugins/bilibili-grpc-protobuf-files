@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionMainReq {
+  int32 filterType = 3;
+  PaginationParams paginationParams = 2;
+  RestrictedMode restrictedMode = 1;
+}

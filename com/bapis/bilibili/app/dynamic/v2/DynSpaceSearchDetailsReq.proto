@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynSpaceSearchDetailsReq {
+  int64 build = 8;
+  string buvid = 7;
+  string device = 6;
+  repeated Data dynamicIds = 1;
+  string ip = 11;
+  int32 localTime = 3;
+  int64 mid = 9;
+  string mobiApp = 5;
+  int32 netType = 12;
+  string platform = 10;
+  PlayerArgs playerArgs = 4;
+  repeated Data searchWords = 2;
+  int32 tfType = 13;
+}

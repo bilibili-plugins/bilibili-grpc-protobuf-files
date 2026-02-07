@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionSecondaryReply {
+  repeated Data outsideItem = 5;
+  PaginationParams paginationParams = 1;
+  repeated Data sessions = 3;
+  repeated Data threeDotItems = 4;
+  UpdateSessionParams updateSessionParams = 2;
+}

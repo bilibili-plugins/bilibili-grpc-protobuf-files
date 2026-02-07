@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message CombinationEp {
+  int32 canOrdDesc = 4;
+  repeated Data episodeIds = 6;
+  repeated Data episodes = 7;
+  int32 id = 1;
+  Style moduleStyle = 9;
+  string more = 5;
+  SectionData sectionData = 11;
+  int32 sectionId = 2;
+  repeated Data serialSeason = 10;
+  string splitText = 8;
+  string title = 3;
+}

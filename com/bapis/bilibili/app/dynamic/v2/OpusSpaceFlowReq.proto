@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OpusSpaceFlowReq {
+  string filterType = 4;
+  int64 hostMid = 1;
+  int32 localTime = 2;
+  Pagination pagination = 3;
+}

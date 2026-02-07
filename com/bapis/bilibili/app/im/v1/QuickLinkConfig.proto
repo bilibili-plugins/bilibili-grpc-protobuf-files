@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message QuickLinkConfig {
+  QuickLinkBubble bubble = 2;
+  bool isLegacyStyle = 3;
+  repeated Data items = 1;
+}

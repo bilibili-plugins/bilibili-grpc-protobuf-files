@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message Bubble {
+  string bubbleContent = 1;
+  int64 stime = 3;
+  int32 version = 2;
+}

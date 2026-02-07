@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message RejectPage {
+  int32 business = 1;
+  Button button = 5;
+  string pic = 2;
+  string primaryText = 3;
+  string secondaryText = 4;
+}

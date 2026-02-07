@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CodeParagraph {
+  string barIcon = 4;
+  string barNotice = 5;
+  string btnText = 6;
+  string codeContent = 2;
+  string codeLang = 1;
+  string popupLink = 3;
+}

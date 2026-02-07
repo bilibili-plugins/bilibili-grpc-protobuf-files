@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message BasicUserInfoV2 {
+  AvatarItem avatar = 4;
+  string face = 3;
+  string handle = 12;
+  int32 isSeniorMember = 6;
+  string jumpUri = 8;
+  int32 level = 5;
+  int64 mid = 1;
+  NameRender nameRender = 11;
+  string nameSubText = 10;
+  string name = 2;
+  Relation relation = 9;
+  VipInfo vip = 7;
+}

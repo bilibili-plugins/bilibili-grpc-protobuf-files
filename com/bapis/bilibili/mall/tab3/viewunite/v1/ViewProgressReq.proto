@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.v1;
+
+message ViewProgressReq {
+  int64 aid = 1;
+  ChronosParam chronosParam = 4;
+  int64 cid = 2;
+  int32 type = 5;
+  int64 upMid = 3;
+}

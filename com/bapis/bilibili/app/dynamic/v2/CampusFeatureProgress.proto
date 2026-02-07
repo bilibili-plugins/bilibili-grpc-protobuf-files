@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusFeatureProgress {
+  CampusLabel btn = 5;
+  string descTitle = 3;
+  int64 progressAchieved = 2;
+  int64 progressFull = 1;
+}

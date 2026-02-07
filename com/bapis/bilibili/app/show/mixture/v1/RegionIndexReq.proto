@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message RegionIndexReq {
+  int32 displayId = 2;
+  bool needBanner = 3;
+  PlayerArgs playerArgs = 4;
+  int64 rid = 1;
+  string uuid = 5;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v1;
+
+message LivePlayInfo {
+  int32 currentQn = 1;
+  repeated Data durl = 3;
+  repeated Data qualityDescription = 2;
+}

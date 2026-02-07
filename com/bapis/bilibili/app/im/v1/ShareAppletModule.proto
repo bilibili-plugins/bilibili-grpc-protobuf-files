@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message ShareAppletModule {
+  string appletId = 1;
+  string avatarImg = 2;
+  string coverImg = 5;
+  string name = 3;
+  string title = 4;
+  string url = 6;
+}

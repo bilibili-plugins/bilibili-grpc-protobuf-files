@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message BizReserveActivityParam {
+  int64 activityId = 1;
+  string from = 2;
+  int64 oid = 4;
+  int64 reserveId = 5;
+  string type = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message EpInlineVideoInfo {
+  repeated Data epInlineVideo = 1;
+}

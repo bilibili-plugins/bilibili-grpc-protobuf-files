@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.service.dm.v1;
+
+message Avatar {
+  int32 avatarType = 3;
+  string id = 1;
+  string url = 2;
+}

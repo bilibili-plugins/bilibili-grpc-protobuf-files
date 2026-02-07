@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message DisplayOption {
+  int32 alienationCardCount = 11;
+  int32 alienationFoldCount = 13;
+  double coverExpLarge = 10;
+  double coverExpNormal = 9;
+  double coverExpSmall = 8;
+  int32 coverExp = 7;
+  int32 filterExp = 5;
+  int32 pureBackgroundExp = 14;
+  int32 pureCommenterExp = 15;
+  int32 pureLikeExp = 17;
+  int32 pureLineExp = 16;
+  int32 refreshExp = 4;
+  int32 refreshOpti = 3;
+  int32 searchPageVisualOpti = 2;
+  int32 tagHighlightOpti = 6;
+  int32 videoTitleRow = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message NavigationEntryInviteCode {
+  bool isNewCodeMyPageRedDot = 1;
+  int64 useable = 2;
+}

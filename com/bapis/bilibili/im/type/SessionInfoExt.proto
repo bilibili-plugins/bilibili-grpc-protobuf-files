@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message SessionInfoExt {
+  int64 shopFatherId = 2;
+  int64 shopId = 1;
+}

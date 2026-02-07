@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.multi_conn;
+
+message ScoreEvent$info {
+  string avatar = 3;
+  int64 gender = 7;
+  string nickname = 4;
+  string priceText = 6;
+  int64 price = 5;
+  int64 roomId = 2;
+  int64 uid = 1;
+}

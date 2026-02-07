@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message UserList {
+  repeated Data list = 1;
+  string title = 2;
+}

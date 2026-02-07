@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message MdlDynSubscription {
+  int64 adId = 2;
+  string adTitle = 6;
+  VideoBadge badge = 7;
+  string cover = 5;
+  int64 id = 1;
+  string tips = 8;
+  string title = 4;
+  string uri = 3;
+}

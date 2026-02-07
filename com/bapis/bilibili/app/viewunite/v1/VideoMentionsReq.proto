@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message VideoMentionsReq {
+  int64 aid = 2;
+  string fromSpmid = 4;
+  string fromTrackid = 5;
+  string spmid = 3;
+  string videoReq = 1;
+}

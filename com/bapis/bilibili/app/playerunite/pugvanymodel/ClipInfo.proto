@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playerunite.pugvanymodel;
+
+message ClipInfo {
+  int32 clipType = 1;
+  int32 end = 4;
+  int64 materialNo = 2;
+  int32 start = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message SessionInfo {
+  AvatarItem avatar = 3;
+  bool isLive = 6;
+  NameRender nameRender = 2;
+  string sessionHandle = 7;
+  string sessionName = 1;
+  UserLabel userLabel = 5;
+  string vipInfo = 4;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message Coupon {
+  string amount = 12;
+  string couponToken = 1;
+  string desc = 6;
+  Timestamp expireTime = 10;
+  int64 otype = 11;
+  string payButtonTextLineThrough = 8;
+  string payButtonText = 7;
+  string realAmount = 9;
+  int32 redemptionMode = 13;
+  string title = 5;
+  int64 type = 2;
+  string useDesc = 4;
+  string value = 3;
+}

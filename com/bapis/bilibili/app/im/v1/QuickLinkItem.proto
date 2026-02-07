@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message QuickLinkItem {
+  string iconDark = 3;
+  string icon = 2;
+  int32 itemType = 6;
+  string title = 1;
+  Unread unread = 5;
+  string url = 4;
+}

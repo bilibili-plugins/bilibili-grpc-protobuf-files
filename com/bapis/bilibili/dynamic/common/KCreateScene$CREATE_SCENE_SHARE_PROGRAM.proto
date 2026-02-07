@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message KCreateScene$CREATE_SCENE_SHARE_PROGRAM {
+}

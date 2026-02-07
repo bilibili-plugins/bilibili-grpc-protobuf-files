@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.show.mixture.v1;
+
+message WidgetItem {
+  string cover = 1;
+  string goto = 7;
+  int64 id = 8;
+  string name = 5;
+  RcmdReason rcmdReason = 3;
+  string title = 4;
+  string uri = 6;
+  int32 viewIcon = 9;
+  string view = 2;
+}

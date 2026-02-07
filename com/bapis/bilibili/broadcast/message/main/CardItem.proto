@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.main;
+
+message CardItem {
+  string goto = 3;
+  string param = 2;
+  string uri = 1;
+}

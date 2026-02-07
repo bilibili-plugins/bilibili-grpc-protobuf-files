@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message CreatePageCommercialInfo {
+  int64 commercialEntityId = 5;
+  int64 commercialEntityType = 4;
+  string desc = 2;
+  bool editable = 6;
+  string labelText = 1;
+  bool valid = 3;
+}

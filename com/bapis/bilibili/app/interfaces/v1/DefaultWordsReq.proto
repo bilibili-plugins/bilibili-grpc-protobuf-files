@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message DefaultWordsReq {
+  int64 an = 9;
+  string avid = 7;
+  string dislike = 16;
+  string eventId = 6;
+  int64 from = 1;
+  int64 isFresh = 10;
+  int32 lessonsMode = 4;
+  int64 loginEvent = 2;
+  string query = 8;
+  int64 refreshType = 13;
+  int32 searchPageReturn = 15;
+  string splashGuide = 11;
+  int64 splashId = 12;
+  string tab = 5;
+  int32 teenagersMode = 3;
+  string userAct = 14;
+}

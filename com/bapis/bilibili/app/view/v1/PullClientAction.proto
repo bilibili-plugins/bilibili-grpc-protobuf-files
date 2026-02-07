@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message PullClientAction {
+  string params = 3;
+  bool pullAction = 2;
+  string type = 1;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message DashItem {
+  repeated Data backupUrl = 3;
+  int32 bandwidth = 4;
+  string baseUrl = 2;
+  string bilidrmUri = 10;
+  int32 codecid = 5;
+  string frameRate = 8;
+  int32 id = 1;
+  string md5 = 6;
+  int64 size = 7;
+  string widevinePssh = 9;
+}

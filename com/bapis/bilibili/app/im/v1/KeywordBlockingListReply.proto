@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message KeywordBlockingListReply {
+  int32 charLimit = 3;
+  repeated Data items = 1;
+  string listLimitText = 4;
+  int32 listLimit = 2;
+}

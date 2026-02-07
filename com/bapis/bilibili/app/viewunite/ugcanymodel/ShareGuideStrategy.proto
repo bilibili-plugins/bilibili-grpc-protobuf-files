@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message ShareGuideStrategy {
+  int32 delaySeconds = 1;
+  int32 onlineViewerThreshold = 4;
+  float playProgressThreshold = 2;
+  int32 playTimeThreshold = 3;
+}

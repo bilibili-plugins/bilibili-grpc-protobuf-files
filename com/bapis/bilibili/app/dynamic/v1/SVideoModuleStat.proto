@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v1;
+
+message SVideoModuleStat {
+  ShareInfo shareInfo = 2;
+  repeated Data statInfo = 1;
+}

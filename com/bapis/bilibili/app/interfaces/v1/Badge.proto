@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message Badge {
+  string icon = 2;
+  string text = 1;
+}

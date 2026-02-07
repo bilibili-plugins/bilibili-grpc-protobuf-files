@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message UniversalInfoResp {
+  string bizSessionId = 1;
+  string businessLabel = 11;
+  string interactChannelId = 2;
+  int32 interactConnectType = 5;
+  int64 interactMaxUsers = 6;
+  InteractMode interactMode = 3;
+  InteractTemplate interactTemplate = 4;
+  int64 invokingTime = 12;
+  int64 membersVersion = 13;
+  repeated Data members = 7;
+  MultiConnInfo multiConnInfo = 10;
+  int64 roomOwner = 16;
+  int64 roomStartAtTs = 20;
+  string roomStartAt = 19;
+  int32 roomStatus = 14;
+  int64 sessionStartAtTs = 18;
+  string sessionStartAt = 17;
+  int32 sessionStatus = 9;
+  int64 systemTimeUnix = 15;
+  string traceId = 21;
+  int64 version = 8;
+}

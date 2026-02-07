@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ReactionListItem {
+  string actText = 3;
+  string rcmdReason = 4;
+  Relation relation = 2;
+  UserInfo user = 1;
+}

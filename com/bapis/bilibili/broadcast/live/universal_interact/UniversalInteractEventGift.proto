@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.live.universal_interact;
+
+message UniversalInteractEventGift {
+  int64 anchorUid = 2;
+  UniversalInfoResp info = 3;
+  int64 roomId = 1;
+}

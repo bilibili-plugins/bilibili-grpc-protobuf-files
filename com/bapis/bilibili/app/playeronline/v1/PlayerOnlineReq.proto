@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playeronline.v1;
+
+message PlayerOnlineReq {
+  int64 aid = 1;
+  int64 cid = 2;
+  bool playOpen = 3;
+}

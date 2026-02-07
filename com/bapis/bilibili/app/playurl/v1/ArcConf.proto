@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playurl.v1;
+
+message ArcConf {
+  bool disabled = 2;
+  ExtraContent extraContent = 3;
+  bool isSupport = 1;
+  repeated Data unsupportScene = 4;
+}

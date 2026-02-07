@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message ContractText {
+  string inlineTitle = 3;
+  string subtitle = 2;
+  string title = 1;
+}

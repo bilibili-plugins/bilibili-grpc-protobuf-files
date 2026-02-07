@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message MessageItemAddition {
+  DialogButton blacklist = 6;
+  DialogButton delete = 5;
+  bool liked = 2;
+  int64 likes = 1;
+  Button report = 4;
+  bool showMenu = 3;
+}

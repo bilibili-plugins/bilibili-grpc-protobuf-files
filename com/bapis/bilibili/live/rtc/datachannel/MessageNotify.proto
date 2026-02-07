@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc.datachannel;
+
+message MessageNotify {
+  int32 bizId = 2;
+  bool last = 4;
+  bytes payload = 3;
+  int64 uid = 1;
+}

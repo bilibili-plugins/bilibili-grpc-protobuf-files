@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.playeronline.v1;
+
+message ReportWatchReq {
+  int64 aid = 1;
+  string biz = 2;
+  string buvid = 3;
+}

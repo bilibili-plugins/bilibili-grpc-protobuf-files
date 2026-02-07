@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message RelatedAICard {
+  int64 aid = 1;
+  int64 duration = 2;
+  string gotoType = 6;
+  MapFieldLite report = 5;
+  Stat stat = 4;
+  Staff upInfo = 3;
+}

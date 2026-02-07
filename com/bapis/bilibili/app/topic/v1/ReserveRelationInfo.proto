@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message ReserveRelationInfo {
+  int64 endTime = 16;
+  int64 etime = 5;
+  int64 isFollow = 6;
+  int64 livePlanStartTime = 12;
+  string numberDescText = 14;
+  string oid = 8;
+  int64 reserveRecordCtime = 11;
+  int64 sid = 1;
+  int64 startTime = 15;
+  int32 state = 7;
+  int64 stime = 4;
+  string timeDescText = 13;
+  string title = 2;
+  int64 total = 3;
+  int32 type = 9;
+  int64 upmid = 10;
+}

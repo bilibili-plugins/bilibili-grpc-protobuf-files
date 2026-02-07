@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message RelateCMLive {
+  string areaName = 2;
+  int64 liveStatus = 3;
+  int64 roomId = 1;
+  StatInfo statInfo = 4;
+}

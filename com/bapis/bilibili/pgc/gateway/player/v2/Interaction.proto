@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message Interaction {
+  int64 graphVersion = 2;
+  HistoryNode historyNode = 1;
+  bool isInteraction = 4;
+  string msg = 3;
+}

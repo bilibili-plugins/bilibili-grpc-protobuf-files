@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message Paragraph {
+  Paragraph$ParagraphFormat paraFormat = 2;
+  int32 paraType = 1;
+}

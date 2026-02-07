@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.metadata.network;
+
+message Network {
+  int32 cellular = 4;
+  string oid = 3;
+  NetQuality quality = 5;
+  int32 tf = 2;
+  int32 type = 1;
+}

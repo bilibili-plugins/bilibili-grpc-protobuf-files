@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message CampusShowTabInfo {
+  string iconUrl = 5;
+  string name = 1;
+  int32 redDot = 4;
+  int32 type = 3;
+  string url = 2;
+}

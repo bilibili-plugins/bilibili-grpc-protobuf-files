@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.community.interfacess.biligram.v1;
+
+message MessageItemContent {
+  repeated Data desc = 1;
+  string jumpUri = 2;
+  string originText = 3;
+  int32 thresholdLines = 4;
+}

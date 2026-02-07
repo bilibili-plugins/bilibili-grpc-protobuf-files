@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message EasterEgg {
+  int32 closeCount = 5;
+  int32 eggType = 13;
+  int32 id = 1;
+  string maskColor = 7;
+  int32 maskTransparency = 6;
+  int32 picType = 8;
+  int32 showCount = 2;
+  int32 showTime = 9;
+  string sourceMd5 = 11;
+  int32 sourceSize = 12;
+  string sourceUrl = 10;
+  int32 type = 3;
+  string url = 4;
+}

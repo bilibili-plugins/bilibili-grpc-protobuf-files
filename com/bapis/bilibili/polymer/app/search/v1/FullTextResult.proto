@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message FullTextResult {
+  string aheadPrefixText = 10;
+  string avatarCover = 12;
+  string iconForNight = 6;
+  string icon = 5;
+  int64 id = 7;
+  int64 jumpStartProgress = 3;
+  string jumpUri = 4;
+  string likeCount = 11;
+  string prefix = 8;
+  string showText = 2;
+  string text = 9;
+  int32 type = 1;
+}

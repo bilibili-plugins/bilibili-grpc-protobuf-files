@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.view.v1;
+
+message OperationRelate {
+  repeated Data aiRelateItem = 3;
+  repeated Data relateItem = 2;
+  string title = 1;
+}

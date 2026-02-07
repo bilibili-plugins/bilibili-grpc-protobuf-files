@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message FavItemStat {
+  int32 reply = 2;
+  bool useViewVt = 3;
+  string viewVtText = 4;
+  int32 view = 1;
+}

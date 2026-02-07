@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message InteractTemplate {
+  bool isVariableLayout = 2;
+  InteractLayoutData layoutData = 6;
+  string layoutId = 5;
+  repeated Data layoutList = 3;
+  bool showInteractUi = 4;
+  string templateId = 1;
+}

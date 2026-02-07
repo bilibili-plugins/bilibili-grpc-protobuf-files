@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.dynamic.v1;
+
+message OpusDetailResp {
+  AuthorInfo authorInfo = 3;
+  Bottom bottom = 5;
+  IpCity ipCity = 4;
+  string itemScene = 11;
+  string itemType = 16;
+  MallBenefit mallBenefit = 14;
+  OpusItem opusItem = 1;
+  Pic pic = 8;
+  int64 pubTime = 9;
+  ReserveInfo reserveInfo = 12;
+  RightButtonStamp rightButtonStamp = 19;
+  ShareInfo shareInfo = 13;
+  CreatorSmallShopEntry smallShop = 18;
+  SupportInfo supportInfo = 17;
+  TitleInfo title = 2;
+  TopicInfo topicInfo = 10;
+  MapFieldLite trackMap = 15;
+}

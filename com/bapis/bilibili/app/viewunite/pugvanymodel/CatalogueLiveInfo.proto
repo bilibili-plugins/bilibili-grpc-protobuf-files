@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message CatalogueLiveInfo {
+  string buttonText = 4;
+  int64 episodeId = 1;
+  int32 status = 5;
+  string subtitle = 3;
+  string title = 2;
+}

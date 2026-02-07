@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dagw.component.avatar.v1;
+
+message AvatarItem {
+  SizeSpec containerSize = 1;
+  LayerGroup fallbackLayers = 3;
+  repeated Data layers = 2;
+  int64 mid = 4;
+}

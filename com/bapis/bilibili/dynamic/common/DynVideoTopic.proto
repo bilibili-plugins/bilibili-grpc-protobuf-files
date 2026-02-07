@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoTopic {
+  string fromSource = 1;
+  int64 fromTopicId = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message RoundCornerFrame {
+  repeated Data menuItems = 1;
+  repeated Data msgModules = 2;
+  string url = 3;
+}

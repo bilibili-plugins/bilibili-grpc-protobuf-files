@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.main.community.reply.v1;
+
+message Url$Extra {
+  string goodsClickReport = 6;
+  int64 goodsCmControl = 5;
+  string goodsExposureReport = 7;
+  int64 goodsItemId = 1;
+  string goodsPrefetchedCache = 2;
+  int64 goodsShowPopWindow = 8;
+  int32 goodsShowType = 3;
+  bool isWordSearch = 4;
+}

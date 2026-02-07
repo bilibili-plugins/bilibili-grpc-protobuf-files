@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LegacyTopicFeedReply {
+  repeated Data feedCardFilters = 5;
+  bool hasMore = 2;
+  repeated Data list = 1;
+  string offset = 3;
+  repeated Data supportedSortTypes = 4;
+}

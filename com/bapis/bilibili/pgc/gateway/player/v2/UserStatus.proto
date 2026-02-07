@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pgc.gateway.player.v2;
+
+message UserStatus {
+  WatchProgress aidWatchProgress = 4;
+  string canWatchReason = 5;
+  bool payCheck = 1;
+  bool sponsor = 2;
+  WatchProgress watchProgress = 3;
+}

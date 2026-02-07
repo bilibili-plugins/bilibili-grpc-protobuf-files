@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message DynVideoHotAct {
+  int64 actId = 1;
+  int64 etime = 2;
+  int64 id = 3;
+  string link = 7;
+  string pic = 4;
+  int64 stime = 5;
+  string title = 6;
+}

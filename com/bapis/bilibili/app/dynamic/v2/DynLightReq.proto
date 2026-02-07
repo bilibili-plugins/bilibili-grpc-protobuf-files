@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message DynLightReq {
+  int64 fakeUid = 7;
+  int32 fromType = 6;
+  string from = 3;
+  string historyOffset = 1;
+  int32 localTime = 5;
+  int32 page = 2;
+  PlayerArgs playerArgs = 4;
+}

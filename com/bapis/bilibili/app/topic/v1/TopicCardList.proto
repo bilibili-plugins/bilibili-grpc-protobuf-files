@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.topic.v1;
+
+message TopicCardList {
+  bool hasMore = 3;
+  NoCardResultReply noCardResultReply = 5;
+  string offset = 2;
+  repeated Data topicCardItems = 1;
+  TopicSortByConf topicSortByConf = 4;
+}

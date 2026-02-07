@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message CreateDynVideo {
+  int32 bizFrom = 3;
+  int32 copyright = 4;
+  string cover = 8;
+  int64 descFormatId = 13;
+  string desc = 12;
+  int32 dtime = 15;
+  int64 duration = 29;
+  string dynamicCtrl = 21;
+  string dynamicExtension = 20;
+  string dynamicFrom = 22;
+  string dynamic = 19;
+  repeated Data followMids = 2;
+  int64 lotteryId = 23;
+  int64 missionId = 18;
+  int32 noPublic = 5;
+  int32 noReprint = 6;
+  int32 openElec = 14;
+  string relationFrom = 1;
+  string source = 7;
+  string tag = 11;
+  int64 tid = 10;
+  string title = 9;
+  DynVideoTopic topicDetail = 32;
+  int64 topicId = 30;
+  bool upCloseDanmu = 27;
+  bool upCloseReply = 26;
+  int64 upFrom = 28;
+  bool upSelectionReply = 25;
+  string uploadId = 31;
+  repeated Data videos = 16;
+  DynVideoVote vote = 24;
+  DynVideoWatermark watermark = 17;
+}

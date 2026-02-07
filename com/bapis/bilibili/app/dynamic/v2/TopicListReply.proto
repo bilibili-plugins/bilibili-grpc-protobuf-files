@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message TopicListReply {
+  IconButton createTopicBtn = 4;
+  bool hasMore = 2;
+  repeated Data items = 1;
+  string offset = 3;
+}

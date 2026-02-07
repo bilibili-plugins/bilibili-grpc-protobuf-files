@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.v1;
+
+message Chronos {
+  string file = 2;
+  string md5 = 1;
+  string sign = 3;
+}

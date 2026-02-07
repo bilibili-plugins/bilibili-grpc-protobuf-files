@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.model;
+
+message UnreadInfo {
+  int64 customerUnreadCount = 2;
+  int64 machineUnreadCount = 3;
+  int64 messageUnreadCount = 4;
+  int64 noticeUnreadCount = 5;
+  int64 unreadCount = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.pangu.gallery.v1;
+
+message ListOrderByMidReply {
+  int64 anchorId = 2;
+  bool end = 3;
+  repeated Data orders = 1;
+}

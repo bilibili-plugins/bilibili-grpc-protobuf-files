@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.polymer.app.search.v1;
+
+message SharePlane {
+  int64 aid = 5;
+  string areaName = 14;
+  string authorFace = 15;
+  int64 authorId = 9;
+  string author = 8;
+  string bvid = 6;
+  string cover = 4;
+  string desc = 3;
+  int32 epId = 13;
+  string from = 19;
+  string playNumber = 11;
+  int64 roomId = 12;
+  int32 seasonId = 16;
+  string seasonTitle = 18;
+  string shareFrom = 17;
+  string shareSubtitle = 2;
+  ShareTo shareTo = 7;
+  string shortLink = 10;
+  string title = 1;
+}

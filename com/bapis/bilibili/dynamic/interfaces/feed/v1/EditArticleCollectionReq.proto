@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message EditArticleCollectionReq {
+  int64 id = 1;
+  string imageUrl = 4;
+  string name = 2;
+  string summary = 3;
+}

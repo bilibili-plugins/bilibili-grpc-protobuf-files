@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message ArticleCollectionDetailRsp {
+  repeated Data articles = 2;
+  OpusCollectionItem collection = 1;
+  int64 limit = 4;
+  int64 total = 3;
+}

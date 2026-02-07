@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.xuserreward.v1;
+
+message InteractWord$ControlInfo {
+  string textColor = 3;
+  string text = 2;
+  int64 type = 1;
+}

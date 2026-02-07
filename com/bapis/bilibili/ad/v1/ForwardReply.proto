@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message ForwardReply {
+  string authorIcon = 9;
+  string authorName = 8;
+  string callupUrl = 5;
+  int64 commentId = 1;
+  string highlightPrefixIcon = 4;
+  string highlightText = 3;
+  int32 jumpType = 7;
+  string jumpUrl = 6;
+  string message = 2;
+}

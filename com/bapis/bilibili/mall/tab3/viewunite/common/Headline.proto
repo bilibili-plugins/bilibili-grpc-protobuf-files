@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.mall.tab3.viewunite.common;
+
+message Headline {
+  string content = 2;
+  Label label = 1;
+}

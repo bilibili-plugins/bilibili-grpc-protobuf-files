@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message OnlyFansBlock {
+  IconButton btn = 2;
+  ImageSet imgs = 1;
+}

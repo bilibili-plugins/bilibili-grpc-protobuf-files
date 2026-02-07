@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.rtc;
+
+message BAPILiveRTCStreamProto$VideoMetaData {
+  int64 payload = 1;
+  int32 ssrc = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.card.v1;
+
+message MiddleCoverV2 {
+  string badge = 4;
+  Base base = 1;
+  string desc = 3;
+  int32 ratio = 2;
+}

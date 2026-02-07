@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message ActivityTab {
+  string actExt = 12;
+  int64 bizKey = 10;
+  string desc = 11;
+  string h5Link = 7;
+  int32 id = 1;
+  int32 linkType = 9;
+  string link = 8;
+  string picurlSelected = 6;
+  string picurl = 5;
+  MapFieldLite report = 13;
+  string showName = 4;
+  string title = 2;
+  int32 type = 3;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.interfaces.feed.v1;
+
+message OpusCollectionItem {
+  string applyTime = 15;
+  string checkTime = 16;
+  int64 ctime = 13;
+  int64 id = 1;
+  string imageUrl = 5;
+  bool maxOpusCountReached = 7;
+  int64 mid = 2;
+  string name = 3;
+  int64 opusCount = 6;
+  int64 publishTime = 14;
+  int64 read = 9;
+  string reason = 11;
+  int64 state = 10;
+  string summary = 4;
+  int64 updateTime = 12;
+  int64 words = 8;
+}

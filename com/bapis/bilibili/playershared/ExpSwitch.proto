@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.playershared;
+
+message ExpSwitch {
+  MapFieldLite expAb = 3;
+  int32 hitOptiTryWatch = 2;
+}

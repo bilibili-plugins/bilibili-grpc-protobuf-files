@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.interfaces.v1;
+
+message ReqMsgHasLike {
+  repeated Data msgKeys = 1;
+}

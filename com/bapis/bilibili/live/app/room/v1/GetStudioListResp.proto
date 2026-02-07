@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.live.app.room.v1;
+
+message GetStudioListResp {
+  repeated Data masterList = 2;
+  int64 status = 1;
+}

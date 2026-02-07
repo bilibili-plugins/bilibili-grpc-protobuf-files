@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.type;
+
+message Msg {
+  AccountInfo accountInfo = 18;
+  repeated Data atUids = 9;
+  string canalToken = 20;
+  int64 cliMsgId = 4;
+  string content = 6;
+  GptMsgContent gptMsgContent = 19;
+  KeyHitInfos keyHitInfos = 17;
+  int64 msgKey = 11;
+  int64 msgSeqno = 7;
+  int32 msgSource = 15;
+  int32 msgStatus = 12;
+  int32 msgType = 5;
+  int32 newFaceVersion = 16;
+  string notifyCode = 14;
+  int64 receiverId = 3;
+  int32 receiverType = 2;
+  repeated Data recverIds = 10;
+  int64 senderUid = 1;
+  bool sysCancel = 13;
+  int64 timestamp = 8;
+}

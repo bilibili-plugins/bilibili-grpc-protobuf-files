@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.im.v1;
+
+message FilterConfig {
+  int32 currentFilter = 2;
+  repeated Data filters = 1;
+}

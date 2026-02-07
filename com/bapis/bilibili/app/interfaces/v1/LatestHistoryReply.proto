@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.interfaces.v1;
+
+message LatestHistoryReply {
+  string flag = 4;
+  CursorItem items = 1;
+  int64 rtime = 3;
+  string scene = 2;
+}

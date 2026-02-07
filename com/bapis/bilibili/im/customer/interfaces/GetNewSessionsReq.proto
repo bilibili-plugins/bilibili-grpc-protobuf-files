@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.im.customer.interfaces;
+
+message GetNewSessionsReq {
+  int64 beginTs = 1;
+  int64 recvUid = 3;
+  int32 size = 2;
+}

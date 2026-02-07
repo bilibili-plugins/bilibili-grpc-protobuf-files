@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message InfoOGV {
+  string icon = 3;
+  string subModule = 4;
+  string title = 1;
+  string uri = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.ugcanymodel;
+
+message FollowGuide {
+  bool isThumb = 3;
+  bool isView = 1;
+  string thumbText = 4;
+  string viewText = 2;
+}

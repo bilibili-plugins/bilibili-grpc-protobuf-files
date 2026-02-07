@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.dynamic.common;
+
+message ExtLbs {
+  string address = 1;
+  int64 distance = 2;
+  LbsLoc location = 5;
+  string poi = 4;
+  string showDistance = 8;
+  string showTitle = 6;
+  string title = 7;
+  int64 type = 3;
+}

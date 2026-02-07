@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pgcanymodel;
+
+message OgvData {
+  repeated Data activityFloatLayer = 18;
+  int64 aid = 7;
+  MapFieldLite cacheAuthConfig = 29;
+  string cover = 20;
+  EarphoneConf earphoneConf = 19;
+  int32 hasCanPlayEp = 27;
+  string horizontalCover1610 = 26;
+  string horizontalCover169 = 25;
+  int32 mediaId = 1;
+  int32 mode = 9;
+  MultiViewInfo multiViewInfo = 12;
+  NewEp newEp = 15;
+  OgvSwitch ogvSwitch = 13;
+  PlayStrategy playStrategy = 11;
+  Publish publish = 10;
+  Reserve reserve = 16;
+  Rights rights = 5;
+  int64 seasonId = 2;
+  int32 seasonType = 3;
+  string shareUrl = 22;
+  string shortLink = 23;
+  int32 showSeasonType = 4;
+  Skin skin = 28;
+  string squareCover = 21;
+  Stat stat = 8;
+  int32 status = 17;
+  string title = 24;
+  int32 totalEp = 14;
+  UserStatus userStatus = 6;
+}

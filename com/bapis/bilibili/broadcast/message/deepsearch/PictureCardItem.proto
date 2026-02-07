@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.broadcast.message.deepsearch;
+
+message PictureCardItem {
+  int64 height = 3;
+  PictureCardPreview preview = 4;
+  string src = 1;
+  int64 width = 2;
+}

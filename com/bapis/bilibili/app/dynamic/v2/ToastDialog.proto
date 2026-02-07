@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ToastDialog {
+  string cancelJumpUri = 8;
+  string cancelText = 6;
+  string confirmText = 5;
+  string desc = 3;
+  string inputDefaultText = 7;
+  string inputInviteCode = 9;
+  string picUrl = 4;
+  string title = 2;
+  int32 type = 1;
+}

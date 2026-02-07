@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.ad.v1;
+
+message Module14 {
+  bool display = 2;
+  repeated Data rewardList = 1;
+}

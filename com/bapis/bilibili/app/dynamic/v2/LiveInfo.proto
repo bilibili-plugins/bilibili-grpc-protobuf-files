@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message LiveInfo {
+  int32 isLiving = 1;
+  int32 liveState = 3;
+  string uri = 2;
+}

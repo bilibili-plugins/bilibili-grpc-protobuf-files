@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.pugvanymodel;
+
+message Courseware {
+  string desc = 5;
+  int64 fileId = 1;
+  string fileName = 2;
+  int64 fileSize = 4;
+  string fileType = 3;
+  string fileUrl = 6;
+  string icon = 7;
+}

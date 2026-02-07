@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.listener.v1;
+
+message PlaylistOffset {
+  int32 direction = 1;
+  PlayItem lastItem = 2;
+  RandomOrderStatus randomState = 3;
+  SortOption sortOpt = 4;
+}

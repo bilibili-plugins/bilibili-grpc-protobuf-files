@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.dynamic.v2;
+
+message ModuleOpusSummary {
+  repeated Data covers = 4;
+  repeated Data summaries = 5;
+  string summaryJumpBtnText = 3;
+  Paragraph summary = 2;
+  Paragraph title = 1;
+}

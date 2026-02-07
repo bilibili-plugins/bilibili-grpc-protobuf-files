@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.bapis.bilibili.app.viewunite.common;
+
+message PugvStudyRecordModel {
+  string dataEffectivenessMessage = 5;
+  string detailUrl = 4;
+  repeated Data pugvStudyRecordDetailModel = 6;
+  string todayStudyMessage = 1;
+  string userAvatar = 3;
+  string weekStudyMessage = 2;
+}
